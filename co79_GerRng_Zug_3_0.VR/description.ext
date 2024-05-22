@@ -1,0 +1,216 @@
+// Config Data ==================================================
+#include "config.hpp"
+#include "gui\guiNeuDialog.hpp"
+
+//Mission Head ==================================================
+author			= "GerRng Mission Making Team";
+loadScreen 		= "a3\map_malden\data\ui_malden_ca.paa";
+
+OnLoadName 		= "Kampagne Nr. | MissionsName";
+OnLoadMission   = "Viribus unitis - Mit vereinten Kräften";
+OnLoadIntro 	= "";
+
+overviewText 		= "Beschreibung der Mission im Missionsauswahlbildschirm auf dem Server.<br/><br/>Addons: CBA, CUP, GREquip, ACE, KAT <br/>Alle Loadouts benötigen cTab, TFAR";
+overviewTextLocked 	= "";
+overviewPicture 	= "a3\missions_f_gamma\data\img\MP_COOP_m03_overview_CA.paa";
+
+//  ===  Punktvergabe  ==========================================
+minScore		= 0;
+avgScore		= 800;
+maxScore		= 1600;
+
+//   ===   Missionszubehoer   ===================================
+ShowGPS 			= 1;
+ShowCompass 		= 1;
+ShowRadio 			= 0;
+ShowMap 			= 1;
+ShowNotePad 		= 1;
+ShowWatch 			= 1;
+ShowDebriefing 		= 1;
+showUAVFeed 		= 0;
+
+forceRotorLibSimulation = 0;
+allowFunctionsRecompile = 1;
+
+//CBA Settings für GerRng Settings beim lokalen Test
+cba_settings_hasSettingsFile = 0;
+
+enableItemsDropping = 0;  	//Disable dropping items while swimming. 0 = Disable 1 = Enable
+//joinUnassigned 	= 0;	//auto assigned a free playable slot in the mission lobby 0:disable 1:enable
+allowFunctionsLog 	= 0;	//log to the RPT file 0:disable 1:enable
+enableDebugConsole 	= 1;	//access to the Debug Console
+showSquadRadar      = 0;  	//Defines if the Squad Radar is visible.
+showGroupIndicator 	= 0;   	//When set to 1, changes default GPS mini map into a radar like display that indicates group members relative position to the player
+disabledAI 			= 1;  	//When 1, removes all playable units which do not have a human player. When 0, a logging out player will have AI take control of his character
+
+// Respawn ============================================================
+respawn 			= 3; 
+respawnDelay 		= 10;
+//respawnVehicleDelay 	= 0;
+//respawnDialog 	= 0;
+//respawnButton 	= 0;
+//respawnOnStart 	= -1;
+
+//reviveDelay 		= 40; 	//The time it takes to revive an incapacitated unit. Medikit will halve this time. Must have "Revive" Respawn template enabled.
+//reviveForceRespawnDelay  = 3;	//The time it takes for an incapacitated unit to force their respawn
+//reviveBleedOutDelay 	= 600;	//The time it takes for a unit to bleed out
+
+corpseManagerMode 	= 1; 	//Type of removed bodies: 0 - none, 1 - all, 2 - only respawnable, 3 - only non-respawnable
+corpseLimit 		= 20; 	//Max number of bodies which can be available at the same time. When exceeded, start deleting immediately.
+corpseRemovalMinTime = 1200; 	//Minimal time in seconds a body stays in the scene (can't be removed sooner).
+corpseRemovalMaxTime = 2400; 	//Maximal time in seconds after which a dead body is removed (can't stay longer)
+
+wreckManagerMode 	= 1; 	//Type of removed wrecks: 0 - none, 1 - all, 2 - only respawnable, 3 - only non-respawnable
+wreckLimit 			= 10; 	//Max number of wrecks which can be available at the same time. When exceeded, start deleting immediately.
+wreckRemovalMinTime = 1200; 	//Minimal time in seconds a wreck stays in the scene (can't be removed sooner).
+wreckRemovalMaxTime = 2400; 	//Maximal time in seconds after which a wreck is removed (can't stay longer)
+zeusCompositionScriptLevel = 2; // 0: all scripts are forbidden - 1: only attributes are allowed (including custom attributes added by mods) - 2: all scripts are allowed including init scripts
+
+
+// Kopf =========================================================
+class Header
+{
+ gameType = COOP;
+ minPlayers = 1;
+ maxPlayers = 79;
+};
+
+class CfgTaskEnhancements
+{
+   enable       = 1;            //0: disable new task features (default), 1: enable new task features & add new task markers and task widgets into the map
+   3d           = 0;            //0: do not use new 3D markers (default), 1: replace task waypoints with new 3D markers
+   3dDrawDist   = 600;        	//3d marker draw distance (default: 2000)
+   share        = 1;            //0: do not count assigned players (default), 1: count how many players have the task assigned
+   propagate    = 1;            //0: do not propagate (default), 1: propagate shared tasks to subordinates
+};
+
+
+class CfgMusic
+{
+	tracks[] = {};
+	
+	class PRIntro
+	{
+		name	= "PRIntro";
+		sound[]	= {"sounds\GR_Intro_PR_Shrt.ogg", db + 0, 1.0 };
+	};
+
+	class RockIntro
+	{
+		name	= "RockIntro";
+		sound[]	= {"sounds\GR_Intro_Rock_Shrt.ogg", db + 0, 1.0 };
+	};
+
+	class KAIntro
+	{
+		name	= "KAIntro";
+		sound[]	= {"sounds\GR_Intro_KA_Shrt.ogg", db + 0, 1.0 };
+	};
+
+	class SicIntro
+	{
+		name	= "SicIntro";
+		sound[]	= {"sounds\GR_Intro_Sic_Shrt.ogg", db + 0, 1.0 };
+	};
+
+	class BHDIntro
+	{
+		name	= "BHDIntro";
+		sound[]	= {"sounds\GR_Intro_BHD_Shrt.ogg", db + 0, 1.0 };
+	};
+	
+	class Outro_SuccessMGS
+	{
+		name	= "Outro_SuccessMGS";
+		sound[]	= {"sounds\GR_Outro_MGS3.ogg", db - 1, 1.0 };
+	};
+
+	class Outro_SuccessPR1
+	{
+		name	= "Outro_SuccessPR1";
+		sound[]	= {"sounds\GR_Outro_PR1.ogg", db - 1, 1.0 };
+	};
+
+	class Outro_SuccessPR2
+	{
+		name	= "Outro_SuccessPR2";
+		sound[]	= {"sounds\GR_Outro_PR2.ogg", db - 1, 1.0 };
+	};
+
+	class Outro_SuccessRock
+	{
+		name	= "Outro_SuccessRock";
+		sound[]	= {"sounds\GR_Outro_Rock.ogg", db - 1, 1.0 };
+	};
+
+	class Outro_SuccessAFO
+	{
+		name	= "Outro_SuccessAFO";
+		sound[]	= {"sounds\GR_Outro_AFO.ogg", db - 1, 1.0 };
+	};
+
+
+// Niemals löschen, wird benötigt falls Mission fortgesetzt wird
+	class Outro_Continue
+	{
+		name	= "Outro_Success";
+		sound[]	= {"sounds\GR_Outro_Huntsman.ogg", db - 1, 1.0 };
+	};
+
+};
+
+
+/*
+class CfgSounds
+{
+	sounds[] = {TickerBeeps};
+	
+	class TickerBeeps {
+		// how the sound is referred to in the editor
+		name = "TickerBeeps";
+		// filename, volume, pitch, distance (optional)
+		sound[] = {"sounds\beeps.ogg", 1, 1};
+		// subtitle delay in seconds, subtitle text
+		titles[] = {1, ""};
+	};	
+};
+*/
+
+class CfgDebriefing
+{
+	class End1
+	{
+		title = "Mission Erfüllt";
+		subtitle = "Sammeln zur Nachbesprechung.";
+		description = "Auftrag erfolgreich abgeschlossen! Sammeln sie sich im Lagezentrum zur Nachbesprechung.";
+		pictureBackground = "images\GermanRangersLogo.paa";
+		picture = "b_inf";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+	
+	class End2
+	{
+		title = "To be Continued";
+		subtitle = "";
+		description = "Biwak aufschlagen und Wachnachbereitung vorbereiten. Sammeln sie sich im Lagezentrum zur Nachbesprechung.";
+		pictureBackground = "images\GermanRangersLogo.paa";
+		picture = "b_inf";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+	class End3
+	{
+		title = "Mission Failed";
+		subtitle = "You all died!";
+		description = "Your team has been wiped out";
+		pictureBackground = "\a3\ui_f\data\gui\cfg\debriefing\enddefault_ca.paa";
+		picture = "KIA";
+		pictureColor[] = {0.6,0.1,0.2,1};
+	};
+};
+
+//=== CfgFunctions =======================================
+class CfgFunctions {
+	#include "gui\CfgFunctions.hpp"	
+	#include "fnc\CfgFunctions.hpp"		
+};

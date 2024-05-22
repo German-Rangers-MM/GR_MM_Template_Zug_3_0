@@ -1,0 +1,35 @@
+Checkliste zur Anpassung des Templates:
+
+1. In der Mission:
+- Base Helipad an richtiger Stelle platziert
+- Blacklist Cage und Helipad an richtiger Stelle platziert
+
+2. config.hpp
+- Alle Werte Passend eingestellt
+- Intro ausgewählt und alle Felder dazu ausgefüllt
+- Outro ausgewählt und alle Felder dazu ausgefüllt
+- Nicht benötigte Musik-Dateien aus Ordner "Sounds" entfernt
+- Nicht benötigte Intro UND Outro.sqf-Dateien aus Ordner "Scripts" entfernt
+- ACHTUNG: Nicht Outro Continued entfernen (wird benötigt falls Mission fortgesetzt wird)
+
+3. Description.ext
+- author
+- loadScreen
+- OnloadName
+- OnLoadMission
+- overviewText
+- CfgMusic nicht benötigte Sound files entfernt
+ACHTUNG: Nicht Outro Continued Huntsman entfernen (wird benötigt falls Mission fortgesetzt wird)
+
+4. InitPlayerLocal
+- Recolor
+- Sandstorm
+- Foggy Breath (wenn nicht benutzt .sqf aus "Scripts" entfernen)
+- Groundfog (wenn nicht benutzt .sqf aus "Scripts" entfernen)
+
+5. Aktuelle Ausrüstung
+- san_load.sqf in "loadouts" | Aktuellste aus GitHub Template benutzen
+- Modcheck.sqf in "Scripts" | Aktuellste aus GitHub Template benutzen
+
+Link zu GitHub Template:
+https://github.com/GermanRangers/GR-Template
