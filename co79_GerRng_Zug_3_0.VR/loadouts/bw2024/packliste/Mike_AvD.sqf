@@ -385,6 +385,9 @@
 	"kat_oxygenTank_300_Item",
 	"kat_Pulseoximeter",
 	"kat_TXA",
+	"ACE_personalAidKit",
+	"kat_lorazepam",
+	"kat_phenylephrine",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //

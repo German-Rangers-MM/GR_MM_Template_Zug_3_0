@@ -117,7 +117,7 @@ _whitelistedMods = 	[
 						
 						
 						//Zeus Mods
-						"ASR AI3", "642457233",
+						"@ASR AI3", "642457233",
 
 						"@Crows Zeus Additions", "2447965207",
 						

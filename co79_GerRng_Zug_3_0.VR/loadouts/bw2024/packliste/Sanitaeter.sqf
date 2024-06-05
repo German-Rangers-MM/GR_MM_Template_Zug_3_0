@@ -278,7 +278,7 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-
+	"Binocular",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -359,12 +359,7 @@
 	"ACE_surgicalKit",
 	"ACE_tourniquet",
 	"kat_IV_16",
-	"kat_accuvac",
-	"kat_X_AED",
-	"kat_amiodarone",
 	"kat_CarbonateItem",
-	"kat_atropine",
-	"kat_AED",
 	"kat_BVM",
 	"kat_CaffeineItem",
 	"kat_chestSeal",
@@ -375,11 +370,7 @@
 	"kat_larynx",
 	"kat_naloxone",
 	"kat_nitroglycerin",
-	"kat_PainkillerItem",
 	"kat_PenthroxItem",
-	"kat_pocketBVM",
-	"kat_oxygenTank_150_Item",
-	"kat_oxygenTank_300_Item",
 	"kat_Pulseoximeter",
 	"kat_TXA",
 //------------------------------------------------------------------

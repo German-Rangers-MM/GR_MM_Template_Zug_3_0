@@ -74,7 +74,7 @@ Die Waffenkammer ist ein ACE Arsenal über das ihr eure Ausrüstung individualis
 <br/>
 Wenn eine Mission von vorher fortgesetzt wird, ist die Waffenkammer nur eingeschränkt verfügbar. Ihr könnt dann eure Waffe nicht wechseln und auch kein Material aufmunitionieren. In diesem Fall ist die Waffenkammer rein kosmetisch.<br/>
 "]];
-
+/*
 _diary = player createDiaryRecord ["Diary", ["Credits", "
 mission by: SmartGun
 <br/>
@@ -207,6 +207,7 @@ Sie befinden sich am Flugfeld von <marker name='respawn_west'>Al Safyrah</marker
 2. Nehmen Sie das <marker name='PMCMarker'>PMC-Camp</marker> und finden Sie Cpt. Wagner und Dr. Oetker.
 <br/>
 "]];
+*/
 
 /*
 // tasks ==================================================================================================================

@@ -22,6 +22,6 @@ _box addItemCargoGlobal ["CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M", 10];
 _box addBackpackCargoGlobal ["B_AssaultPack_rgr", 1];
 _box addBackpackCargoGlobal ["B_Kitbag_rgr", 1];
 
-// für diese Boxe Gewichtslimit Ignorieren
+// für diese Box Gewichtslimit Ignorieren
 //[_box, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
 //[_box, true, [0, 2, 0], 90, true] call ace_dragging_fnc_setDraggable;

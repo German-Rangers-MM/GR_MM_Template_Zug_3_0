@@ -143,7 +143,7 @@ class GR_guiNeuDialog
 			w = safeZoneW * 0.203125;
 			h = safeZoneH * 0.08506945;
 			text = "Ausrüsten";			
-			onButtonClick = "call compile preprocessFileLineNumbers format ['loadouts\%1\loadout\%2.sqf', fraktionV, lbData [1500, lbCurSel 1500]]; closeDialog 0";
+			onButtonClick = "";
 			/*
 			colorBackground[] = {0.898,0.6,0.102,1};
 			colorBackgroundActive[] = {0.898,0.6,0.102,1};

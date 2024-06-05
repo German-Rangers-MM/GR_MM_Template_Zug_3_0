@@ -1,3 +1,15 @@
+/*
+	by SmartGun
+
+ 	Description:		
+	
+ 	Paramameters:		
+	-none	
+	
+	Return values:
+	-none		
+*/
+
 params ["_unit"];
 
 createDialog "GR_guiNeuDialog";
@@ -44,14 +56,10 @@ if (_groupName in ["lima"]) then {
 	_groupRoles = GR_LimaRollen;
 };
 
-
+// fill listbox
 {
 	_index = _listbox lbAdd (_x select 0);
 	_listbox lbSetData [_index, (_x select 1)];
 } forEach _groupRoles;
 
-//lbSort _listbox; // sort ascending
-
-if ((count _groupRoles) < 1) then {
-	_confirmButton ctrlRemoveAllEventHandlers "ButtonClick";
-};
+_confirmButton ctrlAddEventHandler [ "ButtonClick", { [] spawn GR_fnc_loadout; }];

@@ -32,5 +32,4 @@ player setVariable ["ACE_isEngineer",0,true];
 player setVariable ["ACE_isEOD",false,true];
 
 //	Waffe sichern
-player setVariable ["ace_safemode_safedweapons", []];
-[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;
+[ACE_player, currentWeapon ACE_player, true] call ace_safemode_fnc_setWeaponSafety;

@@ -42,6 +42,6 @@ _box addItemCargoGlobal ["kat_scalpel",2];
 _box addItemCargoGlobal ["kat_oxygenTank_150_Item",5];
 _box addItemCargoGlobal ["kat_BVM",2];
 
-// für diese Boxe Gewichtslimit Ignorieren
+// für diese Box Gewichtslimit Ignorieren
 //[_box, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
 //[_box, true, [0, 2, 0], 90, true] call ace_dragging_fnc_setDraggable;

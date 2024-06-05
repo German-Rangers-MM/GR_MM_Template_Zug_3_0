@@ -19,6 +19,6 @@ _box addMagazineCargoGlobal ["CUP_30Rnd_556x45_G36", 25];
 _box addMagazineCargoGlobal ["CUP_30Rnd_556x45_PMAG_BLACK_PULL", 10];
 _box addMagazineCargoGlobal ["CUP_20Rnd_762x51_HK417", 25];
 
-// für diese Boxe Gewichtslimit Ignorieren
+// für diese Box Gewichtslimit Ignorieren
 //[_box, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
 //[_box, true, [0, 2, 0], 90, true] call ace_dragging_fnc_setDraggable;

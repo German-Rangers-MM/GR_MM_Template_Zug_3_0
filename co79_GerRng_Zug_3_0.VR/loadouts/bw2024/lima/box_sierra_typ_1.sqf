@@ -21,6 +21,6 @@ _box addItemCargoGlobal ["5Rnd_127x108_APDS_Mag", 7];
 _box addItemCargoGlobal ["CUP_20Rnd_762x51_HK417", 25];
 _box addItemCargoGlobal ["CUP_21Rnd_9x19_M17_Black", 15];
 
-// für diese Boxe Gewichtslimit Ignorieren
+// für diese Box Gewichtslimit Ignorieren
 //[_box, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
 //[_box, true, [0, 2, 0], 90, true] call ace_dragging_fnc_setDraggable;

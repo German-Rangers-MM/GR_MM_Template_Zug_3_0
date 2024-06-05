@@ -22,6 +22,6 @@ _box addMagazineCargoGlobal ["1Rnd_Smoke_Grenade_shell",15];
 _box addMagazineCargoGlobal ["CUP_1Rnd_StarCluster_Red_M203",4];
 _box addMagazineCargoGlobal ["UGL_FlareCIR_F",6];
 
-// für diese Boxe Gewichtslimit Ignorieren
+// für diese Box Gewichtslimit Ignorieren
 //[_box, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
 //[_box, true, [0, 2, 0], 90, true] call ace_dragging_fnc_setDraggable;

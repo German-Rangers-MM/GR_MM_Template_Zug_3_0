@@ -1,4 +1,4 @@
-// Kiste EOD Typ III - Ausrüstung
+// Kiste EOD Typ II - Ausrüstung
 /* Aufruf im Editor mit:
 
 _path = format ["loadouts\%1\lima\box_eod_typ_i.sqf", getMissionConfigValue "fraktion"]; 
@@ -25,6 +25,6 @@ _box addBackpackCargoGlobal ["B_UGV_02_Demining_backpack_F",1];
 _box addItemCargoGlobal ["ACE_VMH3",1];
 _box addItemCargoGlobal ["ACE_VMM3",1];
 
-// für diese Boxe Gewichtslimit Ignorieren
+// für diese Box Gewichtslimit Ignorieren
 //[_box, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
 //[_box, true, [0, 2, 0], 90, true] call ace_dragging_fnc_setDraggable;

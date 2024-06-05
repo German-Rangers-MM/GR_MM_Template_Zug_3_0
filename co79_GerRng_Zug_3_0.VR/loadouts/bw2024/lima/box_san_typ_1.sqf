@@ -23,6 +23,6 @@ _box addItemCargoGlobal ["kat_chestSeal",10];
 _box addItemCargoGlobal ["ACE_tourniquet",10];
 _box addItemCargoGlobal ["ACE_splint",30];
 
-// für diese Boxe Gewichtslimit Ignorieren
+// für diese Box Gewichtslimit Ignorieren
 //[_box, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
 //[_box, true, [0, 2, 0], 90, true] call ace_dragging_fnc_setDraggable;

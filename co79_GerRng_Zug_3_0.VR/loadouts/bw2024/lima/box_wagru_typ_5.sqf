@@ -21,6 +21,6 @@ _box addItemCargoGlobal ["Titan_AA", 4];
 _box addBackpackCargoGlobal ["B_AssaultPack_rgr", 1];
 _box addBackpackCargoGlobal ["B_Carryall_green_F", 1];
 
-// für diese Boxe Gewichtslimit Ignorieren
+// für diese Box Gewichtslimit Ignorieren
 //[_box, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
 //[_box, true, [0, 2, 0], 90, true] call ace_dragging_fnc_setDraggable;

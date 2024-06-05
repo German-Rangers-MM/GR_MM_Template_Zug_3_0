@@ -138,6 +138,7 @@
 	"CUP_muzzle_snds_SCAR_L",
 	"CUP_muzzle_snds_SCAR_H",
 	"CUP_muzzle_snds_AWM",
+	"CUP_muzzle_snds_M9",
 	
 //------------------------------------------------------------------
 //------------------------------------------------------------------
@@ -436,9 +437,8 @@
 	"ACE_tourniquet",
 	"kat_IV_16",
 	"kat_CarbonateItem",
-	"kat_atropine",
-	"kat_AED",
-	"kat_BVM",
+	"kat_pocketBVM",
+	"kat_CaffeineItem",
 	"kat_chestSeal",
 	"kat_EACA",
 	"kat_IO_FAST",

@@ -1,4 +1,4 @@
-// Kiste WaGru Typ VI - Metis AA
+// Kiste WaGru Typ VI - Metis AT
 /* Aufruf im Editor mit:
 
 _path = format ["loadouts\%1\lima\box_zug_typ_vii.sqf", getMissionConfigValue "fraktion"]; 

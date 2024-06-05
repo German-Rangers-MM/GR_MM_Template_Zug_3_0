@@ -41,6 +41,6 @@ _box addItemCargoGlobal ["ACE_wirecutter",1];
 _box addItemCargoGlobal ["MineDetector",1];
 _box addItemCargoGlobal ["ToolKit",1];
 
-// für diese Boxe Gewichtslimit Ignorieren
+// für diese Box Gewichtslimit Ignorieren
 //[_box, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
 //[_box, true, [0, 2, 0], 90, true] call ace_dragging_fnc_setDraggable;

@@ -1,7 +1,21 @@
+/*
+	by SmartGun
+
+ 	Description:		
+	
+ 	Paramameters:		
+	-none	
+	
+	Return values:
+	-none		
+*/
+
 private ["_index","_targetGroup","_jumpTarget","_LX","_LY","_LZ"];
 // check if a listbox entry is selected
 _index = lbCurSel 1500;
-if (_index < 0) exitWith {};
+if (_index < 0) exitWith { systemchat "Kein Ziel ausgewählt"; };
+
+closeDialog 0;
 
 _jumpTarget = player;
 
@@ -61,5 +75,5 @@ if (isNull objectParent _jumpTarget) then {
 	};
 };	
 // debug
-systemchat format ["Target-Group: %1", _targetGroup];
-systemchat format ["Jump-Target: %1", name _jumpTarget];
+systemchat format ["Verlegen zu Gruppe: %1", _targetGroup];
+systemchat format ["Position 3m hinter: %1", name _jumpTarget];

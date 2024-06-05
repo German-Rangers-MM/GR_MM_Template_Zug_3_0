@@ -1,3 +1,15 @@
+/*
+	by SmartGun
+
+ 	Description:		
+	
+ 	Paramameters:		
+	-none	
+	
+	Return values:
+	-none		
+*/
+
 params ["_unit"];
 
 createDialog "GR_guiNeuDialog";
@@ -24,5 +36,4 @@ private _PlayableGroups = [];
 
 lbSort _listbox; // sort ascending
 
-_confirmButton ctrlRemoveAllEventHandlers "ButtonClick";
-_confirmButton ctrlAddEventHandler [ "ButtonClick", { [] call GR_fnc_teleport; closeDialog 0; }];
+_confirmButton ctrlAddEventHandler [ "ButtonClick", { [] call GR_fnc_teleport; }];

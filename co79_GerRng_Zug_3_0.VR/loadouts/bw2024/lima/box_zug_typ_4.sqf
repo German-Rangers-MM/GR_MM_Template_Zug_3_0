@@ -20,6 +20,6 @@ _box addMagazineCargoGlobal ["SmokeShellGreen",30];
 _box addMagazineCargoGlobal ["SmokeShellRed",30];
 _box addMagazineCargoGlobal ["CUP_HandGrenade_M67",30];
 
-// für diese Boxe Gewichtslimit Ignorieren
+// für diese Box Gewichtslimit Ignorieren
 //[_box, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
 //[_box, true, [0, 2, 0], 90, true] call ace_dragging_fnc_setDraggable;
