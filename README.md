@@ -1,0 +1,1 @@
+## Template für alle zukünftigen Missonen der Rangers
