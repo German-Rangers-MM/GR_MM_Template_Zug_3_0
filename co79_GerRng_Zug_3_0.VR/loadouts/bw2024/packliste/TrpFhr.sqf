@@ -393,6 +393,7 @@
 //------------------------------------------------------------------
 	"ACE_EntrenchingTool",
 	"ACE_Clacker",
+	"ACE_M26_Clacker",
 	"ACE_Flashlight_XL50",
 	"ACE_MapTools",
 	"ACE_wirecutter",
