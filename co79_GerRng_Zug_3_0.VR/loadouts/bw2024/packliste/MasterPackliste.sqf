@@ -167,6 +167,9 @@
 	"CUP_muzzle_snds_SCAR_H",
 	"CUP_muzzle_snds_AWM",	
 	"CUP_muzzle_snds_M9",
+	"muzzle_antenna_02_f",
+	"muzzle_antenna_03_f",
+	"muzzle_antenna_01_f",
 	
 	
 //------------------------------------------------------------------
@@ -189,6 +192,7 @@
 	"ACE_VMH3",
 	"ACE_Flashlight_Maglite_ML300L",
 	"CUP_hgun_FlareGun",
+	"hgun_esd_01_F",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -655,6 +659,7 @@
 	"ACE_HuntIR_monitor",
 	"ACE_Kestrel4500",
 	"ACE_Clacker",
+	"ACE_M26_Clacker",
 	"ACE_Flashlight_XL50",
 	"ACE_MapTools",
 	"ACE_PlottingBoard",
@@ -698,5 +703,7 @@
 	"ACE_UAVBattery",
 	"ItemcTabHCam",
 	"kat_gasmaskFilter",
+	"crowsew_tfar_icom",
+	"crowsew_ctrack",
 	"kat_sealant"
 ];
