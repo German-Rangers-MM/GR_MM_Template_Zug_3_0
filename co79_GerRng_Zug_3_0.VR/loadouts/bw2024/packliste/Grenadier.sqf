@@ -149,6 +149,8 @@
 	"CUP_V_B_GER_PVest_Trop_Gren",
 	"CUP_V_B_GER_PVest_Fleck_Gren_LT",
 	"CUP_V_B_GER_PVest_Trop_Gren_LT",
+	"GRE_PlateCarrier1_Flecktarn",
+	"GRE_PlateCarrier1_Tropentarn",
 	"V_Chestrig_rgr",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
