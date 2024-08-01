@@ -168,8 +168,7 @@
 	"CUP_U_B_GER_Fleck_Crye",
 	"CUP_U_B_GER_Fleck_Crye2",
 	"CUP_U_B_GER_Crye",
-	"CUP_U_B_GER_Crye2",
-	"CUP_U_B_GER_Fleck_Overalls_Pilot",
+	"CUP_U_B_GER_Crye2",	
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
