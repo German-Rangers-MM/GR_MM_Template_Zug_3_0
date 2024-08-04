@@ -168,8 +168,7 @@
 	"CUP_U_B_GER_Fleck_Crye",
 	"CUP_U_B_GER_Fleck_Crye2",
 	"CUP_U_B_GER_Crye",
-	"CUP_U_B_GER_Crye2",
-	"CUP_U_B_GER_Fleck_Overalls_Pilot",
+	"CUP_U_B_GER_Crye2",	
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -183,8 +182,7 @@
 	"CUP_V_B_GER_PVest_Trop_RFL_LT",
 	"GRE_PlateCarrier1_Flecktarn",
 	"GRE_PlateCarrier1_Tropentarn",
-	"V_Chestrig_rgr",
-	"CUP_V_B_PilotVest",
+	"V_Chestrig_rgr",	
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
