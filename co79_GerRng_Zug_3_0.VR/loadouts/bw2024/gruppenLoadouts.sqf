@@ -90,9 +90,11 @@ GR_KiloRollen = [
 
 GR_MikeRollen = [
 					["Arzt vom Dienst","Mike_AvD"],
+					["Truppführer","Mike_TF"],
 					["Sanitäter","Sanitaeter"],
-					["Nahsicherer","Mike_NaSi"],
-					["Fahrer","Mike_Fahrer"]
+					["Sanitäter vom Dienst","Mike_SvD"],
+					["Fahrer","Mike_Fahrer"],
+					["Nahsicherer","Mike_NahSi"]
 ];
 
 //-----------------------------------------------------------------------------
