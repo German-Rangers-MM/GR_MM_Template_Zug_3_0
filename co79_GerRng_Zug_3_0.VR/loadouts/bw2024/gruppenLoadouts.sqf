@@ -90,9 +90,11 @@ GR_KiloRollen = [
 
 GR_MikeRollen = [
 					["Arzt vom Dienst","Mike_AvD"],
+					["Truppführer","Mike_TF"],
 					["Sanitäter","Sanitaeter"],
-					["Nahsicherer","Mike_NaSi"],
-					["Fahrer","Mike_Fahrer"]
+					["Sanitäter vom Dienst","Mike_SvD"],
+					["Fahrer","Mike_Fahrer"],
+					["Nahsicherer","Mike_NahSi"]
 ];
 
 //-----------------------------------------------------------------------------
@@ -132,6 +134,7 @@ GR_AlleRollen = [
 					["Nahsicherer","Sierra_NaSi"],
 					["Scharfschütze","Sierra_Scharf"],
 					["Truppführer","TrpFhr"],
+					["Truppführer Mike", "Mike_TF"],
 					["Waffen-Assi.","Waffen_Assi"],
 					["Waffen-Spez.","Waffen_Spez"],
 					["Zugführer","ZugFhr"],					
@@ -153,6 +156,7 @@ GR_Packlisten = [
 					"Mike_Fahrer",
 					"Mike_NaSi",
 					"Mike_Sani",
+					"Mike_TF",
 					"Sanitaeter",
 					"Sanitaeter_WaGru",
 					"Schuetze",					
