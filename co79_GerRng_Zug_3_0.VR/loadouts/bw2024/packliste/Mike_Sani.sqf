@@ -360,9 +360,9 @@
 	"ACE_surgicalKit",
 	"ACE_tourniquet",
 	"kat_IV_16",
-	"kat_CarbonateItem",
+	"kat_Carbonate",
 	"kat_BVM",
-	"kat_CaffeineItem",
+	"kat_Caffeine",
 	"kat_chestSeal",
 	"kat_EACA",
 	"kat_IO_FAST",
@@ -373,7 +373,7 @@
 	"kat_nitroglycerin",
 	"kat_oxygenTank_150_Item",
 	"kat_Pulseoximeter",
-	"kat_PenthroxItem",
+	"kat_Penthrox",
 	"kat_TXA",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
