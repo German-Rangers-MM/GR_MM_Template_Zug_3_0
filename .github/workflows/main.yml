@@ -14,4 +14,6 @@ jobs:
       - uses: actions/checkout@master
 
       - uses: arma-actions/sqflint@v1.0
-        name: Validate with SQFLint
+        name: Validate with SQFLint with custom arguments
+        with:
+          args: --exit w --directory co79_GerRng_Zug_3_0.VR
