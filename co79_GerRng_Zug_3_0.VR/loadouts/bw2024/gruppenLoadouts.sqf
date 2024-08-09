@@ -86,6 +86,16 @@ GR_KiloRollen = [
 
 //-----------------------------------------------------------------------------
 //
+//						Hotel - Zeus
+//
+//-----------------------------------------------------------------------------
+
+GR_HotelRollen = [
+					["Standard","ZugFhr"]					
+];
+
+//-----------------------------------------------------------------------------
+//
 //						Mike - San-Unterstützungs Einheit
 //
 //-----------------------------------------------------------------------------
@@ -124,6 +134,7 @@ GR_AlleRollen = [
 					["Pilot","Lima_Pilot"],
 					["Arzt vom Dienst","Mike_AvD"],
 					["Fahrer","Mike_Fahrer"],
+					["Techniker", "Mike_Techniker"],
 					["Sanitäter vom Dienst","Mike_SvD"],
 					["Sanitäter","Mike_Sani"],
 					["Sanitäter","Sanitaeter"],
@@ -161,6 +172,7 @@ GR_Packlisten = [
 					"Mike_SvD",
 					"Mike_Sani",
 					"Mike_TF",
+					"Mike_Techniker",
 					"Sanitaeter",
 					"Sanitaeter_WaGru",
 					"Schuetze",					
@@ -187,6 +199,7 @@ GR_Packlisten = [
 //
 //-----------------------------------------------------------------------------
 
+	grphotel
 	grpkilo
 	grplima
 	grpmike
@@ -208,6 +221,7 @@ GR_Packlisten = [
 //
 //-----------------------------------------------------------------------------
 
+	group this setGroupID ["Hotel"];
 	group this setGroupID ["Kilo"];
 	group this setGroupID ["Lima"];
 	group this setGroupID ["Mike"];

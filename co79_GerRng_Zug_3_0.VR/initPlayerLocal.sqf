@@ -261,7 +261,7 @@ _to_be_continued = ["Ende: TO BE CONTINUED","Ende: TO BE CONTINUED","",{ execVM 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 
-if (_playerGrp == grplima || _playerGrp == grpkilo || _playerGrp == grpfox || _playerGrp == grpvictor) then {
+if (_playerGrp == grplima || _playerGrp == grpkilo || _playerGrp == grpfox || _playerGrp == grpvictor || _playerGrp == grphotel) then {
 	// Creating the Admin Control Menu Category GR Base with Logo
 	_adminmenu = ["GR Admin Menu","GR Admin Menu","images\GermanRangersLogo.paa",{}, {true}] call ace_interact_menu_fnc_createAction;
 	[(typeOf player), 1, ["ACE_SelfActions"], _adminmenu] call ace_interact_menu_fnc_addActionToClass;
@@ -294,7 +294,7 @@ if (_playerGrp == grpmike) then {
 //------------------------------------------------------------------
 
 if (getMissionConfigValue "limaSupplyPoints" == "true") then {
-	if (_playerGrp == grplima || _playerGrp == grpkilo || _playerGrp == grpmike) then {
+	if (_playerGrp == grplima || _playerGrp == grpkilo || _playerGrp == grphotel || _playerGrp == grpmike) then {
 		
 		// Icon für Boxen-deploy
 		_icon = "a3\ui_f\data\igui\cfg\cursors\iconboardin_ca.paa";
