@@ -1,4 +1,4 @@
-name: Bugreport
+name: Bugreport für MM
 description: Erstell einen Bugreport, um unsere Projekte zu verbesser.
 title: "[BUG]"
 labels: ["bug"]
