@@ -37,10 +37,15 @@ _whitelistedMods = 	[
 						"@German Rangers Equipment", "2996640864",
 						"@cTab 1erGTD", "2262006564",
 						"@SIT 1erGTD", "2262009445",
+
+						//Gameplay & Ausrüstung
+						"@Crows Electronic Warfare", "2515887728",
+						"@Global Mobilization - Demo Vehicle", "1284731930"
 						"@MAAWS Additional Ammo Types", "2589302544",
 						"@Gruppe Adler Trenches", "1224892496",
 						"@TWC 2 Inch Mortar", "1670017422",
 						"@M224 60mm Mortar (ACE)", "2472780935",
+						"@Redd´n´Tank Vehicles", "946763963",
 
 						//Additional Maps
 						"@Jbad", "520618345",
@@ -83,8 +88,6 @@ _whitelistedMods = 	[
 						"@Simplex Support Services", "1850026051",
 						"@DUI - Squad Radar", "1638341685",
 						"@BackpackOnChest - Redux", "2372036642",
-						"@Crows Electronic Warfare", "2515887728",
-						"@Global Mobilization - Demo Vehicle", "1284731930",
 						
 						//Visual
 						"@Blastcore Edited (standalone version)", "767380317",

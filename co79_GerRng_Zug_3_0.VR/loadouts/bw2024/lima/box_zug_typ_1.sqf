@@ -1,7 +1,7 @@
 // Kiste Zug Typ I - Infantrie-Munition
 /* Aufruf im Editor mit:
 
-_path = format ["loadouts\%1\lima\box_zug_typ_i.sqf", getMissionConfigValue "fraktion"]; 
+_path = format ["loadouts\%1\lima\box_zug_typ_1.sqf", getMissionConfigValue "fraktion"]; 
 null = [this] execVM _path;
 
 */

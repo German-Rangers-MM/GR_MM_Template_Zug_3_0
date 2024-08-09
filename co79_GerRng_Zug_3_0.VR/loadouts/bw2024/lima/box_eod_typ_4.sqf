@@ -1,10 +1,11 @@
-// Kiste Zug Typ II - LMG-Munnition
+// Kiste EOD Typ IV - Zug
 /* Aufruf im Editor mit:
 
-_path = format ["loadouts\%1\lima\box_zug_typ_2.sqf", getMissionConfigValue "fraktion"]; 
+_path = format ["loadouts\%1\lima\box_eod_typ_4.sqf", getMissionConfigValue "fraktion"]; 
 null = [this] execVM _path;
 
 */
+
 
 if (! isServer) exitWith {};
 
@@ -15,8 +16,11 @@ clearMagazineCargoGlobal _box;
 clearItemCargoGlobal _box;
 clearBackpackCargoGlobal _box;
 
-_box addMagazineCargoGlobal ["CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch",10];
-_box addMagazineCargoGlobal ["CUP_100Rnd_556x45_BetaCMag",10];
+
+_box addItemCargoGlobal ["ace_marker_flags_red",40];
+_box addItemCargoGlobal ["ace_marker_flags_white",40];
+_box addItemCargoGlobal ["ACE_VMH3",4];
+_box addItemCargoGlobal ["ACE_VMM3",4];
 
 // für diese Box Gewichtslimit Ignorieren
 //[_box, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;

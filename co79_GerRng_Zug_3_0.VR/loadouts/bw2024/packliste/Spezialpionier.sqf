@@ -48,20 +48,9 @@
 	"CUP_arifle_HK417_12_AG36",
 	"CUP_arifle_HK417_12_AG36_Desert",
 	"CUP_arifle_HK417_12_AG36_Wood",
-	"CUP_arifle_HK417_20",
-	"CUP_arifle_HK417_20_Desert",
-	"CUP_arifle_HK417_20_Wood",
-	"arifle_SPAR_03_blk_F",
-	"arifle_SPAR_03_snd_F",
-	"arifle_SPAR_03_khk_F",	
-	"CUP_srifle_G22_wdl",
-	"CUP_srifle_G22_blk",
-	"CUP_srifle_G22_des",
-	"srifle_GM6_F",
-	"CUP_srifle_M107_Base",	
-	"srifle_LRR_F",
-	"srifle_LRR_camo_F",
-	"srifle_LRR_tna_F",
+	"CUP_smg_MP5A5",
+	"SMG_05_F",
+	"CUP_smg_MP7",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -104,18 +93,7 @@
 	"CUP_optic_HensoldtZO_low_od",
 	"CUP_optic_HensoldtZO_low_RDS",
 	"CUP_optic_HensoldtZO_low_RDS_desert",
-	"CUP_optic_HensoldtZO_low_RDS_od",
-	"CUP_optic_LeupoldMk4_25x50_LRT",
-	"CUP_optic_LeupoldMk4_25x50_LRT_DESERT",
-	"CUP_optic_LeupoldMk4_25x50_LRT_WOODLAND",
-	"CUP_optic_Leupold_VX3",
-	"optic_LRPS",
-	"CUP_optic_AN_PVS_10_black",
-	"CUP_optic_AN_PVS_10_black",
-	"CUP_optic_AN_PVS_10_od",
-	"optic_AMS",
-	"optic_AMS_snd",
-	"optic_AMS_khk",	
+	"CUP_optic_HensoldtZO_low_RDS_od",		
 	"CUP_optic_ZeissZPoint",
 	"CUP_optic_ZeissZPoint_desert",
 	"CUP_optic_ZeissZPoint_wood",
@@ -135,6 +113,7 @@
 	"CUP_acc_LLM_black",
 	"CUP_acc_LLM",
 	"CUP_acc_LLM_od",
+	"acc_esd_01_flashlight",
 	
 //------------------------------------------------------------------
 //------------------------------------------------------------------
@@ -144,18 +123,9 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 
+"muzzle_antenna_02_f",
+"muzzle_antenna_01_f",
 
-	"CUP_muzzle_snds_G36_black",
-	"CUP_muzzle_snds_G36_desert",
-	"CUP_muzzle_snds_G36_wood",
-	"CUP_muzzle_mfsup_Suppressor_M107_Black",
-	"CUP_muzzle_mfsup_Suppressor_M107_Desert",
-	"CUP_muzzle_mfsup_Suppressor_M107_Woodland",
-	"CUP_muzzle_snds_SCAR_L",
-	"CUP_muzzle_snds_SCAR_H",
-	"CUP_muzzle_snds_AWM",
-	"CUP_muzzle_snds_M9",
-	
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -174,6 +144,7 @@
 //------------------------------------------------------------------
 	"CUP_hgun_M17_Black",
 	"ACE_VMH3",
+	"hgun_esd_01_F",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -181,7 +152,19 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-
+	"CUP_launch_BF3",
+	"CUP_launch_HCPF3",
+	"CUP_launch_M72A6",
+	"CUP_TOW2_carry",
+	"ace_csw_m220CarryTripod",
+	"GerRng_HMG_M2_Sh_carry",
+	"GerRng_HMG_M2_ScSh_carry",
+	"ace_csw_m3CarryTripod",
+	"ace_csw_m3CarryTripodLow",
+	"GerRng_GMG_Mk19",
+	"CUP_MK19_carry",
+	"CUP_m252_carry",
+	"ace_csw_carryMortarBaseplate",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -209,11 +192,7 @@
 	"CUP_U_B_GER_Fleck_Crye2",
 	"CUP_U_B_GER_Crye",
 	"CUP_U_B_GER_Crye2",
-	"U_B_FullGhillie_ard",
-	"U_B_T_FullGhillie_tna_F",
-	"U_B_FullGhillie_lsh",
-	"U_B_FullGhillie_sard",
-	"U_B_GhillieSuit",
+	"CUP_U_B_GER_Fleck_Overalls_Tank",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -221,10 +200,10 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-	"CUP_V_B_GER_PVest_Fleck_RFL",
-	"CUP_V_B_GER_PVest_Trop_RFL",
-	"CUP_V_B_GER_PVest_Fleck_RFL_LT",
-	"CUP_V_B_GER_PVest_Trop_RFL_LT",
+	"CUP_V_B_GER_PVest_Fleck_TL",
+	"CUP_V_B_GER_PVest_Trop_TL",
+	"CUP_V_B_GER_PVest_Fleck_TL_LT",
+	"CUP_V_B_GER_PVest_Trop_TL_LT",
 	"GRE_PlateCarrier1_Flecktarn",
 	"GRE_PlateCarrier1_Tropentarn",
 	"V_Chestrig_rgr",
@@ -245,14 +224,10 @@
 	"CUP_B_GER_Pack_Tropentarn",
 	"CUP_B_GER_Medic_Flecktarn",
 	"CUP_B_GER_Medic_Tropentarn",
-	"ace_gunbag",
-	"ace_gunbag_Tan",
 	"CFP_Camelbak_Mule_RngrGrn",
 	"CFP_Camelbak_Mule_Drab",
 	"B_FieldPack_green_F",
-	"B_FieldPack_cbr",
-	"B_Static_Designator_01_weapon_F",
-//------------------------------------------------------------------
+	"B_FieldPack_cbr",-------------------------------------------
 //------------------------------------------------------------------
 //
 //						Helme
@@ -267,10 +242,7 @@
 	"CUP_H_OpsCore_Covered_Tropen_NoHS",
 	"CUP_H_OpsCore_Covered_Fleck_SF",
 	"CUP_H_OpsCore_Covered_Tropen_SF",
-	"CUP_H_Ger_Boonie2_Flecktarn",
-	"CUP_H_Ger_Boonie2_desert",
-	"CUP_H_Ger_Cap_EP_Grn1",
-	"CUP_H_Ger_Cap_EP_Tan1",
+	"H_HelmetCrew_B",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -278,8 +250,8 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
+	"G_Aviator",
 	"G_Bandanna_aviator",
-	"G_Bandanna_beast",
 	"G_Bandanna_oli",
 	"G_Bandanna_khk",
 	"G_Bandanna_oli",
@@ -351,7 +323,6 @@
 	"ItemcTab",
 	"ItemMicroDAGR",
 	"ItemGPS",
-	"B_UavTerminal",
 
 	"TFAR_anprc152",
 
@@ -382,15 +353,58 @@
 	"CUP_20Rnd_762x51_HK417_Camo_Desert",
 	"CUP_20Rnd_762x51_HK417_Camo_Wood",
 	"CUP_20Rnd_TE1_Red_Tracer_762x51_HK417",
-	"CUP_5Rnd_762x67_G22",
-	"ACE_5Rnd_127x99_Mag",
-	"ACE_5Rnd_127x99_API_Mag",
-	"ACE_5Rnd_127x99_AMAX_Mag",
-	"CUP_10Rnd_127x99_M107",
+	"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",
+	"CUP_100Rnd_556x45_BetaCMag",
+	"CUP_100Rnd_556x45_BetaCMag_camo",
+	"CUP_100Rnd_556x45_BetaCMag_wdl",
+	"CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag",
+	"CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag_camo",
+	"CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag_wdl",
+	"CUP_200Rnd_TE1_LRT4_Red_Tracer_762x51_Belt_M",
+	"CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",
+	"CUP_1Rnd_HE_M203",
+	"CUP_1Rnd_HEDP_M203",
+	"UGL_FlareWhite_F",
+	"UGL_FlareGreen_F",
+	"UGL_FlareRed_F",
+	"UGL_FlareCIR_F",
+	"CUP_1Rnd_StarCluster_Red_M203",
+	"1Rnd_SmokeRed_Grenade_shell",
+	"1Rnd_SmokeGreen_Grenade_shell",
+	"1Rnd_Smoke_Grenade_shell",
+	"ACE_HuntIR_M203",
+	"130Rnd_338_Mag",
+	"150Rnd_93x64_Mag",
+	"CUP_30Rnd_9x19_MP5",
 	"CUP_17Rnd_9x19_M17_Black",
 	"CUP_21Rnd_9x19_M17_Black",
-	"Laserbatteries",
-	"7Rnd_408_Mag",
+	"CUP_40Rnd_46x30_MP7",
+	"CUP_SMAW_HEAA_M",
+	"CUP_SMAW_Spotting",
+	"Titan_AA",
+	"Titan_AT",
+	"Titan_AP",
+	"Vorona_HEAT",
+	"Vorona_HE",
+	"MRAWS_HE_F",
+	"MRAWS_HEAT55_F",
+	"MRAWS_HEAT_F",
+	"MAA_MAAWS_ASM509",
+	"MAA_MAAWS_HEDP502",
+	"MAA_MAAWS_MT756",
+	"MAA_MAAWS_GMM_HE",
+	"MAA_MAAWS_GMM_HEAT",
+	"MAA_MAAWS_GMM_MT",
+	"MAA_MAAWS_ILLUM545",
+	"MAA_MAAWS_SMOKE469",
+	"CUP_compats_48Rnd_40mm_MK19_M",
+	"CUP_compats_TOW2_M",
+	"ace_csw_100Rnd_127x99_mag",
+	"ace_csw_100Rnd_127x99_mag_red",
+	"ACE_1Rnd_82mm_Mo_HE",
+	"ACE_1Rnd_82mm_Mo_Illum",
+	"ACE_1Rnd_82mm_Mo_Smoke",
+	"ACE_1Rnd_82mm_Mo_HE_LaserGuided",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -415,6 +429,8 @@
 	"ACE_Chemlight_White",
 	"ACE_Chemlight_HiWhite",
 	"ACE_Chemlight_HiYellow",
+	"Chemlight_red",
+	"ACE_Chemlight_HiRed",
 	"B_IR_Grenade",
 	"ACE_HandFlare_Red",
 	"ACE_HandFlare_Green",
@@ -425,7 +441,8 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -433,6 +450,7 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
+	"ACE_adenosine",
 	"ACE_fieldDressing",
 	"ACE_elasticBandage",
 	"ACE_packingBandage",
@@ -443,7 +461,6 @@
 	"ACE_splint",
 	"ACE_tourniquet",
 	"kat_chestSeal",
-	"kat_Caffeine",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -451,17 +468,18 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-	"ACE_ATragMX",
 	"ACE_EntrenchingTool",
-	"ACE_HuntIR_monitor",
-	"ACE_Kestrel4500",
 	"ACE_Flashlight_XL50",
 	"ACE_MapTools",
-	"ACE_PlottingBoard",
-	"ACE_RangeCard",
-	"ACE_SpottingScope",
-	"ACE_Tripod",
 	"ACE_wirecutter",
+	"ACE_artilleryTable",
+	"ACE_ATragMX",
+	"ACE_DefusalKit",
+	"ACE_Fortify",
+	"ACE_Clacker",
+	"ACE_M26_Clacker",
+	"ACE_PlottingBoard",
+	"ACE_HuntIR_monitor",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -472,6 +490,16 @@
 	"ACE_CableTie",
 	"ACE_EarPlugs",
 	"ACE_IR_Strobe_Item",
-	"ACE_UAVBattery",
-	"ItemcTabHCam"
+	"ACE_SpraypaintBlack",
+	"ACE_SpraypaintBlue",
+	"ACE_SpraypaintGreen",
+	"crowsew_tfar_icom",
+	"crowsew_ctrack",
+	"ACE_SpraypaintRed",
+	"ACE_SpraypaintWhite",
+	"ACE_SpraypaintYellow",
+	"ace_marker_flags_red",
+	"ace_marker_flags_white",
+	"ItemcTabHCam",
+	"ItemMicroDAGRMisc"
 ];

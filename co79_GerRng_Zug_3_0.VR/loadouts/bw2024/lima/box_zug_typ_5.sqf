@@ -1,7 +1,7 @@
 // Kiste Zug Typ V - Ausrüstung
 /* Aufruf im Editor mit:
 
-_path = format ["loadouts\%1\lima\box_zug_typ_iv.sqf", getMissionConfigValue "fraktion"]; 
+_path = format ["loadouts\%1\lima\box_zug_typ_5.sqf", getMissionConfigValue "fraktion"]; 
 null = [this] execVM _path;
 
 */
