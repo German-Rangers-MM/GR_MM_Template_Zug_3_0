@@ -49,6 +49,6 @@ body:
         - label: Ich würde gerne selbst an der Problemlösung mitarbeiten.
   - type: markdown
     attributes:
-      value:
+      value:  |
         ---
         Danke dass du dir die Zeit für's Ausfüllen genommen hast.
