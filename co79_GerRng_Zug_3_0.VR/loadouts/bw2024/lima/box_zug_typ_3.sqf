@@ -1,7 +1,7 @@
 // Kiste Zug Typ III - Unterlaufgranaten
 /* Aufruf im Editor mit:
 
-_path = format ["loadouts\%1\lima\box_zug_typ_iii.sqf", getMissionConfigValue "fraktion"]; 
+_path = format ["loadouts\%1\lima\box_zug_typ_3.sqf", getMissionConfigValue "fraktion"]; 
 null = [this] execVM _path;
 
 */

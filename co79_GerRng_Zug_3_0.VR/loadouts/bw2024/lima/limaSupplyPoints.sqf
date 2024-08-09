@@ -61,10 +61,22 @@ switch (toLower _supply) do {
 	};
 
 	case "zug8": {
-		_box = "ACE_Box_Chemlights" createVehicle _boxPos;
+		_box = "Box_NATO_Equip_F" createVehicle _boxPos;
 		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
 		[_box] execvm limapfad + "box_zug_typ_8.sqf";
 	};	
+
+		case "zug9": {
+		_box = "Box_NATO_Equip_F" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_zug_typ_9.sqf";
+	};
+
+		case "zug10": {
+		_box = "ACE_Box_Ammo" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_zug_typ_10.sqf";
+	};
 	
 	case "wagru1": {
 		_box = "Box_NATO_Wps_F" createVehicle _boxPos;
@@ -118,12 +130,6 @@ switch (toLower _supply) do {
 		_box = "ACE_medicalSupplyCrate" createVehicle _boxPos;
 		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
 		[_box] execvm limapfad + "box_san_typ_1.sqf";
-	};
-	
-	case "san2": {
-		_box = "ACE_medicalSupplyCrate" createVehicle _boxPos;
-		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
-		[_box] execvm limapfad + "box_san_typ_2.sqf";
 	};		
 	
 	case "supply": {
@@ -149,6 +155,12 @@ switch (toLower _supply) do {
 		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
 		[_box] execvm limapfad + "box_eod_typ_3.sqf";
 	};	
+
+	case "eod4": {
+		_box = "ACE_Box_Misc" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_eod_typ_4.sqf";
+	};
 };
 
 // für ALLE von Lima gespawnte Boxen Gewichtslimit Ignorieren

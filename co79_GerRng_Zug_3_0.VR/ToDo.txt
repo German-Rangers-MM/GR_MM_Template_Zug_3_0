@@ -1,0 +1,20 @@
+- Traits / ACE Rechte
+
+- Full heal für (_playerGrp == grplima || _playerGrp == grpkilo || _playerGrp == grpfox || _playerGrp == grpvictor) ????
+- Musikdateien durch Ingame Musik ersetzten?
+
+- Ingame Briefing benötigt?
+
+- Grenadier:
+am Mann: ACE_40mm_Flare_ir in Packliste: UGL_FlareCIR_F
+am Mann: CUP_launch_PzF3 in Packliste: CUP_launch_HCPF3
+
+
+
+"a3\ui_f\data\map\vehicleicons\iconcrateammo_ca.paa"
+
+"a3\ui_f\data\map\vehicleicons\iconcrateord_ca.paa"
+
+"ca\weapons_e\data\icons\mapicon_backpack_ca.paa"
+a3\ui_f\data\igui\cfg\cursors\iconrearmat_ca.paa
+

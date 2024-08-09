@@ -16,7 +16,7 @@ player setUnitLoadout [
 	["GRE_PlateCarrier1_Flecktarn",[["CUP_NVG_PVS15_black",1],["CUP_17Rnd_9x19_M17_Black",1,17],["CUP_HandGrenade_M67",2,1],["SmokeShell",2,1],["CUP_30Rnd_TE1_Red_Tracer_556x45_G36_wdl",2,30],["CUP_30Rnd_556x45_G36_wdl",6,30]]],
 	["CFP_Camelbak_Mule_RngrGrn",[["MAA_MAAWS_HEDP502",2,1],["MRAWS_HEAT_F",1,1]]],
 	"CUP_H_OpsCore_Covered_Fleck_SF","",[],
-	["ItemMap","","TFAR_anprc152","ItemCompass","ItemWatch",""]
+	["ItemMap","ItemMicroDAGR","TFAR_anprc152","ItemCompass","ItemWatch",""]
 ];
 
 //------------------------------------------------------------------

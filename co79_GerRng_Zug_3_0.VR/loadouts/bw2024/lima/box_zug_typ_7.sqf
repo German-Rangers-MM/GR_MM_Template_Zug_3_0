@@ -1,7 +1,7 @@
-// Kiste Zug Typ V - Waffen & Zubehör
+// Kiste Zug Typ VII - Elektronik
 /* Aufruf im Editor mit:
 
-_path = format ["loadouts\%1\lima\box_zug_typ_vii.sqf", getMissionConfigValue "fraktion"]; 
+_path = format ["loadouts\%1\lima\box_zug_typ_7.sqf", getMissionConfigValue "fraktion"]; 
 null = [this] execVM _path;
 
 */
