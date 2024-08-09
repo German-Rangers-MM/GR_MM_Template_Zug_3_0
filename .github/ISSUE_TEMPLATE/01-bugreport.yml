@@ -1,0 +1,55 @@
+name: Bugreport für MM
+description: Erstell einen Bugreport, um unsere Projekte zu verbesser.
+title: "[BUG]"
+labels: ["bug"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value:
+        Bitte füll alle Felder aus, damit wir dir so schnell wie möglich helfen können.
+  - type: textarea
+    id: description
+    attributes:
+      label: Beschreibung den Fehler
+      placeholder: Welche Fehlermeldung hast du erhalten und wann ist der Fehler aufgetreten.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zur Reproduktion des Fehlers
+      placeholder:  |
+        1. Tue dies
+        2. Mach das
+        3. Und so weiter
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+      placeholder: Eine kurze und präzise Beschreibung dessen, was hätte eintreten sollte.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Wenn du passende Screenshots oder Videos hast, füg sie hier bitte an. (Optional)
+  - type: textarea
+    id: additional
+    attributes:
+      label: Hast du noch weitere Infos oder Fragen zum Problem? (Optional)
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Fast fertig, wir wollen nur eben noch was sicherstellen.
+      options:
+        - label: Ich habe in Issues nachgesehen ob diese Problem bereits gemeldet wurde oder es breits einen Pull-Request dazu gibt.
+          required: true
+        - label: Ich würde gerne selbst an der Problemlösung mitarbeiten.
+  - type: markdown
+    attributes:
+      value:  |
+        ---
+        Danke dass du dir die Zeit für's Ausfüllen genommen hast.
