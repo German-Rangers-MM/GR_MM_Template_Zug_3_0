@@ -43,8 +43,8 @@ body:
   - type: checkboxes
     id: terms
     attributes:
+      label: Fast fertig, wir wollen nur eben noch was sicherstellen.
       options:
-        label: Fast fertig, wir wollen nur eben noch was sicherstellen.
         - label: Ich habe in Issues nachgesehen ob diese Problem bereits gemeldet wurde oder es breits einen Pull-Request dazu gibt.
           required: true
         - label: Ich würde gerne selbst an der Problemlösung mitarbeiten.
