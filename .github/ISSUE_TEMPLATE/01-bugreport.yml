@@ -19,7 +19,7 @@ body:
     id: steps
     attributes:
       label: Schritte zur Reproduktion des Fehlers
-      placeholder:
+      placeholder:  |
         1. Tue dies
         2. Mach das
         3. Und so weiter
@@ -50,6 +50,6 @@ body:
         - label: Ich würde gerne selbst an der Problemlösung mitarbeiten.
   - type: markdown
     attributes:
-      value:
+      value:  |
         ---
         Danke dass du dir die Zeit für's Ausfüllen genommen hast.
