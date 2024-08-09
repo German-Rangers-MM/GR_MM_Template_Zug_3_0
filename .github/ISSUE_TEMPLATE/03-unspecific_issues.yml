@@ -1,0 +1,39 @@
+name: Sonstige Issues
+description: Freitext-Issue, welcher nicht durch ein anders Form abgedeckt wird.
+title: "[ENHANCEMENT] Ein Vorschlag"
+labels: ["enhancement"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value:
+        Bitte füll alle Felder aus, damit wir dein Issue bestmöglich nachvollziehen können.
+  - type: textarea
+    id: idea
+    attributes:
+      label:  |
+        Womit können wir dir helfen?
+      placeholder: Eine kurze und präzise Beschreibung womit wir dir helfen können.
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Hier kannst du Screenshots, Links etc anfügen. (Optional)
+      placeholder:  |
+        1. Bild
+        2. Link
+        3. Und so weiter
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Noch ein paar Kleinigkeiten bevor du deinen Vorschlag abgeben kannst.
+      options:
+        - label: Ich habe in Issues nachgesehen ob diese Problem bereits gemeldet wurde oder es breits einen Pull-Request dazu gibt.
+          required: true
+        - label: Ich würde gerne selbst an der Problemlösung mitarbeiten.
+  - type: markdown
+    attributes:
+      value:
+        ---
+        Danke dass du dir die Zeit für's Ausfüllen genommen hast.
