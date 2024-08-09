@@ -46,6 +46,11 @@ if (_groupName in ["kilo"]) then {
 	_groupRoles = GR_KiloRollen;
 };
 
+// Hotel - Zeus
+if (_groupName in ["hotel"]) then {
+	_groupRoles = GR_HotelRollen;
+};
+
 // Mike - San-Unterstützungs Einheit
 if (_groupName in ["mike"]) then {
 	_groupRoles = GR_MikeRollen;
