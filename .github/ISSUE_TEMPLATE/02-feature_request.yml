@@ -1,0 +1,54 @@
+name: Feature Request für MM
+description: Mach einen Vorschlag für unsere Projekte
+title: "[ENHANCEMENT] Ein Vorschlag"
+labels: ["enhancement"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value:
+        Bitte füll alle Felder aus, damit wir deine Idee bestmöglich nachvollziehen können.
+  - type: textarea
+    id: idea
+    attributes:
+      label:  |
+        Was ist dein Vorschlag? 
+        Hängt der Vorschlag mit einem Problem zusammen? Wenn ja, beschreib es bitte.
+      placeholder: Eine kurze und präzise Beschreibung was du dir vorstellst.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Beschreib eine mögliche Lösung.
+      placeholder:  |
+        1. Tue dies
+        2. Mach das
+        3. Und so weiter
+    validations:
+      required: true
+  - type: textarea
+    id: alternative
+    attributes:
+      label: Beschreib mögliche alternative Lösungen, die du in Betracht gezogen hast.
+      placeholder: |
+        1. Tue dies
+        2. Mach das
+        3. Und so weiter
+  - type: textarea
+    id: additional
+    attributes:
+      label: Hast du noch weitere Infos zum deinem Vorschlag? (Optional)
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Noch ein paar Kleinigkeiten bevor du deinen Vorschlag abgeben kannst.
+      options:
+        - label: Ich habe in Issues nachgesehen ob diese Problem bereits gemeldet wurde oder es breits einen Pull-Request dazu gibt.
+          required: true
+        - label: Ich würde gerne selbst an der Problemlösung mitarbeiten.
+  - type: markdown
+    attritubes:
+      value:
+        ---
+        Danke dass du dir die Zeit für's Ausfüllen genommen hast.
