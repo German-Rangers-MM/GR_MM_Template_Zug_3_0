@@ -106,7 +106,7 @@ GR_MikeRollen = [
 					["Sanitäter","Sanitaeter"],
 					["Sanitäter vom Dienst","Mike_SvD"],
 					["Fahrer","Mike_Fahrer"],
-					["Leichter Sanitäter","Mike_anitaeter_Leicht"],
+					["Leichter Sanitäter","Mike_Sanitaeter_Leicht"],
 					["Techniker","Mike_Techniker"],
 					["Schütze","Mike_Schuetze"]
 ];
