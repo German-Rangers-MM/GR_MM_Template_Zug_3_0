@@ -60,7 +60,7 @@ _whitelistedMods = 	[
 						"@G.O.S Al Rayak", "648172507",
 						"@Sanagasta Map", "2466229756",
 						"@Bornhom [R]", "2914536900",
-						"@Global Ops Terrians","2917444360",
+						"@Global Ops Terrains","2917444360",
 						"@Yulakia","2950257727",
 
 						//----------------------------------
