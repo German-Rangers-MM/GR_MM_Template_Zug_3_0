@@ -47,13 +47,7 @@
 	"CUP_arifle_HK417_12_Wood",
 	"CUP_arifle_HK417_12_AG36",
 	"CUP_arifle_HK417_12_AG36_Desert",
-	"CUP_arifle_HK417_12_AG36_Wood",
-	"CUP_arifle_HK417_20",
-	"CUP_arifle_HK417_20_Desert",
-	"CUP_arifle_HK417_20_Wood",
-	"arifle_SPAR_03_blk_F",
-	"arifle_SPAR_03_snd_F",
-	"arifle_SPAR_03_khk_F",
+	"CUP_arifle_HK417_12_AG36_Wood",	
 	"CUP_lmg_minimi_railed",
 	"CUP_arifle_MG36",
 	"CUP_arifle_MG36_camo",
@@ -121,6 +115,19 @@
 	"CUP_acc_LLM_black",
 	"CUP_acc_LLM",
 	"CUP_acc_LLM_od",
+	"acc_esd_01_flashlight",
+	
+//------------------------------------------------------------------
+//------------------------------------------------------------------
+//
+//						Muzzle
+//
+//------------------------------------------------------------------
+//------------------------------------------------------------------
+
+"muzzle_antenna_02_f",
+"muzzle_antenna_01_f",
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -139,6 +146,7 @@
 //------------------------------------------------------------------
 	"CUP_hgun_M17_Black",
 	"ACE_VMH3",
+	"hgun_esd_01_F",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -146,7 +154,6 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-	"CUP_launch_HCPF3",
 	"CUP_launch_M72A6",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
@@ -188,6 +195,7 @@
 	"CUP_V_B_GER_PVest_Trop_TL_LT",
 	"GRE_PlateCarrier1_Flecktarn",
 	"GRE_PlateCarrier1_Tropentarn",
+	"V_Chestrig_rgr",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -217,34 +225,13 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 	"CUP_H_Ger_M92_Cover",
-	"CUP_H_Ger_M92_Cover_GG_CB",
-	"CUP_H_Ger_M92_Cover_GG_CF",
-	"CUP_H_Ger_M92_Cover_GG",
 	"CUP_H_Ger_M92_Cover_Trop",
-	"CUP_H_Ger_M92_Cover_Trop_GG_CB",
-	"CUP_H_Ger_M92_Cover_Trop_GG_CF",
-	"CUP_H_Ger_M92_Cover_Trop_GG",
 	"CUP_H_OpsCore_Covered_Fleck",
 	"CUP_H_OpsCore_Covered_Tropen",
 	"CUP_H_OpsCore_Covered_Tropen_NoHS",
 	"CUP_H_OpsCore_Covered_Tropen_NoHS",
 	"CUP_H_OpsCore_Covered_Fleck_SF",
 	"CUP_H_OpsCore_Covered_Tropen_SF",
-	"CUP_H_Ger_Boonie2_Flecktarn",
-	"CUP_H_Ger_Boonie2_desert",
-	"CUP_H_Ger_Cap_EP_Grn1",
-	"CUP_H_Ger_Cap_EP_Tan1",
-	"CUP_H_Ger_Cap_Grn2",
-	"H_Construction_basic_yellow_F",
-	"H_PilotHelmetFighter_B",
-	"H_CrewHelmetHeli_O",
-	"H_PilotHelmetHeli_O",
-	"H_HelmetCrew_B",
-	"H_CrewHelmetHeli_B",
-	"H_PilotHelmetHeli_B",
-	"H_HelmetSpecB_wdl",
-	"H_HelmetSpecB_sand",
-	"CUP_H_SPH4_khaki",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -299,8 +286,6 @@
 	"CUP_NVG_PVS7",
 	"CUP_NVG_PVS15_black",
 	"CUP_NVG_PVS15_black_WP",
-	"CUP_NVG_GPNVG_black",
-	"CUP_NVG_GPNVG_black_WP",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -310,8 +295,6 @@
 //------------------------------------------------------------------
 	"Binocular",
 	"Rangefinder",
-	"Laserdesignator_02_ghex_F",
-	"ACE_Vector",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -322,11 +305,8 @@
 	"ItemMap",
 	
 	"ItemAndroid",
-	"ItemcTab",
 	"ItemMicroDAGR",
 	"ItemGPS",
-	"B_UavTerminal",
-	"C_UavTerminal",
 
 	"TFAR_anprc152",
 
@@ -334,7 +314,6 @@
 
 	"ItemWatch",
 	"ACE_Altimeter",
-	"ChemicalDetector_01_watch_F",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -439,24 +418,18 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-	"ToolKit",
+	"ACE_EntrenchingTool",
+	"ACE_Flashlight_XL50",
+	"ACE_MapTools",
+	"ACE_wirecutter",
 	"ACE_artilleryTable",
 	"ACE_ATragMX",
 	"ACE_DefusalKit",
-	"ACE_EntrenchingTool",
 	"ACE_Fortify",
-	"ACE_HuntIR_monitor",
-	"ACE_Kestrel4500",
 	"ACE_Clacker",
 	"ACE_M26_Clacker",
-	"ACE_Flashlight_XL50",
-	"ACE_MapTools",
 	"ACE_PlottingBoard",
-	"ACE_RangeCard",
-	"ACE_SpottingScope",
-	"ACE_Tripod",
-	"ACE_wirecutter",
-	"Attachable_Helistretcher",
+	"ACE_HuntIR_monitor",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -467,6 +440,14 @@
 	"ACE_CableTie",
 	"ACE_EarPlugs",
 	"ACE_IR_Strobe_Item",
+	"ACE_SpraypaintBlack",
+	"ACE_SpraypaintBlue",
+	"ACE_SpraypaintGreen",
+	"crowsew_tfar_icom",
+	"crowsew_ctrack",
+	"ACE_SpraypaintRed",
+	"ACE_SpraypaintWhite",
+	"ACE_SpraypaintYellow",
 	"ace_marker_flags_black",
 	"ace_marker_flags_blue",
 	"ace_marker_flags_black",
@@ -475,24 +456,6 @@
 	"ace_marker_flags_red",
 	"ace_marker_flags_white",
 	"ace_marker_flags_yellow",
-	"ACE_rope3",
-	"ACE_rope12",
-	"ACE_rope15",
-	"ACE_rope15",
-	"ACE_rope18",
-	"ACE_rope27",
-	"ACE_rope36",
-	"ACE_SpareBarrel",
-	"ACE_SpraypaintBlack",
-	"ACE_SpraypaintBlue",
-	"ACE_SpraypaintGreen",
-	"ACE_SpraypaintRed",
-	"ACE_SpraypaintWhite",
-	"ACE_SpraypaintYellow",
-	"ACE_UAVBattery",
 	"ItemcTabHCam",
-	"kat_gasmaskFilter",
-	"crowsew_tfar_icom",
-	"crowsew_ctrack",
-	"kat_sealant"
+	"ItemMicroDAGRMisc"
 ];

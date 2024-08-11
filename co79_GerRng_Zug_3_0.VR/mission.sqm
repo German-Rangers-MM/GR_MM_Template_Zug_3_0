@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=33;
+		nextID=35;
 	};
 	class Camera
 	{
-		pos[]={1294.2622,133.19557,5133.1826};
-		dir[]={0.77297354,-0.63397378,-0.024492778};
-		up[]={0.6336621,0.77334821,-0.020078778};
-		aside[]={-0.031671196,5.0601557e-008,-0.99950463};
+		pos[]={1376.3396,36.978046,5119.729};
+		dir[]={0.77296948,-0.63397038,-0.024492623};
+		up[]={0.63365239,0.77335727,-0.020078164};
+		aside[]={-0.031670511,9.3132257e-010,-0.99949849};
 	};
 };
 binarizationWanted=0;
@@ -11405,9 +11405,9 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""GR_unitLoadout"", ""Mike_Fahrer""];" \n "group this setGroupId [""Mike""];";
+								init="this setVariable [""GR_unitLoadout"", ""Mike_Sanitaeter_Leicht""];" \n "group this setGroupId [""Mike""];";
 								name="Mike7";
-								description="Nahsicherer@Mike";
+								description="Leichter Sanitäter@Mike";
 								isPlayable=1;
 								class Inventory
 								{
@@ -11480,9 +11480,9 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""GR_unitLoadout"", ""Mike_Fahrer""];" \n "group this setGroupId [""Mike""];";
+								init="this setVariable [""GR_unitLoadout"", ""Mike_Schuetze""];" \n "group this setGroupId [""Mike""];";
 								name="Mike8";
-								description="Nahsicherer@Mike";
+								description="Schütze@Mike";
 								isPlayable=1;
 								class Inventory
 								{
@@ -17311,7 +17311,6 @@ class Mission
 				};
 			};
 			id=1074;
-			atlOffset=-0.00015258789;
 		};
 	};
 	class VehicleInVehicleLinks
