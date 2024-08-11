@@ -40,7 +40,7 @@ _whitelistedMods = 	[
 
 						//Gameplay & Ausrüstung
 						"@Crows Electronic Warfare", "2515887728",
-						"@Global Mobilization - Demo Vehicle", "1284731930"
+						"@Global Mobilization - Demo Vehicle", "1284731930",
 						"@MAAWS Additional Ammo Types", "2589302544",
 						"@Gruppe Adler Trenches", "1224892496",
 						"@TWC 2 Inch Mortar", "1670017422",
@@ -60,6 +60,8 @@ _whitelistedMods = 	[
 						"@G.O.S Al Rayak", "648172507",
 						"@Sanagasta Map", "2466229756",
 						"@Bornhom [R]", "2914536900",
+						"@Global Ops Terrians","2917444360",
+						"@Yulakia","2950257727",
 
 						//----------------------------------
 						//
