@@ -54,11 +54,6 @@
 	"arifle_SPAR_03_blk_F",
 	"arifle_SPAR_03_snd_F",
 	"arifle_SPAR_03_khk_F",
-	"CUP_lmg_minimi_railed",
-	"CUP_arifle_MG36",
-	"CUP_arifle_MG36_camo",
-	"CUP_arifle_MG36_wdl",
-	"LMG_03_F",	
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -146,8 +141,7 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-	"CUP_launch_HCPF3",
-	"CUP_launch_M72A6",
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -182,12 +176,31 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
+	"CUP_V_B_GER_PVest_Fleck_Gren",
+	"CUP_V_B_GER_PVest_Trop_Gren",
+	"CUP_V_B_GER_PVest_Fleck_MG",
+	"CUP_V_B_GER_PVest_Trop_MG",
+	"CUP_V_B_GER_PVest_Fleck_Med",
+	"CUP_V_B_GER_PVest_Trop_Med",
+	"CUP_V_B_GER_PVest_Fleck_OFC",
+	"CUP_V_B_GER_PVest_Trop_OFC",
+	"CUP_V_B_GER_PVest_Fleck_RFL",
+	"CUP_V_B_GER_PVest_Trop_RFL",
 	"CUP_V_B_GER_PVest_Fleck_TL",
 	"CUP_V_B_GER_PVest_Trop_TL",
+	"CUP_V_B_GER_PVest_Fleck_Gren_LT",
+	"CUP_V_B_GER_PVest_Trop_Gren_LT",
+	"CUP_V_B_GER_PVest_Fleck_MG_LT",
+	"CUP_V_B_GER_PVest_Trop_MG_LT",
+	"CUP_V_B_GER_PVest_Fleck_Med_LT",
+	"CUP_V_B_GER_PVest_Trop_Med_LT",
+	"CUP_V_B_GER_PVest_Fleck_RFL_LT",
+	"CUP_V_B_GER_PVest_Trop_RFL_LT",
 	"CUP_V_B_GER_PVest_Fleck_TL_LT",
 	"CUP_V_B_GER_PVest_Trop_TL_LT",
 	"GRE_PlateCarrier1_Flecktarn",
 	"GRE_PlateCarrier1_Tropentarn",
+	"V_Chestrig_rgr",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -217,34 +230,13 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 	"CUP_H_Ger_M92_Cover",
-	"CUP_H_Ger_M92_Cover_GG_CB",
-	"CUP_H_Ger_M92_Cover_GG_CF",
-	"CUP_H_Ger_M92_Cover_GG",
 	"CUP_H_Ger_M92_Cover_Trop",
-	"CUP_H_Ger_M92_Cover_Trop_GG_CB",
-	"CUP_H_Ger_M92_Cover_Trop_GG_CF",
-	"CUP_H_Ger_M92_Cover_Trop_GG",
 	"CUP_H_OpsCore_Covered_Fleck",
 	"CUP_H_OpsCore_Covered_Tropen",
 	"CUP_H_OpsCore_Covered_Tropen_NoHS",
 	"CUP_H_OpsCore_Covered_Tropen_NoHS",
 	"CUP_H_OpsCore_Covered_Fleck_SF",
 	"CUP_H_OpsCore_Covered_Tropen_SF",
-	"CUP_H_Ger_Boonie2_Flecktarn",
-	"CUP_H_Ger_Boonie2_desert",
-	"CUP_H_Ger_Cap_EP_Grn1",
-	"CUP_H_Ger_Cap_EP_Tan1",
-	"CUP_H_Ger_Cap_Grn2",
-	"H_Construction_basic_yellow_F",
-	"H_PilotHelmetFighter_B",
-	"H_CrewHelmetHeli_O",
-	"H_PilotHelmetHeli_O",
-	"H_HelmetCrew_B",
-	"H_CrewHelmetHeli_B",
-	"H_PilotHelmetHeli_B",
-	"H_HelmetSpecB_wdl",
-	"H_HelmetSpecB_sand",
-	"CUP_H_SPH4_khaki",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -279,6 +271,7 @@
 	"CUP_G_Scarf_Face_Grn",
 	"CUP_G_Scarf_Face_Tan",
 	"CUP_G_Oakleys_Drk",
+	"CUP_G_TK_RoundGlasses",
 	"CUP_G_Grn_Scarf_Shades",
 	"CUP_G_Tan_Scarf_Shades",
 	"G_Shades_Black",
@@ -299,8 +292,6 @@
 	"CUP_NVG_PVS7",
 	"CUP_NVG_PVS15_black",
 	"CUP_NVG_PVS15_black_WP",
-	"CUP_NVG_GPNVG_black",
-	"CUP_NVG_GPNVG_black_WP",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -309,9 +300,6 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 	"Binocular",
-	"Rangefinder",
-	"Laserdesignator_02_ghex_F",
-	"ACE_Vector",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -320,13 +308,6 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 	"ItemMap",
-	
-	"ItemAndroid",
-	"ItemcTab",
-	"ItemMicroDAGR",
-	"ItemGPS",
-	"B_UavTerminal",
-	"C_UavTerminal",
 
 	"TFAR_anprc152",
 
@@ -334,7 +315,7 @@
 
 	"ItemWatch",
 	"ACE_Altimeter",
-	"ChemicalDetector_01_watch_F",
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -360,24 +341,7 @@
 	"CUP_20Rnd_TE1_Red_Tracer_762x51_HK417",
 	"CUP_17Rnd_9x19_M17_Black",
 	"CUP_21Rnd_9x19_M17_Black",
-	"CUP_1Rnd_HE_M203",
-	"CUP_1Rnd_HEDP_M203",
-	"UGL_FlareWhite_F",
-	"UGL_FlareGreen_F",
-	"UGL_FlareRed_F",
-	"UGL_FlareCIR_F",
-	"ACE_HuntIR_M203",
-	"CUP_1Rnd_StarCluster_Red_M203",
-	"1Rnd_SmokeRed_Grenade_shell",
-	"1Rnd_SmokeGreen_Grenade_shell",
-	"1Rnd_Smoke_Grenade_shell",
-	"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",
-	"CUP_100Rnd_556x45_BetaCMag",
-	"CUP_100Rnd_556x45_BetaCMag_camo",
-	"CUP_100Rnd_556x45_BetaCMag_wdl",
-	"CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag",
-	"CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag_camo",
-	"CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag_wdl",
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -386,27 +350,7 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 	"SmokeShell",
-	"SmokeShellGreen",
-	"SmokeShellRed",
-	"SmokeShellPurple",
-	"SmokeShellOrange",
-	"SmokeShellBlue",
 	"CUP_HandGrenade_M67",
-	"Chemlight_blue",
-	"ACE_Chemlight_HiBlue",
-	"Chemlight_green",
-	"ACE_Chemlight_HiGreen",
-	"ACE_Chemlight_IR",
-	"ACE_Chemlight_Orange",
-	"ACE_Chemlight_UltraHiOrange",
-	"ACE_Chemlight_White",
-	"ACE_Chemlight_HiWhite",
-	"ACE_Chemlight_HiYellow",
-	"Chemlight_red",
-	"ACE_Chemlight_HiRed",
-	"B_IR_Grenade",
-	"ACE_HandFlare_Red",
-	"ACE_HandFlare_Green",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -414,7 +358,7 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-	"DemoCharge_Remote_Mag",
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -422,16 +366,34 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
+	"ACE_adenosine",
 	"ACE_fieldDressing",
 	"ACE_elasticBandage",
 	"ACE_packingBandage",
 	"ACE_quikclot",
+	"ACE_bodyBag",
+	"ACE_epinephrine",
 	"ACE_morphine",
 	"ACE_salineIV_500",
 	"ACE_salineIV",
 	"ACE_splint",
+	"ACE_surgicalKit",
 	"ACE_tourniquet",
+	"kat_IV_16",
+	"kat_Carbonate",
+	"kat_BVM",
+	"kat_Caffeine",
 	"kat_chestSeal",
+	"kat_EACA",
+	"kat_IO_FAST",
+	"kat_fentanyl",
+	"kat_ketamine",
+	"kat_larynx",
+	"kat_naloxone",
+	"kat_nitroglycerin",
+	"kat_Penthrox",
+	"kat_Pulseoximeter",
+	"kat_TXA",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -439,22 +401,9 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-	"ToolKit",
-	"ACE_artilleryTable",
-	"ACE_ATragMX",
-	"ACE_DefusalKit",
 	"ACE_EntrenchingTool",
-	"ACE_Fortify",
-	"ACE_HuntIR_monitor",
-	"ACE_Kestrel4500",
-	"ACE_Clacker",
-	"ACE_M26_Clacker",
 	"ACE_Flashlight_XL50",
 	"ACE_MapTools",
-	"ACE_PlottingBoard",
-	"ACE_RangeCard",
-	"ACE_SpottingScope",
-	"ACE_Tripod",
 	"ACE_wirecutter",
 	"Attachable_Helistretcher",
 //------------------------------------------------------------------
@@ -475,24 +424,7 @@
 	"ace_marker_flags_red",
 	"ace_marker_flags_white",
 	"ace_marker_flags_yellow",
-	"ACE_rope3",
-	"ACE_rope12",
-	"ACE_rope15",
-	"ACE_rope15",
-	"ACE_rope18",
-	"ACE_rope27",
-	"ACE_rope36",
-	"ACE_SpareBarrel",
-	"ACE_SpraypaintBlack",
-	"ACE_SpraypaintBlue",
-	"ACE_SpraypaintGreen",
-	"ACE_SpraypaintRed",
-	"ACE_SpraypaintWhite",
-	"ACE_SpraypaintYellow",
-	"ACE_UAVBattery",
 	"ItemcTabHCam",
 	"kat_gasmaskFilter",
-	"crowsew_tfar_icom",
-	"crowsew_ctrack",
 	"kat_sealant"
 ];
