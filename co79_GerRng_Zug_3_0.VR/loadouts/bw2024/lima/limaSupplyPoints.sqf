@@ -61,13 +61,13 @@ switch (toLower _supply) do {
 	};
 
 	case "zug8": {
-		_box = "Box_NATO_Equip_F" createVehicle _boxPos;
+		_box = "Land_PlasticCase_01_large_CBRN_F" createVehicle _boxPos;
 		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
 		[_box] execvm limapfad + "box_zug_typ_8.sqf";
 	};	
 
 		case "zug9": {
-		_box = "Box_NATO_Equip_F" createVehicle _boxPos;
+		_box = "Land_PlasticCase_01_large_CBRN_F" createVehicle _boxPos;
 		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
 		[_box] execvm limapfad + "box_zug_typ_9.sqf";
 	};
