@@ -60,24 +60,15 @@ switch (toLower _supply) do {
 		[_box] execvm limapfad + "box_zug_typ_7.sqf";
 	};
 
+	
 	case "zug8": {
-		_box = "Land_PlasticCase_01_large_CBRN_F" createVehicle _boxPos;
-		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
-		[_box] execvm limapfad + "box_zug_typ_8.sqf";
-	};	
-
-		case "zug9": {
-		_box = "Land_PlasticCase_01_large_CBRN_F" createVehicle _boxPos;
-		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
-		[_box] execvm limapfad + "box_zug_typ_9.sqf";
-	};
-
-		case "zug10": {
 		_box = "ACE_Box_Ammo" createVehicle _boxPos;
 		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
-		[_box] execvm limapfad + "box_zug_typ_10.sqf";
+		[_box] execvm limapfad + "box_zug_typ_8.sqf";
 	};
 	
+
+
 	case "wagru1": {
 		_box = "Box_NATO_Wps_F" createVehicle _boxPos;
 		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
@@ -160,6 +151,24 @@ switch (toLower _supply) do {
 		_box = "ACE_Box_Misc" createVehicle _boxPos;
 		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
 		[_box] execvm limapfad + "box_eod_typ_4.sqf";
+	};
+
+	case "cbrn1": {
+		_box = "Land_PlasticCase_01_large_olive_CBRN_F" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_cbrn_typ_1.sqf";
+	};
+
+	case "cbrn2": {
+		_box = "Land_PlasticCase_01_large_olive_CBRN_F" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_cbrn_typ_2.sqf";
+	};
+
+	case "cbrn3": {
+		_box = "Land_PlasticCase_01_medium_olive_CBRN_F" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_cbrn_typ_3.sqf";
 	};
 };
 

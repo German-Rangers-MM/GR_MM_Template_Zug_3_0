@@ -298,11 +298,15 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 		
 		// Icon für Boxen-deploy
 		_icon = "a3\ui_f\data\igui\cfg\cursors\iconboardin_ca.paa";
-		
+		_iconEod = "a3\ui_f\data\igui\cfg\simpletasks\types\mine_ca.paa";
+		_iconCBRN = "z\ace\addons\medical_gui\data\categories\airway_management.paa";
+		_iconWaGru = "a3\ui_f\data\gui\rsc\rscdisplayarsenal\secondaryweapon_ca.paa";
+		_iconZug = "a3\ui_f\data\gui\rsc\rscdisplayarsenal\cargomagall_ca.paa";
+
 		// Lima Supply Point Static & Mobile
 		{
 			// Parent Action für Zug Boxen
-			_zugBoxen = ["Zug Boxen","Zug Boxen","",{ },{true}] call ace_interact_menu_fnc_createAction;
+			_zugBoxen = ["Zug Boxen","Zug Boxen",_iconZug,{ },{true}] call ace_interact_menu_fnc_createAction;
 			[_x, 0, ["ACE_MainActions"], _zugBoxen] call ace_interact_menu_fnc_addActionToObject;
 				//------------------------------------------------------------------
 				_zug1 = ["Zug1","Zug Typ 1 - Munition",_icon,{[["zug1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
@@ -326,17 +330,11 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 				_zug7 = ["Zug7","Zug Typ 7 - Elektronik",_icon,{[["zug7",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 				[_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug7] call ace_interact_menu_fnc_addActionToObject;
 
-				_zug8 = ["Zug6","Zug Typ 8 - CBRN",_icon,{[["zug8",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				_zug8 = ["Zug10","Zug Typ 8 - Munition HK417",_icon,{[["zug8",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 				[_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug8] call ace_interact_menu_fnc_addActionToObject;
-
-				_zug9 = ["Zug9","Zug Typ 9 - CRBN Erkundung",_icon,{[["zug9",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug9] call ace_interact_menu_fnc_addActionToObject;
-
-				_zug10 = ["Zug10","Zug Typ 10 - Munition HK417",_icon,{[["zug10",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug10] call ace_interact_menu_fnc_addActionToObject;
 				//------------------------------------------------------------------
 			// Parent Action für WaGru Boxen
-			_waGruBoxen = ["WaGru Boxen","WaGru Boxen","",{ },{true}] call ace_interact_menu_fnc_createAction;
+			_waGruBoxen = ["WaGru Boxen","WaGru Boxen",_iconWaGru,{ },{true}] call ace_interact_menu_fnc_createAction;
 			[_x, 0, ["ACE_MainActions"], _waGruBoxen] call ace_interact_menu_fnc_addActionToObject;
 				//------------------------------------------------------------------
 				_wagru1 = ["WaGru1","WaGru Typ 1 - MG3",_icon,{[["WaGru1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
@@ -360,6 +358,35 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 				_wagru7 = ["wagru7","WaGru Typ 7 - Combat Engineering",_icon,{[["wagru7",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 				[_x, 0, ["ACE_MainActions", "WaGru Boxen"], _wagru7] call ace_interact_menu_fnc_addActionToObject;
 				//------------------------------------------------------------------
+			// Parent Action für EOD Boxen
+			_eodBoxen = ["EOD Boxen","EOD Boxen",_iconEod,{ },{true}] call ace_interact_menu_fnc_createAction;
+			[_x, 0, ["ACE_MainActions"], _eodBoxen] call ace_interact_menu_fnc_addActionToObject;
+				//------------------------------------------------------------------
+				_eod1 = ["EOD1","EOD Typ I - Anzug",_icon,{[["eod1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions","EOD Boxen"], _eod1] call ace_interact_menu_fnc_addActionToObject;	
+			
+				_eod2 = ["EOD2","EOD Typ II - Drohne",_icon,{[["eod2",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions","EOD Boxen"], _eod2] call ace_interact_menu_fnc_addActionToObject;	
+			
+				_eod3 = ["EOD3","EOD Typ III - Ausrüstung",_icon,{[["eod3",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions","EOD Boxen"], _eod3] call ace_interact_menu_fnc_addActionToObject;
+
+				_eod4 = ["EOD3","EOD Typ IV - Zug",_icon,{[["eod4",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions","EOD Boxen"], _eod4] call ace_interact_menu_fnc_addActionToObject;
+				//------------------------------------------------------------------
+			// Parent Action für CBRN Boxen
+			_cbrnBoxen = ["CBRN Boxen","CBRN Boxen",_iconCBRN,{ },{true}] call ace_interact_menu_fnc_createAction;
+			[_x, 0, ["ACE_MainActions"], _cbrnBoxen] call ace_interact_menu_fnc_addActionToObject;
+				//------------------------------------------------------------------
+				_cbrn1 = ["CBRN1","Typ 1 - CBRN-Schutz",_icon,{[["cbrn1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "CBRN Boxen"], _cbrn1] call ace_interact_menu_fnc_addActionToObject;
+
+				_cbrn2 = ["CBRN2","Typ 2 - CBRN-Erkundung",_icon,{[["cbrn2",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "CBRN Boxen"], _cbrn2] call ace_interact_menu_fnc_addActionToObject;
+
+				_cbrn3 = ["CBRN2","Typ 3 - CBRN-UGV",_icon,{[["cbrn3",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "CBRN Boxen"], _cbrn3] call ace_interact_menu_fnc_addActionToObject;
+				//------------------------------------------------------------------
 			_sierra1 = ["Sierra1","Sierra Munition",_icon,{[["sierra1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 			[_x, 0, ["ACE_MainActions"], _sierra1] call ace_interact_menu_fnc_addActionToObject;
 
@@ -368,18 +395,8 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 
 			_supply = ["Supply","Transport Box (leer)",_icon,{[["supply",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 			[_x, 0, ["ACE_MainActions"], _supply] call ace_interact_menu_fnc_addActionToObject;
-			
-			_eod1 = ["EOD1","EOD Typ I - Anzug",_icon,{[["eod1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-			[_x, 0, ["ACE_MainActions"], _eod1] call ace_interact_menu_fnc_addActionToObject;	
-			
-			_eod2 = ["EOD2","EOD Typ II - Drohne",_icon,{[["eod2",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-			[_x, 0, ["ACE_MainActions"], _eod2] call ace_interact_menu_fnc_addActionToObject;	
-			
-			_eod3 = ["EOD3","EOD Typ III - Ausrüstung",_icon,{[["eod3",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-			[_x, 0, ["ACE_MainActions"], _eod3] call ace_interact_menu_fnc_addActionToObject;
 
-			_eod4 = ["EOD3","EOD Typ IV - Zug",_icon,{[["eod4",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-			[_x, 0, ["ACE_MainActions"], _eod4] call ace_interact_menu_fnc_addActionToObject;
+
 			
 		} forEach [limasupplypointstatic,limasupplypointmobile];		
 	};
