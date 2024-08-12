@@ -11252,7 +11252,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""GR_unitLoadout"", ""Mike_NaSi""];" \n "group this setGroupId [""Mike""];";
+								init="this setVariable [""GR_unitLoadout"", ""Mike_Techniker""];" \n "group this setGroupId [""Mike""];";
 								name="Mike5";
 								description="Techniker@Mike";
 								isPlayable=1;
