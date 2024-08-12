@@ -1,4 +1,4 @@
-// Kiste Zug Typ IX - CBRN Erkundung
+// Kiste CBRN Typ III - CBRN-UGV
 /* Aufruf im Editor mit:
 
 _path = format ["loadouts\%1\lima\box_zug_typ_9.sqf", getMissionConfigValue "fraktion"]; 
@@ -16,14 +16,6 @@ clearItemCargoGlobal _box;
 clearBackpackCargoGlobal _box;
 
 
-_box addItemCargoGlobal ["U_B_CBRN_Suit_01_Wdl_F", 8];
-_box addBackpackCargoGlobal ["B_CombinationUnitRespirator_01_F",8];
-_box addItemCargoGlobal ["kat_mask_M04", 8];
-_box addItemCargoGlobal ["G_AirPurifyingRespirator_01_F", 8];
-_box addItemCargoGlobal ["ChemicalDetector_01_watch_F", 4];
-_box addItemCargoGlobal ["kat_gasmaskFilter", 16];
-_box addItemCargoGlobal ["kat_sealant", 16];
-_box addItemCargoGlobal ["kat_atropine", 12];
 _box addItemCargoGlobal ["ace_marker_flags_orange", 10];
 _box addItemCargoGlobal ["ACE_UAVBattery", 2];
 _box addItemCargoGlobal ["B_UavTerminal", 1];
