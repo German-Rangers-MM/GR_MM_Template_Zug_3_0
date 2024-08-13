@@ -24,6 +24,7 @@ _box addItemCargoGlobal ["ItemcTab", 2];
 _box addItemCargoGlobal ["B_UavTerminal", 2];
 _box addItemCargoGlobal ["ACE_HuntIR_monitor", 2];
 _box addItemCargoGlobal ["ACE_HuntIR_M203", 10];
+_box addItemCargoGlobal ["ACE_UAVBattery", 4];
 
 // für diese Box Gewichtslimit Ignorieren
 //[_box, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;

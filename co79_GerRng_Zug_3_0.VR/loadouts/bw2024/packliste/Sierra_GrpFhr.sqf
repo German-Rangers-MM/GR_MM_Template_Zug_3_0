@@ -435,6 +435,8 @@
 //------------------------------------------------------------------
 	"ACE_artilleryTable",
 	"ACE_ATragMX",
+	"ACE_DAGR",
+	"ACE_microDAGR",
 	"ACE_EntrenchingTool",
 	"ACE_HuntIR_monitor",
 	"ACE_Kestrel4500",

@@ -210,6 +210,9 @@
 	"CUP_V_B_GER_PVest_Trop_RFL",
 	"CUP_V_B_GER_PVest_Fleck_RFL_LT",
 	"CUP_V_B_GER_PVest_Trop_RFL_LT",
+	"CUP_V_B_GER_Tactical_Fleck",
+	"CUP_V_B_GER_Armatus_Fleck",
+	"CUP_V_B_GER_Armatus_BB_Fleck",
 	"GRE_PlateCarrier1_Flecktarn",
 	"GRE_PlateCarrier1_Tropentarn",
 	"V_Chestrig_rgr",
@@ -237,6 +240,8 @@
 	"B_UAV_01_backpack_F",
 	"B_UAV_06_backpack_F",
 	"B_Static_Designator_01_weapon_F",
+	"TFAR_rt1523g_rhs",
+	"TFAR_rt1523g_bwmod",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -458,6 +463,9 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
+	"ACE_ATragMX",
+	"ACE_DAGR",
+	"ACE_microDAGR",
 	"ACE_EntrenchingTool",
 	"ACE_Kestrel4500",
 	"ACE_Flashlight_XL50",
