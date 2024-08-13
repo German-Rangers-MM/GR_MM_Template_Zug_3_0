@@ -69,8 +69,10 @@ GR_WaffenRollen = [
 //-----------------------------------------------------------------------------
 
 GR_ScharfRollen = [
+					["Aufklärungssanitäter","Sierra_AufSan"],
 					["Gruppenführer","Sierra_GrpFhr"],
 					["Scharfschütze","Sierra_Scharf"],
+					["Spotter","Sierra_Spotter"],
 					["Nahsicherer","Sierra_NaSi"]				
 ];
 
@@ -105,9 +107,9 @@ GR_MikeRollen = [
 					["Truppführer","Mike_TF"],
 					["Sanitäter","Sanitaeter"],
 					["Sanitäter vom Dienst","Mike_SvD"],
-					["Fahrer","Mike_Fahrer"],
+					["Fahrer Mike","Mike_Fahrer"],
 					["Leichter Sanitäter","Mike_Sanitaeter_Leicht"],
-					["Techniker","Mike_Techniker"],
+					["Techniker Mike","Mike_Techniker"],
 					["Schütze","Mike_Schuetze"]
 ];
 
@@ -146,17 +148,19 @@ GR_AlleRollen = [
 					["Schütze-EHB","Schuetze_EHB"],
 					["Schütze-DM","Schuetze_DM"],
 					["Schütze-LMG","Schuetze_LMG"],
+					["Aufklärungssanitäter","Sierra_AufSan"],
 					["Gruppenführer","Sierra_GrpFhr"],
 					["Nahsicherer","Sierra_NaSi"],
 					["Scharfschütze","Sierra_Scharf"],
+					["Spotter","Sierra_Spotter"],
 					["Spezialpionier", "Spezialpionier"],
 					["Truppführer","TrpFhr"],
 					["Truppführer Mike", "Mike_TF"],
 					["Waffen-Assi.","Waffen_Assi"],
 					["Waffen-Spez.","Waffen_Spez"],
 					["Fahrer", "ZugFahr"],
-					["Zugführer","ZugFhr"],					
-					["Zug Sanitäter","ZugSani"]							
+					["Zugführer","ZugFhr"],
+					["Zug Sanitäter","ZugSani"]
 ];
 
 //-----------------------------------------------------------------------------
@@ -168,31 +172,33 @@ GR_AlleRollen = [
 GR_Packlisten = [					
 					"Grenadier",
 					"GrpFhr",
-					"GrpFhr_WaGru",					
-					"Lima",							
+					"GrpFhr_WaGru",
+					"Lima",
 					"Mike_AvD",
 					"Mike_Fahrer",
-					"Mike_SvD",
 					"Mike_Sani",
-					"Mike_TF",
-					"Mike_Techniker",
 					"Mike_Sanitaeter_Leicht",
 					"Mike_Schuetze",
+					"Mike_SvD",
+					"Mike_TF",
+					"Mike_Techniker",
 					"Sanitaeter",
 					"Sanitaeter_WaGru",
-					"Schuetze",					
+					"Schuetze",
 					"Schuetze_DM",
 					"Schuetze_EHB",
-					"Schuetze_LMG",						
+					"Schuetze_LMG",
+					"Sierra_AufSan",
 					"Sierra_GrpFhr",
 					"Sierra_NaSi",
 					"Sierra_Scharf",
+					"Sierra_Spotter",
 					"Spezialpionier",
 					"TrpFhr",
 					"Waffen_Assi",
 					"Waffen_Spez",
-					"ZugFhr",
 					"ZugFahr",
+					"ZugFhr",
 					"ZugSani"
 ];
 

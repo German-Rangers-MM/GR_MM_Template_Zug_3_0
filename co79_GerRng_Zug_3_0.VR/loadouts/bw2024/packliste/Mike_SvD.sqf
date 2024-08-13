@@ -144,6 +144,9 @@
 	"CUP_V_B_GER_PVest_Trop_RFL",
 	"CUP_V_B_GER_PVest_Fleck_RFL_LT",
 	"CUP_V_B_GER_PVest_Trop_RFL_LT",
+	"CUP_V_B_GER_Tactical_Fleck",
+	"CUP_V_B_GER_Armatus_Fleck",
+	"CUP_V_B_GER_Armatus_BB_Fleck",
 	"GRE_PlateCarrier1_Flecktarn",
 	"GRE_PlateCarrier1_Tropentarn",
 	"V_Chestrig_rgr",
@@ -168,6 +171,10 @@
 	"CFP_Camelbak_Mule_Drab",
 	"B_FieldPack_green_F",
 	"B_FieldPack_cbr",
+	"TFAR_rt1523g_rhs",
+	"TFAR_rt1523g_bwmod",
+	"TFAR_rt1523g_big_bwmod",
+	"TFAR_rt1523g_big_bwmod_tropen",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //

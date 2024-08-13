@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=35;
+		nextID=37;
 	};
 	class Camera
 	{
-		pos[]={1376.3396,36.978046,5119.729};
-		dir[]={0.77296948,-0.63397038,-0.024492623};
-		up[]={0.63365239,0.77335727,-0.020078164};
-		aside[]={-0.031670511,9.3132257e-010,-0.99949849};
+		pos[]={1397.8584,18.476685,5133.6948};
+		dir[]={0.69553417,-0.71545255,-0.066472113};
+		up[]={0.71223158,0.69863302,-0.068067245};
+		aside[]={-0.095139116,-1.9809522e-007,-0.99549496};
 	};
 };
 binarizationWanted=0;
@@ -271,6 +271,9 @@ randomSeed=13946917;
 class ScenarioData
 {
 	author="SmartGun";
+};
+class CustomAttributes
+{
 };
 class Mission
 {
@@ -10394,16 +10397,16 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1416,5.0014391,5127.0498};
-								angles[]={0,4.7449584,0};
+								angles[]={0,4.744957,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
 								health=0.97482562;
-								init="this setVariable [""GR_unitLoadout"", ""Sierra_NaSi""];" \n "group this setGroupId [""Sierra""];";
+								init="this setVariable [""GR_unitLoadout"", ""Sierra_AufSan""];" \n "group this setGroupId [""Sierra""];";
 								name="Sierra2";
-								description="Nahsicherer";
+								description="Aufklärungssanitäter";
 								isPlayable=1;
 								class Inventory
 								{
