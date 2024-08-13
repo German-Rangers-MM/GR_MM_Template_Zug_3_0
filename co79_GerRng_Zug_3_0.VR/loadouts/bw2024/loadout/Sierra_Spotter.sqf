@@ -29,7 +29,7 @@ player setVariable ["ACE_medical_medicClass",0,true];
 player setVariable ["ACE_isEngineer",0,true];
 
 //    Explosive Specialist:
-player setVariable ["ACE_isEOD",false,false];
+player setVariable ["ACE_isEOD",false,true];
 
 //	Waffe sichern
 [ACE_player, currentWeapon ACE_player, true] call ace_safemode_fnc_setWeaponSafety;

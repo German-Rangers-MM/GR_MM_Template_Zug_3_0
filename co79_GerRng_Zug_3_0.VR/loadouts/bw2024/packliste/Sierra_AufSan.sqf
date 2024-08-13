@@ -139,6 +139,7 @@
 	"CUP_muzzle_snds_SCAR_H",
 	"CUP_muzzle_snds_AWM",
 	"CUP_muzzle_snds_M9",
+	"CUP_muzzle_snds_socom762rc",
 	
 //------------------------------------------------------------------
 //------------------------------------------------------------------
@@ -210,6 +211,8 @@
 	"CUP_V_B_GER_PVest_Trop_RFL",
 	"CUP_V_B_GER_PVest_Fleck_RFL_LT",
 	"CUP_V_B_GER_PVest_Trop_RFL_LT",
+	"CUP_V_B_GER_Armatus_BB_Fleck",
+	"CUP_V_B_GER_Armatus_BB_Trop",
 	"GRE_PlateCarrier1_Flecktarn",
 	"GRE_PlateCarrier1_Tropentarn",
 	"V_Chestrig_rgr",
@@ -252,8 +255,12 @@
 	"CUP_H_OpsCore_Covered_Tropen_NoHS",
 	"CUP_H_OpsCore_Covered_Fleck_SF",
 	"CUP_H_OpsCore_Covered_Tropen_SF",
+	"CUP_H_Ger_Boonie_Flecktarn",
+	"CUP_H_Ger_Boonie_desert",
 	"CUP_H_Ger_Boonie2_Flecktarn",
 	"CUP_H_Ger_Boonie2_desert",
+	"CUP_H_PMC_Cap_Back_EP_Tan",
+	"CUP_H_PMC_Cap_Back_EP_Grey",
 	"CUP_H_Ger_Cap_EP_Grn1",
 	"CUP_H_Ger_Cap_EP_Tan1",
 //------------------------------------------------------------------
