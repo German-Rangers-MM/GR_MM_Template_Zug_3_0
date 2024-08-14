@@ -25,11 +25,6 @@
 	"CUP_arifle_G36CA3_camo",
 	"CUP_arifle_G36CA3_wdl",
 	"CUP_arifle_AG36",
-	"CUP_arifle_G36A_AG36_RIS_camo",
-	"CUP_arifle_G36A_AG36_RIS_wdl",
-	"CUP_arifle_G36A3_AG36",
-	"CUP_arifle_G36A3_AG36_camo",
-	"CUP_arifle_G36A3_AG36_wdl",
 	"CUP_arifle_HK416_Black",
 	"CUP_arifle_HK416_Desert",
 	"CUP_arifle_HK416_Wood",
@@ -37,17 +32,9 @@
 	"CUP_arifle_HK416_CQB_Desert",
 	"CUP_arifle_HK416_CQB_Wood",
 	"CUP_arifle_HK416_CQB_AG36",
-	"CUP_arifle_HK416_CQB_AG36_Desert",
-	"CUP_arifle_HK416_CQB_AG36_Wood",
-	"CUP_arifle_HK416_AGL_Black",
-	"CUP_arifle_HK416_AGL_Desert",
-	"CUP_arifle_HK416_AGL_Wood",
 	"CUP_arifle_HK417_12",
 	"CUP_arifle_HK417_12_Desert",
 	"CUP_arifle_HK417_12_Wood",
-	"CUP_arifle_HK417_12_AG36",
-	"CUP_arifle_HK417_12_AG36_Desert",
-	"CUP_arifle_HK417_12_AG36_Wood",
 	"CUP_arifle_HK417_20",
 	"CUP_arifle_HK417_20_Desert",
 	"CUP_arifle_HK417_20_Wood",
@@ -347,7 +334,6 @@
 //------------------------------------------------------------------
 	"Binocular",
 	"Rangefinder",
-	"Laserdesignator_02_ghex_F",
 	"ACE_Vector",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
@@ -359,10 +345,7 @@
 	"ItemMap",
 	
 	"ItemAndroid",
-	"ItemcTab",
-	"ItemMicroDAGR",
 	"ItemGPS",
-	"B_UavTerminal",
 
 	"TFAR_anprc152",
 
@@ -466,7 +449,6 @@
 	"ACE_DAGR",
 	"ACE_microDAGR",
 	"ACE_EntrenchingTool",
-	"ACE_HuntIR_monitor",
 	"ACE_Kestrel4500",
 	"ACE_Flashlight_XL50",
 	"ACE_MapTools",

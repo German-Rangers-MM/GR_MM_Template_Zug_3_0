@@ -132,12 +132,8 @@
 	"CUP_muzzle_snds_G36_black",
 	"CUP_muzzle_snds_G36_desert",
 	"CUP_muzzle_snds_G36_wood",
-	"CUP_muzzle_mfsup_Suppressor_M107_Black",
-	"CUP_muzzle_mfsup_Suppressor_M107_Desert",
-	"CUP_muzzle_mfsup_Suppressor_M107_Woodland",
 	"CUP_muzzle_snds_SCAR_L",
 	"CUP_muzzle_snds_SCAR_H",
-	"CUP_muzzle_snds_AWM",
 	"CUP_muzzle_snds_M9",
 	"CUP_muzzle_snds_socom762rc",
 	
@@ -166,8 +162,7 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-	"CUP_launch_HCPF3",
-	"CUP_launch_M72A6",
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -336,7 +331,6 @@
 	"ItemMap",
 	
 	"ItemAndroid",
-	"ItemMicroDAGR",
 	"ItemGPS",
 	"B_UavTerminal",
 

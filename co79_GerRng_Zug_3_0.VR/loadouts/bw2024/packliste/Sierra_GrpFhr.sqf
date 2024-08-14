@@ -132,12 +132,8 @@
 	"CUP_muzzle_snds_G36_black",
 	"CUP_muzzle_snds_G36_desert",
 	"CUP_muzzle_snds_G36_wood",
-	"CUP_muzzle_mfsup_Suppressor_M107_Black",
-	"CUP_muzzle_mfsup_Suppressor_M107_Desert",
-	"CUP_muzzle_mfsup_Suppressor_M107_Woodland",
 	"CUP_muzzle_snds_SCAR_L",
 	"CUP_muzzle_snds_SCAR_H",
-	"CUP_muzzle_snds_AWM",
 	"CUP_muzzle_snds_M9",
 	"CUP_muzzle_snds_socom762rc",
 	
@@ -166,8 +162,7 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-	"CUP_launch_HCPF3",
-	"CUP_launch_M72A6",
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -211,6 +206,8 @@
 	"CUP_V_B_GER_PVest_Trop_TL",
 	"CUP_V_B_GER_PVest_Fleck_TL_LT",
 	"CUP_V_B_GER_PVest_Trop_TL_LT",
+	"CUP_V_B_GER_Armatus_BB_Fleck",
+	"CUP_V_B_GER_Armatus_BB_Trop",
 	"GRE_PlateCarrier1_Flecktarn",
 	"GRE_PlateCarrier1_Tropentarn",
 	"V_Chestrig_rgr",
@@ -324,7 +321,6 @@
 	
 	"ItemAndroid",
 	"ItemcTab",
-	"ItemMicroDAGR",
 	"ItemGPS",
 	"B_UavTerminal",
 
@@ -357,10 +353,6 @@
 	"CUP_20Rnd_762x51_HK417_Camo_Desert",
 	"CUP_20Rnd_762x51_HK417_Camo_Wood",
 	"CUP_20Rnd_TE1_Red_Tracer_762x51_HK417",
-	"CUP_5Rnd_762x67_G22",
-	"ACE_5Rnd_127x99_Mag",
-	"ACE_5Rnd_127x99_API_Mag",
-	"ACE_5Rnd_127x99_AMAX_Mag",
 	"CUP_17Rnd_9x19_M17_Black",
 	"CUP_21Rnd_9x19_M17_Black",
 	"CUP_1Rnd_HE_M203",
@@ -375,8 +367,6 @@
 	"1Rnd_Smoke_Grenade_shell",
 	"ACE_HuntIR_M203",
 	"Laserbatteries",
-	"CUP_10Rnd_127x99_M107",
-	"7Rnd_408_Mag",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
