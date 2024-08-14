@@ -69,8 +69,8 @@ GR_WaffenRollen = [
 //-----------------------------------------------------------------------------
 
 GR_ScharfRollen = [
-					["Aufklärungssanitäter","Sierra_AufSan"],
 					["Gruppenführer","Sierra_GrpFhr"],
+					["Aufklärungssanitäter","Sierra_AufSan"],
 					["Scharfschütze","Sierra_Scharf"],
 					["Spotter","Sierra_Spotter"],
 					["Nahsicherer","Sierra_NaSi"]				
