@@ -18,4 +18,4 @@ jobs:
                   repo-token: ${{ secrets.GR_MM_TOKEN }}
                   teams: mission-makers-dev
                   numOfAssignee: 2
-                  allowSelfAssign: false
+                  allowSelfAssign: true
