@@ -15,7 +15,7 @@ jobs:
             - name: 'Auto-assign PR'
               uses: pozil/auto-assign-issue@v2
               with:
-                  repo-token: ${{ secrets.GR_MM_TOKEN_ORG }}
+                  repo-token: ${{ secrets.GR_MM_TOKEN }}
                   teams: mission-makers-dev
                   numOfAssignee: 2
                   allowSelfAssign: true
