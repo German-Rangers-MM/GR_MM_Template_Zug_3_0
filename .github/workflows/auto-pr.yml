@@ -3,7 +3,7 @@
 name: PR assignment
 
 on:
-    issues:
+    pull_request:
         types: [opened, edited, synchronize, reopened]
 
 jobs:
