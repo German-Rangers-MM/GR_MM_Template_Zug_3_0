@@ -25,11 +25,6 @@
 	"CUP_arifle_G36CA3_camo",
 	"CUP_arifle_G36CA3_wdl",
 	"CUP_arifle_AG36",
-	"CUP_arifle_G36A_AG36_RIS_camo",
-	"CUP_arifle_G36A_AG36_RIS_wdl",
-	"CUP_arifle_G36A3_AG36",
-	"CUP_arifle_G36A3_AG36_camo",
-	"CUP_arifle_G36A3_AG36_wdl",
 	"CUP_arifle_HK416_Black",
 	"CUP_arifle_HK416_Desert",
 	"CUP_arifle_HK416_Wood",
@@ -37,17 +32,9 @@
 	"CUP_arifle_HK416_CQB_Desert",
 	"CUP_arifle_HK416_CQB_Wood",
 	"CUP_arifle_HK416_CQB_AG36",
-	"CUP_arifle_HK416_CQB_AG36_Desert",
-	"CUP_arifle_HK416_CQB_AG36_Wood",
-	"CUP_arifle_HK416_AGL_Black",
-	"CUP_arifle_HK416_AGL_Desert",
-	"CUP_arifle_HK416_AGL_Wood",
 	"CUP_arifle_HK417_12",
 	"CUP_arifle_HK417_12_Desert",
 	"CUP_arifle_HK417_12_Wood",
-	"CUP_arifle_HK417_12_AG36",
-	"CUP_arifle_HK417_12_AG36_Desert",
-	"CUP_arifle_HK417_12_AG36_Wood",
 	"CUP_arifle_HK417_20",
 	"CUP_arifle_HK417_20_Desert",
 	"CUP_arifle_HK417_20_Wood",
@@ -132,12 +119,8 @@
 	"CUP_muzzle_snds_G36_black",
 	"CUP_muzzle_snds_G36_desert",
 	"CUP_muzzle_snds_G36_wood",
-	"CUP_muzzle_mfsup_Suppressor_M107_Black",
-	"CUP_muzzle_mfsup_Suppressor_M107_Desert",
-	"CUP_muzzle_mfsup_Suppressor_M107_Woodland",
 	"CUP_muzzle_snds_SCAR_L",
 	"CUP_muzzle_snds_SCAR_H",
-	"CUP_muzzle_snds_AWM",
 	"CUP_muzzle_snds_M9",
 	"CUP_muzzle_snds_socom762rc",
 	
@@ -166,8 +149,7 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-	"CUP_launch_HCPF3",
-	"CUP_launch_M72A6",
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -211,8 +193,6 @@
 	"CUP_V_B_GER_PVest_Trop_RFL",
 	"CUP_V_B_GER_PVest_Fleck_RFL_LT",
 	"CUP_V_B_GER_PVest_Trop_RFL_LT",
-	"CUP_V_B_GER_Tactical_Fleck",
-	"CUP_V_B_GER_Armatus_Fleck",
 	"CUP_V_B_GER_Armatus_BB_Fleck",
 	"CUP_V_B_GER_Armatus_BB_Trop",
 	"GRE_PlateCarrier1_Flecktarn",
@@ -239,8 +219,6 @@
 	"CFP_Camelbak_Mule_Drab",
 	"B_FieldPack_green_F",
 	"B_FieldPack_cbr",
-	"B_UAV_01_backpack_F",
-	"B_UAV_06_backpack_F",
 	"B_Static_Designator_01_weapon_F",
 	"TFAR_rt1523g_rhs",
 	"TFAR_rt1523g_bwmod",
@@ -330,6 +308,7 @@
 //------------------------------------------------------------------
 	"Binocular",
 	"Rangefinder",
+	"ACE_Vector",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -340,9 +319,7 @@
 	"ItemMap",
 	
 	"ItemAndroid",
-	"ItemMicroDAGR",
 	"ItemGPS",
-	"B_UavTerminal",
 
 	"TFAR_anprc152",
 
@@ -380,16 +357,6 @@
 	"CUP_10Rnd_127x99_M107",
 	"CUP_17Rnd_9x19_M17_Black",
 	"CUP_21Rnd_9x19_M17_Black",
-	"CUP_1Rnd_HE_M203",
-	"CUP_1Rnd_HEDP_M203",
-	"UGL_FlareWhite_F",
-	"UGL_FlareGreen_F",
-	"UGL_FlareRed_F",
-	"UGL_FlareCIR_F",
-	"CUP_1Rnd_StarCluster_Red_M203",
-	"1Rnd_SmokeRed_Grenade_shell",
-	"1Rnd_SmokeGreen_Grenade_shell",
-	"1Rnd_Smoke_Grenade_shell",
 	"Laserbatteries",
 	"7Rnd_408_Mag",
 //------------------------------------------------------------------
@@ -434,34 +401,17 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-	"ACE_adenosine",
 	"ACE_fieldDressing",
 	"ACE_elasticBandage",
 	"ACE_packingBandage",
 	"ACE_quikclot",
-	"ACE_bodyBag",
-	"ACE_epinephrine",
 	"ACE_morphine",
 	"ACE_salineIV_500",
 	"ACE_salineIV",
 	"ACE_splint",
-	"ACE_surgicalKit",
 	"ACE_tourniquet",
-	"kat_IV_16",
-	"kat_Carbonate",
-	"kat_pocketBVM",
-	"kat_Caffeine",
 	"kat_chestSeal",
-	"kat_EACA",
-	"kat_IO_FAST",
-	"kat_fentanyl",
-	"kat_ketamine",
-	"kat_larynx",
-	"kat_naloxone",
-	"kat_nitroglycerin",
-	"kat_Penthrox",
-	"kat_Pulseoximeter",
-	"kat_TXA",
+	"kat_Caffeine",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //

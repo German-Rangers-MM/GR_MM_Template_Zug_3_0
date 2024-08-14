@@ -24,30 +24,15 @@
 	"CUP_arifle_G36CA3",
 	"CUP_arifle_G36CA3_camo",
 	"CUP_arifle_G36CA3_wdl",
-	"CUP_arifle_AG36",
-	"CUP_arifle_G36A_AG36_RIS_camo",
-	"CUP_arifle_G36A_AG36_RIS_wdl",
-	"CUP_arifle_G36A3_AG36",
-	"CUP_arifle_G36A3_AG36_camo",
-	"CUP_arifle_G36A3_AG36_wdl",
 	"CUP_arifle_HK416_Black",
 	"CUP_arifle_HK416_Desert",
 	"CUP_arifle_HK416_Wood",
 	"CUP_arifle_HK416_CQB_Black",
 	"CUP_arifle_HK416_CQB_Desert",
 	"CUP_arifle_HK416_CQB_Wood",
-	"CUP_arifle_HK416_CQB_AG36",
-	"CUP_arifle_HK416_CQB_AG36_Desert",
-	"CUP_arifle_HK416_CQB_AG36_Wood",
-	"CUP_arifle_HK416_AGL_Black",
-	"CUP_arifle_HK416_AGL_Desert",
-	"CUP_arifle_HK416_AGL_Wood",
 	"CUP_arifle_HK417_12",
 	"CUP_arifle_HK417_12_Desert",
 	"CUP_arifle_HK417_12_Wood",
-	"CUP_arifle_HK417_12_AG36",
-	"CUP_arifle_HK417_12_AG36_Desert",
-	"CUP_arifle_HK417_12_AG36_Wood",
 	"CUP_arifle_HK417_20",
 	"CUP_arifle_HK417_20_Desert",
 	"CUP_arifle_HK417_20_Wood",
@@ -132,12 +117,8 @@
 	"CUP_muzzle_snds_G36_black",
 	"CUP_muzzle_snds_G36_desert",
 	"CUP_muzzle_snds_G36_wood",
-	"CUP_muzzle_mfsup_Suppressor_M107_Black",
-	"CUP_muzzle_mfsup_Suppressor_M107_Desert",
-	"CUP_muzzle_mfsup_Suppressor_M107_Woodland",
 	"CUP_muzzle_snds_SCAR_L",
 	"CUP_muzzle_snds_SCAR_H",
-	"CUP_muzzle_snds_AWM",
 	"CUP_muzzle_snds_M9",
 	"CUP_muzzle_snds_socom762rc",
 	
@@ -166,8 +147,7 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-	"CUP_launch_HCPF3",
-	"CUP_launch_M72A6",
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -336,7 +316,6 @@
 	"ItemMap",
 	
 	"ItemAndroid",
-	"ItemMicroDAGR",
 	"ItemGPS",
 	"B_UavTerminal",
 
@@ -369,11 +348,6 @@
 	"CUP_20Rnd_762x51_HK417_Camo_Desert",
 	"CUP_20Rnd_762x51_HK417_Camo_Wood",
 	"CUP_20Rnd_TE1_Red_Tracer_762x51_HK417",
-	"CUP_5Rnd_762x67_G22",
-	"ACE_5Rnd_127x99_Mag",
-	"ACE_5Rnd_127x99_API_Mag",
-	"ACE_5Rnd_127x99_AMAX_Mag",
-	"CUP_10Rnd_127x99_M107",
 	"CUP_17Rnd_9x19_M17_Black",
 	"CUP_21Rnd_9x19_M17_Black",
 	"CUP_1Rnd_HE_M203",
@@ -387,7 +361,6 @@
 	"1Rnd_SmokeGreen_Grenade_shell",
 	"1Rnd_Smoke_Grenade_shell",
 	"Laserbatteries",
-	"7Rnd_408_Mag",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -466,16 +439,10 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 	"ACE_ATragMX",
-	"ACE_DAGR",
-	"ACE_microDAGR",
 	"ACE_EntrenchingTool",
-	"ACE_Kestrel4500",
 	"ACE_Flashlight_XL50",
 	"ACE_MapTools",
-	"ACE_PlottingBoard",
 	"ACE_RangeCard",
-	"ACE_SpottingScope",
-	"ACE_Tripod",
 	"ACE_wirecutter",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
