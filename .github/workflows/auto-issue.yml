@@ -1,0 +1,21 @@
+# This workflow auto assigns Issues to teams
+
+name: Issue assignment
+
+on:
+    issues:
+        types: [opened]
+
+jobs:
+    auto-assign:
+        runs-on: ubuntu-latest
+        permissions:
+            issues: write
+        steps:
+            - name: 'Auto-assign issue'
+              uses: pozil/auto-assign-issue@v2
+              with:
+                  repo-token: ${{ secrets.GR_MM_TOKEN_ORG }}
+                  teams: mission-makers-dev
+                  numOfAssignee: 2
+                  allowSelfAssign: false
