@@ -44,7 +44,7 @@ body:
     attributes:
       label: Noch ein paar Kleinigkeiten bevor du deinen Vorschlag abgeben kannst.
       options:
-        - label: Ich habe in Issues nachgesehen ob diese Problem bereits gemeldet wurde oder es breits einen Pull-Request dazu gibt.
+        - label: Ich habe in Issues nachgesehen ob diese Problem bereits gemeldet wurde oder es bereits einen Pull-Request dazu gibt.
           required: true
         - label: Ich würde gerne selbst an der Problemlösung mitarbeiten.
   - type: markdown
