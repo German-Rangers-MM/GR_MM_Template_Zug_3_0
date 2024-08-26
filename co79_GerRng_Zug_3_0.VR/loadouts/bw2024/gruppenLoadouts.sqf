@@ -105,12 +105,12 @@ GR_HotelRollen = [
 GR_MikeRollen = [
 					["Arzt vom Dienst","Mike_AvD"],
 					["Truppführer","Mike_TF"],
-					["Sanitäter","Sanitaeter"],
+					["Sanitäter (Mike)","Sanitaeter"],
 					["Sanitäter vom Dienst","Mike_SvD"],
-					["Fahrer Mike","Mike_Fahrer"],
+					["Fahrer (Mike)","Mike_Fahrer"],
 					["Leichter Sanitäter","Mike_Sanitaeter_Leicht"],
 					["Techniker Mike","Mike_Techniker"],
-					["Schütze","Mike_Schuetze"]
+					["Schütze (Mike)","Mike_Schuetze"]
 ];
 
 //-----------------------------------------------------------------------------
@@ -139,8 +139,8 @@ GR_AlleRollen = [
 					["Arzt vom Dienst","Mike_AvD"],
 					["Fahrer","Mike_Fahrer"],
 					["Sanitäter vom Dienst","Mike_SvD"],
-					["Sanitäter","Mike_Sani"],
-					["Schütze","Mike_Schuetze"],
+					["Sanitäter (Mike)","Mike_Sani"],
+					["Schütze (Mike)","Mike_Schuetze"],
 					["Techniker","Mike_Techniker"],
 					["Sanitäter Leicht","Mike_Sanitaeter_Leicht"],
 					["Sanitäter","Sanitaeter"],

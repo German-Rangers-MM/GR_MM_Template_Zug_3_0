@@ -16,7 +16,7 @@ player setUnitLoadout [
 	["GRE_PlateCarrier1_Flecktarn",[["HandGrenade",2,1],["SmokeShell",4,1],["CUP_100Rnd_556x45_BetaCMag_wdl",6,100]]],
 	["CFP_Camelbak_Mule_RngrGrn",[["ACE_EntrenchingTool",1],["CUP_100Rnd_556x45_BetaCMag_wdl",3,100],[["CUP_launch_M72A6","","","",[],[],""],1]]],
 	"CUP_H_OpsCore_Covered_Fleck","CUP_G_PMC_Facewrap_Tan_Glasses_Dark",["Rangefinder","","","",[],[],""],
-	["ItemMap","","TFAR_anprc152","ItemCompass","ItemWatch",""]
+	["ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ItemWatch",""]
 ];
 
 //------------------------------------------------------------------
@@ -26,7 +26,7 @@ player setUnitLoadout [
 player setVariable ["ACE_medical_medicClass",0,true];
 
 //	Combat Engineer:
-player setVariable ["ACE_isEngineer",1,true];
+player setVariable ["ACE_isEngineer",2,true];
 
 //	Explosive Specialist:
 player setVariable ["ACE_isEOD",true,true];

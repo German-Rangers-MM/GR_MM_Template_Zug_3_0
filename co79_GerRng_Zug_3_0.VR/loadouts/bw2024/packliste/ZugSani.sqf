@@ -386,7 +386,7 @@
 	"kat_nitroglycerin",
 	"kat_Penthrox",
 	"kat_pocketBVM",
-	"kat_oxygenTank_150_Item",
+	"kat_oxygenTank_150",
 	"kat_Pulseoximeter",
 	"kat_TXA",
 //------------------------------------------------------------------

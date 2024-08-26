@@ -190,6 +190,14 @@
 	"CUP_H_OpsCore_Covered_Tropen_NoHS",
 	"CUP_H_OpsCore_Covered_Fleck_SF",
 	"CUP_H_OpsCore_Covered_Tropen_SF",
+	"CUP_H_Ger_Boonie_Flecktarn",
+	"CUP_H_Ger_Boonie_desert",
+	"CUP_H_Ger_Boonie2_Flecktarn",
+	"CUP_H_Ger_Boonie2_desert",
+	"CUP_H_PMC_Cap_Back_EP_Tan",
+	"CUP_H_PMC_Cap_Back_EP_Grey",
+	"CUP_H_Ger_Cap_EP_Grn1",
+	"CUP_H_Ger_Cap_EP_Tan1",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -263,6 +271,9 @@
 //------------------------------------------------------------------
 	"ItemMap",
 
+	"ItemAndroid",
+	"ItemcTab",
+	"ItemMicroDAGR",
 	"TFAR_anprc152",
 
 	"ItemCompass",
@@ -364,10 +375,11 @@
 	"kat_Painkiller",
 	"kat_Penthrox",
 	"kat_pocketBVM",
-	"kat_oxygenTank_150_Item",
-	"kat_oxygenTank_300_Item",
+	"kat_oxygenTank_150",
+	"kat_oxygenTank_300",
 	"kat_Pulseoximeter",
 	"kat_TXA",
+	"kat_lorazepam",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //

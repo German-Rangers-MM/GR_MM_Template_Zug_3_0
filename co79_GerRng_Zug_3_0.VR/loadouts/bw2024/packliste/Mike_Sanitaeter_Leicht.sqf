@@ -141,7 +141,8 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-
+	"CUP_launch_M72A6",
+	"CUP_launch_M136",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -240,6 +241,14 @@
 	"CUP_H_OpsCore_Covered_Tropen_NoHS",
 	"CUP_H_OpsCore_Covered_Fleck_SF",
 	"CUP_H_OpsCore_Covered_Tropen_SF",
+	"CUP_H_Ger_Boonie_Flecktarn",
+	"CUP_H_Ger_Boonie_desert",
+	"CUP_H_Ger_Boonie2_Flecktarn",
+	"CUP_H_Ger_Boonie2_desert",
+	"CUP_H_PMC_Cap_Back_EP_Tan",
+	"CUP_H_PMC_Cap_Back_EP_Grey",
+	"CUP_H_Ger_Cap_EP_Grn1",
+	"CUP_H_Ger_Cap_EP_Tan1",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -312,6 +321,8 @@
 //------------------------------------------------------------------
 	"ItemMap",
 
+	"ItemAndroid",
+	"ItemMicroDAGR",
 	"TFAR_anprc152",
 
 	"ItemCompass",
