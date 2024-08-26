@@ -306,8 +306,6 @@
 	"ItemcTab",
 	"ItemMicroDAGR",
 	"ItemGPS",
-	"B_UavTerminal",
-	"C_UavTerminal",
 
 	"TFAR_anprc152",
 
