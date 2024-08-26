@@ -310,7 +310,6 @@
 	"ItemMap",
 	
 	"ItemAndroid",
-	"ItemcTab",
 	"ItemMicroDAGR",
 	"ItemGPS",
 
