@@ -16,7 +16,7 @@ player setUnitLoadout [
 	["GRE_PlateCarrier1_Flecktarn",[["SmokeShell",2,1],["CUP_21Rnd_9x19_M17_Black",1,21],["CUP_HandGrenade_M67",2,1],["CUP_30Rnd_556x45_G36",6,30]]],
 	["CUP_B_GER_Medic_Flecktarn",[["ACE_splint",10],["ACE_elasticBandage",20],["ACE_salineIV_500",15],["ACE_epinephrine",5],["ACE_adenosine",4],["kat_BVM",1],["kat_IV_16",10],["kat_EACA",5],["kat_TXA",10],["kat_fentanyl",3],["kat_nitroglycerin",5],["kat_IO_FAST",5],["kat_chestSeal",10],["kat_larynx",10],["kat_Pulseoximeter",1],["ACE_surgicalKit",1],["ACE_tourniquet",4],["kat_Carbonate",1,10]]],
 	"CUP_H_OpsCore_Covered_Fleck","CUP_G_PMC_Facewrap_Black_Glasses_Dark",[],
-	["ItemMap","","TFAR_anprc152","ItemCompass","ItemWatch",""]
+	["ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ItemWatch",""]
 ];
 
 //------------------------------------------------------------------
