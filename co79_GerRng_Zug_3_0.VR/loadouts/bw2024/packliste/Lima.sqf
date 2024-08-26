@@ -625,8 +625,8 @@
 	"kat_Painkiller",
 	"kat_Penthrox",
 	"kat_pocketBVM",
-	"kat_oxygenTank_150_Item",
-	"kat_oxygenTank_300_Item",
+	"kat_oxygenTank_150",
+	"kat_oxygenTank_300",
 	"kat_Pulseoximeter",
 	"kat_TXA",
 //------------------------------------------------------------------
