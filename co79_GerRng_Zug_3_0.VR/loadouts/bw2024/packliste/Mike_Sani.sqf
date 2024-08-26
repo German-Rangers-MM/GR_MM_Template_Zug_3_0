@@ -376,7 +376,7 @@
 	"kat_larynx",
 	"kat_naloxone",
 	"kat_nitroglycerin",
-	"kat_oxygenTank_150_Item",
+	"kat_oxygenTank_150",
 	"kat_Pulseoximeter",
 	"kat_Penthrox",
 	"kat_TXA",
