@@ -263,6 +263,9 @@
 //------------------------------------------------------------------
 	"ItemMap",
 
+	"ItemAndroid",
+	"ItemcTab",
+	"ItemMicroDAGR",
 	"TFAR_anprc152",
 
 	"ItemCompass",
