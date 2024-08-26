@@ -142,6 +142,7 @@ GR_AlleRollen = [
 					["Sanitäter","Mike_Sani"],
 					["Schütze","Mike_Schuetze"],
 					["Techniker","Mike_Techniker"],
+					["Sanitäter Leicht","Mike_Sanitaeter_Leicht"],
 					["Sanitäter","Sanitaeter"],
 					["Sanitäter WaGru","Sanitaeter_WaGru"],
 					["Schütze","Schuetze"],
