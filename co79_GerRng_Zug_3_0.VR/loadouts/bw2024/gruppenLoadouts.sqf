@@ -110,7 +110,7 @@ GR_MikeRollen = [
 					["Fahrer (Mike)","Mike_Fahrer"],
 					["Leichter Sanitäter","Mike_SaniL"],
 					["Techniker Mike","Mike_Techniker"],
-					["Schütze (Mike)","Mike_Schuetze"]
+					["Schütze (Mike)","Mike_SchM"]
 ];
 
 //-----------------------------------------------------------------------------
@@ -140,7 +140,7 @@ GR_AlleRollen = [
 					["Fahrer","Mike_Fahrer"],
 					["Sanitäter vom Dienst","Mike_SvD"],
 					["Sanitäter (Mike)","Mike_Sani"],
-					["Schütze (Mike)","Mike_Schuetze"],
+					["Schütze (Mike)","Mike_SchM"],
 					["Techniker","Mike_Techniker"],
 					["Sanitäter Leicht","Mike_SaniL"],
 					["Sanitäter","Sanitaeter"],
@@ -179,7 +179,7 @@ GR_Packlisten = [
 					"Mike_Fahrer",
 					"Mike_Sani",
 					"Mike_SaniL",
-					"Mike_Schuetze",
+					"Mike_SchM",
 					"Mike_SvD",
 					"Mike_TF",
 					"Mike_Techniker",
