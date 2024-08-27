@@ -11408,7 +11408,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""GR_unitLoadout"", ""Mike_Sanitaeter_Leicht""];" \n "group this setGroupId [""Mike""];";
+								init="this setVariable [""GR_unitLoadout"", ""Mike_SaniL""];" \n "group this setGroupId [""Mike""];";
 								name="Mike7";
 								description="Leichter Sanitäter@Mike";
 								isPlayable=1;
