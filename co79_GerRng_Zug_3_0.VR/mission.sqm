@@ -11483,7 +11483,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""GR_unitLoadout"", ""Mike_Schuetze""];" \n "group this setGroupId [""Mike""];";
+								init="this setVariable [""GR_unitLoadout"", ""Mike_SchM""];" \n "group this setGroupId [""Mike""];";
 								name="Mike8";
 								description="Schütze@Mike";
 								isPlayable=1;
