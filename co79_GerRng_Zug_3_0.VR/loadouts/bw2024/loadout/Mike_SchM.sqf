@@ -5,7 +5,7 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-player setVariable ["GR_unitLoadout","Mike_Schuetze"];
+player setVariable ["GR_unitLoadout","Mike_SchM"];
 
 //    https://community.bistudio.com/wiki/Unit_Loadout_Array
 player setUnitLoadout [
