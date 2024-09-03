@@ -15,7 +15,8 @@ clearMagazineCargoGlobal _box;
 clearItemCargoGlobal _box;
 clearBackpackCargoGlobal _box;
 
-_box addMagazineCargoGlobal ["CUP_1Rnd_HE_M203",15];
+_box addMagazineCargoGlobal ["CUP_1Rnd_HE_M203",20];
+_box addMagazineCargoGlobal ["CUP_1Rnd_HEDP_M203",20];
 _box addMagazineCargoGlobal ["UGL_FlareWhite_F",10];
 _box addMagazineCargoGlobal ["1Rnd_SmokeRed_Grenade_shell",5];
 _box addMagazineCargoGlobal ["1Rnd_Smoke_Grenade_shell",15];
