@@ -500,4 +500,4 @@ titleText ["Missionsvorbereitung", "BLACK IN" ];
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 
-[] execVM "scripts\core\modcheck.sqf";
+//[] execVM "scripts\core\modcheck.sqf";
