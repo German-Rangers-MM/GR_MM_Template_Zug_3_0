@@ -31,12 +31,12 @@ GR_SchuetzenRollen = [
 					["Gruppenführer","GrpFhr"],
 					["Truppführer","TrpFhr"],
 					["Sanitäter","Sanitaeter"],
+					["Führungsassistent","FueAss"],
 					["Grenadier","Grenadier"],
 					["Schütze","Schuetze"],
 					["Schütze-DM","Schuetze_DM"],
 					["Schütze-EHB","Schuetze_EHB"],
-					["Schütze-LMG","Schuetze_LMG"],
-					["Führungsassistent","FueAss"]													
+					["Schütze-LMG","Schuetze_LMG"]												
 ];
 
 //-----------------------------------------------------------------------------
