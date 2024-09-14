@@ -67,6 +67,9 @@
 	"CUP_optic_ZeissZPoint",
 	"CUP_optic_ZeissZPoint_desert",
 	"CUP_optic_ZeissZPoint_wood",
+	"CUP_optic_AIMM_MICROT1_BLK",
+	"CUP_optic_AIMM_MICROT1_TAN",
+	"CUP_optic_AIMM_MICROT1_OD",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //

@@ -110,6 +110,14 @@
 	"CUP_optic_ZeissZPoint_desert",
 	"CUP_optic_ZeissZPoint_wood",
 	"optic_LRPS_tna_F",
+	"CUP_optic_AIMM_MICROT1_BLK",
+	"CUP_optic_AIMM_MICROT1_TAN",
+	"CUP_optic_AIMM_MICROT1_OD",
+	"CUP_optic_SB_11_4x20_PM_od",
+	"CUP_optic_SB_11_4x20_PM_tan",
+	"CUP_optic_SB_11_4x20_PM",
+	"CUP_optic_SB_3_12x50_PMII",
+	"CUP_optic_SB_3_12x50_PMII_Tan",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -387,6 +395,10 @@
 	"7Rnd_408_Mag",
 	"5Rnd_127x108_Mag",
 	"5Rnd_127x108_APDS_Mag",
+	"ACE_20Rnd_762x51_Mag_Tracer_Dim",
+	"ACE_10Rnd_762x51_Mag_Tracer_Dim",
+	"ACE_20Rnd_762x51_M993_AP_Mag",
+	"ACE_10Rnd_762x51_M993_AP_Mag",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //

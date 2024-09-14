@@ -61,6 +61,9 @@
 	"optic_AMS",
 	"optic_AMS_snd",
 	"optic_AMS_khk",
+	"CUP_optic_AIMM_MICROT1_BLK",
+	"CUP_optic_AIMM_MICROT1_TAN",
+	"CUP_optic_AIMM_MICROT1_OD",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //

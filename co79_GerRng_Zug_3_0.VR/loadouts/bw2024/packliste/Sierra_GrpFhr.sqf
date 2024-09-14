@@ -103,6 +103,14 @@
 	"CUP_optic_ZeissZPoint",
 	"CUP_optic_ZeissZPoint_desert",
 	"CUP_optic_ZeissZPoint_wood",
+	"CUP_optic_AIMM_MICROT1_BLK",
+	"CUP_optic_AIMM_MICROT1_TAN",
+	"CUP_optic_AIMM_MICROT1_OD",
+	"CUP_optic_SB_11_4x20_PM_od",
+	"CUP_optic_SB_11_4x20_PM_tan",
+	"CUP_optic_SB_11_4x20_PM",
+	"CUP_optic_SB_3_12x50_PMII",
+	"CUP_optic_SB_3_12x50_PMII_Tan",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -367,6 +375,10 @@
 	"1Rnd_Smoke_Grenade_shell",
 	"ACE_HuntIR_M203",
 	"Laserbatteries",
+	"ACE_20Rnd_762x51_Mag_Tracer_Dim",
+	"ACE_10Rnd_762x51_Mag_Tracer_Dim",
+	"ACE_20Rnd_762x51_M993_AP_Mag",
+	"ACE_10Rnd_762x51_M993_AP_Mag",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //

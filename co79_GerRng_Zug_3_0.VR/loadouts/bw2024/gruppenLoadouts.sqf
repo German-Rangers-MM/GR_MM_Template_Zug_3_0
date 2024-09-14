@@ -35,7 +35,8 @@ GR_SchuetzenRollen = [
 					["Schütze","Schuetze"],
 					["Schütze-DM","Schuetze_DM"],
 					["Schütze-EHB","Schuetze_EHB"],
-					["Schütze-LMG","Schuetze_LMG"]																
+					["Schütze-LMG","Schuetze_LMG"],
+					["Führungsassistent","FueAss"]													
 ];
 
 //-----------------------------------------------------------------------------
@@ -131,6 +132,8 @@ GR_LimaRollen = [
 //-----------------------------------------------------------------------------
 
 GR_AlleRollen = [
+					
+					["Führungsassistent","FueAss"],
 					["Grenadier","Grenadier"],
 					["Gruppenführer","GrpFhr"],
 					["Gruppenführer WaGru","GrpFhr_WaGru"],
@@ -171,6 +174,7 @@ GR_AlleRollen = [
 //-----------------------------------------------------------------------------
 
 GR_Packlisten = [					
+					"FueAss",
 					"Grenadier",
 					"GrpFhr",
 					"GrpFhr_WaGru",
