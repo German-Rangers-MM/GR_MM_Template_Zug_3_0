@@ -170,6 +170,16 @@ switch (toLower _supply) do {
 		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
 		[_box] execvm limapfad + "box_cbrn_typ_3.sqf";
 	};
+
+	case "ersatzrad": {
+		_box = "ACE_Wheel" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+	};
+
+	case "ersatzkette": {
+		_box = "ACE_Track" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+	};
 };
 
 // für ALLE von Lima gespawnte Boxen Gewichtslimit Ignorieren

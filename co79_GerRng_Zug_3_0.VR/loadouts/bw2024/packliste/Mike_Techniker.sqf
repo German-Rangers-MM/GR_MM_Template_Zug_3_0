@@ -50,7 +50,12 @@
 	"CUP_arifle_HK417_12_AG36_Wood",
 	"CUP_smg_MP5A5",
 	"SMG_05_F",
-	"CUP_smg_MP7",
+	"CUP_smg_MP7",	
+	"CUP_lmg_minimi_railed",
+	"CUP_arifle_MG36",
+	"CUP_arifle_MG36_camo",
+	"CUP_arifle_MG36_wdl",
+	"LMG_03_F",	
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -97,6 +102,9 @@
 	"CUP_optic_ZeissZPoint",
 	"CUP_optic_ZeissZPoint_desert",
 	"CUP_optic_ZeissZPoint_wood",
+	"CUP_optic_AIMM_MICROT1_BLK",
+	"CUP_optic_AIMM_MICROT1_TAN",
+	"CUP_optic_AIMM_MICROT1_OD",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -403,6 +411,14 @@
 	"ACE_1Rnd_82mm_Mo_Illum",
 	"ACE_1Rnd_82mm_Mo_Smoke",
 	"ACE_1Rnd_82mm_Mo_HE_LaserGuided",
+	"CUP_20Rnd_TE1_Red_Tracer_762x51_HK417",
+	"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",
+	"CUP_100Rnd_556x45_BetaCMag",
+	"CUP_100Rnd_556x45_BetaCMag_camo",
+	"CUP_100Rnd_556x45_BetaCMag_wdl",
+	"CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag",
+	"CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag_camo",
+	"CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag_wdl",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -479,6 +495,7 @@
 	"ACE_M26_Clacker",
 	"ACE_PlottingBoard",
 	"ACE_HuntIR_monitor",
+	"ToolKit",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //

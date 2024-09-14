@@ -11,6 +11,10 @@ _whitelistedMods = 	[
 						"@ZEC - Zeus and Eden Templates - Building Compositions", "642912021",
 						"@ZEI - Zeus and Eden Interiors", "1251859358",
 						"@ZECCUP - Zeus and Eden Templates for CUP Terrains", "750186990",
+						"@Eden 2.0","2193296534",
+						"@Eden Mirror Function", "2807516605",
+						"@Snapping for Eden and Zeus","2961167812",
+						"@3DEN Better Inventory","1124993203",
 						
 						// CUP
 						"@CUP Terrains - Core", "583496184",
@@ -40,12 +44,14 @@ _whitelistedMods = 	[
 
 						//Gameplay & Ausrüstung
 						"@Crows Electronic Warfare", "2515887728",
-						"@Global Mobilization - Demo Vehicle", "1284731930",
 						"@MAAWS Additional Ammo Types", "2589302544",
 						"@Gruppe Adler Trenches", "1224892496",
 						"@TWC 2 Inch Mortar", "1670017422",
 						"@M224 60mm Mortar (ACE)", "2472780935",
 						"@Redd´n´Tank Vehicles", "946763963",
+						"@PERSIST - RCO","2603942867",
+						"@BoxLoader - Vehicle in Vehicle loading","1199318917",
+						"@Boxloader - ACE compatability","1201499127",
 
 						//Additional Maps
 						"@Jbad", "520618345",
@@ -158,7 +164,7 @@ _loadedMods = configSourceModList (configFile >> "CfgPatches");
 } forEach _loadedMods;
 
 if(count _playermods > 0) then {
-	(format ["%1 is using Blacklisted Mods: %2",profileName, _blacklisthits]) remoteExec ["diag_log", 2];
+	(format ["%1 is using Blacklisted Mods: %2",profileName, _playermods]) remoteExec ["diag_log", 2];
 	_playermessage = format ["<t color='#ff0000' size='3'>Du benutzt Mods die nicht auf der Whitelist stehen.</t><br/><t color='#ffffff' size='1.5'> Bitte starte das Spiel erneut und entferne die Mods aus deinem Preset: %1 </t>", _playermods];
 	titleText [_playermessage, "BLACK FADED", 100, true, true];
 

@@ -302,6 +302,7 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 		_iconCBRN = "z\ace\addons\medical_gui\data\categories\airway_management.paa";
 		_iconWaGru = "a3\ui_f\data\gui\rsc\rscdisplayarsenal\secondaryweapon_ca.paa";
 		_iconZug = "a3\ui_f\data\gui\rsc\rscdisplayarsenal\cargomagall_ca.paa";
+		_iconErsatz = "a3\ui_f\data\igui\cfg\actions\repair_ca.paa";
 
 		// Lima Supply Point Static & Mobile
 		{
@@ -387,6 +388,16 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 				_cbrn3 = ["CBRN2","Typ 3 - CBRN-UGV",_icon,{[["cbrn3",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 				[_x, 0, ["ACE_MainActions", "CBRN Boxen"], _cbrn3] call ace_interact_menu_fnc_addActionToObject;
 				//------------------------------------------------------------------
+			// Parent Action für Ersatzteile
+			_ersatzteile = ["Ersatzteile","Ersatzteile",_iconErsatz,{ },{true}] call ace_interact_menu_fnc_createAction;
+			[_x, 0, ["ACE_MainActions"], _ersatzteile] call ace_interact_menu_fnc_addActionToObject;
+				//------------------------------------------------------------------
+				_ersatzKette = ["ersatzKette","Ersatzkette",_icon,{[["ersatzkette",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "Ersatzteile"], _ersatzKette] call ace_interact_menu_fnc_addActionToObject;
+
+				_ersatzRad = ["ersatzRad","Ersatzrad",_icon,{[["ersatzrad",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "Ersatzteile"], _ersatzRad] call ace_interact_menu_fnc_addActionToObject;
+				//------------------------------------------------------------------
 			_sierra1 = ["Sierra1","Sierra Munition",_icon,{[["sierra1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 			[_x, 0, ["ACE_MainActions"], _sierra1] call ace_interact_menu_fnc_addActionToObject;
 
@@ -399,6 +410,59 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 
 			
 		} forEach [limasupplypointstatic,limasupplypointmobile];		
+	};
+};
+
+//------------------------------------------------------------------
+//------------------------------------------------------------------
+//
+//						LIMA Paletten Supply Point
+//
+//------------------------------------------------------------------
+//------------------------------------------------------------------
+
+if (getMissionConfigValue "limaSupplyPoints" == "true") then {
+	if (_playerGrp == grplima || _playerGrp == grpkilo || _playerGrp == grphotel || _playerGrp == grpmike) then {
+		
+		// Icon für Paletten-deploy
+		_icon = "a3\ui_f\data\igui\cfg\cursors\iconboardin_ca.paa";
+		_iconPl = "a3\ui_f\data\igui\cfg\simpletasks\types\container_ca.paa";
+
+		// Lima Palett Point Static
+		{
+			// Parent Action für Luftfracht Paletten  - Leer
+			_palettenLF = ["Luftfracht Paletten - Leer","Luftfracht Paletten  - Leer",_iconPl,{ },{true}] call ace_interact_menu_fnc_createAction;
+			[_x, 0, ["ACE_MainActions"], _palettenLF] call ace_interact_menu_fnc_addActionToObject;
+				//------------------------------------------------------------------
+				_plmaster = ["plmaster","Typ 1 - Master",_icon,{[["plmaster",_this#0], limapfad + "limaPalettPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "Luftfracht Paletten - Leer"], _plmaster] call ace_interact_menu_fnc_addActionToObject;
+
+				_plammosmall = ["plammosmall","Typ 2 - Klein",_icon,{[["plammosmall",_this#0], limapfad + "limaPalettPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "Luftfracht Paletten - Leer"], _plammosmall] call ace_interact_menu_fnc_addActionToObject;
+
+				_plcasetan = ["plcasetan","Typ 3 - Hardcase",_icon,{[["plcasetan",_this#0], limapfad + "limaPalettPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "Luftfracht Paletten - Leer"], _plcasetan] call ace_interact_menu_fnc_addActionToObject;
+
+				_plcasemed = ["plcasetan","Typ 4 - Hardcase San",_icon,{[["plcasemed",_this#0], limapfad + "limaPalettPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "Luftfracht Paletten - Leer"], _plcasemed] call ace_interact_menu_fnc_addActionToObject;
+				//------------------------------------------------------------------
+			// Parent Action für Luftfracht Paletten  - Logistik
+			_palettenLF = ["Luftfracht Paletten - Logistik","Luftfracht Paletten  - Logistik",_iconPl,{ },{true}] call ace_interact_menu_fnc_createAction;
+			[_x, 0, ["ACE_MainActions"], _palettenLF] call ace_interact_menu_fnc_addActionToObject;
+				//------------------------------------------------------------------
+				_plfmun = ["plfmun","Typ 5 - Fahrzeugmunition",_icon,{[["plfmun",_this#0], limapfad + "limaPalettPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "Luftfracht Paletten - Logistik"], _plfmun] call ace_interact_menu_fnc_addActionToObject;
+
+				_plfuels = ["plfuels","Typ 6 - Treibstoff Klein",_icon,{[["plfuels",_this#0], limapfad + "limaPalettPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "Luftfracht Paletten - Logistik"], _plfuels] call ace_interact_menu_fnc_addActionToObject;
+
+				_plfuell = ["plfuell","Typ 7 - Treibstoff Gross",_icon,{[["plfuell",_this#0], limapfad + "limaPalettPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "Luftfracht Paletten - Logistik"], _plfuell] call ace_interact_menu_fnc_addActionToObject;
+
+				_plrepair = ["plcasetan","Typ 8 - Instandsetzung",_icon,{[["plrepair",_this#0], limapfad + "limaPalettPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "Luftfracht Paletten - Logistik"], _plrepair] call ace_interact_menu_fnc_addActionToObject;
+				//------------------------------------------------------------------
+		} forEach [limapalettpointstatic];
 	};
 };
 
@@ -436,4 +500,4 @@ titleText ["Missionsvorbereitung", "BLACK IN" ];
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 
-//[] execVM "scripts\core\modcheck.sqf";
+[] execVM "scripts\core\modcheck.sqf";
