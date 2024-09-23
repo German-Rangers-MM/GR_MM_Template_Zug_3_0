@@ -232,6 +232,13 @@ if (! isMultiplayer) then {
 	[player, 1, ["ACE_SelfActions"], _export] call ace_interact_menu_fnc_addActionToObject; 
 };
 
+	_radioSwSettings = ["radioSettings", "<t color='#eb34d5'>Export SW-Radio Settings To Clipboard</t>", ["","#eb34d5"], {[player] spawn SGN_fnc_exportSwRadioSettings;}, {true}] call ace_interact_menu_fnc_createAction;
+	[player, 1, ["ACE_SelfActions"], _radioSwSettings] call ace_interact_menu_fnc_addActionToObject; 
+
+	_radioLrSettings = ["radioSettings", "<t color='#eb34d5'>Export LR-Radio Settings To Clipboard</t>", ["","#eb34d5"], {[player] spawn SGN_fnc_exportLrRadioSettings;}, {true}] call ace_interact_menu_fnc_createAction;
+	[player, 1, ["ACE_SelfActions"], _radioLrSettings] call ace_interact_menu_fnc_addActionToObject; 
+
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -491,6 +498,7 @@ titleText ["Missionsvorbereitung", "BLACK IN" ];
 "dynamicBlur" ppEffectAdjust [0.0];
 "dynamicBlur" ppEffectCommit 3;
 
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -501,3 +509,17 @@ titleText ["Missionsvorbereitung", "BLACK IN" ];
 //------------------------------------------------------------------
 
 //[] execVM "scripts\core\modcheck.sqf";
+
+
+
+//------------------------------------------------------------------
+//------------------------------------------------------------------
+//
+//						Radio Setter
+//
+// 			Checks Player Group and sets Radio Channels
+//------------------------------------------------------------------
+//------------------------------------------------------------------
+_loadout = player getVariable "GR_unitLoadout";
+waitUntil {sleep 3; !isNil "_loadout"};
+call SGN_fnc_radioSetter;

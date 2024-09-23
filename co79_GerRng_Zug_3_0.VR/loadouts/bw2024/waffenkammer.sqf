@@ -75,3 +75,6 @@ waitUntil { player getVariable "GR_arsenalClosed" };
 
 // clear Arsenal
 [player, true, false] call ace_arsenal_fnc_removeVirtualItems;
+
+//radio setter
+call SGN_fnc_radioSetter;
