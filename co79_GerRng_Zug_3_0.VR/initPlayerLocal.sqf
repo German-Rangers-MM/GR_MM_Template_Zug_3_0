@@ -253,6 +253,9 @@ _mission_succesful = ["Ende: Mission Erfüllt","Ende: Mission Erfüllt","",{ exe
 _to_be_continued = ["Ende: TO BE CONTINUED","Ende: TO BE CONTINUED","",{ execVM "scripts\core\MCC_chapter_missionendcontinue.sqf"; },{true}] call ace_interact_menu_fnc_createAction;
 [["ACE_ZeusActions","Mission Control"], _to_be_continued] call ace_interact_menu_fnc_addActionToZeus;
 
+_mission_failed = ["Ende: Mission Failed","Ende: Mission Failed","",{ execVM "scripts\core\MCC_chapter_missionendcontinue.sqf"; },{true}] call ace_interact_menu_fnc_createAction;
+[["ACE_ZeusActions","Mission Control"], _mission_failed] call ace_interact_menu_fnc_addActionToZeus;
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
