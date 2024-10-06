@@ -200,12 +200,12 @@ class CfgDebriefing
 
 	class End3
 	{
-		title = "Mission Failed";
-		subtitle = "You all died!";
-		description = "Your team has been wiped out";
-		pictureBackground = "\a3\ui_f\data\gui\cfg\debriefing\enddefault_ca.paa";
-		picture = "KIA";
-		pictureColor[] = {0.6,0.1,0.2,1};
+		title = "Mission Fehlgeschlagen";
+		subtitle = "Sammeln zur Nachbesprechung.";
+		description = "Auftrag nicht erfüllt! Sammeln sie sich im Lagezentrum zur Nachbesprechung.";
+		pictureBackground = "images\GermanRangersLogo.paa";
+		picture = "b_inf";
+		pictureColor[] = {0.0,0.3,0.6,1};
 	};
 };
 
