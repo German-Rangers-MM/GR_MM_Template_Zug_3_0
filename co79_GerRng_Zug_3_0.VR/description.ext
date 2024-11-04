@@ -204,7 +204,7 @@ class CfgDebriefing
 		subtitle = "Sammeln zur Nachbesprechung.";
 		description = "Auftrag nicht erfüllt! Sammeln sie sich im Lagezentrum zur Nachbesprechung.";
 		pictureBackground = "images\GermanRangersLogo.paa";
-		picture = "b_inf";
+		picture = "KIA";
 		pictureColor[] = {0.0,0.3,0.6,1};
 	};
 };
