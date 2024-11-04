@@ -13290,9 +13290,9 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""GR_unitLoadout"", ""Schuetze_DM""];" \n "group this setGroupId [""Alpha""];";
+								init="this setVariable [""GR_unitLoadout"", ""Schuetze_EHB""];" \n "group this setGroupId [""Alpha""];";
 								name="Alpha9";
-								description="DM-Schütze@Alpha";
+								description="EHB-Schütze@Alpha";
 								isPlayable=1;
 								class Inventory
 								{
@@ -16817,9 +16817,9 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""GR_unitLoadout"", ""Schuetze_EHB""];" \n "group this setGroupId [""X-Ray""];";
+								init="this setVariable [""GR_unitLoadout"", ""Schuetze_DM""];" \n "group this setGroupId [""X-Ray""];";
 								name="Xray9";
-								description="EHB-Schütze@X-Ray";
+								description="DM-Schütze@X-Ray";
 								isPlayable=1;
 								class Inventory
 								{
