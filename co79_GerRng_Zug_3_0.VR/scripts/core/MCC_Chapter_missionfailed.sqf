@@ -7,4 +7,4 @@ if (!_result) exitWith {};
 
 sleep 63;
 
-"scripts\core\MCC_chapter_ocapend.sqf" remoteExec ["execVM", 2];
+"scripts\core\MCC_chapter_ocapend_failed.sqf" remoteExec ["execVM", 2];
