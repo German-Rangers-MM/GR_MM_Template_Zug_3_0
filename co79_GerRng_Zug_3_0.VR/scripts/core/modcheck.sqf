@@ -96,6 +96,7 @@ _whitelistedMods = 	[
 						"@Simplex Support Services", "1850026051",
 						"@DUI - Squad Radar", "1638341685",
 						"@BackpackOnChest - Redux", "2372036642",
+						"@QCB Weapon Stance", "2288108304",
 						
 						//Visual
 						"@Blastcore Edited (standalone version)", "767380317",
