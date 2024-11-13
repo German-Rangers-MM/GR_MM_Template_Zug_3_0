@@ -121,7 +121,13 @@ switch (toLower _supply) do {
 		_box = "ACE_medicalSupplyCrate" createVehicle _boxPos;
 		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
 		[_box] execvm limapfad + "box_san_typ_1.sqf";
-	};		
+	};
+
+	case "san2": {
+		_box = "Land_PlasticCase_01_medium_black_F" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_san_typ_2.sqf";
+	};	
 	
 	case "supply": {
 		_box = "ACE_Box_Chemlights" createVehicle _boxPos;
