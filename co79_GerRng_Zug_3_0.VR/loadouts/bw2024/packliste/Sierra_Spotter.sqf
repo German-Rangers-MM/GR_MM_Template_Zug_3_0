@@ -203,6 +203,8 @@
 	"CUP_V_B_GER_PVest_Trop_RFL_LT",
 	"CUP_V_B_GER_Armatus_BB_Fleck",
 	"CUP_V_B_GER_Armatus_BB_Trop",
+	"CUP_V_B_GER_Armatus_Trop",
+	"CUP_V_B_GER_Armatus_Fleck",
 	"GRE_PlateCarrier1_Flecktarn",
 	"GRE_PlateCarrier1_Tropentarn",
 	"V_Chestrig_rgr",
