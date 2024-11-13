@@ -410,5 +410,5 @@
 	"ACE_EarPlugs",
 	"ACE_IR_Strobe_Item",
 	"ACE_rope3",
-	"ItemcTabHCam",
+	"ItemcTabHCam"
 ];
