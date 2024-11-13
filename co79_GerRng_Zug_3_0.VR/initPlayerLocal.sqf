@@ -306,6 +306,8 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 		_iconWaGru = "a3\ui_f\data\gui\rsc\rscdisplayarsenal\secondaryweapon_ca.paa";
 		_iconZug = "a3\ui_f\data\gui\rsc\rscdisplayarsenal\cargomagall_ca.paa";
 		_iconErsatz = "a3\ui_f\data\igui\cfg\actions\repair_ca.paa";
+		_iconSan = "a3\ui_f\data\igui\cfg\simpletasks\types\heal_ca.paa";
+		_iconBodybags = "z\ace\addons\medical_gui\ui\grave.paa";
 
 		// Lima Supply Point Static & Mobile
 		{
@@ -391,6 +393,16 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 				_cbrn3 = ["CBRN2","Typ 3 - CBRN-UGV",_icon,{[["cbrn3",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 				[_x, 0, ["ACE_MainActions", "CBRN Boxen"], _cbrn3] call ace_interact_menu_fnc_addActionToObject;
 				//------------------------------------------------------------------
+			// Parent Action für San Boxen
+			_sanBoxen = ["San Boxen","San Boxen",_iconSan,{ },{true}] call ace_interact_menu_fnc_createAction;
+			[_x, 0, ["ACE_MainActions"], _sanBoxen] call ace_interact_menu_fnc_addActionToObject;
+				//------------------------------------------------------------------
+				_san1 = ["San1","San Typ 1 - SanMat",_icon,{[["san1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "San Boxen"], _san1] call ace_interact_menu_fnc_addActionToObject;	
+			
+				_san2 = ["San1","San Typ 2 - Leichensäcke",_iconBodybags,{[["san2",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "San Boxen"], _san2] call ace_interact_menu_fnc_addActionToObject;	
+				//------------------------------------------------------------------
 			// Parent Action für Ersatzteile
 			_ersatzteile = ["Ersatzteile","Ersatzteile",_iconErsatz,{ },{true}] call ace_interact_menu_fnc_createAction;
 			[_x, 0, ["ACE_MainActions"], _ersatzteile] call ace_interact_menu_fnc_addActionToObject;
@@ -403,9 +415,6 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 				//------------------------------------------------------------------
 			_sierra1 = ["Sierra1","Sierra Munition",_icon,{[["sierra1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 			[_x, 0, ["ACE_MainActions"], _sierra1] call ace_interact_menu_fnc_addActionToObject;
-
-			_san1 = ["San1","San Typ 1",_icon,{[["san1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-			[_x, 0, ["ACE_MainActions"], _san1] call ace_interact_menu_fnc_addActionToObject;		
 
 			_supply = ["Supply","Transport Box (leer)",_icon,{[["supply",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 			[_x, 0, ["ACE_MainActions"], _supply] call ace_interact_menu_fnc_addActionToObject;
