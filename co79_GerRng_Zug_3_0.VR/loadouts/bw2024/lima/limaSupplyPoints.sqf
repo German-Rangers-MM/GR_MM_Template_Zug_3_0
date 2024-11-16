@@ -66,6 +66,12 @@ switch (toLower _supply) do {
 		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
 		[_box] execvm limapfad + "box_zug_typ_8.sqf";
 	};
+
+		case "zug9": {
+		_box = "ACE_Box_82mm_Mo_HE" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_zug_typ_9.sqf";
+	};
 	
 
 
@@ -115,6 +121,30 @@ switch (toLower _supply) do {
 		_box = "ACE_Box_Ammo" createVehicle _boxPos;
 		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
 		[_box] execvm limapfad + "box_sierra_typ_1.sqf";
+	};
+
+	case "sierra2": {
+		_box = "ACE_Box_Ammo" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_sierra_typ_2.sqf";
+	};
+
+	case "sierra3": {
+		_box = "ACE_Box_Ammo" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_sierra_typ_3.sqf";
+	};
+
+	case "sierra4": {
+		_box = "Box_NATO_Equip_F" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_sierra_typ_4.sqf";
+	};
+
+	case "sierra5": {
+		_box = "Box_NATO_Equip_F" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_sierra_typ_5.sqf";
 	};
 	
 	case "san1": {
