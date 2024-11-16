@@ -306,6 +306,9 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 		_iconWaGru = "a3\ui_f\data\gui\rsc\rscdisplayarsenal\secondaryweapon_ca.paa";
 		_iconZug = "a3\ui_f\data\gui\rsc\rscdisplayarsenal\cargomagall_ca.paa";
 		_iconErsatz = "a3\ui_f\data\igui\cfg\actions\repair_ca.paa";
+		_iconSan = "a3\ui_f\data\igui\cfg\simpletasks\types\heal_ca.paa";
+		_iconBodybags = "z\ace\addons\medical_gui\ui\grave.paa";
+		_iconSierra = "a3\weapons_f\data\ui\icon_sniper_ca.paa";
 
 		// Lima Supply Point Static & Mobile
 		{
@@ -336,6 +339,9 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 
 				_zug8 = ["Zug10","Zug Typ 8 - Munition HK417",_icon,{[["zug8",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 				[_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug8] call ace_interact_menu_fnc_addActionToObject;
+
+				_zug9 = ["Zug10","Zug Typ 9 - Flashbangs",_icon,{[["zug9",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug9] call ace_interact_menu_fnc_addActionToObject;
 				//------------------------------------------------------------------
 			// Parent Action für WaGru Boxen
 			_waGruBoxen = ["WaGru Boxen","WaGru Boxen",_iconWaGru,{ },{true}] call ace_interact_menu_fnc_createAction;
@@ -391,6 +397,16 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 				_cbrn3 = ["CBRN2","Typ 3 - CBRN-UGV",_icon,{[["cbrn3",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 				[_x, 0, ["ACE_MainActions", "CBRN Boxen"], _cbrn3] call ace_interact_menu_fnc_addActionToObject;
 				//------------------------------------------------------------------
+			// Parent Action für San Boxen
+			_sanBoxen = ["San Boxen","San Boxen",_iconSan,{ },{true}] call ace_interact_menu_fnc_createAction;
+			[_x, 0, ["ACE_MainActions"], _sanBoxen] call ace_interact_menu_fnc_addActionToObject;
+				//------------------------------------------------------------------
+				_san1 = ["San1","San Typ 1 - SanMat",_icon,{[["san1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "San Boxen"], _san1] call ace_interact_menu_fnc_addActionToObject;	
+			
+				_san2 = ["San1","San Typ 2 - Leichensäcke",_iconBodybags,{[["san2",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "San Boxen"], _san2] call ace_interact_menu_fnc_addActionToObject;	
+				//------------------------------------------------------------------
 			// Parent Action für Ersatzteile
 			_ersatzteile = ["Ersatzteile","Ersatzteile",_iconErsatz,{ },{true}] call ace_interact_menu_fnc_createAction;
 			[_x, 0, ["ACE_MainActions"], _ersatzteile] call ace_interact_menu_fnc_addActionToObject;
@@ -401,11 +417,26 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 				_ersatzRad = ["ersatzRad","Ersatzrad",_icon,{[["ersatzrad",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 				[_x, 0, ["ACE_MainActions", "Ersatzteile"], _ersatzRad] call ace_interact_menu_fnc_addActionToObject;
 				//------------------------------------------------------------------
-			_sierra1 = ["Sierra1","Sierra Munition",_icon,{[["sierra1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-			[_x, 0, ["ACE_MainActions"], _sierra1] call ace_interact_menu_fnc_addActionToObject;
 
-			_san1 = ["San1","San Typ 1",_icon,{[["san1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-			[_x, 0, ["ACE_MainActions"], _san1] call ace_interact_menu_fnc_addActionToObject;		
+// Parent Action für Sierra
+			_Sierra = ["Sierra","Sierra",_iconSierra,{ },{true}] call ace_interact_menu_fnc_createAction;
+			[_x, 0, ["ACE_MainActions"], _Sierra] call ace_interact_menu_fnc_addActionToObject;
+				//------------------------------------------------------------------
+			_sierra1 = ["Sierra1","Sierra Typ 1- GM6 Munition",_icon,{[["sierra1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+			[_x, 0, ["ACE_MainActions", "Sierra"], _sierra1] call ace_interact_menu_fnc_addActionToObject;
+
+			_sierra2 = ["Sierra2","Sierra Typ 2 - M107 Munition",_icon,{[["sierra2",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+			[_x, 0, ["ACE_MainActions", "Sierra"], _sierra2] call ace_interact_menu_fnc_addActionToObject;
+
+			_sierra3 = ["Sierra3","Sierra Typ 3 - M200 Munition",_icon,{[["sierra3",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+			[_x, 0, ["ACE_MainActions", "Sierra"], _sierra3] call ace_interact_menu_fnc_addActionToObject;
+
+			_sierra4 = ["Sierra4","Sierra Typ 4 - Waffen",_icon,{[["sierra4",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+			[_x, 0, ["ACE_MainActions", "Sierra"], _sierra4] call ace_interact_menu_fnc_addActionToObject;
+
+			_sierra5 = ["Sierra5","Sierra Typ 5 - Ausrüstung",_icon,{[["sierra5",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+			[_x, 0, ["ACE_MainActions", "Sierra"], _sierra5] call ace_interact_menu_fnc_addActionToObject;
+			//------------------------------------------------------------------
 
 			_supply = ["Supply","Transport Box (leer)",_icon,{[["supply",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 			[_x, 0, ["ACE_MainActions"], _supply] call ace_interact_menu_fnc_addActionToObject;

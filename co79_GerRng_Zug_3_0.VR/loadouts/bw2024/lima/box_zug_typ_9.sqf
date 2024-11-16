@@ -1,7 +1,7 @@
-// Kiste Zug Typ VIII - HK417-Munition
+// Kiste Zug Typ XI Flashbangs
 /* Aufruf im Editor mit:
 
-_path = format ["loadouts\%1\lima\box_zug_typ_8.sqf", getMissionConfigValue "fraktion"]; 
+_path = format ["loadouts\%1\lima\box_zug_typ_9.sqf", getMissionConfigValue "fraktion"]; 
 null = [this] execVM _path;
 
 */
@@ -15,8 +15,7 @@ clearMagazineCargoGlobal _box;
 clearItemCargoGlobal _box;
 clearBackpackCargoGlobal _box;
 
-_box addMagazineCargoGlobal ["CUP_30Rnd_556x45_G36", 10];
-_box addMagazineCargoGlobal ["CUP_20Rnd_762x51_HK417", 40];
+_box addMagazineCargoGlobal ["CE_M84", 110];
 
 // für diese Box Gewichtslimit Ignorieren
 //[_box, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
