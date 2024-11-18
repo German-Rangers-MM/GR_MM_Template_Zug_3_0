@@ -49,7 +49,7 @@ if ((count _packListe) < 1) then  {
 	_packListe = flatten (getUnitLoadout player);
 };
 
-if(!(_unitLoadout == "Schuetze_DM" || _unitLoadout == "Grenadier")) then {
+if(!(_unitLoadout == "Schuetze_DM" || _unitLoadout == "Schuetze_LMG" || _unitLoadout == "Grenadier")) then {
     // Gemeinsames Material
     _gemeinsamesMaterial = call compile preprocessFileLineNumbers format ["loadouts\%1\packliste\GemeinsamesMaterial.sqf", fraktionV];
     _packListe append _gemeinsamesMaterial;
