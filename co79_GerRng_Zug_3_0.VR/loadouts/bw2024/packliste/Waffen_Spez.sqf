@@ -10,11 +10,12 @@
 	"CUP_arifle_MG36",
 	"CUP_arifle_MG36_camo",
 	"CUP_arifle_MG36_wdl",
-	"LMG_03_F",	
+	"LMG_03_F",
+	"CUP_lmg_MG3_rail",
+	"CUP_lmg_Mk48_nohg",
 	"CUP_smg_MP5A5",
 	"SMG_05_F",
 	"CUP_smg_MP7",
-	"CUP_lmg_Mk48_nohg",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
