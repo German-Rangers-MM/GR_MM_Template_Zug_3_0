@@ -13,8 +13,6 @@
 	"LMG_03_F",
 	"CUP_lmg_MG3_rail",
 	"CUP_lmg_Mk48_nohg",
-	"MMG_01_tan_F",
-	"MMG_02_black_F",
 	"CUP_smg_MP5A5",
 	"SMG_05_F",
 	"CUP_smg_MP7",
