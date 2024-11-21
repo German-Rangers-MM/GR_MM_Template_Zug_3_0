@@ -4,15 +4,17 @@ params ["_supply", "_point"];
 
 // Static Supply Point = Default
 // Ermittel die Position Relativ zur Position des Fahrzeuges (Bei HEMTT muss 7 eingestellt sein, damit die Box nicht unter dem LKW steht und 180, damit sie am Heck gespawnt wird)
-_boxPos = limaSupplyPointStaticMarker getRelPos [0,0];
+_boxPos = switch(_point) do 
+{
+	case limaSupplyPointStatic: {limaSupplyPointStaticMarker getRelPos [0,0];};
+	case limaSupplyPointMobile: {limaSupplyPointMobile getRelPos [7,180];};
+};
 
 //Setzt die Höhe auf der die Box nachher Positioniert wird. Wird benötigt wenn die Static Station in einem Gebäude oder ähnlichem steht.
-_boxHeight = 1;
-
-// Mobile Supply Point
-if (_point == limaSupplyPointMobile) then {
-	_boxPos = limaSupplyPointMobile getRelPos [7,180];
-	_boxHeight = 0.8;
+_boxHeight = switch(_point) do 
+{
+	case limaSupplyPointMobile: {0.8};
+	default {1};
 };
 
 _box = objNull;
