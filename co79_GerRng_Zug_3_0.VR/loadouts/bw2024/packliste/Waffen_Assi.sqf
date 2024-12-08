@@ -27,6 +27,8 @@
 	"CUP_optic_AIMM_MICROT1_BLK",
 	"CUP_optic_AIMM_MICROT1_TAN",
 	"CUP_optic_AIMM_MICROT1_OD",
+	"CUP_optic_ElcanM145",
+	"optic_Arco_AK_blk_F",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
