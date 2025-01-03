@@ -5,6 +5,9 @@ _whitelistedMods = 	[
 						"@KAT - Advanced Medical", "2020940806",
 						"@Zeus Enhanced", "1779063631",
 						"@Zeus Enhanced - ACE3 Compatibility", "2018593688",
+						"@NR6 Hal Evolved - Experimental Branch","3375984704",
+						"@LAFS - Light AI Fire Support","3323604819",
+						"@Dynamic AI Minefields - RCO","2650906858",
 
 						// Missionmaker Mods
 						"@3den Enhanced", "623475643",
@@ -71,6 +74,8 @@ _whitelistedMods = 	[
 						"@Bornhom [R]", "2914536900",
 						"@Global Ops Terrains","2917444360",
 						"@Yulakia","2950257727",
+						"@Ruha","1368857262",
+						"@Livonian Lighting: Ruha","1923062007",
 
 						//----------------------------------
 						//
