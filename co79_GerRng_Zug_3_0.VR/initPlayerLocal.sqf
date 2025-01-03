@@ -244,16 +244,16 @@ if (! isMultiplayer) then {
 _mission_control = ["Mission Control","Mission Control","images\GermanRangersLogo.paa",{}, {true}] call ace_interact_menu_fnc_createAction;
 [["ACE_ZeusActions"], _mission_control] call ace_interact_menu_fnc_addActionToZeus;
 
-_start_mission = ["Missionsstart","Missionsstart","",{ execVM "scripts\core\MCC_chapter_missionstart.sqf"; },{true}] call ace_interact_menu_fnc_createAction;
+_start_mission = ["Missionsstart","Missionsstart","",{ execVM "scripts\core\MCC_chapter_missionstart.sqf"; },{missionstarted == false}] call ace_interact_menu_fnc_createAction;
 [["ACE_ZeusActions","Mission Control"], _start_mission] call ace_interact_menu_fnc_addActionToZeus;
 
-_mission_succesful = ["Ende: Mission Erfüllt","Ende: Mission Erfüllt","",{ execVM "scripts\core\MCC_chapter_missionendsuccesfull.sqf"; },{true}] call ace_interact_menu_fnc_createAction;
+_mission_succesful = ["Ende: Mission Erfüllt","Ende: Mission Erfüllt","",{ execVM "scripts\core\MCC_chapter_missionendsuccesfull.sqf"; },{missionstarted}] call ace_interact_menu_fnc_createAction;
 [["ACE_ZeusActions","Mission Control"], _mission_succesful] call ace_interact_menu_fnc_addActionToZeus;
 
-_to_be_continued = ["Ende: TO BE CONTINUED","Ende: TO BE CONTINUED","",{ execVM "scripts\core\MCC_chapter_missionendcontinue.sqf"; },{true}] call ace_interact_menu_fnc_createAction;
+_to_be_continued = ["Ende: TO BE CONTINUED","Ende: TO BE CONTINUED","",{ execVM "scripts\core\MCC_chapter_missionendcontinue.sqf"; },{missionstarted}] call ace_interact_menu_fnc_createAction;
 [["ACE_ZeusActions","Mission Control"], _to_be_continued] call ace_interact_menu_fnc_addActionToZeus;
 
-_mission_failed = ["Ende: Mission Failed","Ende: Mission Failed","",{ execVM "scripts\core\MCC_chapter_missionendcontinue.sqf"; },{true}] call ace_interact_menu_fnc_createAction;
+_mission_failed = ["Ende: Mission Failed","Ende: Mission Failed","",{ execVM "scripts\core\MCC_chapter_missionendcontinue.sqf"; },{missionstarted}] call ace_interact_menu_fnc_createAction;
 [["ACE_ZeusActions","Mission Control"], _mission_failed] call ace_interact_menu_fnc_addActionToZeus;
 
 //------------------------------------------------------------------

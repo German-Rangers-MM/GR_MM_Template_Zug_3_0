@@ -14,6 +14,16 @@ missionstarted = true;
 publicVariable "missionstarted";
 
 _intro = getMissionConfigValue "intro";
+switch(_intro) do {
+    case "PR": {};
+    case "Rock": {};
+    case "Sic": {};
+    case "BHD": {};
+    case "KA": {};
+    case "Video": {};
+    default {_intro = "PR"};
+};
+
 _intropfad = "scripts\core\MCC_sequence_intro" + _intro + ".sqf";
 
 _line1 = format ["<t color='#ffffff' size='2'>%1</t>",_einleitung];
