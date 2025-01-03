@@ -301,6 +301,7 @@
 	"ace_marker_flags_red",
 	"ace_marker_flags_white",
 	"ace_marker_flags_yellow",
+	"ace_marker_flags_green",
 	"kat_gasmaskFilter",
 	"kat_sealant"
 ];

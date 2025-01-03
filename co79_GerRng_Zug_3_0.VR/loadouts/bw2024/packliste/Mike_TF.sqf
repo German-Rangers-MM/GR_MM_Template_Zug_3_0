@@ -331,6 +331,7 @@
 	"ace_marker_flags_red",
 	"ace_marker_flags_white",
 	"ace_marker_flags_yellow",
+	"ace_marker_flags_green",
 	"ACE_rope12",
 	"ACE_rope15",
 	"ACE_rope15",
