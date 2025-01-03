@@ -40,9 +40,6 @@
 	"CUP_arifle_HK416_CQB_Black",
 	"CUP_arifle_HK416_CQB_Desert",
 	"CUP_arifle_HK416_CQB_Wood",
-	"CUP_arifle_HK417_12",
-	"CUP_arifle_HK417_12_Desert",
-	"CUP_arifle_HK417_12_Wood",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -327,10 +324,6 @@
 	"CUP_30Rnd_556x45_PMAG_BLACK_Tracer_Red",
 	"CUP_30Rnd_556x45_PMAG_COYOTE_Tracer_Red",
 	"CUP_30Rnd_556x45_PMAG_OD_Tracer_Red",
-	"CUP_20Rnd_762x51_HK417",
-	"CUP_20Rnd_762x51_HK417_Camo_Desert",
-	"CUP_20Rnd_762x51_HK417_Camo_Wood",
-	"CUP_20Rnd_TE1_Red_Tracer_762x51_HK417",
 	"CUP_17Rnd_9x19_M17_Black",
 	"CUP_21Rnd_9x19_M17_Black",
 	"CUP_17Rnd_9x19_M17_Black",

@@ -6,9 +6,21 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 [
-
-
-
+	"CUP_arifle_AG36",
+	"CUP_arifle_G36A_AG36_RIS_camo",
+	"CUP_arifle_G36A_AG36_RIS_wdl",
+	"CUP_arifle_G36A3_AG36",
+	"CUP_arifle_G36A3_AG36_camo",
+	"CUP_arifle_G36A3_AG36_wdl",
+	"CUP_arifle_HK416_CQB_AG36",
+	"CUP_arifle_HK416_CQB_AG36_Desert",
+	"CUP_arifle_HK416_CQB_AG36_Wood",
+	"CUP_arifle_HK416_AGL_Black",
+	"CUP_arifle_HK416_AGL_Desert",
+	"CUP_arifle_HK416_AGL_Wood",
+	"arifle_SPAR_03_blk_F",
+	"arifle_SPAR_03_snd_F",
+	"arifle_SPAR_03_khk_F",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -16,9 +28,9 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-
-
-
+	"CUP_optic_AIMM_MICROT1_BLK",
+	"CUP_optic_AIMM_MICROT1_TAN",
+	"CUP_optic_AIMM_MICROT1_OD",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -29,6 +41,16 @@
 
 
 
+//------------------------------------------------------------------
+//------------------------------------------------------------------
+//
+//						Muzzle
+//
+//------------------------------------------------------------------
+//------------------------------------------------------------------
+"muzzle_antenna_02_f",
+"muzzle_antenna_03_f",
+"muzzle_antenna_01_f",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -46,17 +68,15 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-
-
-
+	"hgun_esd_01_F",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
 //						Launcher
 //
 //------------------------------------------------------------------
-//------------------------------------------------------------------
-
+//------------------------------------------------------------------	
+	"CUP_launch_M72A6",	
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -74,17 +94,11 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-	"CUP_V_B_GER_PVest_Fleck_Med",
-	"CUP_V_B_GER_PVest_Trop_Med",
 	"CUP_V_B_GER_PVest_Fleck_OFC",
-	"CUP_V_B_GER_PVest_Trop_OFC",
-	"CUP_V_B_GER_PVest_Fleck_Med_LT",
-	"CUP_V_B_GER_PVest_Trop_Med_LT",
-	"CUP_V_B_GER_Tactical_Fleck",
-	"CUP_V_B_GER_Armatus_BB_Fleck",
-	"CUP_V_B_GER_Armatus_BB_Fleck",
-	"CUP_V_B_GER_Armatus_Trop",
-	"CUP_V_B_GER_Armatus_Fleck",
+	"CUP_V_B_GER_PVest_Trop_OFC",	
+	"CUP_V_B_GER_PVest_Fleck_TL_LT",
+	"CUP_V_B_GER_PVest_Trop_TL_LT",
+	"V_Chestrig_rgr",	
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -95,41 +109,58 @@
 	"TFAR_mr3000_bwmod",
 	"TFAR_rt1523g_big_bwmod_tropen",
 	"TFAR_rt1523g_bwmod",
-	"TFAR_rt1523g_rhs",
+	"TFAR_rt1523g_rhs",	
 
-		
 	"tfw_ilbeMR3000_blade_flk",
-	"tfw_ilbeMR3000_blade_trp",
-	"tfw_ilbeRT1523_blade_flk",
-	"tfw_ilbeRT1523_blade_trp",
-	
-	"tfw_ilbeMR3000_blade_avdflk",
-	"tfw_ilbeMR3000_blade_avdtrp",
-	"tfw_ilbeRT1523_blade_avdflk",
-	"tfw_ilbeRT1523_blade_avdtrp",
+	"tfw_ilbeMR3000_blade_hotelflk",
+	"tfw_ilbeMR3000_blade_kiloflk",
 
-	
+	"tfw_ilbeMR3000_blade_trp",
+	"tfw_ilbeMR3000_blade_hoteltrp",
+	"tfw_ilbeMR3000_blade_kilotrp",
+
+	"tfw_ilbeRT1523_blade_flk",
+	"tfw_ilbeRT1523_blade_hotelflk",
+	"tfw_ilbeRT1523_blade_kiloflk",
+
+	"tfw_ilbeRT1523_blade_trp",
+	"tfw_ilbeRT1523_blade_hoteltrp",
+	"tfw_ilbeRT1523_blade_kilotrp",
+
+
 	"tfw_ilbeMR3000_DD_flk",
+	"tfw_ilbeMR3000_DD_hotelflk",
+	"tfw_ilbeMR3000_DD_kiloflk",
+
 	"tfw_ilbeMR3000_DD_trp",
+	"tfw_ilbeMR3000_DD_hoteltrp",
+	"tfw_ilbeMR3000_DD_kilotrp",
+
 	"tfw_ilbeRT1523_DD_flk",
+	"tfw_ilbeRT1523_DD_hotelflk",
+	"tfw_ilbeRT1523_DD_kiloflk",
+
 	"tfw_ilbeRT1523_DD_trp",
-	
-	"tfw_ilbeMR3000_DD_avdflk",
-	"tfw_ilbeMR3000_DD_avdtrp",
-	"tfw_ilbeRT1523_DD_avdflk",
-	"tfw_ilbeRT1523_DD_avdtrp",
-	
+	"tfw_ilbeRT1523_DD_hoteltrp",
+	"tfw_ilbeRT1523_DD_kilotrp",
+
 
 	"tfw_ilbeMR3000_whip_flk",
+	"tfw_ilbeMR3000_whip_hotelflk",
+	"tfw_ilbeMR3000_whip_kiloflk",
+
 	"tfw_ilbeMR3000_whip_trp",
+	"tfw_ilbeMR3000_whip_hoteltrp",
+	"tfw_ilbeMR3000_whip_kilotrp",
+
 	"tfw_ilbeRT1523_whip_flk",
-	"tfw_ilbeRT1523_whip_trp",	
+	"tfw_ilbeRT1523_whip_hotelflk",
+	"tfw_ilbeRT1523_whip_kiloflk",
 
-	"tfw_ilbeMR3000_whip_avdflk",
-	"tfw_ilbeMR3000_whip_avdtrp",
-	"tfw_ilbeRT1523_whip_avdflk",
-	"tfw_ilbeRT1523_whip_avdtrp",
-
+	"tfw_ilbeRT1523_whip_trp",
+	"tfw_ilbeRT1523_whip_hoteltrp",
+	"tfw_ilbeRT1523_whip_kilotrp",
+	
 	
 	"tfw_ilbeRT1523_blade_gr",
 	"tfw_ilbeMR3000_blade_gr",
@@ -140,24 +171,17 @@
 	"tfw_ilbeMR3000_DD_gr",
 	"tfw_ilbeRT1523_DD_coy",
 	"tfw_ilbeMR3000_DD_coy",
-	
-	"tfw_ilbeRT1523_whip_gr",
-	"tfw_ilbeMR3000_whip_gr",
-	"tfw_ilbeRT1523_whip_coy",
-	"tfw_ilbeMR3000_whip_coy",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
 //						Helme
 //
 //------------------------------------------------------------------
-//------------------------------------------------------------------
-	"CUP_H_Ger_Boonie_Flecktarn",
-	"CUP_H_Ger_Boonie_desert",
+//------------------------------------------------------------------	
 	"CUP_H_Ger_Boonie2_Flecktarn",
 	"CUP_H_Ger_Boonie2_desert",
 	"CUP_H_Ger_Cap_EP_Grn1",
-	"CUP_H_Ger_Cap_EP_Tan1",
+	"CUP_H_Ger_Cap_EP_Tan1",	
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -165,9 +189,8 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-	"G_Aviator",
-	"G_Bandanna_aviator",
-	"CUP_G_TK_RoundGlasses",
+	"G_Aviator",	
+	"G_Bandanna_aviator",	
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -175,8 +198,9 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-	"CUP_NVG_GPNVG_black",
-	"CUP_NVG_GPNVG_black_WP",
+
+
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -198,6 +222,7 @@
 	"ItemcTab",
 	"ItemMicroDAGR",
 	"ItemGPS",
+	"B_UavTerminal",
 	
 	"tfw_blade",
 	"tfw_dd",
@@ -209,9 +234,16 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-
-
-
+	"UGL_FlareWhite_F",
+	"UGL_FlareGreen_F",
+	"UGL_FlareRed_F",
+	"UGL_FlareCIR_F",
+	"CUP_1Rnd_StarCluster_Red_M203",
+	"1Rnd_SmokeRed_Grenade_shell",
+	"1Rnd_SmokeGreen_Grenade_shell",
+	"1Rnd_Smoke_Grenade_shell",
+	"ACE_HuntIR_M203",
+	"Laserbatteries",	
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -230,7 +262,8 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-
+	"DemoCharge_Remote_Mag",
+	"SatchelCharge_Remote_Mag",	
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -238,39 +271,9 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-	"ACE_adenosine",
-	"ACE_bodyBag",
-	"ACE_epinephrine",
-	"ACE_salineIV",
-	"ACE_surgicalKit",
-	"kat_IV_16",
-	"kat_accuvac",
-	"kat_X_AED",
-	"kat_amiodarone",
-	"kat_Carbonate",
-	"kat_atropine",
-	"kat_AED",
-	"kat_BVM",
-	"kat_Caffeine",
-	"kat_EACA",
-	"kat_IO_FAST",
-	"kat_fentanyl",
-	"kat_ketamine",
-	"kat_larynx",
-	"kat_naloxone",
-	"kat_nitroglycerin",
-	"kat_Painkiller",
-	"kat_Penthrox",
-	"kat_pocketBVM",
-	"kat_oxygenTank_150",
-	"kat_oxygenTank_300",
-	"kat_Pulseoximeter",
-	"kat_TXA",
-	"ACE_personalAidKit",
-	"kat_lorazepam",
-	"kat_phenylephrine",
-	"kat_stethoscope",
-	"kat_ncdKit",
+
+
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -278,19 +281,14 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-	"ToolKit",
-	"ACE_artilleryTable",
-	"ACE_ATragMX",
-	"ACE_DefusalKit",
+	"ACE_artilleryTable",	
 	"ACE_Fortify",
 	"ACE_HuntIR_monitor",
 	"ACE_Kestrel4500",
 	"ACE_Clacker",
-	"ACE_PlottingBoard",
-	"ACE_RangeCard",
-	"ACE_SpottingScope",
-	"ACE_Tripod",
-	"Attachable_Helistretcher",
+	"ACE_M26_Clacker",
+	"ACE_PlottingBoard",	
+	"ACE_RangeTable_82mm",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -305,14 +303,7 @@
 	"ace_marker_flags_purple",
 	"ace_marker_flags_red",
 	"ace_marker_flags_white",
-	"ace_marker_flags_yellow",
-	"ACE_rope12",
-	"ACE_rope15",
-	"ACE_rope15",
-	"ACE_rope18",
-	"ACE_rope27",
-	"ACE_rope36",
-	"ACE_SpareBarrel",
+	"ace_marker_flags_yellow",	
 	"ACE_SpraypaintBlack",
 	"ACE_SpraypaintBlue",
 	"ACE_SpraypaintGreen",
@@ -320,6 +311,6 @@
 	"ACE_SpraypaintWhite",
 	"ACE_SpraypaintYellow",
 	"ACE_UAVBattery",
-	"kat_gasmaskFilter",
-	"kat_sealant"
+	"crowsew_tfar_icom",
+	"crowsew_ctrack"
 ];

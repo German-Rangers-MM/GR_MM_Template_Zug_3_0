@@ -120,6 +120,55 @@
 	"TFAR_rt1523g_bwmod",
 	"TFAR_rt1523g_big_bwmod",
 	"TFAR_rt1523g_big_bwmod_tropen",
+
+		
+	"tfw_ilbeMR3000_blade_flk",
+	"tfw_ilbeMR3000_blade_trp",
+	"tfw_ilbeRT1523_blade_flk",
+	"tfw_ilbeRT1523_blade_trp",
+	
+	"tfw_ilbeMR3000_blade_mtfflk",
+	"tfw_ilbeMR3000_blade_mtftrp",
+	"tfw_ilbeRT1523_blade_mtfflk",
+	"tfw_ilbeRT1523_blade_mtftrp",
+
+	
+	"tfw_ilbeMR3000_DD_flk",
+	"tfw_ilbeMR3000_DD_trp",
+	"tfw_ilbeRT1523_DD_flk",
+	"tfw_ilbeRT1523_DD_trp",
+	
+	"tfw_ilbeMR3000_DD_mtfflk",
+	"tfw_ilbeMR3000_DD_mtftrp",
+	"tfw_ilbeRT1523_DD_mtfflk",
+	"tfw_ilbeRT1523_DD_mtftrp",
+	
+
+	"tfw_ilbeMR3000_whip_flk",
+	"tfw_ilbeMR3000_whip_trp",
+	"tfw_ilbeRT1523_whip_flk",
+	"tfw_ilbeRT1523_whip_trp",	
+
+	"tfw_ilbeMR3000_whip_mtfflk",
+	"tfw_ilbeMR3000_whip_mtftrp",
+	"tfw_ilbeRT1523_whip_mtfflk",
+	"tfw_ilbeRT1523_whip_mtftrp",
+
+	
+	"tfw_ilbeRT1523_blade_gr",
+	"tfw_ilbeMR3000_blade_gr",
+	"tfw_ilbeRT1523_blade_coy",
+	"tfw_ilbeMR3000_blade_coy",
+	
+	"tfw_ilbeRT1523_DD_gr",
+	"tfw_ilbeMR3000_DD_gr",
+	"tfw_ilbeRT1523_DD_coy",
+	"tfw_ilbeMR3000_DD_coy",
+	
+	"tfw_ilbeRT1523_whip_gr",
+	"tfw_ilbeMR3000_whip_gr",
+	"tfw_ilbeRT1523_whip_coy",
+	"tfw_ilbeMR3000_whip_coy",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -186,6 +235,11 @@
 	"C_UavTerminal",
 
 	"ChemicalDetector_01_watch_F",
+
+	
+	"tfw_blade",
+	"tfw_dd",
+	"tfw_whip",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //

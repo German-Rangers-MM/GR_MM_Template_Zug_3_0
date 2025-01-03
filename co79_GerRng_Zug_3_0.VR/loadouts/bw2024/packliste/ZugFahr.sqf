@@ -118,6 +118,39 @@
 	"TFAR_rt1523g_big_bwmod_tropen",
 	"TFAR_rt1523g_bwmod",
 	"TFAR_rt1523g_rhs",
+
+
+	"tfw_ilbeMR3000_DD_flk",
+	"tfw_ilbeMR3000_DD_vicflk",
+	"tfw_ilbeMR3000_DD_vic1flk",
+	"tfw_ilbeMR3000_DD_vic2flk",
+	"tfw_ilbeMR3000_DD_foxflk",
+	"tfw_ilbeMR3000_DD_fox1flk",
+	"tfw_ilbeMR3000_DD_fox2flk",
+
+	"tfw_ilbeMR3000_DD_trp",
+	"tfw_ilbeMR3000_DD_victrp",
+	"tfw_ilbeMR3000_DD_vic1trp",
+	"tfw_ilbeMR3000_DD_vic2trp",
+	"tfw_ilbeMR3000_DD_foxtrp",
+	"tfw_ilbeMR3000_DD_fox1trp",
+	"tfw_ilbeMR3000_DD_fox2trp",
+
+	"tfw_ilbeRT1523_DD_flk",
+	"tfw_ilbeRT1523_DD_vicflk",
+	"tfw_ilbeRT1523_DD_vic1flk",
+	"tfw_ilbeRT1523_DD_vic2flk",
+	"tfw_ilbeRT1523_DD_foxflk",
+	"tfw_ilbeRT1523_DD_fox1flk",
+	"tfw_ilbeRT1523_DD_fox2flk",
+
+	"tfw_ilbeRT1523_DD_trp",
+	"tfw_ilbeRT1523_DD_victrp",
+	"tfw_ilbeRT1523_DD_vic1trp",
+	"tfw_ilbeRT1523_DD_vic2trp",
+	"tfw_ilbeRT1523_DD_foxtrp",
+	"tfw_ilbeRT1523_DD_fox1trp",
+	"tfw_ilbeRT1523_DD_fox2trp",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //

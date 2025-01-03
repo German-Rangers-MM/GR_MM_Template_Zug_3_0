@@ -84,7 +84,7 @@ GR_ScharfRollen = [
 //-----------------------------------------------------------------------------
 
 GR_KiloRollen = [
-					["Standard","ZugFhr"]					
+					["Standard","KpFhr"]					
 ];
 
 //-----------------------------------------------------------------------------
@@ -94,7 +94,7 @@ GR_KiloRollen = [
 //-----------------------------------------------------------------------------
 
 GR_HotelRollen = [
-					["Standard","ZugFhr"]					
+					["Standard","KpFhr"]					
 ];
 
 //-----------------------------------------------------------------------------
@@ -137,6 +137,7 @@ GR_AlleRollen = [
 					["Grenadier","Grenadier"],
 					["Gruppenführer","GrpFhr"],
 					["Gruppenführer WaGru","GrpFhr_WaGru"],
+					["Kompanieführer","KpFhr"],
 					["Lima","Lima"],
 					["Pilot","Lima_Pilot"],
 					["Arzt vom Dienst","Mike_AvD"],
@@ -178,6 +179,7 @@ GR_Packlisten = [
 					"Grenadier",
 					"GrpFhr",
 					"GrpFhr_WaGru",
+					"KpFhr",
 					"Lima",
 					"Mike_AvD",
 					"Mike_Fahrer",

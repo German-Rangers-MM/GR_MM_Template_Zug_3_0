@@ -119,6 +119,54 @@
 	"CFP_Camelbak_Mule_Drab",
 	"B_FieldPack_green_F",
 	"B_FieldPack_cbr",
+
+		"tfw_ilbeMR3000_blade_flk",
+	"tfw_ilbeMR3000_blade_trp",
+	"tfw_ilbeRT1523_blade_flk",
+	"tfw_ilbeRT1523_blade_trp",
+	
+	"tfw_ilbeMR3000_blade_mikeflk",
+	"tfw_ilbeMR3000_blade_miketrp",
+	"tfw_ilbeRT1523_blade_mikeflk",
+	"tfw_ilbeRT1523_blade_miketrp",
+
+	
+	"tfw_ilbeMR3000_DD_flk",
+	"tfw_ilbeMR3000_DD_trp",
+	"tfw_ilbeRT1523_DD_flk",
+	"tfw_ilbeRT1523_DD_trp",
+	
+	"tfw_ilbeMR3000_DD_mikeflk",
+	"tfw_ilbeMR3000_DD_miketrp",
+	"tfw_ilbeRT1523_DD_mikeflk",
+	"tfw_ilbeRT1523_DD_miketrp",
+	
+
+	"tfw_ilbeMR3000_whip_flk",
+	"tfw_ilbeMR3000_whip_trp",
+	"tfw_ilbeRT1523_whip_flk",
+	"tfw_ilbeRT1523_whip_trp",	
+
+	"tfw_ilbeMR3000_whip_mikeflk",
+	"tfw_ilbeMR3000_whip_miketrp",
+	"tfw_ilbeRT1523_whip_mikeflk",
+	"tfw_ilbeRT1523_whip_miketrp",
+
+	
+	"tfw_ilbeRT1523_blade_gr",
+	"tfw_ilbeMR3000_blade_gr",
+	"tfw_ilbeRT1523_blade_coy",
+	"tfw_ilbeMR3000_blade_coy",
+	
+	"tfw_ilbeRT1523_DD_gr",
+	"tfw_ilbeMR3000_DD_gr",
+	"tfw_ilbeRT1523_DD_coy",
+	"tfw_ilbeMR3000_DD_coy",
+	
+	"tfw_ilbeRT1523_whip_gr",
+	"tfw_ilbeMR3000_whip_gr",
+	"tfw_ilbeRT1523_whip_coy",
+	"tfw_ilbeMR3000_whip_coy",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -166,6 +214,10 @@
 //------------------------------------------------------------------
 	"ItemAndroid",
 	"ItemMicroDAGR",
+	
+	"tfw_blade",
+	"tfw_dd",
+	"tfw_whip",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
