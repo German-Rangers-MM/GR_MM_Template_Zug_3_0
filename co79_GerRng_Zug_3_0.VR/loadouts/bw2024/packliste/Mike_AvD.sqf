@@ -96,6 +96,55 @@
 	"TFAR_rt1523g_big_bwmod_tropen",
 	"TFAR_rt1523g_bwmod",
 	"TFAR_rt1523g_rhs",
+
+		
+	"tfw_ilbeMR3000_blade_flk",
+	"tfw_ilbeMR3000_blade_trp",
+	"tfw_ilbeRT1523_blade_flk",
+	"tfw_ilbeRT1523_blade_trp",
+	
+	"tfw_ilbeMR3000_blade_avdflk",
+	"tfw_ilbeMR3000_blade_avdtrp",
+	"tfw_ilbeRT1523_blade_avdflk",
+	"tfw_ilbeRT1523_blade_avdtrp",
+
+	
+	"tfw_ilbeMR3000_DD_flk",
+	"tfw_ilbeMR3000_DD_trp",
+	"tfw_ilbeRT1523_DD_flk",
+	"tfw_ilbeRT1523_DD_trp",
+	
+	"tfw_ilbeMR3000_DD_avdflk",
+	"tfw_ilbeMR3000_DD_avdtrp",
+	"tfw_ilbeRT1523_DD_avdflk",
+	"tfw_ilbeRT1523_DD_avdtrp",
+	
+
+	"tfw_ilbeMR3000_whip_flk",
+	"tfw_ilbeMR3000_whip_trp",
+	"tfw_ilbeRT1523_whip_flk",
+	"tfw_ilbeRT1523_whip_trp",	
+
+	"tfw_ilbeMR3000_whip_avdflk",
+	"tfw_ilbeMR3000_whip_avdtrp",
+	"tfw_ilbeRT1523_whip_avdflk",
+	"tfw_ilbeRT1523_whip_avdtrp",
+
+	
+	"tfw_ilbeRT1523_blade_gr",
+	"tfw_ilbeMR3000_blade_gr",
+	"tfw_ilbeRT1523_blade_coy",
+	"tfw_ilbeMR3000_blade_coy",
+	
+	"tfw_ilbeRT1523_DD_gr",
+	"tfw_ilbeMR3000_DD_gr",
+	"tfw_ilbeRT1523_DD_coy",
+	"tfw_ilbeMR3000_DD_coy",
+	
+	"tfw_ilbeRT1523_whip_gr",
+	"tfw_ilbeMR3000_whip_gr",
+	"tfw_ilbeRT1523_whip_coy",
+	"tfw_ilbeMR3000_whip_coy",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -149,6 +198,10 @@
 	"ItemcTab",
 	"ItemMicroDAGR",
 	"ItemGPS",
+	
+	"tfw_blade",
+	"tfw_dd",
+	"tfw_whip",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -253,6 +306,7 @@
 	"ace_marker_flags_red",
 	"ace_marker_flags_white",
 	"ace_marker_flags_yellow",
+	"ace_marker_flags_green",
 	"ACE_rope12",
 	"ACE_rope15",
 	"ACE_rope15",

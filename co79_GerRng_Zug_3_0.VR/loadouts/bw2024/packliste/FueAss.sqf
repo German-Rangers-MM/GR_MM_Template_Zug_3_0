@@ -86,6 +86,37 @@
 	"TFAR_rt1523g_big_bwmod_tropen",
 	"TFAR_rt1523g_bwmod",
 	"TFAR_rt1523g_rhs",
+
+		
+	"tfw_ilbeMR3000_DD_flk",
+	"tfw_ilbeMR3000_DD_trp",
+	"tfw_ilbeRT1523_DD_flk",
+	"tfw_ilbeRT1523_DD_trp",
+
+	"tfw_ilbeMR3000_DD_alphaflk",
+	"tfw_ilbeMR3000_DD_alphatrp",
+	"tfw_ilbeRT1523_DD_alphaflk",
+	"tfw_ilbeRT1523_DD_alphatrp",
+
+	"tfw_ilbeMR3000_DD_charlieflk",
+	"tfw_ilbeMR3000_DD_charlietrp",
+	"tfw_ilbeRT1523_DD_charlieflk",
+	"tfw_ilbeRT1523_DD_charlietrp",
+
+	"tfw_ilbeMR3000_DD_zuluflk",
+	"tfw_ilbeMR3000_DD_zulutrp",
+	"tfw_ilbeRT1523_DD_zuluflk",
+	"tfw_ilbeRT1523_DD_zulutrp",
+
+	"tfw_ilbeMR3000_DD_xrayflk",
+	"tfw_ilbeMR3000_DD_xraytrp",
+	"tfw_ilbeRT1523_DD_xrayflk",
+	"tfw_ilbeRT1523_DD_xraytrp",
+		
+	"tfw_ilbeRT1523_DD_gr",
+	"tfw_ilbeMR3000_DD_gr",
+	"tfw_ilbeRT1523_DD_coy",
+	"tfw_ilbeMR3000_DD_coy",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //

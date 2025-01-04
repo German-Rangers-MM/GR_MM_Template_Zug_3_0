@@ -18,9 +18,6 @@
 	"CUP_arifle_HK416_AGL_Black",
 	"CUP_arifle_HK416_AGL_Desert",
 	"CUP_arifle_HK416_AGL_Wood",
-	"CUP_arifle_HK417_12_AG36",
-	"CUP_arifle_HK417_12_AG36_Desert",
-	"CUP_arifle_HK417_12_AG36_Wood",	
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -102,6 +99,67 @@
 	"TFAR_rt1523g_big_bwmod_tropen",
 	"TFAR_rt1523g_bwmod",
 	"TFAR_rt1523g_rhs",
+
+	
+	"tfw_ilbeMR3000_blade_flk",
+	"tfw_ilbeMR3000_blade_trp",
+	"tfw_ilbeRT1523_blade_flk",
+	"tfw_ilbeRT1523_blade_trp",
+
+	"tfw_ilbeMR3000_blade_alphaflk",
+	"tfw_ilbeMR3000_blade_alphatrp",
+	"tfw_ilbeRT1523_blade_alphaflk",
+	"tfw_ilbeRT1523_blade_alphatrp",
+
+	"tfw_ilbeMR3000_blade_charlieflk",
+	"tfw_ilbeMR3000_blade_charlietrp",
+	"tfw_ilbeRT1523_blade_charlieflk",
+	"tfw_ilbeRT1523_blade_charlietrp",
+
+	"tfw_ilbeMR3000_blade_zuluflk",
+	"tfw_ilbeMR3000_blade_zulutrp",
+	"tfw_ilbeRT1523_blade_zuluflk",
+	"tfw_ilbeRT1523_blade_zulutrp",
+
+	"tfw_ilbeMR3000_blade_xrayflk",
+	"tfw_ilbeMR3000_blade_xraytrp",
+	"tfw_ilbeRT1523_blade_xrayflk",
+	"tfw_ilbeRT1523_blade_xraytrp",
+	
+	"tfw_ilbeMR3000_DD_flk",
+	"tfw_ilbeMR3000_DD_trp",
+	"tfw_ilbeRT1523_DD_flk",
+	"tfw_ilbeRT1523_DD_trp",
+
+	"tfw_ilbeMR3000_DD_alphaflk",
+	"tfw_ilbeMR3000_DD_alphatrp",
+	"tfw_ilbeRT1523_DD_alphaflk",
+	"tfw_ilbeRT1523_DD_alphatrp",
+
+	"tfw_ilbeMR3000_DD_charlieflk",
+	"tfw_ilbeMR3000_DD_charlietrp",
+	"tfw_ilbeRT1523_DD_charlieflk",
+	"tfw_ilbeRT1523_DD_charlietrp",
+
+	"tfw_ilbeMR3000_DD_zuluflk",
+	"tfw_ilbeMR3000_DD_zulutrp",
+	"tfw_ilbeRT1523_DD_zuluflk",
+	"tfw_ilbeRT1523_DD_zulutrp",
+
+	"tfw_ilbeMR3000_DD_xrayflk",
+	"tfw_ilbeMR3000_DD_xraytrp",
+	"tfw_ilbeRT1523_DD_xrayflk",
+	"tfw_ilbeRT1523_DD_xraytrp",
+	
+	"tfw_ilbeRT1523_blade_gr",
+	"tfw_ilbeMR3000_blade_gr",
+	"tfw_ilbeRT1523_blade_coy",
+	"tfw_ilbeMR3000_blade_coy",
+	
+	"tfw_ilbeRT1523_DD_gr",
+	"tfw_ilbeMR3000_DD_gr",
+	"tfw_ilbeRT1523_DD_coy",
+	"tfw_ilbeMR3000_DD_coy",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -152,6 +210,9 @@
 	"ItemcTab",
 	"ItemMicroDAGR",
 	"ItemGPS",
+	
+	"tfw_blade",
+	"tfw_dd",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //

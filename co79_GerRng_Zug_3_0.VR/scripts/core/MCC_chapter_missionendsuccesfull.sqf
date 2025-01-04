@@ -4,6 +4,16 @@ private _result = ["Soll die Mission beendet werden?", "Confirm", true, true] ca
 if (!_result) exitWith {};
 
 _outro = getMissionConfigValue "outro";
+switch (_outro) do
+{
+	case "PR1": {};
+	case "PR2": {};
+	case "MGS": {};
+	case "Rock": {};
+	case "AFO": {};
+	case "Video": {};
+	default {_outro = "PR1"};
+};
 _outropfad = "scripts\core\MCC_sequence_outro_success" + _outro + ".sqf";
 
 _outropfad remoteExec ["execVM"];

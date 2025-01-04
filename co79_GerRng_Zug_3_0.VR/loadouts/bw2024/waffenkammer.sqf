@@ -54,6 +54,21 @@ if(!(_unitLoadout == "Schuetze_DM" || _unitLoadout == "Schuetze_LMG" || _unitLoa
     _gemeinsamesMaterial = call compile preprocessFileLineNumbers format ["loadouts\%1\packliste\GemeinsamesMaterial.sqf", fraktionV];
     _packListe append _gemeinsamesMaterial;
 };
+if(!(_unitLoadout == "Schuetze_EHB" || _unitLoadout == "Schuetze_LMG" || _unitLoadout == "Grenadier" || _unitLoadout == "GrpFhr" || _unitLoadout == "GrpFhr_WaGru"  || _unitLoadout == "Spezialpionier"  || _unitLoadout == "Waffen_Spez" || _unitLoadout == "Waffen_Assi" || _unitLoadout == "ZugFhr" || _unitLoadout == "ZugSani")) then {
+    //HK417
+	_HK417 = 
+	[
+		//HK417
+		"CUP_arifle_HK417_12",
+		"CUP_arifle_HK417_12_Desert",
+		"CUP_arifle_HK417_12_Wood",
+		"CUP_20Rnd_762x51_HK417",
+		"CUP_20Rnd_762x51_HK417_Camo_Desert",
+		"CUP_20Rnd_762x51_HK417_Camo_Wood",
+		"CUP_20Rnd_TE1_Red_Tracer_762x51_HK417"
+	];
+    _packListe append _HK417;
+};
 
 // Zusatz Material
 _zusatzMaterial = call compile preprocessFileLineNumbers format ["loadouts\%1\packliste\ZusatzMaterial.sqf", fraktionV];

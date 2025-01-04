@@ -5,6 +5,9 @@ _whitelistedMods = 	[
 						"@KAT - Advanced Medical", "2020940806",
 						"@Zeus Enhanced", "1779063631",
 						"@Zeus Enhanced - ACE3 Compatibility", "2018593688",
+						"@NR6 Hal Evolved - Experimental Branch","3375984704",
+						"@LAFS - Light AI Fire Support","3323604819",
+						"@Dynamic AI Minefields - RCO","2650906858",
 
 						// Missionmaker Mods
 						"@3den Enhanced", "623475643",
@@ -52,6 +55,9 @@ _whitelistedMods = 	[
 						"@PERSIST - RCO","2603942867",
 						"@BoxLoader - Vehicle in Vehicle loading","1199318917",
 						"@Boxloader - ACE compatability","1201499127",
+						"@ACE3 Arsenal Extended - Core","2522638637",
+						"@ACE3 Arsenal Extended - CUP","3135187540",
+						"@ILBE Assault Pack - Rewrite - GERRNG Edited","3314854956",
 
 						//Additional Maps
 						"@Jbad", "520618345",
@@ -68,6 +74,8 @@ _whitelistedMods = 	[
 						"@Bornhom [R]", "2914536900",
 						"@Global Ops Terrains","2917444360",
 						"@Yulakia","2950257727",
+						"@Ruha","1368857262",
+						"@Livonian Lighting: Ruha","1923062007",
 
 						//----------------------------------
 						//
@@ -147,7 +155,8 @@ _whitelistedMods = 	[
 						"tank",
 						"enoch",
 						"aow",
-						"curator"
+						"curator",
+						"ws"
 					];
 
 
