@@ -34,6 +34,7 @@ _box addItemCargoGlobal ["kat_EACA",9];
 _box addItemCargoGlobal ["kat_ketamine",9];
 _box addItemCargoGlobal ["kat_fentanyl",9];
 _box addItemCargoGlobal ["kat_nalbuphine",9];
+_box addItemCargoGlobal ["kat_ncdKit",40];
 
 _box addItemCargoGlobal ["kat_lorazepam",9];
 _box addItemCargoGlobal ["kat_Pulseoximeter",2];
