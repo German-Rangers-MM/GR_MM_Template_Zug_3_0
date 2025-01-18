@@ -51,8 +51,8 @@ if ((count _packListe) < 1) then  {
 
 if(!(_unitLoadout == "Schuetze_DM" || _unitLoadout == "Schuetze_LMG" || _unitLoadout == "Grenadier")) then {
     // Gemeinsames Material
-    _gemeinsamesMaterial = call compile preprocessFileLineNumbers format ["loadouts\%1\packliste\GemeinsamesMaterial.sqf", fraktionV];
-    _packListe append _gemeinsamesMaterial;
+    _gemeinsameWaffen = call compile preprocessFileLineNumbers format ["loadouts\%1\packliste\GemeinsameWaffen.sqf", fraktionV];
+    _packListe append _gemeinsameWaffen;
 };
 if(!(_unitLoadout == "Schuetze_EHB" || _unitLoadout == "Schuetze_LMG" || _unitLoadout == "Grenadier" || _unitLoadout == "GrpFhr" || _unitLoadout == "GrpFhr_WaGru"  || _unitLoadout == "Spezialpionier"  || _unitLoadout == "Waffen_Spez" || _unitLoadout == "Waffen_Assi" || _unitLoadout == "ZugFhr" || _unitLoadout == "ZugSani")) then {
     //HK417
@@ -69,6 +69,9 @@ if(!(_unitLoadout == "Schuetze_EHB" || _unitLoadout == "Schuetze_LMG" || _unitLo
 	];
     _packListe append _HK417;
 };
+//Kleidung und items
+_gemeinsamesMaterial = call compile preprocessFileLineNumbers format ["loadouts\%1\packliste\GemeinsamesMaterial.sqf", fraktionV];
+_packListe append _gemeinsamesMaterial;
 
 // Zusatz Material
 _zusatzMaterial = call compile preprocessFileLineNumbers format ["loadouts\%1\packliste\ZusatzMaterial.sqf", fraktionV];
