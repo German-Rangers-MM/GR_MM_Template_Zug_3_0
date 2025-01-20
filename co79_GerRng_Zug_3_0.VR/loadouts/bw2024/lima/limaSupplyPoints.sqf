@@ -6,14 +6,14 @@ params ["_supply", "_point"];
 // Ermittel die Position Relativ zur Position des Fahrzeuges (Bei HEMTT muss 7 eingestellt sein, damit die Box nicht unter dem LKW steht und 180, damit sie am Heck gespawnt wird)
 _boxPos = switch(_point) do 
 {
-	case limaSupplyPointStatic: {limaSupplyPointStaticMarker getRelPos [0,0];};
-	case limaSupplyPointMobile: {limaSupplyPointMobile getRelPos [7,180];};
+	case limasupplypointstatic: {limasupplypointstaticmarker getRelPos [0,0];};
+	case limasupplypointmobile: {limasupplypointmobile getRelPos [7,180];};
 };
 
 //Setzt die Höhe auf der die Box nachher Positioniert wird. Wird benötigt wenn die Static Station in einem Gebäude oder ähnlichem steht.
 _boxHeight = switch(_point) do 
 {
-	case limaSupplyPointMobile: {0.8};
+	case limasupplypointmobile: {0.8};
 	default {1};
 };
 

@@ -49,12 +49,30 @@ if ((count _packListe) < 1) then  {
 	_packListe = flatten (getUnitLoadout player);
 };
 
-if(!(_unitLoadout == "Schuetze_DM" || _unitLoadout == "Schuetze_LMG" || _unitLoadout == "Grenadier")) then {
+private _uniqueWeaponSelection = [
+	"Schuetze_DM",
+	"Schuetze_LMG",
+	"Grenadier"
+];
+if([_uniqueWeaponSelection] find _unitLoadout !=-1) then {
     // Gemeinsames Material
     _gemeinsameWaffen = call compile preprocessFileLineNumbers format ["loadouts\%1\packliste\GemeinsameWaffen.sqf", fraktionV];
     _packListe append _gemeinsameWaffen;
 };
-if(!(_unitLoadout == "Schuetze_EHB" || _unitLoadout == "Schuetze_LMG" || _unitLoadout == "Grenadier" || _unitLoadout == "GrpFhr" || _unitLoadout == "GrpFhr_WaGru"  || _unitLoadout == "Spezialpionier"  || _unitLoadout == "Waffen_Spez" || _unitLoadout == "Waffen_Assi" || _unitLoadout == "ZugFhr" || _unitLoadout == "ZugSani")) then {
+
+private _417blacklist =[
+	"Schuetze_EHB",
+	"Schuetze_LMG",
+	"Grenadier",
+	"GrpFhr",
+	"GrpFhr_WaGru",
+	"Spezialpionier",
+	"Waffen_Spez",
+	"Waffen_Assi",
+	"ZugFhr",
+	"ZugSani"
+];
+if([_417blacklist] find _unitLoadout !=-1) then {
     //HK417
 	_HK417 = 
 	[

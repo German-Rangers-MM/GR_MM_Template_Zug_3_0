@@ -144,6 +144,9 @@
     "tfw_ilbeRT1523_whip_coy",
     "tfw_ilbeMR3000_whip_coy",
     
+    "B_SCBA_01_F",
+    "B_CombinationUnitRespirator_01_F",
+    
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Helme
@@ -163,6 +166,8 @@
     // ------------------------------------------------------------------
     "G_Aviator",
     "G_Bandanna_aviator",
+    "G_AirPurifyingRespirator_01_F",
+    "G_RegulatorMask_F",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // NVGs
@@ -186,6 +191,14 @@
     "Itemandroid",
     "ItemMicroDAGR",
     "ItemGPS",
+
+    "KAT_Katmin",
+    "KAT_STS",
+    "KAT_Ranger",
+    "KAT_Cavmin",
+
+    "ChemicalDetector_01_watch_F",
+    "KAT_ChemicalDetector",
     
     "tfw_blade",
     "tfw_dd",
