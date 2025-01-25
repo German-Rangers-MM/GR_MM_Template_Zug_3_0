@@ -16,9 +16,6 @@
     "CUP_arifle_HK416_AGL_Black",
     "CUP_arifle_HK416_AGL_Desert",
     "CUP_arifle_HK416_AGL_Wood",
-    "arifle_SPAR_03_blk_F",
-    "arifle_SPAR_03_snd_F",
-    "arifle_SPAR_03_khk_F",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Visiere

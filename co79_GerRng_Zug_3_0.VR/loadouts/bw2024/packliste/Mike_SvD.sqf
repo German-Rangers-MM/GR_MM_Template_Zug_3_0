@@ -51,7 +51,10 @@
     // uniforms
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    
+    "U_B_HeliPilotCoveralls",
+    "CUP_U_B_USArmy_PilotOverall",
+    "CUP_U_B_USMC_PilotOverall",
+    "U_B_CBRN_Suit_01_Wdl_F",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // vests
@@ -67,6 +70,11 @@
     "CUP_V_B_GER_Armatus_Trop",
     "CUP_V_B_GER_Armatus_Fleck",
     "V_Chestrig_rgr",
+
+    "Aircrew_vest_2_NH",
+    "CUP_V_B_PilotVest",
+    "V_TacVest_oli",
+    "V_CarrierRigKBT_01_Olive_F",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // backpacks
@@ -121,6 +129,9 @@
     "tfw_ilbeMR3000_whip_gr",
     "tfw_ilbeRT1523_whip_coy",
     "tfw_ilbeMR3000_whip_coy",
+    
+    "B_SCBA_01_F",
+    "B_CombinationUnitRespirator_01_F",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Helme
@@ -132,12 +143,22 @@
     "CUP_H_Ger_Boonie2_desert",
     "CUP_H_Ger_Cap_EP_Grn1",
     "CUP_H_Ger_Cap_EP_tan1",
+
+    "H_CrewHelmetHeli_B",
+    "H_PilotHelmetHeli_B",
+    "H_PilotHelmetHeli_I_E",
+    "H_CrewHelmetHeli_I_E",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // goggles
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    
+    "G_AirPurifyingRespirator_01_F",
+    "G_RegulatorMask_F",
+    "G_Aviator",
+    "G_Bandanna_aviator",
+    "CUP_G_TK_roundGlasses",
+    "CUP_G_TK_roundGlasses_blk",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // NVGs
@@ -159,6 +180,14 @@
     "Itemandroid",
     "ItemcTab",
     "ItemMicroDAGR",
+
+    "KAT_Katmin",
+    "KAT_STS",
+    "KAT_Ranger",
+    "KAT_Cavmin",
+
+    "ChemicalDetector_01_watch_F",
+    "KAT_ChemicalDetector",
     
     "tfw_blade",
     "tfw_dd",
