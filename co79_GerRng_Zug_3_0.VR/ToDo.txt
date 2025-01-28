@@ -1,9 +1,0 @@
-- Ingame Briefing benötigt?
-
-"a3\ui_f\data\map\vehicleicons\iconcrateammo_ca.paa"
-
-"a3\ui_f\data\map\vehicleicons\iconcrateord_ca.paa"
-
-"ca\weapons_e\data\icons\mapicon_backpack_ca.paa"
-a3\ui_f\data\igui\cfg\cursors\iconrearmat_ca.paa
-

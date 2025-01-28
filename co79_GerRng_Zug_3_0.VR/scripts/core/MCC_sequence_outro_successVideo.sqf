@@ -1,7 +1,8 @@
 // Stops running the Sequence on the Server or HC
 if (! hasInterface) exitWith {};
 
-playMusic "Outro_SuccessPR1";
+//Start Music
+playMusic "PRIntro";
 
 titleText ["<img image='images\GermanRangersLogo.paa' shadow='0' size='10'/> <br/>
 			<t color='#ffffff' size='5' font='RobotoCondensed' shadow = '2' >M I S S I O N   E R F Ü L L T</t>
@@ -13,13 +14,9 @@ titleText ["<img image='images\GermanRangersLogo.paa' shadow='0' size='10'/> <br
 
 sleep 4;
 
-//Start Music
-
 ["Intro", true, 2] call BIS_fnc_blackOut;
-sleep 2;
 
-playMusic "PRIntro";
-sleep 1.5;
+sleep 4;
 
 // Check ob Intro Mod gelden wurde -> Video abspielen
 if isClass (configFile >> "CfgPatches" >> "lightning_ressources") then	{	
