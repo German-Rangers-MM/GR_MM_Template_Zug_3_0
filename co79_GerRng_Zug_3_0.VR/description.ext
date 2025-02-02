@@ -183,8 +183,7 @@ class CfgDebriefing
 		title = "Mission Erfüllt";
 		subtitle = "Sammeln zur Nachbesprechung.";
 		description = "Auftrag erfolgreich abgeschlossen! Sammeln sie sich im Lagezentrum zur Nachbesprechung.";
-		pictureBackground = "images\GermanRangersLogo.paa";
-		picture = "b_inf";
+		pictureBackground = "images\GermanRangersLogo.paa";		
 		pictureColor[] = {0.0,0.3,0.6,1};
 	};
 	
@@ -193,8 +192,7 @@ class CfgDebriefing
 		title = "To be Continued";
 		subtitle = "";
 		description = "Biwak aufschlagen und Wachnachbereitung vorbereiten. Sammeln sie sich im Lagezentrum zur Nachbesprechung.";
-		pictureBackground = "images\GermanRangersLogo.paa";
-		picture = "b_inf";
+		pictureBackground = "images\GermanRangersLogo.paa";		
 		pictureColor[] = {0.0,0.3,0.6,1};
 	};
 
@@ -203,8 +201,7 @@ class CfgDebriefing
 		title = "Mission Fehlgeschlagen";
 		subtitle = "Sammeln zur Nachbesprechung.";
 		description = "Auftrag nicht erfüllt! Sammeln sie sich im Lagezentrum zur Nachbesprechung.";
-		pictureBackground = "images\GermanRangersLogo.paa";
-		picture = "KIA";
+		pictureBackground = "images\GermanRangersLogo.paa";		
 		pictureColor[] = {0.0,0.3,0.6,1};
 	};
 };

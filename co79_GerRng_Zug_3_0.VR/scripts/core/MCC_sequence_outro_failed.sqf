@@ -19,7 +19,7 @@ cutText ["", "BLACK IN", 3, true, true];
 
 _playerName = (toUpper profileName) splitString "" joinString " ";;
 
-_personalText =  format ["<br/><br/><br/><br/><img image='images\GermanRangersLogo.paa' shadow='0' size='10'/><br/><br/><t color='#ffffff' size='3' font='RobotoCondensed' shadow = '2' >B I S  N Auml; C H S T E  W O C H E ,   %1</t><br/><br/><t color='#ffffff' size='1.5' font='RobotoCondensed' shadow = '2' >Danke für deinen Einsatz bei den German Rangers!</t>", _playerName];
+_personalText =  format ["<br/><br/><br/><br/><img image='images\GermanRangersLogo.paa' shadow='0' size='10'/><br/><br/><t color='#ffffff' size='2.5' font='RobotoCondensed' shadow = '2' >B I S  N A E C H S T E  W O C H E ,<br/><br/>   %1</t><br/><br/><t color='#ffffff' size='1.5' font='RobotoCondensed' shadow = '2' >Danke für deinen Einsatz bei den German Rangers!</t>", _playerName];
 titleText [_personalText, "PLAIN", 2, true, true];
 
 //Camera creating - always add to the script to make the camera work
