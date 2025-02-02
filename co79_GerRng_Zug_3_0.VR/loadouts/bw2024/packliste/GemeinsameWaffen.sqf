@@ -131,7 +131,6 @@
     "CUP_hgun_M17_Black",
     "CUP_hgun_M17_Coyote",
     "CUP_hgun_M17_Green",
-    "ACE_VMH3",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Launcher
@@ -157,29 +156,7 @@
     "CUP_17Rnd_9x19_M17_Green",
     "CUP_21Rnd_9x19_M17_Black",
     "CUP_21Rnd_9x19_M17_Coyote",
-    "CUP_21Rnd_9x19_M17_Green",
-    // ------------------------------------------------------------------
-    // ------------------------------------------------------------------
-    // Grenades / throw
-    // ------------------------------------------------------------------
-    // ------------------------------------------------------------------
-    "SmokeShell",
-    "SmokeShellGreen",
-    "SmokeShellRed",
-    "SmokeShellPurple",
-    "SmokeShellorange",
-    "SmokeShellBlue",
-    "CUP_HandGrenade_M67",
-    "Chemlight_blue",
-    "ACE_Chemlight_HiBlue",
-    "Chemlight_green",
-    "ACE_Chemlight_HiGreen",
-    "ACE_Chemlight_IR",
-    "ACE_Chemlight_orange",
-    "ACE_Chemlight_UltraHiorange",
-    "ACE_Chemlight_White",
-    "ACE_Chemlight_HiWhite",
-    "ACE_Chemlight_HiYellow"
+    "CUP_21Rnd_9x19_M17_Green"
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // explosives / Put
