@@ -54,8 +54,7 @@ private _uniqueWeaponSelection = [
 	"Schuetze_LMG",
 	"Grenadier"
 ];
-if([_uniqueWeaponSelection] find _unitLoadout !=-1) then {
-    // Gemeinsames Material
+if(!(_unitLoadout in _uniqueWeaponSelection)) then {
     _gemeinsameWaffen = call compile preprocessFileLineNumbers format ["loadouts\%1\packliste\GemeinsameWaffen.sqf", fraktionV];
     _packListe append _gemeinsameWaffen;
 };
@@ -72,7 +71,7 @@ private _417blacklist =[
 	"ZugFhr",
 	"ZugSani"
 ];
-if([_417blacklist] find _unitLoadout !=-1) then {
+if(!(_unitLoadout in _417blacklist)) then {
     //HK417
 	_HK417 = 
 	[
