@@ -74,7 +74,21 @@
     "TFAR_rt1523g_big_bwmod_tropen",
     "TFAR_rt1523g_bwmod",
     "TFAR_rt1523g_rhs",
+        
+    "tfw_ilbeRT1523_whip_flk",
+    "tfw_ilbeRT1523_whip_trp",
+    "tfw_ilbeRT1523_whip_foxsanflk",
+    "tfw_ilbeRT1523_whip_foxsantrp",
+    "tfw_ilbeRT1523_whip_vicsanflk",
+    "tfw_ilbeRT1523_whip_vicsantrp",
     
+    "tfw_ilbeMR3000_whip_flk",
+    "tfw_ilbeMR3000_whip_trp",
+    "tfw_ilbeMR3000_whip_foxsanflk",
+    "tfw_ilbeMR3000_whip_foxsantrp",
+    "tfw_ilbeMR3000_whip_vicsanflk",
+    "tfw_ilbeMR3000_whip_vicsantrp",
+
     "tfw_ilbeRT1523_blade_flk",
     "tfw_ilbeRT1523_blade_trp",
     "tfw_ilbeRT1523_blade_foxsanflk",
