@@ -7,7 +7,7 @@ titleText ["<img image='images\GermanRangersLogo.paa' shadow='0' size='10'/> <br
 			<t color='#ffffff' size='5' font='RobotoCondensed' shadow = '2' >M I S S I O N   E R F Ü L L T</t>
 			<br/>
 			<br/>
-			<t color='#ffffff' size='1.5' font='RobotoCondensed' shadow = '2' >Auftrag erfolreich abgeschlossen.</t>", 
+			<t color='#ffffff' size='1.5' font='RobotoCondensed' shadow = '2' >Auftrag erfolgreich abgeschlossen.</t>", 
 			"PLAIN", 2, true, true
 		];
 
