@@ -91,7 +91,52 @@
     // backpacks
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+    "TFAR_mr3000_bwmod",
+    "TFAR_rt1523g_big_bwmod_tropen",
+    "TFAR_rt1523g_bwmod",
+    "TFAR_rt1523g_rhs",
     
+    "tfw_ilbeMR3000_blade_flk",
+    "tfw_ilbeMR3000_blade_trp",
+    "tfw_ilbeRT1523_blade_flk",
+    "tfw_ilbeRT1523_blade_trp",
+    
+    "tfw_ilbeMR3000_blade_bravoflk",
+    "tfw_ilbeMR3000_blade_bravotrp",
+    "tfw_ilbeRT1523_blade_bravoflk",
+    "tfw_ilbeRT1523_blade_bravotrp",
+    
+    "tfw_ilbeMR3000_blade_yankeeflk",
+    "tfw_ilbeMR3000_blade_yankeetrp",
+    "tfw_ilbeRT1523_blade_yankeeflk",
+    "tfw_ilbeRT1523_blade_yankeetrp",
+
+    
+    "tfw_ilbeMR3000_DD_flk",
+    "tfw_ilbeMR3000_DD_trp",
+    "tfw_ilbeRT1523_DD_flk",
+    "tfw_ilbeRT1523_DD_trp",
+    
+    "tfw_ilbeMR3000_DD_bravoflk",
+    "tfw_ilbeMR3000_DD_bravotrp",
+    "tfw_ilbeRT1523_DD_bravoflk",
+    "tfw_ilbeRT1523_DD_bravotrp",
+    
+    "tfw_ilbeMR3000_DD_yankeeflk",
+    "tfw_ilbeMR3000_DD_yankeetrp",
+    "tfw_ilbeRT1523_DD_yankeeflk",
+    "tfw_ilbeRT1523_DD_yankeetrp",
+
+    
+    "tfw_ilbeRT1523_blade_gr",
+    "tfw_ilbeMR3000_blade_gr",
+    "tfw_ilbeRT1523_blade_coy",
+    "tfw_ilbeMR3000_blade_coy",
+    
+    "tfw_ilbeRT1523_DD_gr",
+    "tfw_ilbeMR3000_DD_gr",
+    "tfw_ilbeRT1523_DD_coy",
+    "tfw_ilbeMR3000_DD_coy",
     // ------------------------------------------------------------------
     // Helme
     // ------------------------------------------------------------------
