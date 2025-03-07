@@ -24,6 +24,9 @@
     "CUP_arifle_MG36_camo",
     "CUP_arifle_MG36_wdl",
     "LMG_03_F",
+    "CUP_smg_MP5A5",
+    "SMG_05_F",
+    "CUP_smg_MP7",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Visiere
@@ -168,6 +171,10 @@
     "1Rnd_SmokeRed_Grenade_shell",
     "1Rnd_SmokeGreen_Grenade_shell",
     "1Rnd_Smoke_Grenade_shell",
+    "CUP_20Rnd_46x30_MP7",
+    "CUP_40Rnd_46x30_MP7",
+    "CUP_40Rnd_46x30_MP7_Red_Tracer",
+    "CUP_30Rnd_9x19_MP5",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Grenades / throw
