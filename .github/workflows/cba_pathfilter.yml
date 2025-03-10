@@ -27,7 +27,7 @@ jobs:
   # JOB to build and test backend code
   cba:
     needs: changes
-    if: ${{ needs.changes.outputs.cba == 'true' }} && github.actor == 'Cesrap'
+    if: ${{ needs.changes.outputs.cba == 'true' && github.actor == 'Cesrap' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
