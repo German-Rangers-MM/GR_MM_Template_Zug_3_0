@@ -33,5 +33,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Auto Approve
-        uses: ./.github/actions/cba_docs_auto_approve.yml
+        uses: ./.github/actions/cba_docs_auto_approve
 
