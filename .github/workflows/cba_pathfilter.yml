@@ -1,0 +1,37 @@
+on:
+    pull_request:
+        branches:
+          - main
+        types: [opened, edited, synchronize, reopened]
+jobs:
+  # JOB to run change detection
+  changes:
+    runs-on: ubuntu-latest
+    # Required permissions
+    permissions:
+      pull-requests: read
+    # Set job outputs to values from filter step
+    outputs:
+      cba: ${{ steps.filter.outputs.cba }}
+    steps:
+    # For pull requests it's not necessary to checkout the code
+    - uses: dorny/paths-filter@v3
+      id: filter
+      with:
+        token: ${{ secrets.GR_MM_TOKEN }}
+        base: 'main'
+        filters: |
+          cba:
+            - 'cba_configs/**'
+
+  # JOB to build and test backend code
+  cba:
+    needs: changes
+    if: ${{ needs.changes.outputs.cba == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Auto Approve
+        uses: ./.github/actions/cba_docs_auto_approve.yml
+
