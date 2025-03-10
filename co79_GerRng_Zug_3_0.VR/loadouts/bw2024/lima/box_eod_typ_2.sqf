@@ -1,4 +1,4 @@
-// Kiste EOD Typ II - Ausrüstung
+// Kiste EOD Typ II - Drohnen
 /* Aufruf im Editor mit:
 
 _path = format ["loadouts\%1\lima\box_eod_typ_i.sqf", getMissionConfigValue "fraktion"]; 
@@ -20,8 +20,10 @@ clearBackpackCargoGlobal _box;
 _box addItemCargoGlobal ["ACE_Flashlight_Maglite_ML300L",2];
 _box addBackpackCargoGlobal ["ACE_TacticalLadder_Pack",2];
 _box addItemCargoGlobal ["ACE_UAVBattery",1];
-_box addItemCargoGlobal ["B_UavTerminal",2];
+_box addItemCargoGlobal ["B_UavTerminal",1];
+_box addItemCargoGlobal ["C_UavTerminal",1];
 _box addBackpackCargoGlobal ["B_UGV_02_Demining_backpack_F",1];
+_box addBackpackCargoGlobal ["C_IDAP_UAV_06_antimine_backpack_F",1];
 _box addItemCargoGlobal ["ACE_VMH3",1];
 _box addItemCargoGlobal ["ACE_VMM3",1];
 
