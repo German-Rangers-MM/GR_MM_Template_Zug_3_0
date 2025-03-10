@@ -1,16 +1,16 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
-//	Sierra_NaSi
+//	Sierra_San
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-player setVariable ["GR_unitLoadout","Sierra_NaSi"];
+player setVariable ["GR_unitLoadout","Sierra_San"];
 
 //	https://community.bistudio.com/wiki/Unit_Loadout_Array
 player setUnitLoadout [
-    ["CUP_arifle_HK417_12_AG36_Wood", "CUP_muzzle_snds_socom762rc", "CUP_acc_ANPEQ_15_OD", "CUP_optic_Elcan_SpecterDR_KF_RMR_od", 
-        ["CUP_20Rnd_762x51_HK417_Camo_Wood", 20], ["ACE_HuntIR_M203", 1], ""
+    ["CUP_arifle_HK416_CQB_Wood", "CUP_muzzle_snds_SCAR_L", "CUP_acc_ANPEQ_15_Flashlight_OD_L", "CUP_optic_AIMM_MICROT1_OD", 
+        ["CUP_30Rnd_556x45_PMAG_OD", 30], [], "CUP_bipod_Harris_1A2_L"
     ],
     [],
     ["CUP_hgun_Glock17_blk", "CUP_muzzle_snds_M9", "", "optic_MRD_black", 
@@ -20,25 +20,26 @@ player setUnitLoadout [
         ["ACE_CableTie", 4], ["ACE_EarPlugs", 1], ["ACE_IR_Strobe_Item", 1], 
         ["ItemcTabHCam", 1], ["ACE_epinephrine", 2], ["ACE_morphine", 2], 
         ["ACE_MapTools", 1], ["ACE_Flashlight_XL50", 1], ["CUP_NVG_PVS15_black", 1], 
-        ["CUP_H_OpsCore_Covered_Fleck", 1], ["kat_Caffeine", 1, 15], ["kat_Penthrox", 1, 10]
+        ["CUP_H_Ger_Boonie_Flecktarn", 1], ["kat_Caffeine", 1, 15], ["kat_Penthrox", 1, 10]
     ]],
     ["CUP_V_B_GER_Armatus_BB_Fleck", [
-        ["CUP_17Rnd_9x19_glock17", 3, 17], ["SmokeShell", 2, 1], ["SmokeShellGreen", 2, 1], 
-        ["ACE_M84", 4, 1], ["CUP_20Rnd_762x51_HK417_Camo_Wood", 7, 20], ["ACE_HuntIR_M203", 6, 1]
+        ["CUP_muzzle_mfsup_Flashhider_556x45_OD", 1], ["CUP_17Rnd_9x19_glock17", 3, 17], 
+        ["SmokeShell", 2, 1], ["SmokeShellGreen", 2, 1], ["ACE_M84", 4, 1], 
+        ["CUP_30Rnd_556x45_PMAG_OD", 7, 30]
     ]],
     ["CFP_Kitbag_Flecktarn", [
-        ["kat_IV_16", 5], ["ACE_adenosine", 5], ["kat_chestSeal", 10], ["ACE_elasticBandage", 40], 
-        ["kat_EACA", 5], ["ACE_epinephrine", 5], ["kat_IO_FAST", 5], ["kat_fentanyl", 3], 
-        ["kat_ketamine", 3], ["kat_larynx", 5], ["ACE_morphine", 5], ["kat_TXA", 10], 
-        ["ACE_tourniquet", 4], ["ACE_splint", 2], ["ACE_salineIV_500", 12], 
-        ["kat_Pulseoximeter", 3], ["kat_pocketBVM", 1], ["kat_nitroglycerin", 5], 
-        ["kat_naloxone", 1], ["ACE_surgicalKit", 1], ["ACE_packingBandage", 20], 
+        ["kat_IV_16", 10], ["ACE_adenosine", 10], ["kat_chestSeal", 10], ["ACE_elasticBandage", 50], 
+        ["kat_EACA", 10], ["ACE_epinephrine", 10], ["kat_IO_FAST", 15], ["kat_fentanyl", 6], 
+        ["kat_ketamine", 6], ["kat_larynx", 5], ["ACE_morphine", 10], ["kat_TXA", 15], 
+        ["ACE_tourniquet", 4], ["ACE_splint", 4], ["ACE_salineIV_500", 18], 
+        ["kat_Pulseoximeter", 6], ["kat_pocketBVM", 1], ["kat_nitroglycerin", 10], 
+        ["kat_naloxone", 2], ["ACE_surgicalKit", 1], ["ACE_packingBandage", 30], 
         ["kat_stethoscope", 1], ["kat_ncdKit", 10]
     ]],
-    "CUP_H_Ger_Boonie_Flecktarn",
+    "CUP_H_OpsCore_Covered_Fleck",
     "CUP_G_PMC_Facewrap_Tropical_Glasses_Dark",
     ["Rangefinder", "", "", "", [], [], ""],
-    ["ItemMap", "ItemAndroid", "TFAR_anprc152", "ItemCompass", "ACE_Altimeter", ""]
+    ["ItemMap", "ItemAndroid", "TFAR_anprc152_12", "ItemCompass", "ACE_Altimeter", ""]
 ];
 
 //------------------------------------------------------------------
