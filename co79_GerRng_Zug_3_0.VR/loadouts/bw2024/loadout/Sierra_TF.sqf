@@ -1,16 +1,16 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
-//	Sierra_Scharf
+//	Sierra_TF
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-player setVariable ["GR_unitLoadout","Sierra_Scharf"];
+player setVariable ["GR_unitLoadout","Sierra_TF"];
 
 //	https://community.bistudio.com/wiki/Unit_Loadout_Array
 player setUnitLoadout [
-    ["CUP_srifle_AWM_wdl", "CUP_muzzle_snds_AWM", "", "CUP_optic_LeupoldMk4_25x50_LRT", 
-        ["CUP_5Rnd_86x70_L115A1", 5], [], "CUP_bipod_Harris_1A2_L_BLK"
+    ["CUP_arifle_HK416_CQB_Wood", "CUP_muzzle_snds_SCAR_L", "CUP_acc_ANPEQ_15_Flashlight_OD_L", "CUP_optic_AIMM_MICROT1_OD", 
+        ["CUP_30Rnd_556x45_PMAG_OD", 30], [], "CUP_bipod_Harris_1A2_L"
     ],
     [],
     ["CUP_hgun_Glock17_blk", "CUP_muzzle_snds_M9", "", "optic_MRD_black", 
@@ -19,22 +19,24 @@ player setUnitLoadout [
     ["CUP_U_B_GER_Fleck_Crye", [
         ["ACE_CableTie", 4], ["ACE_EarPlugs", 1], ["ACE_IR_Strobe_Item", 1], 
         ["ItemcTabHCam", 1], ["ACE_epinephrine", 2], ["ACE_morphine", 2], 
-        ["ACE_MapTools", 1], ["ACE_Flashlight_XL50", 1], ["ACE_RangeCard", 1], 
+        ["ACE_MapTools", 1], ["ACE_Flashlight_XL50", 1], ["ACE_HuntIR_monitor", 1], 
         ["kat_Caffeine", 1, 15], ["kat_Penthrox", 1, 10]
     ]],
     ["CUP_V_B_GER_Armatus_BB_Fleck", [
-        ["CUP_17Rnd_9x19_glock17", 3, 17], ["SmokeShell", 2, 1], ["SmokeShellGreen", 2, 1], 
-        ["ACE_M84", 4, 1], ["CUP_5Rnd_86x70_L115A1", 10, 5]
+        ["CUP_30Rnd_556x45_PMAG_OD", 7, 30], ["CUP_17Rnd_9x19_glock17", 3, 17], 
+        ["SmokeShell", 2, 1], ["SmokeShellGreen", 2, 1], ["ACE_M84", 4, 1], 
+        ["SmokeShellRed", 2, 1], ["SmokeShellPurple", 2, 1], ["B_IR_Grenade", 2, 1]
     ]],
-    ["CFP_Kitbag_Flecktarn", [
-        ["kat_chestSeal", 10], ["ACE_elasticBandage", 40], ["ACE_epinephrine", 5], 
-        ["ACE_morphine", 5], ["ACE_tourniquet", 4], ["ACE_splint", 2], ["ACE_salineIV_500", 12], 
-        ["ACE_packingBandage", 20], ["CUP_NVG_PVS15_black", 1], ["CUP_H_OpsCore_Covered_Fleck", 1]
+    ["CFP_Camelbak_Mule_RngrGrn", [
+        ["CUP_H_OpsCore_Covered_Fleck", 1], ["CUP_NVG_PVS15_black", 1], ["ACE_salineIV_500", 4], 
+        ["ACE_wirecutter", 1], ["ACE_EntrenchingTool", 1], ["ACE_elasticBandage", 15], 
+        ["ACE_splint", 2], ["ACE_tourniquet", 2], ["kat_chestSeal", 1], ["ACE_packingBandage", 15], 
+        ["CUP_muzzle_mfsup_Flashhider_556x45_OD", 1]
     ]],
-    "CUP_H_Ger_Cap_EP_Grn1",
+    "CUP_H_Ger_Boonie_Flecktarn",
     "CUP_G_PMC_Facewrap_Tropical_Glasses_Dark",
-    ["Rangefinder", "", "", "", [], [], ""],
-    ["ItemMap", "ItemAndroid", "TFAR_anprc152_25", "ItemCompass", "ACE_Altimeter", ""]
+    ["Laserdesignator_02_ghex_F", "", "", "", ["Laserbatteries", 1], [], ""],
+    ["ItemMap", "ItemAndroid", "TFAR_anprc152_2", "ItemCompass", "ACE_Altimeter", ""]
 ];
 
 //------------------------------------------------------------------
