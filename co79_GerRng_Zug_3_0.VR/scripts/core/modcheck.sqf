@@ -44,6 +44,8 @@ _whitelistedMods = 	[
 						"@German Rangers Equipment", "2996640864",
 						"@cTab 1erGTD", "2262006564",
 						"@SIT 1erGTD", "2262009445",
+						"@Breach - Rewrite", "3283645995",
+						"@Speshal Core", "3283642267",
 
 						//Gameplay & Ausrüstung
 						"@Crows Electronic Warfare", "2515887728",
@@ -58,6 +60,7 @@ _whitelistedMods = 	[
 						"@ACE3 Arsenal Extended - Core","2522638637",
 						"@ACE3 Arsenal Extended - CUP","3135187540",
 						"@ILBE Assault Pack - Rewrite - GERRNG Edited","3314854956",
+						"@A3 Thermal Improvement", "2041057379",
 
 						//Additional Maps
 						"@Jbad", "520618345",
@@ -104,6 +107,7 @@ _whitelistedMods = 	[
 						"@Simplex Support Services", "1850026051",
 						"@DUI - Squad Radar", "1638341685",
 						"@BackpackOnChest - Redux", "2372036642",
+						"@Arma 3 PiShock", "3024239355",
 						
 						//Visual
 						"@Blastcore Edited (standalone version)", "767380317",
