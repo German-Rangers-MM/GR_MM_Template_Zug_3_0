@@ -18,6 +18,7 @@ clearBackpackCargoGlobal _box;
 _box addMagazineCargoGlobal ["SmokeShell",30];
 _box addMagazineCargoGlobal ["SmokeShellGreen",10];
 _box addMagazineCargoGlobal ["SmokeShellRed",10];
+_box addMagazineCargoGlobal ["SmokeShellPurple",10];
 _box addMagazineCargoGlobal ["CUP_HandGrenade_M67",30];
 
 // für diese Box Gewichtslimit Ignorieren

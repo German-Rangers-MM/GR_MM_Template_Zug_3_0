@@ -306,11 +306,14 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 		_iconEod = "a3\ui_f\data\igui\cfg\simpletasks\types\mine_ca.paa";
 		_iconCBRN = "z\ace\addons\medical_gui\data\categories\airway_management.paa";
 		_iconWaGru = "a3\ui_f\data\gui\rsc\rscdisplayarsenal\secondaryweapon_ca.paa";
+		_iconWaGruStatic = "a3\ui_f\data\map\vehicleicons\iconcrategrenades_ca.paa";
 		_iconZug = "a3\ui_f\data\gui\rsc\rscdisplayarsenal\cargomagall_ca.paa";
 		_iconErsatz = "a3\ui_f\data\igui\cfg\actions\repair_ca.paa";
 		_iconSan = "a3\ui_f\data\igui\cfg\simpletasks\types\heal_ca.paa";
 		_iconBodybags = "z\ace\addons\medical_gui\ui\grave.paa";
 		_iconSierra = "a3\weapons_f\data\ui\icon_sniper_ca.paa";
+		_iconVerpflegung ="z\ace\addons\field_rations\ui\icon_hud_hungerstatus.paa";
+
 
 		// Lima Supply Point Static & Mobile
 		{
@@ -357,18 +360,60 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 							
 				_wagru3 = ["wagru3","WaGru Typ 3 - MAAWS",_icon,{[["wagru3",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 				[_x, 0, ["ACE_MainActions", "WaGru Boxen"], _wagru3] call ace_interact_menu_fnc_addActionToObject;
-							
-				_wagru4 = ["wagru4","WaGru Typ 4 - Titan AT",_icon,{[["wagru4",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+
+				_wagru4 = ["wagru4","WaGru Typ 4 - MAAWS Sondermunition",_icon,{[["wagru4",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 				[_x, 0, ["ACE_MainActions", "WaGru Boxen"], _wagru4] call ace_interact_menu_fnc_addActionToObject;
 							
-				_wagru5 = ["wagru5","WaGru Typ 5 - Titan AA",_icon,{[["wagru5",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				_wagru5 = ["wagru4","WaGru Typ 5 - Titan AT",_icon,{[["wagru5",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 				[_x, 0, ["ACE_MainActions", "WaGru Boxen"], _wagru5] call ace_interact_menu_fnc_addActionToObject;
 							
-				_wagru6 = ["wagru6","WaGru Typ 6 - Metis",_icon,{[["wagru6",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				_wagru6 = ["wagru6","WaGru Typ 6 - Titan AA",_icon,{[["wagru6",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 				[_x, 0, ["ACE_MainActions", "WaGru Boxen"], _wagru6] call ace_interact_menu_fnc_addActionToObject;
-				
-				_wagru7 = ["wagru7","WaGru Typ 7 - Combat Engineering",_icon,{[["wagru7",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+							
+				_wagru7 = ["wagru7","WaGru Typ 7 - Metis",_icon,{[["wagru7",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 				[_x, 0, ["ACE_MainActions", "WaGru Boxen"], _wagru7] call ace_interact_menu_fnc_addActionToObject;
+				
+				_wagru8 = ["wagru8","WaGru Typ 8 - Combat Engineering",_icon,{[["wagru8",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "WaGru Boxen"], _wagru8] call ace_interact_menu_fnc_addActionToObject;
+
+			
+			_waGruBoxenStatic = ["WaGru Boxen Static","WaGru Boxen Static",_iconWaGruStatic,{ },{true}] call ace_interact_menu_fnc_createAction;
+			[_x, 0, ["ACE_MainActions"], _waGruBoxenStatic] call ace_interact_menu_fnc_addActionToObject;
+				//------------------------------------------------------------------
+				_wagrustat1 = ["WaGruStat1","WaGruStat Typ 1 - M2 Waffe",_icon,{[["WaGruStat1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "WaGru Boxen Static"], _wagrustat1] call ace_interact_menu_fnc_addActionToObject;
+
+				_wagrustat2 = ["WaGruStat2","WaGruStat Typ 2 - M2 Munition",_icon,{[["WaGruStat2",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "WaGru Boxen Static"], _wagrustat2] call ace_interact_menu_fnc_addActionToObject;
+
+				_wagrustat3 = ["WaGruStat3","WaGruStat Typ 3 - Mk19 Waffe",_icon,{[["WaGruStat3",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "WaGru Boxen Static"], _wagrustat3] call ace_interact_menu_fnc_addActionToObject;
+
+				_wagrustat4 = ["WaGruStat4","WaGruStat Typ 4 - Mk19 Munition",_icon,{[["WaGruStat4",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "WaGru Boxen Static"], _wagrustat4] call ace_interact_menu_fnc_addActionToObject;
+
+				_wagrustat5 = ["WaGruStat5","WaGruStat Typ 5 - TOW Waffe",_icon,{[["WaGruStat5",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "WaGru Boxen Static"], _wagrustat5] call ace_interact_menu_fnc_addActionToObject;
+
+				_wagrustat6 = ["WaGruStat6","WaGruStat Typ 6 - TOW Munition",_icon,{[["WaGruStat6",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "WaGru Boxen Static"], _wagrustat6] call ace_interact_menu_fnc_addActionToObject;
+
+				_wagrustat7 = ["WaGruStat7","WaGruStat Typ 7 - 82mm Mörser Waffe",_icon,{[["WaGruStat7",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "WaGru Boxen Static"], _wagrustat7] call ace_interact_menu_fnc_addActionToObject;
+
+				_wagrustat8 = ["WaGruStat8","WaGruStat Typ 8 - 82mm Munition HE",_icon,{[["WaGruStat8",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "WaGru Boxen Static"], _wagrustat8] call ace_interact_menu_fnc_addActionToObject;
+
+				_wagrustat9 = ["WaGruStat9","WaGruStat Typ 9 - 82mm Sondermunition",_icon,{[["WaGruStat9",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "WaGru Boxen Static"], _wagrustat9] call ace_interact_menu_fnc_addActionToObject;
+
+				_wagrustat10 = ["WaGruStat10","WaGruStat Typ 10 - 60mm Mörser und Standardmunition",_icon,{[["WaGruStat10",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "WaGru Boxen Static"], _wagrustat10] call ace_interact_menu_fnc_addActionToObject;
+
+				_wagrustat11 = ["WaGruStat1","WaGruStat Typ 11 - 60mm Sondermunition",_icon,{[["WaGruStat11",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "WaGru Boxen Static"], _wagrustat11] call ace_interact_menu_fnc_addActionToObject;
+
+
 				//------------------------------------------------------------------
 			// Parent Action für EOD Boxen
 			_eodBoxen = ["EOD Boxen","EOD Boxen",_iconEod,{ },{true}] call ace_interact_menu_fnc_createAction;
@@ -396,7 +441,7 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 				_cbrn2 = ["CBRN2","Typ 2 - CBRN-Erkundung",_icon,{[["cbrn2",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 				[_x, 0, ["ACE_MainActions", "CBRN Boxen"], _cbrn2] call ace_interact_menu_fnc_addActionToObject;
 
-				_cbrn3 = ["CBRN2","Typ 3 - CBRN-UGV",_icon,{[["cbrn3",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				_cbrn3 = ["CBRN3","Typ 3 - CBRN-UGV",_icon,{[["cbrn3",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 				[_x, 0, ["ACE_MainActions", "CBRN Boxen"], _cbrn3] call ace_interact_menu_fnc_addActionToObject;
 				//------------------------------------------------------------------
 			// Parent Action für San Boxen
@@ -406,8 +451,11 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 				_san1 = ["San1","San Typ 1 - SanMat",_icon,{[["san1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 				[_x, 0, ["ACE_MainActions", "San Boxen"], _san1] call ace_interact_menu_fnc_addActionToObject;	
 			
-				_san2 = ["San1","San Typ 2 - Leichensäcke",_iconBodybags,{[["san2",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				_san2 = ["San2","San Typ 2 - Leichensäcke",_iconBodybags,{[["san2",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 				[_x, 0, ["ACE_MainActions", "San Boxen"], _san2] call ace_interact_menu_fnc_addActionToObject;	
+
+				_san3 = ["San3","San Typ 3 - Verpflegung",_iconVerpflegung,{[["san3",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+				[_x, 0, ["ACE_MainActions", "San Boxen"], _san3] call ace_interact_menu_fnc_addActionToObject;	
 				//------------------------------------------------------------------
 			// Parent Action für Ersatzteile
 			_ersatzteile = ["Ersatzteile","Ersatzteile",_iconErsatz,{ },{true}] call ace_interact_menu_fnc_createAction;
