@@ -10238,7 +10238,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""GR_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Hotel""];";
+								init="this setVariable [""GR_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Hotel""];";
 								name="Hotel1";
 								description="Zeus@HOTEL";
 								isPlayable=1;
@@ -10300,7 +10300,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""GR_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Hotel""];";
+								init="this setVariable [""GR_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Hotel""];";
 								name="Hotel2";
 								description="Zeus";
 								isPlayable=1;
@@ -10362,7 +10362,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""GR_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Hotel""];";
+								init="this setVariable [""GR_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Hotel""];";
 								name="Hotel3";
 								description="Lagedarsteller 1";
 								isPlayable=1;
@@ -10424,7 +10424,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""GR_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Hotel""];";
+								init="this setVariable [""GR_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Hotel""];";
 								name="Hotel4";
 								description="Lagedarsteller 2";
 								isPlayable=1;
