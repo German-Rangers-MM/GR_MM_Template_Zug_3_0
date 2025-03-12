@@ -284,5 +284,15 @@
     "ACE_SpraypaintYellow",
     "ace_marker_flags_red",
     "ace_marker_flags_white",
-    "ItemMicroDAGRMisc"
+    "ace_flags_black",
+    "ace_flags_blue",
+    "ace_flags_green",
+    "ace_flags_orange",
+    "ace_flags_purple",
+    "ace_flags_red",
+    "ace_flags_white",
+    "ace_flags_yellow",
+    "ItemMicroDAGRMisc",
+    "kat_gasmaskFilter",
+    "kat_sealant"
 ];

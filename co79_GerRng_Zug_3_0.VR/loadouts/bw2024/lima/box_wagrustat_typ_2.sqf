@@ -1,7 +1,7 @@
-// Kiste WaGru Typ V - Titan AA
+// Kiste WaGruStat Typ II - M2 Munition
 /* Aufruf im Editor mit:
 
-_path = format ["loadouts\%1\lima\box_zug_typ_vii.sqf", getMissionConfigValue "fraktion"]; 
+_path = format ["loadouts\%1\lima\box_wagrustat_typ_1.sqf", getMissionConfigValue "fraktion"]; 
 null = [this] execVM _path;
 
 */
@@ -16,9 +16,7 @@ clearItemCargoGlobal _box;
 clearBackpackCargoGlobal _box;
 
 
-_box addItemCargoGlobal ["launch_B_Titan_olive_F", 1];
-_box addItemCargoGlobal ["Titan_AA", 4];
-_box addBackpackCargoGlobal ["B_AssaultPack_rgr", 1];
+_box addItemCargoGlobal ["ace_csw_100Rnd_127x99_mag_red", 6];
 _box addBackpackCargoGlobal ["B_Carryall_green_F", 1];
 
 // für diese Box Gewichtslimit Ignorieren

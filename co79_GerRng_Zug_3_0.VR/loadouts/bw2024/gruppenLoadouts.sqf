@@ -60,6 +60,17 @@ GR_WaffenRollen = [
 					["Waffen-Assi. Titan AT","Waffen_Assi_TitanAT"],
 					["Waffen-Spez. Titan AA","Waffen_Spez_TitanAA"],
 					["Waffen-Assi. Titan AA","Waffen_Assi_TitanAA"],
+					["Waffen-Spezi. M2","Waffen_Spez_M2"],
+					["Waffen-Assi. M2","Waffen_Assi_M2"],
+					["Waffen-Spezi. Mk19","Waffen_Spez_Mk19"],
+					["Waffen-Assi. Mk19","Waffen_Assi_Mk19"],
+					["Waffen-Spezi. TOW","Waffen_Spez_TOW"],
+					["Waffen-Assi. TOW","Waffen_Assi_TOW"],
+					["Waffen-Spezi. Mörser","Waffen_Spez_Moerser"],
+					["Waffen-Assi. Mörser","Waffen_Assi_Moerser"],
+					["Spezialpionier Mörser","Spezialpionier_Moerser"],
+					["Spezialpionier Tripod Normal","Spezialpionier_TriNorm"],
+					["Spezialpionier Tripod Low","Spezialpionier_TriLow"],
 					["Spezialpionier","Spezialpionier"]
 ];
 
