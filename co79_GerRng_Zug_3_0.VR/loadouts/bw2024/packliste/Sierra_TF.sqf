@@ -31,30 +31,10 @@
 	"CUP_arifle_HK417_12_AG36_Desert",
 	"CUP_arifle_HK417_12_AG36_Wood",
 
-	"CUP_arifle_HK417_20",
-	"CUP_arifle_HK417_20_Desert",
-	"CUP_arifle_HK417_20_Wood",
-
-	"CUP_sgun_M1014_solidstock",
-	"CUP_sgun_M1014_Entry",
-	"CUP_sgun_M1014_Entry_vfg",
-
 	"CUP_smg_MP7",
 	"CUP_smg_MP7_desert",
 	"CUP_smg_MP7_woodland",
 
-	"CUP_lmg_m249_pip3",
-	"CUP_lmg_m249_pip4",
-
-	"CUP_srifle_G22_blk",
-	"CUP_srifle_G22_des",
-	"CUP_srifle_G22_wdl",
-	"CUP_srifle_AWM_blk",
-	"CUP_srifle_AWM_des",
-	"CUP_srifle_AWM_wdl",
-	"CUP_srifle_M107_Pristine",
-	"CUP_srifle_M107_Desert",
-	"CUP_srifle_M107_Woodland",
 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
@@ -77,19 +57,6 @@
 	"optic_AMS",
 	"optic_AMS_khk",
 	"optic_AMS_snd",
-
-	"CUP_optic_SB_11_4x20_PM",
-	"CUP_optic_SB_11_4x20_PM_tan",
-	"CUP_optic_SB_11_4x20_PM_od",
-	"CUP_optic_SB_3_12x50_PMII",
-	"CUP_optic_SB_3_12x50_PMII_Tan",
-	"CUP_optic_LeupoldMk4_25x50_LRT",
-	"CUP_optic_LeupoldMk4_25x50_LRT_DESERT",
-	"CUP_optic_LeupoldMk4_25x50_LRT_WOODLAND",
-
-	"CUP_optic_AN_PVS_10",
-	"CUP_optic_AN_PVS_10_black",
-	"CUP_optic_AN_PVS_10_od",
 
 	"optic_NVS",
 
@@ -160,7 +127,6 @@
 //------------------------------------------------------------------
 
 	"CUP_hgun_Glock17_blk",
-	"CUP_hgun_MP7",
 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
@@ -196,12 +162,6 @@
 	"CUP_U_B_GER_Crye",
 	"CUP_U_B_GER_Crye2",
 
-	"U_B_GhillieSuit",
-	"U_B_FullGhillie_ard",
-	"U_B_FullGhillie_lsh",
-	"U_B_FullGhillie_sard",
-	"U_B_T_FullGhillie_tna_F",
-
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -235,57 +195,6 @@
 
 	"CFP_Kitbag_Flecktarn",
 	"CFP_Kitbag_Tropentarn",
-
-	"TFAR_rt1523g_big_bwmod",
-	"TFAR_rt1523g_big_bwmod_tropen",
-	"TFAR_rt1523g_bwmod",
-	"TFAR_rt1523g_rhs",
-	"TFAR_rt1523g_black",
-
-	"tfw_ilbeMR3000_blade_flk",
-    "tfw_ilbeMR3000_blade_trp",
-    "tfw_ilbeRT1523_blade_flk",
-    "tfw_ilbeRT1523_blade_trp",
-    
-    "tfw_ilbeMR3000_blade_sierraflk",
-    "tfw_ilbeMR3000_blade_sierratrp",
-    "tfw_ilbeRT1523_blade_sierraflk",
-    "tfw_ilbeRT1523_blade_sierratrp",
-    
-    "tfw_ilbeMR3000_DD_flk",
-    "tfw_ilbeMR3000_DD_trp",
-    "tfw_ilbeRT1523_DD_flk",
-    "tfw_ilbeRT1523_DD_trp",
-    
-    "tfw_ilbeMR3000_DD_sierraflk",
-    "tfw_ilbeMR3000_DD_sierratrp",
-    "tfw_ilbeRT1523_DD_sierraflk",
-    "tfw_ilbeRT1523_DD_sierratrp",
-    
-    "tfw_ilbeMR3000_whip_flk",
-    "tfw_ilbeMR3000_whip_trp",
-    "tfw_ilbeRT1523_whip_flk",
-    "tfw_ilbeRT1523_whip_trp",
-    
-    "tfw_ilbeMR3000_whip_sierraflk",
-    "tfw_ilbeMR3000_whip_sierratrp",
-    "tfw_ilbeRT1523_whip_sierraflk",
-    "tfw_ilbeRT1523_whip_sierratrp",
-    
-    "tfw_ilbeRT1523_blade_gr",
-    "tfw_ilbeMR3000_blade_gr",
-    "tfw_ilbeRT1523_blade_coy",
-    "tfw_ilbeMR3000_blade_coy",
-    
-    "tfw_ilbeRT1523_DD_gr",
-    "tfw_ilbeMR3000_DD_gr",
-    "tfw_ilbeRT1523_DD_coy",
-    "tfw_ilbeMR3000_DD_coy",
-    
-    "tfw_ilbeRT1523_whip_gr",
-    "tfw_ilbeMR3000_whip_gr",
-    "tfw_ilbeRT1523_whip_coy",
-    "tfw_ilbeMR3000_whip_coy",
 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
@@ -373,7 +282,6 @@
 
 	"ItemAndroid",
 	"B_UavTerminal",
-	"ItemcTab",
 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
@@ -441,7 +349,7 @@
 	"MAA_MAAWS_ILLUM545",
 	"MAA_MAAWS_MT756",
 	"MAA_MAAWS_SMOKE469",
-
+	
 	"CUP_17Rnd_9x19_glock17",
 
 	"Laserbatteries",
@@ -471,8 +379,6 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 
-	"DemoCharge_Remote_Mag",
-
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -484,12 +390,6 @@
 	"kat_Caffeine",
     "kat_Penthrox",
     "ACE_epinephrine",
-
-    "ACE_surgicalKit",
-    "ACE_salineIV",
-    "kat_IO_FAST",
-    "kat_EACA",
-    "kat_TXA",
 
 //------------------------------------------------------------------
 //------------------------------------------------------------------

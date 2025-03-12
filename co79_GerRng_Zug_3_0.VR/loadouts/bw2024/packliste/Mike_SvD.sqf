@@ -270,6 +270,7 @@
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     "Attachable_Helistretcher",
+    "tfw_rf3080Item",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Misc 2
@@ -283,6 +284,14 @@
     "ace_marker_flags_white",
     "ace_marker_flags_yellow",
     "ace_marker_flags_green",
+    "ace_flags_black",
+    "ace_flags_blue",
+    "ace_flags_green",
+    "ace_flags_orange",
+    "ace_flags_purple",
+    "ace_flags_red",
+    "ace_flags_white",
+    "ace_flags_yellow",
     "kat_gasmaskFilter",
     "kat_sealant"
 ];
