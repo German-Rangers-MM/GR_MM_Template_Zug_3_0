@@ -297,5 +297,7 @@
     "ACE_SpraypaintYellow",
     "ace_marker_flags_red",
     "ace_marker_flags_white",
+    "ace_flags_red",
+    "ace_flags_white",
     "ItemMicroDAGRMisc"
 ];
