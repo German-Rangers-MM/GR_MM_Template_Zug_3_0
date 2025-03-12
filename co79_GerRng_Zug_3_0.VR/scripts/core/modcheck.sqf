@@ -108,6 +108,7 @@ _whitelistedMods = 	[
 						"@DUI - Squad Radar", "1638341685",
 						"@BackpackOnChest - Redux", "2372036642",
 						"@Arma 3 PiShock", "3024239355",
+						"@AWESome : Aerial Warfare Enhanced Somehow","1301399507",
 						
 						//Visual
 						"@Blastcore Edited (standalone version)", "767380317",
