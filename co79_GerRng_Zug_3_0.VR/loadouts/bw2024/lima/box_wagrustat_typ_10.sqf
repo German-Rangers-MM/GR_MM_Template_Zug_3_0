@@ -1,7 +1,7 @@
-// Kiste WaGru Typ V - Titan AA
+// Kiste WaGruStat Typ X - 60mm Mörser & Standard Munition
 /* Aufruf im Editor mit:
 
-_path = format ["loadouts\%1\lima\box_zug_typ_vii.sqf", getMissionConfigValue "fraktion"]; 
+_path = format ["loadouts\%1\lima\box_wagrustat_typ_10.sqf", getMissionConfigValue "fraktion"]; 
 null = [this] execVM _path;
 
 */
@@ -16,8 +16,10 @@ clearItemCargoGlobal _box;
 clearBackpackCargoGlobal _box;
 
 
-_box addItemCargoGlobal ["launch_B_Titan_olive_F", 1];
-_box addItemCargoGlobal ["Titan_AA", 4];
+_box addItemCargoGlobal ["GerRng_Equipment_GerRng_vz99_carryWeapon", 1];
+_box addItemCargoGlobal ["GerRng_Equipment_GerRng_vz99_HE", 8];
+_box addItemCargoGlobal ["GerRng_Equipment_GerRng_vz99_smokeWhite", 4];
+_box addItemCargoGlobal ["GerRng_Equipment_GerRng_vz99_flare", 2];
 _box addBackpackCargoGlobal ["B_AssaultPack_rgr", 1];
 _box addBackpackCargoGlobal ["B_Carryall_green_F", 1];
 
