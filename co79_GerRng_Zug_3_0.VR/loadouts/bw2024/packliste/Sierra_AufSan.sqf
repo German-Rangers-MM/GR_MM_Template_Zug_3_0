@@ -182,6 +182,9 @@
 	"CFP_Kitbag_Flecktarn",
 	"CFP_Kitbag_Tropentarn",
 
+	"B_UAV_01_backpack_F",
+	"B_UAV_06_backpack_F",
+
 	"TFAR_rt1523g_big_bwmod",
 	"TFAR_rt1523g_big_bwmod_tropen",
 	"TFAR_rt1523g_bwmod",
