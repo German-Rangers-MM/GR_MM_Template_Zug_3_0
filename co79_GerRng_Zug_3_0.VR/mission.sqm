@@ -24,10 +24,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1417.1511,31.640448,5205.3555};
-		dir[]={0.47013989,-0.35481203,0.80813706};
-		up[]={0.17842007,0.93493646,0.30669069};
-		aside[]={0.86437398,1.0972144e-07,-0.50285637};
+		pos[]={1391.745,71.761932,5197.8994};
+		dir[]={0.58938664,-0.65484571,0.4730776};
+		up[]={0.5106861,0.75576204,0.409908};
+		aside[]={0.62596065,-2.1536835e-08,-0.77985686};
 	};
 };
 binarizationWanted=0;
@@ -10451,7 +10451,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="[[""Land_HBarrier_Big_F"",25],[""Land_HBarrierWall_corridor_F"",25],[""Land_HBarrierWall4_F"",15],[""Land_HBarrierWall_corner_F"",25],[""Land_HBarrierWall6_F"",25],[""Land_HBarrierTower_F"",40],[""Land_HBarrier_01_big_4_green_F"",25],[""Land_HBarrier_01_wall_corridor_green_F"",25],[""Land_HBarrier_01_wall_4_green_F"",25],[""Land_HBarrier_01_wall_corner_green_F"",25],[""Land_HBarrier_01_wall_6_green_F"",30],[""Land_HBarrier_01_big_tower_green_F"",40],[""RuggedTerminal_01_communications_F"",5]]";
+													value="[[""Land_HBarrier_Big_F"",25],[""Land_ConnectorTent_01_floor_dark_F"",5],[""Land_HBarrierWall_corridor_F"",25],[""Land_HBarrierWall4_F"",15],[""Land_HBarrierWall_corner_F"",25],[""Land_HBarrierWall6_F"",25],[""Land_HBarrierTower_F"",40],[""Land_HBarrier_01_big_4_green_F"",25],[""Land_HBarrier_01_wall_corridor_green_F"",25],[""Land_HBarrier_01_wall_4_green_F"",25],[""Land_HBarrier_01_wall_corner_green_F"",25],[""Land_HBarrier_01_wall_6_green_F"",30],[""Land_HBarrier_01_big_tower_green_F"",40],[""RuggedTerminal_01_communications_F"",5]]";
 												};
 											};
 										};
@@ -10503,7 +10503,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="[[""GerRng_MedTent_01"",10],[""Flag_RedCrystal_F"",10],[""CamoNet_wdl_big_F"",10],[""CamoNet_wdl_F"",10],[""DeconShower_01_F"",10],[""DeconShower_02_F"",20],[""ContainmentArea_03_yellow_F"",10],[""Land_PortableLight_double_F"",5],[""Land_PortableHelipadLight_01_F"",5],[""Land_HelipadRescue_F"",20],[""Land_ConnectorTent_01_floor_dark_F"",5],[Tarp_01_Large_Black_F"",5],[Tarp_01_Large_Red_F"",5],[""Tarp_01_Large_Yellow_F"",5],[""Tarp_01_Large_Green_F"",5],[""RuggedTerminal_01_communications_F"",5]]";
+													value="[[""GerRng_MedTent_01"",10],[""Flag_RedCrystal_F"",10],[""CamoNet_wdl_big_F"",10],[""CamoNet_wdl_F"",10],[""DeconShower_01_F"",10],[""DeconShower_02_F"",20],[""ContainmentArea_03_yellow_F"",10],[""Land_PortableLight_double_F"",5],[""Land_PortableHelipadLight_01_F"",5],[""Land_HelipadRescue_F"",20],[""Land_ConnectorTent_01_floor_dark_F"",5],[""Tarp_01_Large_Black_F"",5],[""Tarp_01_Large_Red_F"",5],[""Tarp_01_Large_Yellow_F"",5],[""Tarp_01_Large_Green_F"",5],[""RuggedTerminal_01_communications_F"",5]]";
 												};
 											};
 										};
