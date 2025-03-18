@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=72;
+		nextID=77;
 	};
 	class Camera
 	{
-		pos[]={1393.759,94.694458,5185.6968};
-		dir[]={0.055746138,-0.72183722,0.68995577};
-		up[]={0.058139872,0.69194239,0.71959114};
-		aside[]={0.99684376,1.321514e-06,-0.080538183};
+		pos[]={1417.1511,31.640448,5205.3555};
+		dir[]={0.47013989,-0.35481203,0.80813706};
+		up[]={0.17842007,0.93493646,0.30669069};
+		aside[]={0.86437398,1.0972144e-07,-0.50285637};
 	};
 };
 binarizationWanted=0;
@@ -10399,7 +10399,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="[[""Land_CanvasCover_02_F"",50],[""Land_CanvasCover_01_F"",75],[""Land_MedicalTent_01_NATO_generic_outer_F"",30],[""Land_MedicalTent_01_NATO_generic_open_F"",35],[""Land_ConnectorTent_01_NATO_open_F"",20],[""Land_ConnectorTent_01_NATO_cross_F"",20],[""Land_ConnectorTent_01_NATO_closed_F"",20],[""Land_MedicalTent_01_NATO_tropic_generic_outer_F"",30],[""Land_MedicalTent_01_NATO_tropic_generic_open_F"",35],[""Land_ConnectorTent_01_NATO_tropic_closed_F"",20],[""Land_ConnectorTent_01_NATO_tropic_cross_F"",20],[""Land_ConnectorTent_01_NATO_tropic_open_F"",20],[""RuggedTerminal_01_communications_F"",5]]";
+													value="[[""Land_CanvasCover_02_F"",50],[""Land_CanvasCover_01_F"",75],[""Land_MedicalTent_01_NATO_generic_outer_F"",30],[""Land_MedicalTent_01_NATO_generic_open_F"",35],[""Land_ConnectorTent_01_NATO_open_F"",20],[""Land_ConnectorTent_01_NATO_cross_F"",20],[""Land_ConnectorTent_01_NATO_closed_F"",20],[""Land_MedicalTent_01_NATO_tropic_generic_outer_F"",30],[""Land_MedicalTent_01_NATO_tropic_generic_open_F"",35],[""Land_ConnectorTent_01_NATO_tropic_closed_F"",20],[""Land_ConnectorTent_01_NATO_tropic_cross_F"",20],[""Land_ConnectorTent_01_NATO_tropic_open_F"",20],[""Land_ConnectorTent01_floor_dark_F"",5],[""RuggedTerminal_01_communications_F"",5]]";
 												};
 											};
 										};
@@ -10503,7 +10503,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="[[""Land_CanvasCover_02_F"",50],[""Land_CanvasCover_01_F"",75],[""Land_MedicalTent_01_NATO_generic_outer_F"",30],[""Land_MedicalTent_01_NATO_generic_open_F"",35],[""Land_ConnectorTent_01_NATO_open_F"",20],[""Land_ConnectorTent_01_NATO_cross_F"",20],[""Land_ConnectorTent_01_NATO_closed_F"",20],[""Land_MedicalTent_01_NATO_tropic_generic_outer_F"",30],[""Land_MedicalTent_01_NATO_tropic_generic_open_F"",35],[""Land_ConnectorTent_01_NATO_tropic_closed_F"",20],[""Land_ConnectorTent_01_NATO_tropic_cross_F"",20],[""Land_ConnectorTent_01_NATO_tropic_open_F"",20],[""LandConnectorTent01_floor_dark_f"",5],[Tarp_01_Large_Black_F"",5],[Tarp_01_Large_Red_F"",5],[""Tarp_01_Large_Yellow_F"",5],[Tarp_01_Large_Yellow_F"",5],[""RuggedTerminal_01_communications_F"",5]]";
+													value="[[""GerRng_MedTent_01"",10],[""Flag_RedCrystal_F"",10],[""CamoNet_wdl_big_F"",10],[""CamoNet_wdl_F"",10],[""DeconShower_01_F"",10],[""DeconShower_02_F"",20],[""ContainmentArea_03_yellow_F"",10],[""Land_PortableLight_double_F"",5],[""Land_PortableHelipadLight_01_F"",5],[""Land_HelipadRescue_F"",20],[""Land_ConnectorTent_01_floor_dark_F"",5],[Tarp_01_Large_Black_F"",5],[Tarp_01_Large_Red_F"",5],[""Tarp_01_Large_Yellow_F"",5],[""Tarp_01_Large_Green_F"",5],[""RuggedTerminal_01_communications_F"",5]]";
 												};
 											};
 										};
