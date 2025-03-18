@@ -12,11 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-<<<<<<< Updated upstream
-		nextID=1853;
-=======
-		nextID=1886;
->>>>>>> Stashed changes
+		nextID=1897;
 	};
 	class MarkerIDProvider
 	{
@@ -24,25 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-<<<<<<< Updated upstream
-		nextID=62;
+		nextID=72;
 	};
 	class Camera
 	{
-		pos[]={1413.0565,54.669838,5168.9048};
-		dir[]={0.77670288,-0.62973976,0.015792517};
-		up[]={0.62966853,0.77675706,0.012803513};
-		aside[]={0.02033007,-2.0525476e-07,-0.99983728};
-=======
-		nextID=67;
-	};
-	class Camera
-	{
-		pos[]={1414.3976,71.681084,5300.5703};
-		dir[]={-0.14989896,-0.94062746,-0.30485627};
-		up[]={-0.41504356,0.33944729,-0.84409416};
-		aside[]={-0.89746815,1.6018748e-07,0.44128436};
->>>>>>> Stashed changes
+		pos[]={1393.759,94.694458,5185.6968};
+		dir[]={0.055746138,-0.72183722,0.68995577};
+		up[]={0.058139872,0.69194239,0.71959114};
+		aside[]={0.99684376,1.321514e-06,-0.080538183};
 	};
 };
 binarizationWanted=0;
@@ -158,9 +143,6 @@ addons[]=
 	"A3_Boat_F_Boat_Armed_01",
 	"CUP_WaterVehicles_RHIB",
 	"CUP_WaterVehicles_Zodiac",
-<<<<<<< Updated upstream
-	"ace_tripod"
-=======
 	"ace_tripod",
 	"ace_trenches",
 	"grad_trenches_assets",
@@ -168,17 +150,12 @@ addons[]=
 	"A3_Structures_F_Enoch_Military_Camonets",
 	"CUP_WheeledVehicles_Coyote",
 	"CUP_WheeledVehicles_Jackal"
->>>>>>> Stashed changes
 };
 class AddonsMetaData
 {
 	class List
 	{
-<<<<<<< Updated upstream
-		items=87;
-=======
 		items=92;
->>>>>>> Stashed changes
 		class Item0
 		{
 			className="A3_Structures_F_Bootcamp";
@@ -734,8 +711,6 @@ class AddonsMetaData
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-<<<<<<< Updated upstream
-=======
 		class Item87
 		{
 			className="ace_trenches";
@@ -763,7 +738,6 @@ class AddonsMetaData
 			className="CUP_WheeledVehicles_Jackal";
 			name="CUP_WheeledVehicles_Jackal";
 		};
->>>>>>> Stashed changes
 	};
 };
 dlcs[]=
@@ -805,11 +779,7 @@ class Mission
 	};
 	class Entities
 	{
-<<<<<<< Updated upstream
-		items=113;
-=======
-		items=133;
->>>>>>> Stashed changes
+		items=138;
 		class Item0
 		{
 			dataType="Object";
@@ -2107,11 +2077,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={1465.0255,6.6262865,5152.3579};
-<<<<<<< Updated upstream
-				angles[]={-0,4.7123895,0};
-=======
 				angles[]={0,4.7123895,0};
->>>>>>> Stashed changes
 			};
 			side="Empty";
 			flags=4;
@@ -10537,7 +10503,7 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="[[""GerRng_MedTent_01"",10],[""Flag_RedCrystal_F"",10],[""CamoNet_wdl_big_F"",10],[""CamoNet_wdl_F"",10],[""DeconShower_01_F"",10],[""DeconShower_02_F"",20],[""ContainmentArea_03_yellow_F"",10],[""Land_PortableLight_double_F"",5],[""Land_PortableHelipadLight_01_F"",5],[""Land_HelipadRescue_F"",20],[""RuggedTerminal_01_communications_F"",5]]";
+													value="[[""Land_CanvasCover_02_F"",50],[""Land_CanvasCover_01_F"",75],[""Land_MedicalTent_01_NATO_generic_outer_F"",30],[""Land_MedicalTent_01_NATO_generic_open_F"",35],[""Land_ConnectorTent_01_NATO_open_F"",20],[""Land_ConnectorTent_01_NATO_cross_F"",20],[""Land_ConnectorTent_01_NATO_closed_F"",20],[""Land_MedicalTent_01_NATO_tropic_generic_outer_F"",30],[""Land_MedicalTent_01_NATO_tropic_generic_open_F"",35],[""Land_ConnectorTent_01_NATO_tropic_closed_F"",20],[""Land_ConnectorTent_01_NATO_tropic_cross_F"",20],[""Land_ConnectorTent_01_NATO_tropic_open_F"",20],[""LandConnectorTent01_floor_dark_f"",5],[Tarp_01_Large_Black_F"",5],[Tarp_01_Large_Red_F"",5],[""Tarp_01_Large_Yellow_F"",5],[Tarp_01_Large_Yellow_F"",5],[""RuggedTerminal_01_communications_F"",5]]";
 												};
 											};
 										};
@@ -11090,25 +11056,6 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-<<<<<<< Updated upstream
-										position[]={1413.9138,5.0250001,5269.6445};
-										angles[]={0,1.5707964,0};
-									};
-									side="Empty";
-									flags=4;
-									class Attributes
-									{
-									};
-									id=1590;
-									type="DrainageDeck_01_F";
-								};
-								class Item23
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-=======
->>>>>>> Stashed changes
 										position[]={1414.3433,5.1306696,5267.8135};
 										angles[]={0,1.5707964,0};
 									};
@@ -11689,13 +11636,8 @@ class Mission
 									dataType="Logic";
 									class PositionInfo
 									{
-<<<<<<< Updated upstream
-										position[]={1448,5,5200};
-										angles[]={0,0.087290868,0};
-=======
 										position[]={1455.7004,5,5184.8716};
-										angles[]={-0,0.087290868,0};
->>>>>>> Stashed changes
+										angles[]={0,0.087290868,0};
 									};
 									flags=1;
 									id=1626;
@@ -11706,11 +11648,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-<<<<<<< Updated upstream
-										position[]={1485.8589,6.0489998,5187.376};
-=======
 										position[]={1481.4911,6.0489998,5233.6807};
->>>>>>> Stashed changes
 										angles[]={0,3.4173462e-07,0};
 									};
 									side="Empty";
@@ -13842,11 +13780,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={1460.8263,5.2498164,5155.0332};
-<<<<<<< Updated upstream
-				angles[]={-0,4.712389,0};
-=======
 				angles[]={0,4.712389,0};
->>>>>>> Stashed changes
 			};
 			side="Empty";
 			flags=4;
@@ -13862,11 +13796,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={1458.9636,5.2498164,5154.9141};
-<<<<<<< Updated upstream
-				angles[]={-0,4.712389,0};
-=======
 				angles[]={0,4.712389,0};
->>>>>>> Stashed changes
 			};
 			side="Empty";
 			flags=4;
@@ -13882,11 +13812,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={1456.9636,5.2498164,5154.9141};
-<<<<<<< Updated upstream
-				angles[]={-0,4.712389,0};
-=======
 				angles[]={0,4.712389,0};
->>>>>>> Stashed changes
 			};
 			side="Empty";
 			flags=4;
@@ -13953,11 +13879,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={1458.9788,5.2578626,5152.9487};
-<<<<<<< Updated upstream
-				angles[]={-0,4.712389,0};
-=======
 				angles[]={0,4.712389,0};
->>>>>>> Stashed changes
 			};
 			side="Empty";
 			flags=4;
@@ -13973,11 +13895,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={1456.9636,5.2578626,5152.9165};
-<<<<<<< Updated upstream
-				angles[]={-0,4.712389,0};
-=======
 				angles[]={0,4.712389,0};
->>>>>>> Stashed changes
 			};
 			side="Empty";
 			flags=4;
@@ -14541,11 +14459,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={1467.0658,8.3238735,5139.7959};
-<<<<<<< Updated upstream
-				angles[]={-0,4.7298422,0};
-=======
 				angles[]={0,4.7298422,0};
->>>>>>> Stashed changes
 			};
 			side="Empty";
 			flags=4;
@@ -14569,10 +14483,7 @@ class Mission
 			};
 			id=1849;
 			type="CUP_B_RHIB_USMC";
-<<<<<<< Updated upstream
-=======
 			atlOffset=4.7683716e-07;
->>>>>>> Stashed changes
 		};
 		class Item110
 		{
@@ -14619,8 +14530,6 @@ class Mission
 			id=1852;
 			type="ACE_TripodObject";
 		};
-<<<<<<< Updated upstream
-=======
 		class Item113
 		{
 			dataType="Object";
@@ -14921,25 +14830,91 @@ class Mission
 			id=1885;
 			type="B_T_LSV_01_armed_F";
 		};
->>>>>>> Stashed changes
+		class Item133
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1408.1216,5,5227.4424};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1886;
+			type="Land_ConnectorTent_01_floor_dark_F";
+		};
+		class Item134
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1399.417,5,5227.4321};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1893;
+			type="Tarp_01_Large_Red_F";
+		};
+		class Item135
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1391.0491,5,5227.314};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1894;
+			type="Tarp_01_Large_Black_F";
+		};
+		class Item136
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1382.3866,5,5227.2012};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1895;
+			type="Tarp_01_Large_Yellow_F";
+		};
+		class Item137
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1373.9156,5,5227.1758};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1896;
+			type="Tarp_01_Large_Green_F";
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-<<<<<<< Updated upstream
-			nextID=231;
+			nextID=256;
 		};
 		class Links
 		{
-			items=231;
-=======
-			nextID=251;
-		};
-		class Links
-		{
-			items=251;
->>>>>>> Stashed changes
+			items=256;
 			class Item0
 			{
 				linkID=0;
@@ -17450,669 +17425,56 @@ class Mission
 					type="Sync";
 				};
 			};
-<<<<<<< Updated upstream
-			class Item165
+			class Item251
 			{
-				linkID=165;
-				item0=1766;
+				linkID=251;
+				item0=1886;
 				item1=1569;
 				class CustomData
 				{
 					type="Sync";
 				};
 			};
-			class Item166
+			class Item252
 			{
-				linkID=166;
-				item0=727;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item167
-			{
-				linkID=167;
-				item0=1767;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item168
-			{
-				linkID=168;
-				item0=1769;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item169
-			{
-				linkID=169;
-				item0=1768;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item170
-			{
-				linkID=170;
-				item0=1771;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item171
-			{
-				linkID=171;
-				item0=1770;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item172
-			{
-				linkID=172;
-				item0=1774;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item173
-			{
-				linkID=173;
-				item0=1773;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item174
-			{
-				linkID=174;
-				item0=1772;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item175
-			{
-				linkID=175;
-				item0=778;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item176
-			{
-				linkID=176;
-				item0=776;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item177
-			{
-				linkID=177;
-				item0=1796;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item178
-			{
-				linkID=178;
-				item0=1798;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item179
-			{
-				linkID=179;
-				item0=1777;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item180
-			{
-				linkID=180;
-				item0=1778;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item181
-			{
-				linkID=181;
-				item0=1788;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item182
-			{
-				linkID=182;
-				item0=1787;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item183
-			{
-				linkID=183;
-				item0=1786;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item184
-			{
-				linkID=184;
-				item0=1792;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item185
-			{
-				linkID=185;
-				item0=1793;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item186
-			{
-				linkID=186;
-				item0=802;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item187
-			{
-				linkID=187;
-				item0=1790;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item188
-			{
-				linkID=188;
-				item0=1791;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item189
-			{
-				linkID=189;
-				item0=1783;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item190
-			{
-				linkID=190;
-				item0=1784;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item191
-			{
-				linkID=191;
-				item0=1785;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item192
-			{
-				linkID=192;
-				item0=1794;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item193
-			{
-				linkID=193;
-				item0=1776;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item194
-			{
-				linkID=194;
-				item0=1801;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item195
-			{
-				linkID=195;
-				item0=1802;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item196
-			{
-				linkID=196;
-				item0=1803;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item197
-			{
-				linkID=197;
-				item0=1804;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item198
-			{
-				linkID=198;
-				item0=1805;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item199
-			{
-				linkID=199;
-				item0=1806;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item200
-			{
-				linkID=200;
-				item0=1807;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item201
-			{
-				linkID=201;
-				item0=1808;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item202
-			{
-				linkID=202;
-				item0=1809;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item203
-			{
-				linkID=203;
-				item0=1810;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item204
-			{
-				linkID=204;
-				item0=1814;
+				linkID=252;
+				item0=1893;
 				item1=1569;
 				class CustomData
 				{
 					type="Sync";
 				};
 			};
-			class Item205
+			class Item253
 			{
-				linkID=205;
-				item0=1815;
+				linkID=253;
+				item0=1894;
 				item1=1569;
 				class CustomData
 				{
 					type="Sync";
 				};
 			};
-			class Item206
+			class Item254
 			{
-				linkID=206;
-				item0=1817;
+				linkID=254;
+				item0=1895;
 				item1=1569;
 				class CustomData
 				{
 					type="Sync";
 				};
 			};
-			class Item207
+			class Item255
 			{
-				linkID=207;
-				item0=1818;
+				linkID=255;
+				item0=1896;
 				item1=1569;
 				class CustomData
 				{
 					type="Sync";
 				};
 			};
-			class Item208
-			{
-				linkID=208;
-				item0=1819;
-				item1=1569;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item209
-			{
-				linkID=209;
-				item0=1824;
-				item1=1569;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item210
-			{
-				linkID=210;
-				item0=1825;
-				item1=1569;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item211
-			{
-				linkID=211;
-				item0=1826;
-				item1=1569;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item212
-			{
-				linkID=212;
-				item0=1827;
-				item1=1569;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item213
-			{
-				linkID=213;
-				item0=1782;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item214
-			{
-				linkID=214;
-				item0=1781;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item215
-			{
-				linkID=215;
-				item0=1830;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item216
-			{
-				linkID=216;
-				item0=1829;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item217
-			{
-				linkID=217;
-				item0=1831;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item218
-			{
-				linkID=218;
-				item0=1834;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item219
-			{
-				linkID=219;
-				item0=1833;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item220
-			{
-				linkID=220;
-				item0=1832;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item221
-			{
-				linkID=221;
-				item0=1841;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item222
-			{
-				linkID=222;
-				item0=1842;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item223
-			{
-				linkID=223;
-				item0=1843;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item224
-			{
-				linkID=224;
-				item0=1844;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item225
-			{
-				linkID=225;
-				item0=1847;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item226
-			{
-				linkID=226;
-				item0=1848;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item227
-			{
-				linkID=227;
-				item0=1851;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item228
-			{
-				linkID=228;
-				item0=1849;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item229
-			{
-				linkID=229;
-				item0=1850;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item230
-			{
-				linkID=230;
-				item0=1852;
-				item1=1626;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-=======
->>>>>>> Stashed changes
 		};
 	};
 };
