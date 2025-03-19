@@ -104,7 +104,7 @@ switch (toLower _supply) do {
 	case "wagru5": {
 		_box = "Box_NATO_WpsLaunch_F" createVehicle _boxPos;
 		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
-		[_box] execvm limapfad + "box_wagru_typ_6.sqf";
+		[_box] execvm limapfad + "box_wagru_typ_5.sqf";
 	};	
 	
 	case "wagru6": {
