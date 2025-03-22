@@ -39,7 +39,7 @@ switch (toLower _supply) do {
 	};
 
 	case "zug4": {
-		_box = "Box_NATO_Equip_F" createVehicle _boxPos;
+		_box = "ACE_Box_82mm_Mo_HE" createVehicle _boxPos;
 		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
 		[_box] execvm limapfad + "box_zug_typ_4.sqf";
 	};
@@ -94,8 +94,8 @@ switch (toLower _supply) do {
 		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
 		[_box] execvm limapfad + "box_wagru_typ_3.sqf";
 	};	
-	
-	case "wagru4": {
+
+		case "wagru4": {
 		_box = "Box_NATO_WpsLaunch_F" createVehicle _boxPos;
 		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
 		[_box] execvm limapfad + "box_wagru_typ_4.sqf";
@@ -114,9 +114,81 @@ switch (toLower _supply) do {
 	};	
 	
 	case "wagru7": {
-		_box = "ACE_Box_82mm_Mo_HE" createVehicle _boxPos;
+		_box = "Box_NATO_WpsLaunch_F" createVehicle _boxPos;
 		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
 		[_box] execvm limapfad + "box_wagru_typ_7.sqf";
+	};	
+	
+	case "wagru8": {
+		_box = "ACE_Box_82mm_Mo_HE" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_wagru_typ_8.sqf";
+	};
+
+		case "wagrustat1": {
+		_box = "Box_NATO_WpsLaunch_F" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_wagrustat_typ_1.sqf";
+	};
+
+			case "wagrustat2": {
+		_box = "ACE_Box_82mm_Mo_HE" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_wagrustat_typ_2.sqf";
+	};
+
+			case "wagrustat3": {
+		_box = "Box_NATO_WpsLaunch_F" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_wagrustat_typ_3.sqf";
+	};
+
+			case "wagrustat4": {
+		_box = "ACE_Box_82mm_Mo_HE" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_wagrustat_typ_4.sqf";
+	};
+
+			case "wagrustat5": {
+		_box = "Box_NATO_WpsLaunch_F" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_wagrustat_typ_5.sqf";
+	};
+
+			case "wagrustat6": {
+		_box = "ACE_Box_82mm_Mo_HE" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_wagrustat_typ_6.sqf";
+	};
+
+			case "wagrustat7": {
+		_box = "Box_NATO_WpsLaunch_F" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_wagrustat_typ_7.sqf";
+	};
+
+			case "wagrustat8": {
+		_box = "ACE_Box_82mm_Mo_HE" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_wagrustat_typ_8.sqf";
+	};
+
+			case "wagrustat9": {
+		_box = "ACE_Box_82mm_Mo_HE" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_wagrustat_typ_9.sqf";
+	};
+
+			case "wagrustat10": {
+		_box = "Box_NATO_WpsLaunch_F" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_wagrustat_typ_10.sqf";
+	};
+
+			case "wagrustat11": {
+		_box = "ACE_Box_82mm_Mo_HE" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_wagrustat_typ_11.sqf";
 	};
 		
 	case "sierra1": {
@@ -159,6 +231,12 @@ switch (toLower _supply) do {
 		_box = "Land_PlasticCase_01_medium_black_F" createVehicle _boxPos;
 		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
 		[_box] execvm limapfad + "box_san_typ_2.sqf";
+	};	
+
+		case "san3": {
+		_box = "Land_PlasticCase_01_medium_gray_F" createVehicle _boxPos;
+		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
+		[_box] execvm limapfad + "box_san_typ_3.sqf";
 	};	
 	
 	case "supply": {

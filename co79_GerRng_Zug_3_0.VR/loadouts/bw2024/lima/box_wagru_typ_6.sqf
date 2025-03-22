@@ -1,4 +1,4 @@
-// Kiste WaGru Typ VI - Metis AT
+// Kiste WaGru Typ V - Titan AA
 /* Aufruf im Editor mit:
 
 _path = format ["loadouts\%1\lima\box_zug_typ_vii.sqf", getMissionConfigValue "fraktion"]; 
@@ -16,8 +16,8 @@ clearItemCargoGlobal _box;
 clearBackpackCargoGlobal _box;
 
 
-_box addItemCargoGlobal ["launch_O_Vorona_green_F", 1];
-_box addItemCargoGlobal ["Vorona_HEAT", 4];
+_box addItemCargoGlobal ["launch_B_Titan_olive_F", 1];
+_box addItemCargoGlobal ["Titan_AA", 4];
 _box addBackpackCargoGlobal ["B_AssaultPack_rgr", 1];
 _box addBackpackCargoGlobal ["B_Carryall_green_F", 1];
 

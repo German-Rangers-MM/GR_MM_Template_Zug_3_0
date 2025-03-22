@@ -9,14 +9,32 @@ player setVariable ["GR_unitLoadout","Sierra_Scharf"];
 
 //	https://community.bistudio.com/wiki/Unit_Loadout_Array
 player setUnitLoadout [
-	["CUP_srifle_G22_wdl","","","CUP_optic_LeupoldMk4_25x50_LRT",["CUP_5Rnd_762x67_G22",5],[],"CUP_bipod_Harris_1A2_L_BLK"],
-	[],
-	["CUP_hgun_M17_Black","CUP_muzzle_snds_M9","","",["CUP_21Rnd_9x19_M17_Black",21],[],""],
-	["CUP_U_B_GER_Fleck_Crye",[["ACE_CableTie",2],["ACE_EarPlugs",1],["ItemcTabHCam",1],["ACE_IR_Strobe_Item",1],["ACE_fieldDressing",5],["ACE_elasticBandage",5],["ACE_packingBandage",5],["kat_chestSeal",2],["ACE_morphine",1],["ACE_salineIV_500",2],["ACE_splint",2],["ACE_tourniquet",2],["ACE_Kestrel4500",1],["ACE_Flashlight_XL50",1],["ACE_MapTools",1],["ACE_PlottingBoard",1],["ACE_RangeCard",1]]],
-	["GRE_PlateCarrier1_Flecktarn",[["CUP_21Rnd_9x19_M17_Black",3,21],["SmokeShell",2,1],["SmokeShellGreen",1,1],["CUP_5Rnd_762x67_G22",10,5]]],
-	["CUP_B_GER_Medic_Flecktarn",[["CUP_NVG_PVS15_black",1],["CUP_H_OpsCore_Covered_Fleck",1],["ACE_EntrenchingTool",1],["ACE_wirecutter",1]]],
-	"CUP_H_Ger_Cap_EP_Grn1","CUP_G_PMC_Facewrap_Tropical_Glasses_Dark",["Rangefinder","","","",[],[],""],
-	["ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ACE_Altimeter",""]
+    ["CUP_srifle_AWM_wdl", "CUP_muzzle_snds_AWM", "", "CUP_optic_LeupoldMk4_25x50_LRT", 
+        ["CUP_5Rnd_86x70_L115A1", 5], [], "CUP_bipod_Harris_1A2_L_BLK"
+    ],
+    [],
+    ["CUP_hgun_Glock17_blk", "CUP_muzzle_snds_M9", "", "optic_MRD_black", 
+        ["CUP_17Rnd_9x19_glock17", 17], [], ""
+    ],
+    ["CUP_U_B_GER_Fleck_Crye", [
+        ["ACE_CableTie", 4], ["ACE_EarPlugs", 1], ["ACE_IR_Strobe_Item", 1], 
+        ["ItemcTabHCam", 1], ["ACE_epinephrine", 2], ["ACE_morphine", 2], 
+        ["ACE_MapTools", 1], ["ACE_Flashlight_XL50", 1], ["ACE_RangeCard", 1], 
+        ["kat_Caffeine", 1, 15], ["kat_Penthrox", 1, 10]
+    ]],
+    ["CUP_V_B_GER_Armatus_BB_Fleck", [
+        ["CUP_17Rnd_9x19_glock17", 3, 17], ["SmokeShell", 2, 1], ["SmokeShellGreen", 2, 1], 
+        ["ACE_M84", 4, 1], ["CUP_5Rnd_86x70_L115A1", 10, 5]
+    ]],
+    ["CFP_Kitbag_Flecktarn", [
+        ["kat_chestSeal", 10], ["ACE_elasticBandage", 40], ["ACE_epinephrine", 5], 
+        ["ACE_morphine", 5], ["ACE_tourniquet", 4], ["ACE_splint", 2], ["ACE_salineIV_500", 12], 
+        ["ACE_packingBandage", 20], ["CUP_NVG_PVS15_black", 1], ["CUP_H_OpsCore_Covered_Fleck", 1]
+    ]],
+    "CUP_H_Ger_Cap_EP_Grn1",
+    "CUP_G_PMC_Facewrap_Tropical_Glasses_Dark",
+    ["Rangefinder", "", "", "", [], [], ""],
+    ["ItemMap", "ItemAndroid", "TFAR_anprc152_25", "ItemCompass", "ACE_Altimeter", ""]
 ];
 
 //------------------------------------------------------------------

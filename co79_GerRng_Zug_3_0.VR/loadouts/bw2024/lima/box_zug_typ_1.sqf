@@ -15,9 +15,9 @@ clearMagazineCargoGlobal _box;
 clearItemCargoGlobal _box;
 clearBackpackCargoGlobal _box;
 
-_box addMagazineCargoGlobal ["CUP_30Rnd_556x45_G36", 25];
-_box addMagazineCargoGlobal ["CUP_30Rnd_556x45_PMAG_BLACK_PULL", 10];
-_box addMagazineCargoGlobal ["CUP_20Rnd_762x51_HK417", 25];
+_box addMagazineCargoGlobal ["CUP_30Rnd_556x45_G36", 30];
+_box addMagazineCargoGlobal ["CUP_30Rnd_556x45_PMAG_BLACK_PULL", 30];
+_box addMagazineCargoGlobal ["CUP_20Rnd_762x51_HK417", 10];
 
 // für diese Box Gewichtslimit Ignorieren
 //[_box, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
