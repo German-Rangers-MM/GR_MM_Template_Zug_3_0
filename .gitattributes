@@ -1,1 +1,2 @@
 .git* export-ignore
+cba_configs/ export-ignore
