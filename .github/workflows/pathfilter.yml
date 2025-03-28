@@ -26,10 +26,11 @@ jobs:
           cba:
             - 'cba_configs/**'
           template:
-            - '!**/cba_configs/**'
-            - '!**/.github/**'
+            - '!cba_configs/**'
+            - '!.github/**'
           workflows:
-            - '**/.github/**'
+            - '.github/**'
+        predicate-quantifier: 'every'
 
   # JOB to build and test backend code
   cba:
@@ -62,6 +63,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - uses: arma-actions/sqflint@v1.0
+        name: Validate with SQFLint with custom arguments
+        with:
+          args: --exit w --directory co79_GerRng_Zug_3_0.VR
       - name: 'Auto-assign PR'
         uses: pozil/auto-assign-issue@v2
         with:
@@ -86,7 +91,7 @@ jobs:
 
 
       - name: 'Auto-assign PR'
-        if: ${{github.actor != 'ItsGiantCookie' || github.actor != 'HendrikTank' }}
+        if: ${{github.actor != 'ItsGiantCookie' && github.actor != 'HendrikTank' }}
         uses: pozil/auto-assign-issue@v2
         with:
             repo-token: ${{ secrets.GR_MM_TOKEN }}
