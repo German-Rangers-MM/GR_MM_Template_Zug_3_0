@@ -1,0 +1,41 @@
+# Add 'root' label to any root file changes
+# Quotation marks are required for the leading asterisk
+root:
+- changed-files:
+  - any-glob-to-any-file: '*'
+
+## Equivalent of the above mentioned configuration using another syntax
+Documentation:
+- changed-files:
+  - any-glob-to-any-file: ['cba_configs/**', '**/*.md']
+  
+Repo-Update:
+- changed-files:
+  - any-glob-to-any-file: ['.github/**', '**/*.yml']
+
+Mission-Update:
+- changed-files:
+  - any-glob-to-any-file: ['co79_GerRng_Zug_3_0.VR/*.ext', 'co79_GerRng_Zug_3_0.VR/*.sqm', 'co79_GerRng_Zug_3_0.VR/*.sqf', 'co79_GerRng_Zug_3_0.VR/*.hpp', 'co79_GerRng_Zug_3_0.VR/*.txt']
+
+Loadout-Update:
+- changed-files:
+  - any-glob-to-any-file: 'co79_GerRng_Zug_3_0.VR/loadouts/**/loadout/*.sqf'
+
+Packlisten-Update:
+- changed-files:
+  - any-glob-to-any-file: 'co79_GerRng_Zug_3_0.VR/loadouts/**/packliste/*.sqf'
+
+Limakisten-Update:
+- changed-files:
+  - any-glob-to-any-file: 'co79_GerRng_Zug_3_0.VR/loadouts/**/lima/*.sqf'
+
+Script-Update:
+- changed-files:
+  - any-glob-to-any-file: ['co79_GerRng_Zug_3_0.VR/fnc/**', 'co79_GerRng_Zug_3_0.VR/gui/**', 'co79_GerRng_Zug_3_0.VR/scripts/**', 'co79_GerRng_Zug_3_0.VR/sounds/**']
+
+# Add 'feature' label to any PR where the head branch name starts with `feature` or has a `feature` section in the name
+feature:
+ - head-branch: ['^feature', 'feature']
+
+fix:
+ - head-branch: ['^fix', 'fix']
