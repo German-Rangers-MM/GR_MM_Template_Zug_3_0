@@ -31,4 +31,4 @@ jobs:
     steps:
     - uses: actions/labeler@v5
       with:
-        pull-request-number: ${{ fromJSON(github.event.inputs.pr-number) }}
+        pr-number: ${{ fromJSON(github.event.inputs.pr-number) }}
