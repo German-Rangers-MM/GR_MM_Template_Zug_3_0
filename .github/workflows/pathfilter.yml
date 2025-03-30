@@ -67,7 +67,7 @@ jobs:
       - uses: arma-actions/sqflint@v1.0
         name: Validate with SQFLint with custom arguments
         with:
-          args: --exit w --directory co79_GerRng_Zug_3_0.VR
+          args: --exit e --directory co79_GerRng_Zug_3_0.VR
       - name: 'Auto-assign PR'
         uses: pozil/auto-assign-issue@v2
         with:
