@@ -210,7 +210,7 @@ switch (toLower _supply) do {
 	};
 
 	case "sierra4": {
-		_box = "Box_NATO_Equip_F" createVehicle _boxPos;
+		_box = "ACE_Box_Ammo" createVehicle _boxPos;
 		_box setPosATL [_boxPos select 0,_boxPos select 1,_boxHeight];
 		[_box] execvm limapfad + "box_sierra_typ_4.sqf";
 	};
