@@ -1,6 +1,6 @@
 name: Determining touched Filepaths
 on:
-    pull_request:
+    pull_request_target:
         branches:
           - main
         types: [opened, edited, synchronize, reopened]
