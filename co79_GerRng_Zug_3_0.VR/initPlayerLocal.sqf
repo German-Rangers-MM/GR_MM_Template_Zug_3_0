@@ -485,16 +485,16 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 			_Sierra = ["Sierra","Sierra",_iconSierra,{ },{true}] call ace_interact_menu_fnc_createAction;
 			[_x, 0, ["ACE_MainActions"], _Sierra] call ace_interact_menu_fnc_addActionToObject;
 				//------------------------------------------------------------------
-			_sierra1 = ["Sierra1","Sierra Typ 1- GM6 Munition",_icon,{[["sierra1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+			_sierra1 = ["Sierra1","Sierra Typ 1- Trupp 1 - S",_icon,{[["sierra1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 			[_x, 0, ["ACE_MainActions", "Sierra"], _sierra1] call ace_interact_menu_fnc_addActionToObject;
 
-			_sierra2 = ["Sierra2","Sierra Typ 2 - M107 Munition",_icon,{[["sierra2",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+			_sierra2 = ["Sierra2","Sierra Typ 2 - Trupp 1 - A",_icon,{[["sierra2",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 			[_x, 0, ["ACE_MainActions", "Sierra"], _sierra2] call ace_interact_menu_fnc_addActionToObject;
 
-			_sierra3 = ["Sierra3","Sierra Typ 3 - M200 Munition",_icon,{[["sierra3",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+			_sierra3 = ["Sierra3","Sierra Typ 3 - Trupp 2 - U",_icon,{[["sierra3",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 			[_x, 0, ["ACE_MainActions", "Sierra"], _sierra3] call ace_interact_menu_fnc_addActionToObject;
 
-			_sierra4 = ["Sierra4","Sierra Typ 4 - Waffen",_icon,{[["sierra4",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
+			_sierra4 = ["Sierra4","Sierra Typ 4 - Trupp 2 - ST",_icon,{[["sierra4",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
 			[_x, 0, ["ACE_MainActions", "Sierra"], _sierra4] call ace_interact_menu_fnc_addActionToObject;
 
 			_sierra5 = ["Sierra5","Sierra Typ 5 - Ausrüstung",_icon,{[["sierra5",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
