@@ -6,5 +6,7 @@ class SGN {
 		class createPacklisteACE{};		
 		class exportLoadOutArray{};
 		class replaceTarnfarbe{};
+		class rollDice{}; 
+		class infoHintHC{};
 	};
 };

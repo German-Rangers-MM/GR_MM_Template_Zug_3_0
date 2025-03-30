@@ -1,6 +1,8 @@
 ## Template für alle zukünftigen Missonen der Rangers
 
 Credits:
-- @SmartGun2
 - @ApacheLongbow
+- @Cesrap
+- @Ganvai
 - @ItsGiantCookie
+- @SmartGun2
