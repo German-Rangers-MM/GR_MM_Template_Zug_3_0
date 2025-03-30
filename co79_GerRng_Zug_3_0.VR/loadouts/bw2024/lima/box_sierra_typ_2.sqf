@@ -18,8 +18,8 @@ clearBackpackCargoGlobal _box;
 _box addBackpackCargoGlobal ["B_UAV_01_backpack_F", 1];
 _box addBackpackCargoGlobal ["B_UAV_06_backpack_F", 1];
 
-_box addItemCargoGlobal ["ACE_UAVBattery", 4];
-_box addItemCargoGlobal ["B_UavTerminal", 4];
+_box addItemCargoGlobal ["ACE_UAVBattery", 6];
+_box addItemCargoGlobal ["B_UavTerminal", 2];
 
 _box addItemCargoGlobal ["CUP_20Rnd_762x51_HK417", 20];
 _box addItemCargoGlobal ["CUP_30Rnd_556x45_PMAG_BLACK", 20];
