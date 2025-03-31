@@ -303,6 +303,7 @@
     "C_UavTerminal",
     
     "ChemicalDetector_01_watch_F",
+    "KAT_ChemicalDetector",
     
     "tfw_blade",
     "tfw_dd",
