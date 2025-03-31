@@ -20,7 +20,7 @@ _box addItemCargoGlobal ["U_B_CBRN_Suit_01_Wdl_F", 4];
 _box addBackpackCargoGlobal ["B_CombinationUnitRespirator_01_F",4];
 _box addItemCargoGlobal ["kat_mask_M04", 4];
 _box addItemCargoGlobal ["G_AirPurifyingRespirator_01_F", 4];
-_box addItemCargoGlobal ["ChemicalDetector_01_watch_F", 4];
+_box addItemCargoGlobal ["KAT_ChemicalDetector", 4];
 _box addItemCargoGlobal ["kat_gasmaskFilter", 16];
 _box addItemCargoGlobal ["kat_sealant", 16];
 _box addItemCargoGlobal ["kat_atropine", 12];
