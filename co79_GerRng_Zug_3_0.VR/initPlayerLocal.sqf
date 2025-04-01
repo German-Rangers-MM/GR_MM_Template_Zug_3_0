@@ -597,4 +597,7 @@ titleText ["Missionsvorbereitung", "BLACK IN" ];
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 
-//[] execVM "scripts\core\modcheck.sqf";
+_modCheck = ["GR_modCheckParam", 0] call BIS_fnc_getParamValue;
+if (_modCheck < 1) then {
+	[] execVM "scripts\core\modcheck.sqf";
+};

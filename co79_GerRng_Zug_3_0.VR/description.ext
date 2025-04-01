@@ -84,6 +84,15 @@ class CfgTaskEnhancements
    propagate    = 1;            //0: do not propagate (default), 1: propagate shared tasks to subordinates
 };
 
+// Lobby Params =================================================
+class Params {    
+	class GR_modCheckParam {
+		title = "Mod Check";
+		values[] = {0,1};
+		texts[] = {"Ein","Aus"};
+		default = 0;	
+	};
+};
 
 class CfgMusic
 {
