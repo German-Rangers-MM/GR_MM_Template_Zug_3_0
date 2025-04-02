@@ -13,6 +13,7 @@ _whitelistedMods = 	[
 						"@3den Enhanced", "623475643",
 						"@ZEC - Zeus and Eden Templates - Building Compositions", "642912021",
 						"@ZEI - Zeus and Eden Interiors", "1251859358",
+						"@ZEI - Zeus and Eden Interiors ( Continued )", "3438718557",
 						"@ZECCUP - Zeus and Eden Templates for CUP Terrains", "750186990",
 						"@Eden 2.0","2193296534",
 						"@Eden Mirror Function", "2807516605",
