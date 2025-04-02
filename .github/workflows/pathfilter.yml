@@ -64,6 +64,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - uses: arma-actions/sqflint@v1.0
+        name: Validate with SQFLint with custom arguments
+        with:
+          args: --directory co79_GerRng_Zug_3_0.VR
       - name: 'Auto-assign PR'
         uses: pozil/auto-assign-issue@v2
         with:
@@ -96,13 +100,3 @@ jobs:
             numOfAssignee: 1
             abortIfPreviousAssignees: true
             allowSelfAssign: false
-  lint:
-    needs: template
-    runs-on: ubuntu-latest
-    steps:
-       - name: Checkout
-         uses: actions/checkout@v4
-       - uses: arma-actions/sqflint@v1.0
-         name: Validate with SQFLint with custom arguments
-         with:
-            args: --directory co79_GerRng_Zug_3_0.VR
