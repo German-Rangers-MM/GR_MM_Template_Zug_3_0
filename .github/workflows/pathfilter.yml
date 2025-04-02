@@ -26,10 +26,10 @@ jobs:
           cba:
             - 'cba_configs/**'
           template:
-            - '!cba_configs/**'
-            - '!.github/**'
+            - '!**/cba_configs/**'
+            - '!**/.github/**'
           workflows:
-            - '.github/**'
+            - '**/.github/**'
 
   # JOB to build and test backend code
   cba:
@@ -86,7 +86,7 @@ jobs:
 
 
       - name: 'Auto-assign PR'
-        if: ${{github.actor != 'ItsGiantCookie' && github.actor != 'HendrikTank' }}
+        if: ${{github.actor != 'ItsGiantCookie' || github.actor != 'HendrikTank' }}
         uses: pozil/auto-assign-issue@v2
         with:
             repo-token: ${{ secrets.GR_MM_TOKEN }}
