@@ -30,7 +30,6 @@ jobs:
             - '!.github/**'
           workflows:
             - '.github/**'
-        predicate-quantifier: 'every'
 
   # JOB to build and test backend code
   cba:
