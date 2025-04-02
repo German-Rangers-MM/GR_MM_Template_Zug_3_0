@@ -1,4 +1,4 @@
-name: GitHub-Actions-Name
+name: Update Übungsplatz-Repo
 
 on:
   workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
@@ -17,26 +17,24 @@ on:
                      # It's not elegant to set same value in two options but
                      # there is no way to retrieve this value in composite action.
 
+
 jobs:
-  main:
+  copy-files:
     runs-on: ubuntu-latest
     steps:
-      - uses: sator-imaging/Copy-to-Another-Repository@v1
+      - name: Checkout current repo
+        uses: actions/checkout@v4
         with:
+          fetch-depth: 0  # Required for git diff to work
 
-          # required parameters
-          target-filepath: '/basis_uebungsplatz_2024.Enoch/'      # file path to copy
-          output-branch: 'main'   # branch name to create pull request
-          output-repo: 'German-Rangers-MM/Uebnungsplatz_Livonia'
-          git-token: ${{ secrets.GR_MM_TOKEN }}
-          
-          # optional parameters and default values
-          commit-message-prefix: '[actions] '   # followed by source repository and file name
-          output-directory: "${{ github.event.repository.name }}"   # copy file into sub directory
-          pr-branch-prefix: "actions/${{ github.event.repository.name }}"   # branch name prefix followed by date and time
-          pr-title: "GitHub Actions: ${{ github.event.repository.name }}"   # followed by source repository and file name
-          pr-message: "${{ github.workflow }} on ${{ github.server_url }}/${{ github.repository }}"   # followed by action repository
-          git-name: "github-actions[bot]"   # your name can be set by ${{ github.actor }}
-          git-email: 'github-actions[bot]@users.noreply.github.com'   # associated user icon is shown in commit page
-
-# {% endraw %}
+      - name: Copy changed files to target repo
+        uses: ItsGiantCookie/smart-copy-cat@v1  # Replace with your actual action reference
+        with:
+          output-repo: 'ItsGiantCookie/copycattarget'
+          output-branch: 'main'
+          path-pattern-to-prune: 'start/'
+          path-pattern-to-insert: 'target/'
+          commit-message-prefix: '[Auto-Sync] '
+          pr-title: 'Automated update: assets'
+          pr-message: 'Syncing latest changes from development branch'
+          git-token: ${{ secrets.REPO_SYNC_TOKEN }}
