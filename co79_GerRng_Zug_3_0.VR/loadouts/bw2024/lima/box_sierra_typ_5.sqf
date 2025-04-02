@@ -45,9 +45,6 @@ _box addItemCargoGlobal ["ACE_UAVBattery", 6];
 _box addItemCargoGlobal ["ACE_CableTie", 16];
 _box addItemCargoGlobal ["ACE_EarPlugs", 8];
 
-_box addItemCargoGlobal ["ACE_EntrenchingTool",2];
-_box addItemCargoGlobal ["ACE_wirecutter",2];
-
 _box addItemCargoGlobal ["kat_Caffeine", 16];
 _box addItemCargoGlobal ["ACE_elasticBandage", 80];
 _box addItemCargoGlobal ["ACE_packingBandage", 80];
@@ -62,8 +59,6 @@ _box addItemCargoGlobal ["kat_TXA", 16];
 _box addItemCargoGlobal ["kat_IO_FAST", 16];
 _box addItemCargoGlobal ["kat_IV_16", 16];
 _box addItemCargoGlobal ["kat_nitroglycerin", 16];
-_box addItemCargoGlobal ["kat_ncdKit", 20];
-_box addItemCargoGlobal ["kat_stethoscope", 2];
 
 // für diese Box Gewichtslimit Ignorieren
 [_box, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
