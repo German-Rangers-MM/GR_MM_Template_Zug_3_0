@@ -1,0 +1,42 @@
+name: GitHub-Actions-Name
+
+on:
+  workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
+  push:
+    branches: [ main ]
+    paths:
+      - '/co79_GerRng_Zug_3_0.VR/init.sqf'
+      - '/co79_GerRng_Zug_3_0.VR/initServer.sqf'
+      - '/co79_GerRng_Zug_3_0.VR/sounds/**'
+      - '/co79_GerRng_Zug_3_0.VR/scripts/**'
+      - '/co79_GerRng_Zug_3_0.VR/loadouts/**'
+      - '/co79_GerRng_Zug_3_0.VR/images/**'
+      - '/co79_GerRng_Zug_3_0.VR/gui/**'
+      - '/co79_GerRng_Zug_3_0.VR/fnc/**'
+                     # limit trigger to the target-filepath.
+                     # It's not elegant to set same value in two options but
+                     # there is no way to retrieve this value in composite action.
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: sator-imaging/Copy-to-Another-Repository@v1
+        with:
+
+          # required parameters
+          target-filepath: '/basis_uebungsplatz_2024.Enoch/'      # file path to copy
+          output-branch: 'main'   # branch name to create pull request
+          output-repo: 'German-Rangers-MM/Uebnungsplatz_Livonia'
+          git-token: ${{ secrets.GR_MM_TOKEN }}
+          
+          # optional parameters and default values
+          commit-message-prefix: '[actions] '   # followed by source repository and file name
+          output-directory: "${{ github.event.repository.name }}"   # copy file into sub directory
+          pr-branch-prefix: "actions/${{ github.event.repository.name }}"   # branch name prefix followed by date and time
+          pr-title: "GitHub Actions: ${{ github.event.repository.name }}"   # followed by source repository and file name
+          pr-message: "${{ github.workflow }} on ${{ github.server_url }}/${{ github.repository }}"   # followed by action repository
+          git-name: "github-actions[bot]"   # your name can be set by ${{ github.actor }}
+          git-email: 'github-actions[bot]@users.noreply.github.com'   # associated user icon is shown in commit page
+
+# {% endraw %}
