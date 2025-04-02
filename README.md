@@ -5,4 +5,3 @@ Credits:
 - @SmartGun2
 - @ApacheLongbow
 - @ItsGiantCookie
-- @Cesrap
