@@ -1,0 +1,40 @@
+name: Update Übungsplatz-Repo
+
+on:
+  workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
+  push:
+    branches: [ main ]
+    paths:
+      - '/co79_GerRng_Zug_3_0.VR/init.sqf'
+      - '/co79_GerRng_Zug_3_0.VR/initServer.sqf'
+      - '/co79_GerRng_Zug_3_0.VR/sounds/**'
+      - '/co79_GerRng_Zug_3_0.VR/scripts/**'
+      - '/co79_GerRng_Zug_3_0.VR/loadouts/**'
+      - '/co79_GerRng_Zug_3_0.VR/images/**'
+      - '/co79_GerRng_Zug_3_0.VR/gui/**'
+      - '/co79_GerRng_Zug_3_0.VR/fnc/**'
+                     # limit trigger to the target-filepath.
+                     # It's not elegant to set same value in two options but
+                     # there is no way to retrieve this value in composite action.
+
+
+jobs:
+  copy-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout current repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Required for git diff to work
+
+      - name: Copy changed files to target repo
+        uses: ItsGiantCookie/smart-copy-cat@v1  # Replace with your actual action reference
+        with:
+          output-repo: 'German-Rangers-MM/Uebnungsplatz_Livonia'
+          output-branch: 'main'
+          path-pattern-to-prune: 'co79_GerRng_Zug_3_0.VR/'
+          path-pattern-to-insert: 'basis_uebungsplatz_2024.Enoch/'
+          commit-message-prefix: '[Auto-Sync] '
+          pr-title: 'Automatisiertes Update'
+          pr-message: 'Übernahme der letzten Änderungen des Templates'
+          git-token: ${{ secrets.GR_MM_TOKEN }}
