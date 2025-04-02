@@ -88,23 +88,15 @@
 //------------------------------------------------------------------
 
 	"CUP_muzzle_snds_SCAR_L",
-	"CUP_muzzle_snds_M16",
-	"CUP_muzzle_snds_M16_coyote",
-	"CUP_muzzle_snds_M16_desert",
-	"CUP_muzzle_snds_M16_camo",
-	"muzzle_snds_M",
-
 	"CUP_muzzle_snds_socom762rc",
 
 	"CUP_muzzle_mfsup_Flashhider_556x45_Black",
 	"CUP_muzzle_mfsup_Flashhider_556x45_OD",
 	"CUP_muzzle_mfsup_Flashhider_556x45_Tan",
-
 	"CUP_muzzle_mfsup_Flashhider_762x51_Black",
 	"CUP_muzzle_mfsup_Flashhider_762x51_OD",
 	"CUP_muzzle_mfsup_Flashhider_762x51_Tan",
-	"ACE_muzzle_mzls_B",
-
+	
 	"CUP_muzzle_snds_MP7",
 
 	"CUP_muzzle_snds_AWM",
@@ -326,20 +318,10 @@
 	"CUP_6Rnd_12Gauge_Slug",
 
 	"CUP_5Rnd_762x67_G22",
-
 	"CUP_5Rnd_86x70_L115A1",
-
 	"CUP_10Rnd_127x99_M107",
 	"ACE_10Rnd_127x99_AMAX_Mag",
 	"ACE_10Rnd_127x99_API_Mag",
-	
-	"7Rnd_408_Mag",
-	"ACE_7Rnd_408_305gr_Mag",
-
-	"5Rnd_127x108_APDS_Mag",
-	"5Rnd_127x108_Mag",
-	"CUP_5Rnd_127x99_as50_M",
-	"ACE_5Rnd_127x99_Mag",
 
 	"CUP_1Rnd_HE_M203",
 	"CUP_1Rnd_HEDP_M203",
@@ -351,6 +333,18 @@
 	"UGL_FlareWhite_F",
 	"UGL_FlareGreen_F",
 	"UGL_FlareRed_F",
+
+	"MRAWS_HE_F",
+	"MRAWS_HEAT55_F",
+	"MRAWS_HEAT_F",
+	"GerRng_MAAWS_GMM_HE",
+	"GerRng_MAAWS_GMM_HEAT",
+	"GerRng_MAAWS_GMM_MT",
+	"MAA_MAAWS_ASM509",
+	"MAA_MAAWS_HEDP502",
+	"MAA_MAAWS_ILLUM545",
+	"MAA_MAAWS_MT756",
+	"MAA_MAAWS_SMOKE469",
 
 	"CUP_17Rnd_9x19_glock17",
 
