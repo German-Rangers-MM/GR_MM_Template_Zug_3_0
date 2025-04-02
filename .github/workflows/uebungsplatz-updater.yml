@@ -30,11 +30,11 @@ jobs:
       - name: Copy changed files to target repo
         uses: ItsGiantCookie/smart-copy-cat@v1  # Replace with your actual action reference
         with:
-          output-repo: 'ItsGiantCookie/copycattarget'
+          output-repo: 'German-Rangers-MM/Uebnungsplatz_Livonia'
           output-branch: 'main'
-          path-pattern-to-prune: 'start/'
-          path-pattern-to-insert: 'target/'
+          path-pattern-to-prune: 'co79_GerRng_Zug_3_0.VR/'
+          path-pattern-to-insert: 'basis_uebungsplatz_2024.Enoch/'
           commit-message-prefix: '[Auto-Sync] '
-          pr-title: 'Automated update: assets'
-          pr-message: 'Syncing latest changes from development branch'
-          git-token: ${{ secrets.REPO_SYNC_TOKEN }}
+          pr-title: 'Automatisiertes Update'
+          pr-message: 'Übernahme der letzten Änderungen des Templates'
+          git-token: ${{ secrets.GR_MM_TOKEN }}
