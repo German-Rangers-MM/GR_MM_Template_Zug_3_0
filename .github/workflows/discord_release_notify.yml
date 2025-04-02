@@ -3,53 +3,18 @@ on:
   workflow_dispatch:
   release:
     types: [published]
-  push:
-    branches:
-      - 'main'
 
 jobs:
   github-releases-to-discord:
     runs-on: ubuntu-latest
-    if: ${{!github.event.release.prerelease && github.event_name != 'push'}}
     steps:
       - uses: sarisia/actions-status-discord@v1
         with:
           webhook: ${{ secrets.WEBHOOK_URL }}
-          username: "GR-MM Bot"
-          avatar_url: "https://cdn.discordapp.com/icons/443453801794502656/f12a0eefb27fafdfae2a76680e2747da.png"
           nodetail: true
-          title: "Eine neue Version des `MM-Template` ist verfügbar!"
+          title: "New version of `software` is ready!"
           description: |
             Version `${{ github.event.release.tag_name }}`
-            Click [hier](${{ github.event.release.html_url }}) um zum Download gelangen!
-          color: 0x98ff98
-
-  github-pre-releases-to-discord:
-    runs-on: ubuntu-latest
-    if: ${{github.event.release.prerelease && github.event_name != 'push'}}
-    steps:
-      - uses: sarisia/actions-status-discord@v1
-        with:
-          webhook: ${{ secrets.WEBHOOK_URL }}
-          avatar_url: "https://cdn.discordapp.com/icons/443453801794502656/f12a0eefb27fafdfae2a76680e2747da.png"
-          username: "GR-MM Bot"
-          nodetail: true
-          title: "Eine neue Testversion des `MM-Template` ist verfügbar!"
-          description: |
-            Version `${{ github.event.release.tag_name }}`
-            Click [hier](${{ github.event.release.html_url }}) um zum Download gelangen!
-          color: 0xfed000
-
-  github-commit-to-discord:
-    runs-on: ubuntu-latest
-    if: ${{github.event_name == 'push'}}
-    steps:
-      - uses: sarisia/actions-status-discord@v1
-        with:
-          webhook: ${{ secrets.WEBHOOK_URL }}
-          avatar_url: "https://cdn.discordapp.com/icons/443453801794502656/f12a0eefb27fafdfae2a76680e2747da.png"
-          username: "GR-MM Bot"
-          nodetail: false
-          title: "Das `MM-Template` wurde geupdated!"
-          color: 0x678db0
+            Click [here](${{ github.event.release.html_url }}) to download!
+          color: 0xff91a4
 
