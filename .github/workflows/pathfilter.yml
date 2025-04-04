@@ -29,10 +29,9 @@ jobs:
           template:
             - '!cba_configs/**'
             - '!.github/**'
-            - 'basis_uebungsplatz_2024.Enoch/'
+            - 'co79_GerRng_Zug_3_0.VR/'
           workflows:
             - '.github/**'
-        predicate-quantifier: 'every'
 
   # JOB to build and test backend code
   cba:
