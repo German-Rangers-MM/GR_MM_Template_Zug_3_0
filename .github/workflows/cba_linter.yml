@@ -3,7 +3,6 @@ name: CBA Config Linter
 on:
   pull_request_target:
     # branches: [ main ]
-  workflow_dispatch:
 
 jobs:
   lint:
@@ -17,42 +16,22 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.x'
+        python-version: '3.10'
 
-    - name: Run CBA Config Linter
+    - name: Run Linter
       id: linter
+      working-directory: ${{ github.workspace }}
       run: |
-        python -m pip install --upgrade pip
         python tools/python/cba_linter.py configs/
-        
-    - name: Create review comment
-      if: always() && github.event_name == 'pull_request_target'
-      uses: actions/github-script@v6
+        echo "result=$(cat lint-results.md)" >> $GITHUB_OUTPUT
+
+    - name: Create Review Comment
+      if: always()
+      uses: reviewdog/action-github-pr-review@v1
       with:
-        script: |
-          const output = await github.rest.issues.listCommentsForRepo({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            issue_number: context.issue.number,
-          });
-          
-          const existingComment = output.data.find(comment => comment.user.login === 'github-actions[bot]' && comment.body.includes('CBA Linter Results'));
-          
-          const lintResults = `${{ steps.linter.outputs.result }}`;
-          const commentBody = `### CBA Linter Results\n\n${lintResults}`;
-          
-          if (existingComment) {
-            await github.rest.issues.updateComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              comment_id: existingComment.id,
-              body: commentBody
-            });
-          } else {
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: commentBody
-            });
-          }
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        reporter: github-pr-review
+        filter_mode: added
+        fail_on_error: true
+        name: CBA Config Linter
+        path: lint-results.md
