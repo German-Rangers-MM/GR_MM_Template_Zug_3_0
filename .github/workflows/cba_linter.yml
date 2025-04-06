@@ -21,17 +21,46 @@ jobs:
     - name: Run Linter
       id: linter
       working-directory: ${{ github.workspace }}
+      env:
+        GITHUB_WORKSPACE: ${{ github.workspace }}
       run: |
-        python tools/python/cba_linter.py configs/
-        echo "result=$(cat lint-results.md)" >> $GITHUB_OUTPUT
+        mkdir -p ./lint-results
+        python tools/python/cba_linter.py configs/ > ./lint-results/output.json
+        echo "exit_code=$?" >> $GITHUB_OUTPUT
 
-    - name: Create Review Comment
+    - name: Process Results
       if: always()
-      uses: reviewdog/action-github-pr-review@v1
+      working-directory: ${{ github.workspace }}
+      run: |
+        # Create annotations
+        jq -r '.[] | "::\(.level) file=\(.file),line=\(.line)::\(.message)"' ./lint-results/output.json >> $GITHUB_STEP_SUMMARY
+        
+        # Create comment body
+        echo "### CBA Config Lint Results" > ./lint-results/comment.md
+        echo "| File | Line | Level | Message |" >> ./lint-results/comment.md
+        echo "|------|------|-------|---------|" >> ./lint-results/comment.md
+        jq -r '.[] | "| \(.file) | \(.line) | \(.level) | \(.message) |"' ./lint-results/output.json >> ./lint-results/comment.md
+        
+        # Add no issues message if empty
+        if [ ! -s ./lint-results/output.json ]; then
+          echo "No linting issues found" >> ./lint-results/comment.md
+        fi
+
+    - name: Create PR Comment
+      if: always() && github.event_name == 'pull_request_target'
+      uses: actions/github-script@v6
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        reporter: github-pr-review
-        filter_mode: added
-        fail_on_error: true
-        name: CBA Config Linter
-        path: lint-results.md
+        script: |
+          const fs = require('fs');
+          const comment = fs.readFileSync('./lint-results/comment.md', 'utf8');
+          
+          await github.rest.issues.createComment({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            issue_number: context.issue.number,
+            body: comment
+          });
+
+    - name: Fail on Errors
+      if: steps.linter.outputs.exit_code != 0
+      run: exit 1
