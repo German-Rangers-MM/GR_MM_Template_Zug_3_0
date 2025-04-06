@@ -3,6 +3,7 @@ name: CBA Config Linter
 on:
   pull_request_target:
     # branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   lint:
