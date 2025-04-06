@@ -5,62 +5,27 @@ on:
     # branches: [ main ]
 
 jobs:
-  lint:
+  cba-linter:
+    name: CBA Config Linter
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      with:
-        ref: ${{ github.event.pull_request.head.sha }}
+      - name: Checkout code
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
+      - name: Set up reviewdog
+        uses: reviewdog/action-setup@e04ffabe3898a0af8d0fb1af00c188831c4b5893 # v1.3.2
+        with:
+          reviewdog_version: latest
 
-    - name: Run Linter
-      id: linter
-      working-directory: ${{ github.workspace }}
-      env:
-        GITHUB_WORKSPACE: ${{ github.workspace }}
-      run: |
-        mkdir -p ./lint-results
-        python tools/python/cba_linter.py configs/ > ./lint-results/output.json
-        echo "exit_code=$?" >> $GITHUB_OUTPUT
-
-    - name: Process Results
-      if: always()
-      working-directory: ${{ github.workspace }}
-      run: |
-        # Create annotations
-        jq -r '.[] | "::\(.level) file=\(.file),line=\(.line)::\(.message)"' ./lint-results/output.json >> $GITHUB_STEP_SUMMARY
-        
-        # Create comment body
-        echo "### CBA Config Lint Results" > ./lint-results/comment.md
-        echo "| File | Line | Level | Message |" >> ./lint-results/comment.md
-        echo "|------|------|-------|---------|" >> ./lint-results/comment.md
-        jq -r '.[] | "| \(.file) | \(.line) | \(.level) | \(.message) |"' ./lint-results/output.json >> ./lint-results/comment.md
-        
-        # Add no issues message if empty
-        if [ ! -s ./lint-results/output.json ]; then
-          echo "No linting issues found" >> ./lint-results/comment.md
-        fi
-
-    - name: Create PR Comment
-      if: always() && github.event_name == 'pull_request_target'
-      uses: actions/github-script@v6
-      with:
-        script: |
-          const fs = require('fs');
-          const comment = fs.readFileSync('./lint-results/comment.md', 'utf8');
-          
-          await github.rest.issues.createComment({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            issue_number: context.issue.number,
-            body: comment
-          });
-
-    - name: Fail on Errors
-      if: steps.linter.outputs.exit_code != 0
-      run: exit 1
+      - name: Run Python linter
+        run: |
+          # Your existing python linting command
+          python3 tools/python/cba_linter.py configs/ | \
+          reviewdog -f=rdjsonl \
+            -name="CBA Config Linter" \
+            -reporter=github-pr-review \
+            -filter-mode=added \
+            -fail-on-error=true \
+            -level=error
