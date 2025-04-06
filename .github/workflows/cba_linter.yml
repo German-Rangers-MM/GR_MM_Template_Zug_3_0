@@ -1,0 +1,37 @@
+name: CBA Config Linter
+
+on:
+  pull_request_target:
+    # branches: [ main ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Run Linter
+      id: linter
+      working-directory: ${{ github.workspace }}
+      run: |
+        python tools/python/cba_linter.py configs/
+        echo "result=$(cat lint-results.md)" >> $GITHUB_OUTPUT
+
+    - name: Create Review Comment
+      if: always()
+      uses: reviewdog/action-github-pr-review@v1
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        reporter: github-pr-review
+        filter_mode: added
+        fail_on_error: true
+        name: CBA Config Linter
+        path: lint-results.md
