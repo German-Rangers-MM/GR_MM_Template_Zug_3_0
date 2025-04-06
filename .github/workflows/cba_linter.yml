@@ -22,7 +22,7 @@ jobs:
       id: linter
       run: |
         python -m pip install --upgrade pip
-        python scripts/cba_linter.py configs/
+        python tools/python/cba_linter.py configs/
         
     - name: Create review comment
       if: always() && github.event_name == 'pull_request_target'
