@@ -2,6 +2,7 @@ import argparse
 import json
 import os
 import re
+import sys
 from pathlib import Path
 from enum import Enum
 
@@ -19,134 +20,182 @@ ISSUE_CODES = {
     "force_count": "CBA107",
     "boolean_case": "CBA201",
     "value_format": "CBA108",
+    "string_quote": "CBA109",
 }
 
-def parse_line(raw_line):
-    line = raw_line.split('//')[0].strip()
+def parse_line(raw_line: str) -> list:
+    original_line = raw_line.rstrip('\n')
+    line = original_line.split('//')[0].strip()
     issues = []
     
     if not line:
         return issues
 
-    # Check for missing semicolon
-    if line and not line.endswith(';'):
+    # Check for semicolon first
+    if not line.endswith(';'):
+        suggestion = f"{original_line.rstrip(';').strip()};" if ';' not in original_line else original_line
         issues.append({
             "code": ISSUE_CODES["semicolon"],
             "message": "Missing semicolon at end of line",
-            "suggestion": f"{raw_line.rstrip()};"
+            "level": IssueLevel.ERROR,
+            "suggestion": suggestion
         })
-        return issues  # Critical error, return early
+        # Continue checking other errors even with missing semicolon
 
-    line = line[:-1].strip()  # Remove semicolon for further processing
+    # Clean line for further processing
+    clean_line = line.rstrip(';').strip()
 
-    # Validate assignment syntax
-    if '=' not in line:
+    # Split assignment
+    if '=' not in clean_line:
         issues.append({
             "code": ISSUE_CODES["assignment"],
-            "message": "Invalid assignment syntax (missing =)"
+            "message": "Invalid assignment syntax (missing =)",
+            "level": IssueLevel.ERROR
         })
-        return issues  # Critical error, return early
+        return issues  # Can't process further without assignment
 
-    left, value = [part.strip() for part in line.split('=', 1)]
+    left, value = [part.strip() for part in clean_line.split('=', 1)]
     tokens = left.split()
-    
+
     # Parse force keywords and variable name
     force_count = 0
     var_name = None
-    for token in tokens:
+    valid_force = True
+    
+    for i, token in enumerate(tokens):
         if token == 'force':
-            if var_name is None:
-                force_count += 1
-            else:
+            if var_name is not None:
                 issues.append({
                     "code": ISSUE_CODES["force_placement"],
-                    "message": "Unexpected 'force' after variable name"
+                    "message": "Unexpected 'force' after variable name",
+                    "level": IssueLevel.ERROR,
+                    "suggestion": f"{' '.join(tokens[:i])} {' '.join(tokens[i+1:])}".strip()
                 })
+                valid_force = False
+            else:
+                force_count += 1
         else:
             if var_name is None:
                 var_name = token
-            else:
-                issues.append({
-                    "code": ISSUE_CODES["extra_token"],
-                    "message": f"Extra token '{token}' after variable name"
-                })
+                remaining_tokens = tokens[i+1:]
+                if remaining_tokens:
+                    issues.append({
+                        "code": ISSUE_CODES["extra_token"],
+                        "message": f"Extra tokens after variable name: {' '.join(remaining_tokens)}",
+                        "level": IssueLevel.ERROR,
+                        "suggestion": f"{' '.join(tokens[:i+1])}"
+                    })
+
+    # Validate force count
+    if force_count > 2 and valid_force:
+        suggestion = f"{'force ' * 2}{' '.join(tokens[force_count:])}"
+        issues.append({
+            "code": ISSUE_CODES["force_count"],
+            "message": f"Too many force keywords ({force_count}), maximum 2 allowed",
+            "level": IssueLevel.ERROR,
+            "suggestion": suggestion
+        })
 
     # Validate variable name
     if not var_name:
         issues.append({
             "code": ISSUE_CODES["missing_var"],
-            "message": "Missing variable name"
+            "message": "Missing variable name",
+            "level": IssueLevel.ERROR
         })
     elif not re.match(r'^[a-zA-Z0-9_]+$', var_name):
         issues.append({
             "code": ISSUE_CODES["invalid_var"],
-            "message": f"Invalid variable name: {var_name}"
-        })
-
-    # Validate force count
-    if force_count > 2:
-        issues.append({
-            "code": ISSUE_CODES["force_count"],
-            "message": f"Too many force keywords: {force_count}"
+            "message": f"Invalid variable name format: '{var_name}'",
+            "level": IssueLevel.ERROR,
+            "suggestion": re.sub(r'[^A-Za-z0-9_]', '_', var_name)
         })
 
     # Validate value format
-    value_issues = []
-    if value.lower() in ['true', 'false']:
-        if value != value.lower():
+    if value:
+        # Check boolean values
+        if value.lower() in ['true', 'false']:
+            if value != value.lower():
+                issues.append({
+                    "code": ISSUE_CODES["boolean_case"],
+                    "message": "Boolean value must be lowercase",
+                    "level": IssueLevel.WARNING,
+                    "suggestion": value.lower()
+                })
+        # Check numbers
+        elif re.match(r'^-?\d+\.?\d*$', value):
+            pass  # Valid number
+        # Check arrays
+        elif re.match(r'^\[.*\]$', value):
+            if not re.match(r'^\[\s*("[^"]*"\s*|\d+\.?\d*\s*)(,\s*("[^"]*"\s*|\d+\.?\d*\s*))*\]$', value):
+                issues.append({
+                    "code": ISSUE_CODES["value_format"],
+                    "message": "Invalid array format",
+                    "level": IssueLevel.ERROR
+                })
+        # Check strings
+        elif '"' in value:
+            if not re.match(r'^"[^"]*"$', value):
+                issues.append({
+                    "code": ISSUE_CODES["string_quote"],
+                    "message": "Invalid string formatting",
+                    "level": IssueLevel.ERROR,
+                    "suggestion": f'"{value.strip(\'"\')}"'
+                })
+        else:
             issues.append({
-                "code": ISSUE_CODES["boolean_case"],
-                "level": IssueLevel.WARNING,
-                "message": f"Boolean value should be lowercase",
-                "suggestion": value.lower()
+                "code": ISSUE_CODES["value_format"],
+                "message": f"Invalid value format: '{value}'",
+                "level": IssueLevel.ERROR,
+                "suggestion": f'"{value}"' if ' ' in value else value
             })
-    elif not (re.match(r'^-?\d+\.?\d*$', value) or 
-             re.match(r'^\[.*\]$', value) or 
-             re.match(r'^".*"$', value)):
-        issues.append({
-            "code": ISSUE_CODES["value_format"],
-            "message": f"Invalid value format: {value}"
-        })
 
     return issues
 
-def lint_file(file_path, repo_root):
+def lint_file(file_path: Path, repo_root: Path) -> list:
     issues = []
     rel_path = str(file_path.relative_to(repo_root))
     
-    with open(file_path, 'r') as f:
-        for line_num, line in enumerate(f, 1):
-            for issue in parse_line(line.strip()):
+    with open(file_path, 'r', encoding='utf-8') as f:
+        for line_num, raw_line in enumerate(f, 1):
+            line_issues = parse_line(raw_line)
+            for issue in line_issues:
                 entry = {
-                    "code": issue.get("code", ""),
+                    "code": issue["code"],
                     "message": issue["message"],
-                    "level": issue.get("level", IssueLevel.ERROR).value,
+                    "level": issue["level"].value,
                     "location": {
                         "path": rel_path,
                         "range": {
-                            "start": {"line": line_num}
+                            "start": {"line": line_num},
+                            "end": {"line": line_num}
                         }
                     }
                 }
                 if "suggestion" in issue:
                     entry["suggestions"] = [{
-                        "text": issue["suggestion"]
+                        "text": issue["suggestion"] + (";" if not raw_line.strip().endswith(';') else "")
                     }]
                 issues.append(entry)
     return issues
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('config_dir', help='Config directory to lint')
+    parser = argparse.ArgumentParser(description='CBA Config Linter')
+    parser.add_argument('config_dir', help='Directory containing .cfg files')
     args = parser.parse_args()
-    
-    repo_root = Path(os.getcwd())
+
+    repo_root = Path(os.environ.get('GITHUB_WORKSPACE', os.getcwd()))
     config_dir = repo_root / args.config_dir
-    
+
+    if not config_dir.exists():
+        print(f"Error: Config directory not found - {config_dir}", file=sys.stderr)
+        sys.exit(1)
+
     all_issues = []
     for cfg_file in config_dir.rglob('*.cfg'):
-        all_issues.extend(lint_file(cfg_file, repo_root))
-    
+        if cfg_file.is_file():
+            all_issues.extend(lint_file(cfg_file, repo_root))
+
     for issue in all_issues:
         print(json.dumps(issue))
 
