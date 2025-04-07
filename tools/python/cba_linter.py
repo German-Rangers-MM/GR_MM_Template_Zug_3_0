@@ -40,7 +40,6 @@ def parse_line(raw_line: str) -> list:
             "level": IssueLevel.ERROR,
             "suggestion": suggestion
         })
-        # Continue checking other errors even with missing semicolon
 
     # Clean line for further processing
     clean_line = line.rstrip(';').strip()
@@ -52,7 +51,7 @@ def parse_line(raw_line: str) -> list:
             "message": "Invalid assignment syntax (missing =)",
             "level": IssueLevel.ERROR
         })
-        return issues  # Can't process further without assignment
+        return issues
 
     left, value = [part.strip() for part in clean_line.split('=', 1)]
     tokens = left.split()
@@ -124,7 +123,7 @@ def parse_line(raw_line: str) -> list:
                 })
         # Check numbers
         elif re.match(r'^-?\d+\.?\d*$', value):
-            pass  # Valid number
+            pass
         # Check arrays
         elif re.match(r'^\[.*\]$', value):
             if not re.match(r'^\[\s*("[^"]*"\s*|\d+\.?\d*\s*)(,\s*("[^"]*"\s*|\d+\.?\d*\s*))*\]$', value):
@@ -133,14 +132,15 @@ def parse_line(raw_line: str) -> list:
                     "message": "Invalid array format",
                     "level": IssueLevel.ERROR
                 })
-        # Check strings
-        elif '"' in value:
-            if not re.match(r'^"[^"]*"$', value):
+        # Check strings (fixed escaping)
+        elif '"' in value or "'" in value:
+            if not re.match(r'^"([^"]*)"$', value) and not re.match(r"^'([^']*)'$", value):
+                clean_value = value.strip('\'"')
                 issues.append({
                     "code": ISSUE_CODES["string_quote"],
                     "message": "Invalid string formatting",
                     "level": IssueLevel.ERROR,
-                    "suggestion": f'"{value.strip(\'"\')}"'
+                    "suggestion": f'"{clean_value}"'
                 })
         else:
             issues.append({
