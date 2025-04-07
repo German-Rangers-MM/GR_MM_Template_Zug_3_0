@@ -33,7 +33,7 @@ jobs:
           REVIEWDOG_GITHUB_API_TOKEN: ${{ github.token }}
         run: |
           # Generate lint results in rdjsonl format
-          python3 tools/python/cba_linter.py configs/ > lint_results.rdjsonl
+          python3 tools/python/cba_linter.py configs/ > lint_results.rdjsonl |
         
           # Report results using reviewdog
           reviewdog -f=rdjsonl \
