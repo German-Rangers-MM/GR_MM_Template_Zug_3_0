@@ -36,7 +36,7 @@ jobs:
           REVIEWDOG_GITHUB_API_TOKEN: ${{ github.token }}
         run: |
           # Run linter with debug output
-          python3 tools/python/cba_linter.py cba_configs/ > lint_results.rdjsonl 2> debug.log
+          python3 tools/python/cba_linter.py cba_configs/ > lint_results.rdjson 2> debug.log
           
           # Show debug output
           echo "=== DEBUG LOG ==="
@@ -44,12 +44,12 @@ jobs:
           
           # Show lint results
           echo "=== LINT RESULTS ==="
-          cat lint_results.rdjsonl
+          cat lint_results.rdjson
           
-          # Report results
-          reviewdog -f=rdjsonl \
-            -name="CBA Config Linter" \
-            -reporter=github-pr-review \
-            -filter-mode=nofilter \
-            -fail-level=error \
-            < lint_results.rdjsonl
+
+      - name: Custom rdjsonl test (github-pr-review)
+        env:
+          REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cat ./tools/python/lint_results.rdjson | \
+            reviewdog -name="custom-rdjson" -f=rdjson -reporter=github-pr-review -filter-mode=file
