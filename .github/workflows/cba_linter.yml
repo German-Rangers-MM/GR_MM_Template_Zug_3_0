@@ -36,7 +36,7 @@ jobs:
           REVIEWDOG_GITHUB_API_TOKEN: ${{ github.token }}
           GITHUB_WORKSPACE: ${{ github.workspace }}
         run: |
-          python3 tools/python/cba_linter.py configs/ > lint_results.rdjsonl
+          python3 tools/python/cba_linter.py cba_configs/ > lint_results.rdjsonl
           reviewdog -f=rdjsonl \
             -name="CBA Config Linter" \
             -reporter=github-pr-review \
