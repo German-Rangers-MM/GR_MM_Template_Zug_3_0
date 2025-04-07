@@ -39,7 +39,7 @@ jobs:
           reviewdog -f=rdjsonl \
             -name="CBA Config Linter" \
             -reporter=github-pr-review \
-            -filter-mode=added \
+            -filter-mode=nofilter \
             -fail-level=error \
             -level=warning \
             < lint_results.rdjsonl
