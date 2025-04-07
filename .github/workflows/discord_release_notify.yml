@@ -17,6 +17,22 @@ jobs:
           webhook: ${{ secrets.WEBHOOK_URL }}
           username: "GR-MM Bot"
           avatar_url: "https://cdn.discordapp.com/icons/443453801794502656/f12a0eefb27fafdfae2a76680e2747da.png"
+          nodetail: false
+          title: "Eine neue Version des `MM-Template` ist verfügbar!"
+          description: |
+            Version `${{ github.event.release.tag_name }}`
+            Click [hier](${{ github.event.release.html_url }}) um zum Download gelangen!
+          color: 0x98ff98
+          
+  github-releases-to-discord-small:
+    runs-on: ubuntu-latest
+    if: ${{!github.event.release.prerelease && github.event_name != 'push'}}
+    steps:
+      - uses: sarisia/actions-status-discord@v1
+        with:
+          webhook: ${{ secrets.WEBHOOK_URL_RELEASE }}
+          username: "GR-MM Bot"
+          avatar_url: "https://cdn.discordapp.com/icons/443453801794502656/f12a0eefb27fafdfae2a76680e2747da.png"
           nodetail: true
           title: "Eine neue Version des `MM-Template` ist verfügbar!"
           description: |
