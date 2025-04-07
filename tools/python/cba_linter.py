@@ -184,20 +184,17 @@ def main():
     parser.add_argument('config_dir', help='Directory containing .cfg files')
     args = parser.parse_args()
 
-    repo_root = Path(os.environ.get('GITHUB_WORKSPACE', os.getcwd()))
+    # Get the correct workspace path
+    repo_root = Path(os.environ.get('GITHUB_WORKSPACE', Path.cwd()))
+    
+    # Use path relative to repository root
     config_dir = repo_root / args.config_dir
 
+    print(f"Checking directory: {config_dir}")  # Debug output
     if not config_dir.exists():
-        print(f"Error: Config directory not found - {config_dir}", file=sys.stderr)
+        available = "\n".join([f"- {p.name}" for p in repo_root.iterdir() if p.is_dir()])
+        print(f"Error: Config directory '{args.config_dir}' not found in repository root.\nAvailable directories:\n{available}", file=sys.stderr)
         sys.exit(1)
-
-    all_issues = []
-    for cfg_file in config_dir.rglob('*.cfg'):
-        if cfg_file.is_file():
-            all_issues.extend(lint_file(cfg_file, repo_root))
-
-    for issue in all_issues:
-        print(json.dumps(issue))
 
 if __name__ == '__main__':
     main()
