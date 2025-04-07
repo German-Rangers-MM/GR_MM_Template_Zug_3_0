@@ -36,6 +36,6 @@ jobs:
             -name="CBA Config Linter" \
             -reporter=github-pr-review \
             -filter-mode=added \
-            -fail-on-error=true \
-            -level=error \
+            -fail-level=error \
+            -level=warning \
             < lint_results.rdjsonl
