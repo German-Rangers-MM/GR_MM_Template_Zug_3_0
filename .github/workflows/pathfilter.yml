@@ -1,4 +1,4 @@
-name: Determining touched Filepaths
+name: Determining altered Files
 on:
     pull_request_target:
         branches:
@@ -29,25 +29,78 @@ jobs:
           template:
             - '!cba_configs/**'
             - '!.github/**'
+            - 'co79_GerRng_Zug_3_0.VR/'
           workflows:
             - '.github/**'
-        predicate-quantifier: 'every'
 
   # JOB to build and test backend code
   cba:
     needs: changes
     if: ${{ needs.changes.outputs.cba == 'true' }}
     runs-on: ubuntu-latest
+    name: 'Check for Config-Changes'
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Auto Approve
+     - run: echo 'CBA-Configs have been altered'
+
+
+  template:
+    needs: changes
+    if: ${{ needs.changes.outputs.template == 'true' }}
+    runs-on: ubuntu-latest
+    name: 'Check for Template-Changes'
+    steps:
+     - run: echo 'Template has been altered'
+
+  workflows:
+    needs: changes
+    if: ${{ needs.changes.outputs.workflows == 'true' }}
+    runs-on: ubuntu-latest
+    name: 'Check for Workflows-Changes'
+    steps:
+     - run: echo 'Workflows have been altered'
+            
+  lint:
+    needs: template
+    runs-on: ubuntu-latest
+    name: SQF Linting
+    steps:
+       - name: Checkout
+         uses: actions/checkout@v4
+       - uses: arma-actions/sqflint@v1.0
+         name: Validate with SQFLint with custom arguments
+         with:
+            args: --directory basis_uebungsplatz_2024.Enoch
+
+  autoapprove:
+    if: |
+      always() && 
+      (needs.cba.result == 'success' || needs.workflows.result == 'success') &&
+      (needs.template.result == 'skipped')
+    needs: [cba, workflows]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auto Approve for Workflows
+        if: ${{github.actor == 'ItsGiantCookie' || github.actor == 'HendrikTank' }}
+        uses: hmarr/auto-approve-action@v4
+        with:
+            review-message: "Auto approved Workflow-Update"
+            
+      - name: Auto Approve for Configs
         if: ${{github.actor == 'Cesrap' }}
         uses: hmarr/auto-approve-action@v4
         with:
             review-message: "Auto approved CBA-Config-Update"
 
-      - name: 'Auto-assign PR'
+  autoassign:
+    if: |
+      always() && 
+      (needs.template.result == 'success' || needs.cba.result == 'success' || needs.workflows.result == 'success') &&
+      (needs.autoapprove.result == 'skipped')
+    needs: [template, cba, workflows]
+    runs-on: ubuntu-latest
+    name: 'Auto-assign PR'
+    steps:
+      - name: 'Assigning PR'
         if: ${{github.actor != 'Cesrap' }}
         uses: pozil/auto-assign-issue@v2
         with:
@@ -56,53 +109,3 @@ jobs:
             numOfAssignee: 1
             abortIfPreviousAssignees: true
             allowSelfAssign: false
-
-  template:
-    needs: changes
-    if: ${{ needs.changes.outputs.template == 'true' }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: 'Auto-assign PR'
-        uses: pozil/auto-assign-issue@v2
-        with:
-            repo-token: ${{ secrets.GR_MM_TOKEN }}
-            teams: mission-makers-dev
-            numOfAssignee: 1
-            abortIfPreviousAssignees: true
-            allowSelfAssign: false
-
-  workflows:
-    needs: changes
-    if: ${{ needs.changes.outputs.workflows == 'true' }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Auto Approve
-        if: ${{github.actor == 'ItsGiantCookie' || github.actor == 'HendrikTank' }}
-        uses: hmarr/auto-approve-action@v4
-        with:
-            review-message: "Auto approved Workflow-Update"
-
-
-      - name: 'Auto-assign PR'
-        if: ${{github.actor != 'ItsGiantCookie' && github.actor != 'HendrikTank' }}
-        uses: pozil/auto-assign-issue@v2
-        with:
-            repo-token: ${{ secrets.GR_MM_TOKEN }}
-            teams: mission-makers-dev
-            numOfAssignee: 1
-            abortIfPreviousAssignees: true
-            allowSelfAssign: false
-  lint:
-    needs: template
-    runs-on: ubuntu-latest
-    steps:
-       - name: Checkout
-         uses: actions/checkout@v4
-       - uses: arma-actions/sqflint@v1.0
-         name: Validate with SQFLint with custom arguments
-         with:
-            args: --directory co79_GerRng_Zug_3_0.VR
