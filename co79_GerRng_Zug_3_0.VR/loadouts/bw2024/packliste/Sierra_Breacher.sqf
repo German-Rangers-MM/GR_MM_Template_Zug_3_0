@@ -374,7 +374,6 @@
 
 	"ItemAndroid",
 	"B_UavTerminal",
-	"ItemcTab",
 
 	"SPS_PVS24LR",
 
