@@ -93,9 +93,8 @@ jobs:
 
   autoassign:
     if: |
-      always() && 
-      (needs.template.result == 'success' || needs.cba.result == 'success' || needs.workflows.result == 'success') &&
-      (needs.autoapprove.result == 'skipped')
+      always()
+    needs: [template, cba, workflows]
     runs-on: ubuntu-latest
     name: 'Auto-assign PR'
     steps:
