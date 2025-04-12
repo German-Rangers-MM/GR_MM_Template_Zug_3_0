@@ -69,7 +69,7 @@ jobs:
        - uses: arma-actions/sqflint@v1.0
          name: Validate with SQFLint with custom arguments
          with:
-            args: --directory basis_uebungsplatz_2024.Enoch
+            args: --directory co79_GerRng_Zug_3_0.VR
 
   autoapprove:
     if: |
