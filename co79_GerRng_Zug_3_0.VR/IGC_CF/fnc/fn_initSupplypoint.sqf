@@ -24,3 +24,5 @@ private _action = [
 
 // Add action to object
 [_object, 0, ["ACE_MainActions"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+[_object] call IGC_CF_fnc_limaOldSupplyCreateAce;

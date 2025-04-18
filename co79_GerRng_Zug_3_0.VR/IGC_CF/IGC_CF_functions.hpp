@@ -27,5 +27,10 @@ class IGC_CF {
 
         class clearCreateContent{};
 
+
+        class limaOldSupplyCreateAce{};
+
+        class limaOldSupplySpawnCrate{};
+
     };
 };

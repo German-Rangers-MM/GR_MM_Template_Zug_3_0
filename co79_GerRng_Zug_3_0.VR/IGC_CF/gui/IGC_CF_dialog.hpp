@@ -123,7 +123,7 @@ class IGC_CF_dialog {
             y = IGC_GETCY(IGC_Y_VAL,IGC_HEIGHT_VAL,34.25,48);
             w = IGC_GETW(IGC_WIDTH_VAL,10);
             h = IGC_GETH(IGC_HEIGHT_VAL,(48/5));
-            action = "";
+            action = "call IGC_CF_fnc_clearCreateContent;";
         };
 
         class IGC_ButtonAddFromSupply: IGC_GUI_PRE_DialogCross {
