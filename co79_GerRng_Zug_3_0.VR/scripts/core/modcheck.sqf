@@ -13,6 +13,7 @@ _whitelistedMods = 	[
 						"@3den Enhanced", "623475643",
 						"@ZEC - Zeus and Eden Templates - Building Compositions", "642912021",
 						"@ZEI - Zeus and Eden Interiors", "1251859358",
+						"@ZEI - Zeus and Eden Interiors ( Continued )", "3438718557",
 						"@ZECCUP - Zeus and Eden Templates for CUP Terrains", "750186990",
 						"@Eden 2.0","2193296534",
 						"@Eden Mirror Function", "2807516605",
@@ -140,8 +141,8 @@ _whitelistedMods = 	[
 						"@JSRS SOUNDMOD - CUP WEAPONS MOD SOUND SUPPORT", "1624803912",
 						"@JSRS SOUNDMOD - CUP VEHICLES MOD SOUND SUPPORT", "1624804924",
 						"@JSRS SOUNDMOD - Reloading Sounds", "1429098683",
-						"@JSRS SOUNDMOD 2025 Beta - RC2.1", "3407970596",
-						"@JSRS SOUNDMOD 2025 Beta - AiO Compat Files RC2.1", "3407970596",
+						"@JSRS SOUNDMOD 2025 Beta - RC2.2", "3407948300",
+						"@JSRS SOUNDMOD 2025 Beta - AiO Compat Files RC2.2", "3407970596",
 						
 						
 						//Zeus Mods

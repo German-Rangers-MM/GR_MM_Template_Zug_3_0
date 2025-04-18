@@ -23,6 +23,51 @@
 	"CUP_arifle_HK416_AGL_Desert",
 	"CUP_arifle_HK416_AGL_Wood",
 
+	"SPS_hk416_11_sl_t_ctr_vfg_a7_black_f",
+	"SPS_hk416_11_sl_t_ctr_afg_a7_black_f",
+	"SPS_hk416_11_sl_t_ctr_a7_black_f",
+	"SPS_hk416_11_glm_t_ctr_a7_black_f",
+
+	"SPS_hk416_11_sl_t_ctr_vfg_a7_fde_f",
+	"SPS_hk416_11_sl_t_ctr_afg_a7_fde_f",
+	"SPS_hk416_11_sl_t_ctr_a7_fde_f",
+	"SPS_hk416_11_glm_t_ctr_a7_fde_f",
+
+	"SPS_hk416_14_5_g95_t_ctr_vfg_a7_black_f",
+	"SPS_hk416_14_5_g95_t_ctr_afg_a7_black_f",
+	"SPS_hk416_14_5_g95_t_ctr_a7_black_f",
+	"SPS_hk416_14_5_glm_t_ctr_a7_black_f",
+
+	"SPS_hk416_14_5_g95_t_ctr_vfg_a7_fde_f",
+	"SPS_hk416_14_5_g95_t_ctr_afg_a7_fde_f",
+	"SPS_hk416_14_5_g95_t_ctr_a7_fde_f",
+	"SPS_hk416_14_5_glm_t_ctr_a7_fde_f",
+
+	"SPS_hk416_16_5_g95_t_ctr_vfg_a7_black_f",
+	"SPS_hk416_16_5_g95_t_ctr_afg_a7_black_f",
+	"SPS_hk416_16_5_g95_t_ctr_a7_black_f",
+	"SPS_hk416_16_5_glm_t_ctr_a7_black_f",
+
+	"SPS_hk416_16_5_g95_t_ctr_vfg_a7_fde_f",
+	"SPS_hk416_16_5_g95_t_ctr_afg_a7_fde_f",
+	"SPS_hk416_16_5_g95_t_ctr_a7_fde_f",
+	"SPS_hk416_16_5_glm_t_ctr_a7_fde_f",
+
+	"SPS_hk416_20_g95_t_ctr_vfg_a7_black_f",
+	"SPS_hk416_20_g95_t_ctr_afg_a7_black_f",
+	"SPS_hk416_20_g95_t_ctr_a7_black_f",
+	"SPS_hk416_20_g95_t_ctr_vfg_a7_fde_f",
+	"SPS_hk416_20_g95_t_ctr_afg_a7_fde_f",
+	"SPS_hk416_20_g95_t_ctr_a7_fde_f",
+
+	"SPS_hk337_t_ctr_vfg_black_f",
+	"SPS_hk337_t_ctr_afg_black_f",
+	"SPS_hk337_t_ctr_black_f",
+
+	"SPS_hk337_t_ctr_vfg_fde_f",
+	"SPS_hk337_t_ctr_afg_fde_f",
+	"SPS_hk337_t_ctr_fde_f",
+
 	"CUP_sgun_M1014_solidstock",
 	"CUP_sgun_M1014_Entry",
 	"CUP_sgun_M1014_Entry_vfg",
@@ -48,6 +93,23 @@
 	"CUP_optic_AIMM_MICROT1_BLK",
 	"CUP_optic_AIMM_MICROT1_tan",
 	"CUP_optic_AIMM_MICROT1_OD",
+
+	"SPS_EOTech_Black",
+	"SPS_EOTech_Black_3xMAG_up",
+	"SPS_EOTech_Black_5xMAG_up",
+	"SPS_EOTech_Tan",
+	"SPS_EOTech_Tan_3xMAG_up",
+	"SPS_EOTech_Tan_5xMAG_up",
+
+	"sps_vortex_spitfire_gen2_x5_black",
+	"sps_vortex_spitfire_gen2_x5_RMR_black",
+	"sps_vortex_spitfire_gen2_x5_tan",
+	"sps_vortex_spitfire_gen2_x5_RMR_tan",
+
+	"SPS_EOTech_Vudu_Tan",
+	"SPS_EOTech_Vudu_Tan_PVS24LR",
+	"SPS_EOTech_Vudu_Black",
+	"SPS_EOTech_Vudu_Black_PVS24LR",
 
 	"optic_AMS",
 	"optic_AMS_khk",
@@ -76,6 +138,15 @@
 	"CUP_acc_LLM_black",
 	"CUP_acc_LLM_od",
 
+	"sps_M300C_RAID_IR",
+	"sps_M300C_RAID_IR_tan",
+	"sps_M300C_RAID_ext_IR",
+	"sps_M300C_RAID_ext_IR_tan",
+
+	"muzzle_snds_SPS_AI_B_H",
+	"muzzle_snds_SPS_AI_G_H",
+	"muzzle_snds_SPS_AI_DE_H",
+
 	"CUP_acc_CZ_M3X",
 
 //------------------------------------------------------------------
@@ -93,7 +164,15 @@
 	"CUP_muzzle_snds_M16_camo",
 	"muzzle_snds_M",
 
+	"muzzle_snds_HXQD556K_black_M",
+	"muzzle_snds_HXQD556K_FDE_M",
+	"muzzle_snds_HX556_black_M",
+	"muzzle_snds_HX556_FDE_M",
+
 	"CUP_muzzle_snds_socom762rc",
+
+	"muzzle_snds_HX762_black_H",
+	"muzzle_snds_HX762_FDE_H",
 
 	"CUP_muzzle_mfsup_Flashhider_556x45_Black",
 	"CUP_muzzle_mfsup_Flashhider_556x45_OD",
@@ -108,6 +187,10 @@
 
 	"CUP_muzzle_snds_AWM",
 
+	"muzzle_snds_SPS_AI_B_H",
+	"muzzle_snds_SPS_AI_G_H",
+	"muzzle_snds_SPS_AI_DE_H",
+
 	"CUP_muzzle_snds_M9",
 
 //------------------------------------------------------------------
@@ -121,6 +204,7 @@
 	"CUP_bipod_Harris_1A2_L_BLK",
 	"CUP_bipod_Harris_1A2_L",
 
+	"sps_atlas_bipod_m_blk",
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -291,6 +375,8 @@
 	"ItemAndroid",
 	"B_UavTerminal",
 
+	"SPS_PVS24LR",
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -308,6 +394,22 @@
 	"ACE_30Rnd_556x45_Stanag_M995_AP_mag",
 	"ACE_30Rnd_556x45_Stanag_Mk318_mag",
 
+	"SPS_HKG3PMAG_30Rnd_556x45_B",
+	"SPS_HKG3PMAG_30Rnd_556x45_B_IR",
+	"SPS_HKG3PMAG_30Rnd_556x45_B_BeOTMT",
+	"SPS_HKG3PMAG_30Rnd_556x45_B_BeVLDT",
+	"SPS_HKG3PMAG_30Rnd_556x45_B_M995",
+	"SPS_HKG3PMAG_30Rnd_556x45_B_Mk262",
+	"SPS_HKG3PMAG_30Rnd_556x45_B_Mk318",
+
+	"SPS_HKG3PMAG_30Rnd_556x45_FDE",
+	"SPS_HKG3PMAG_30Rnd_556x45_FDE_IR",
+	"SPS_HKG3PMAG_30Rnd_556x45_FDE_BeOTMT",
+	"SPS_HKG3PMAG_30Rnd_556x45_FDE_BeVLDT",
+	"SPS_HKG3PMAG_30Rnd_556x45_FDE_M995",
+	"SPS_HKG3PMAG_30Rnd_556x45_FDE_Mk262",
+	"SPS_HKG3PMAG_30Rnd_556x45_FDE_Mk318",
+
 	"CUP_20Rnd_762x51_HK417",
 	"CUP_20Rnd_TE1_Red_Tracer_762x51_HK417",
 	"CUP_20Rnd_762x51_HK417_Camo_Wood",
@@ -316,6 +418,15 @@
 	"ACE_20Rnd_762x51_M993_AP_Mag",
 	"ACE_20Rnd_762x51_Mk319_Mod_0_Mag",
 	"ACE_20Rnd_762x51_Mag_Tracer_Dim",
+
+	"SPS_20Rnd_762x51mm_M80A1_EPR",
+	"SPS_20Rnd_762x51mm_M80A1_EPR_Tracer",
+	"SPS_20Rnd_762x51mm_M80A1_EPR_IR",
+
+	"SPS_HKG3PMAG_30Rnd_300BLK_110_B",
+	"SPS_HKG3PMAG_30Rnd_300BLK_110_T",
+	"SPS_HKG3PMAG_30Rnd_300BLK_230_B",
+	"SPS_HKG3PMAG_30Rnd_300BLK_230_T",
 
 	"CUP_200Rnd_TE1_Red_Tracer_556x45_M249_Pouch",
 	"CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch",
@@ -344,6 +455,18 @@
 	"5Rnd_127x108_Mag",
 	"CUP_5Rnd_127x99_as50_M",
 	"ACE_5Rnd_127x99_Mag",
+
+	"SPS_AI_AXMC_338_300gr_Berger_Mag",
+	"SPS_AI_AXMC_338_300gr_Berger_Mag_IR",
+	"SPS_AI_AXMC_338_300gr_Berger_Mag_Tracer",
+
+	"SPS_AI_AXMC_762x67_Berger_Hybrid_OTM_Mag",
+	"SPS_AI_AXMC_762x67_Berger_Hybrid_OTM_IR_Mag",
+	"SPS_AI_AXMC_762x67_Berger_Hybrid_OTM_Tracer_Mag",
+
+	"SPS_AI_AXMC_762x51_Berger_JOTM_Mag",
+	"SPS_AI_AXMC_762x51_Berger_JOTM_Mag_IR",
+	"SPS_AI_AXMC_762x51_Berger_JOTM_Mag_Tracer",
 
 	"CUP_1Rnd_HE_M203",
 	"CUP_1Rnd_HEDP_M203",
@@ -436,6 +559,7 @@
 	"ACE_EntrenchingTool",
 	"ACE_Kestrel4500",
 	"ACE_Clacker",
+	"ACE_M26_Clacker",
 	"ACE_Flashlight_XL50",
 	"ACE_MapTools",
 	"ACE_microDAGR",

@@ -87,6 +87,25 @@ class CfgTaskEnhancements
    propagate    = 1;            //0: do not propagate (default), 1: propagate shared tasks to subordinates
 };
 
+// Lobby Params =================================================
+class Params {  
+  
+	class GR_modCheckParam {
+		title = "Mod Check";
+		values[] = {1,0};
+		texts[] = {"Ein","Aus"};
+		default = 1;	
+	};
+	
+	class GR_viewDistance {
+		title = "Sichtweite (in Meter)";
+		values[] = {1000,1500,2000,2500,3000,3500,4000};
+		texts[] = {"1000m","1500m","2000m","2500m","3000m","3500m","4000m"};
+		default = 4000;
+		file = "scripts\core\setViewDistance.sqf";
+		//isGlobal = 1;
+	};
+};
 
 class CfgMusic
 {
