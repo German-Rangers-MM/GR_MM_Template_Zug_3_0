@@ -25,5 +25,7 @@ class IGC_CF {
 
         class addItemsFromSupply{};
 
+        class clearCreateContent{};
+
     };
 };
