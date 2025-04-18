@@ -2,6 +2,9 @@
 #include "config.hpp"
 #include "gui\guiNeuDialog.hpp"
 
+#include "IGC_GUI\IGC_GUI_defines.hpp"
+#include "IGC_CF\gui\IGC_CF_dialog.hpp"
+
 //Mission Head ==================================================
 author			= "GerRng Mission Making Team";
 loadScreen 		= "a3\map_malden\data\ui_malden_ca.paa";
@@ -228,5 +231,6 @@ class CfgDebriefing
 //=== CfgFunctions =======================================
 class CfgFunctions {
 	#include "gui\CfgFunctions.hpp"	
-	#include "fnc\CfgFunctions.hpp"		
+	#include "fnc\CfgFunctions.hpp"
+	#include "IGC_CF\IGC_CF_functions.hpp"
 };

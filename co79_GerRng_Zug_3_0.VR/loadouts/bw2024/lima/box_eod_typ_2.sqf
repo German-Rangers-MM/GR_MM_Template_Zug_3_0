@@ -1,32 +1,13 @@
-// Kiste EOD Typ II - Drohnen
-/* Aufruf im Editor mit:
-
-_path = format ["loadouts\%1\lima\box_eod_typ_i.sqf", getMissionConfigValue "fraktion"]; 
-null = [this] execVM _path;
-
-*/
-
-
-if (! isServer) exitWith {};
-
-_box = _this select 0;
-
-clearWeaponCargoGlobal _box; 
-clearMagazineCargoGlobal _box;
-clearItemCargoGlobal _box;
-clearBackpackCargoGlobal _box;
-
-
-_box addItemCargoGlobal ["ACE_Flashlight_Maglite_ML300L",2];
-_box addBackpackCargoGlobal ["ACE_TacticalLadder_Pack",2];
-_box addItemCargoGlobal ["ACE_UAVBattery",1];
-_box addItemCargoGlobal ["B_UavTerminal",1];
-_box addItemCargoGlobal ["C_UavTerminal",1];
-_box addBackpackCargoGlobal ["B_UGV_02_Demining_backpack_F",1];
-_box addBackpackCargoGlobal ["C_IDAP_UAV_06_antimine_backpack_F",1];
-_box addItemCargoGlobal ["ACE_VMH3",1];
-_box addItemCargoGlobal ["ACE_VMM3",1];
-
-// für diese Box Gewichtslimit Ignorieren
-//[_box, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
-//[_box, true, [0, 2, 0], 90, true] call ace_dragging_fnc_setDraggable;
+[
+    "Typ 2 - Drohne",
+    "ACE_Box_Chemlights",
+    ["ACE_Flashlight_Maglite_ML300L",2],
+    ["ACE_TacticalLadder_Pack",2],
+    ["ACE_UAVBattery",1],
+    ["B_UavTerminal",1],
+    ["C_UavTerminal",1],
+    ["B_UGV_02_Demining_backpack_F",1],
+    ["C_IDAP_UAV_06_antimine_backpack_F",1],
+    ["ACE_VMH3",1],
+    ["ACE_VMM3",1]
+];
