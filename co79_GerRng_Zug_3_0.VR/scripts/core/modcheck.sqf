@@ -62,6 +62,8 @@ _whitelistedMods = 	[
 						"@ACE3 Arsenal Extended - CUP","3135187540",
 						"@ILBE Assault Pack - Rewrite - GERRNG Edited","3314854956",
 						"@A3 Thermal Improvement", "2041057379",
+						"SPS Weapons V2", "2811886291",
+						"SPS Equipment", "1187306764",
 
 						//Additional Maps
 						"@Jbad", "520618345",
