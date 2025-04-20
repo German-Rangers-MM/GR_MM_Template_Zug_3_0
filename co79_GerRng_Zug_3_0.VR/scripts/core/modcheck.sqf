@@ -62,6 +62,8 @@ _whitelistedMods = 	[
 						"@ACE3 Arsenal Extended - CUP","3135187540",
 						"@ILBE Assault Pack - Rewrite - GERRNG Edited","3314854956",
 						"@A3 Thermal Improvement", "2041057379",
+						"@SPS Weapons V2", "2811886291",
+						"@SPS Equipment", "1187306764",
 
 						//Additional Maps
 						"@Jbad", "520618345",
@@ -106,6 +108,7 @@ _whitelistedMods = 	[
 						"@cb_blood", "2362277256",
 						"@Enhanced Map Ace Version", "2467590475",
 						"@Simplex Support Services", "1850026051",
+						"@Simplex Support Services [DEV BUILD]", "3029520419",
 						"@DUI - Squad Radar", "1638341685",
 						"@BackpackOnChest - Redux", "2372036642",
 						"@Arma 3 PiShock", "3024239355",
