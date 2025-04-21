@@ -1,16 +1,16 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
-//	Sierra_Scharf
+//  Sierra_Scharf
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 player setVariable ["GR_unitLoadout","Sierra_Scharf"];
 
-//	https://community.bistudio.com/wiki/Unit_Loadout_Array
+//  https://community.bistudio.com/wiki/Unit_Loadout_Array
 player setUnitLoadout [
-    ["CUP_srifle_AWM_wdl", "CUP_muzzle_snds_AWM", "", "CUP_optic_LeupoldMk4_25x50_LRT", 
-        ["CUP_5Rnd_86x70_L115A1", 5], [], "CUP_bipod_Harris_1A2_L_BLK"
+    ["SPS_AI_AXMC338_27_B_PRCFB_F", "muzzle_snds_SPS_AI_B_H", "", "SPS_Optic_SnB_HP_5_45_Black", 
+        ["SPS_AI_AXMC_338_300gr_Berger_Mag", 10], [], ""
     ],
     [],
     ["CUP_hgun_Glock17_blk", "CUP_muzzle_snds_M9", "", "optic_MRD_black", 
@@ -24,12 +24,12 @@ player setUnitLoadout [
     ]],
     ["CUP_V_B_GER_Armatus_BB_Fleck", [
         ["CUP_17Rnd_9x19_glock17", 3, 17], ["SmokeShell", 2, 1], ["SmokeShellGreen", 2, 1], 
-        ["ACE_M84", 4, 1], ["CUP_5Rnd_86x70_L115A1", 10, 5]
+        ["tsp_flashbang_m84", 4, 1], ["SPS_AI_AXMC_338_300gr_Berger_Mag", 10, 10]
     ]],
     ["CFP_Kitbag_Flecktarn", [
-        ["kat_chestSeal", 10], ["ACE_elasticBandage", 40], ["ACE_epinephrine", 5], 
-        ["ACE_morphine", 5], ["ACE_tourniquet", 4], ["ACE_splint", 2], ["ACE_salineIV_500", 12], 
-        ["ACE_packingBandage", 20], ["CUP_NVG_PVS15_black", 1], ["CUP_H_OpsCore_Covered_Fleck", 1]
+        ["kat_chestSeal", 5], ["ACE_elasticBandage", 20], ["ACE_epinephrine", 5], 
+        ["ACE_morphine", 5], ["ACE_tourniquet", 4], ["ACE_splint", 2], ["ACE_salineIV_500", 6], 
+        ["ACE_packingBandage", 10], ["ACE_NVG_Gen4_Black_WP", 1], ["CUP_H_OpsCore_Covered_Fleck", 1]
     ]],
     "CUP_H_Ger_Cap_EP_Grn1",
     "CUP_G_PMC_Facewrap_Tropical_Glasses_Dark",
@@ -38,16 +38,16 @@ player setUnitLoadout [
 ];
 
 //------------------------------------------------------------------
-//	ACE Optionen fuer Spieler
+//  ACE Optionen fuer Spieler
 //------------------------------------------------------------------
-//	Medic:
+//  Medic:
 player setVariable ["ACE_medical_medicClass",0,true];
 
-//	Combat Engineer:
+//  Combat Engineer:
 player setVariable ["ACE_isEngineer",0,true];
 
-//	Explosive Specialist:
+//  Explosive Specialist:
 player setVariable ["ACE_isEOD",false,true];
 
-//	Waffe sichern
+//  Waffe sichern
 [ACE_player, currentWeapon ACE_player, true] call ace_safemode_fnc_setWeaponSafety;

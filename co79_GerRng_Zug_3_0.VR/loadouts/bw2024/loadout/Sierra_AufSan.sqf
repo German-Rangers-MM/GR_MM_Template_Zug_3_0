@@ -23,9 +23,9 @@ player setUnitLoadout [
         ["kat_Penthrox", 1, 10]
     ]],
     ["CUP_V_B_GER_Armatus_BB_Fleck", [
-        ["CUP_NVG_PVS15_black", 1], ["CUP_H_OpsCore_Covered_Fleck", 1], 
+        ["ACE_NVG_Gen4_Black_WP", 1], ["CUP_H_OpsCore_Covered_Fleck", 1], 
         ["CUP_17Rnd_9x19_glock17", 3, 17], ["SmokeShell", 2, 1], ["SmokeShellGreen", 2, 1], 
-        ["ACE_M84", 4, 1], ["CUP_40Rnd_46x30_MP7", 7, 40]
+        ["tsp_flashbang_m84", 4, 1], ["CUP_40Rnd_46x30_MP7", 7, 40]
     ]],
     ["tfw_ilbeMR3000_whip_sierraflk", [
         ["kat_IV_16", 10], ["ACE_adenosine", 5], ["ACE_elasticBandage", 20], 

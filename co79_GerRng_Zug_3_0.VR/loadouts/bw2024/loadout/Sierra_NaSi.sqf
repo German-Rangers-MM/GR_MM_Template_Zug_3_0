@@ -1,16 +1,16 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
-//	Sierra_NaSi
+//  Sierra_NaSi
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 player setVariable ["GR_unitLoadout","Sierra_NaSi"];
 
-//	https://community.bistudio.com/wiki/Unit_Loadout_Array
+//  https://community.bistudio.com/wiki/Unit_Loadout_Array
 player setUnitLoadout [
-    ["CUP_arifle_HK417_12_AG36_Wood", "CUP_muzzle_snds_socom762rc", "CUP_acc_ANPEQ_15_OD", "CUP_optic_Elcan_SpecterDR_KF_RMR_od", 
-        ["CUP_20Rnd_762x51_HK417_Camo_Wood", 20], ["ACE_HuntIR_M203", 1], ""
+    ["SPS_hk417_13_glm_black_f", "muzzle_snds_HX762_black_H", "sps_M300C_RAID_IR", "CUP_optic_Elcan_SpecterDR_KF_RMR_black", 
+        ["ACE_20Rnd_762x51_Mk319_Mod_0_Mag", 20], ["ACE_HuntIR_M203", 1], ""
     ],
     [],
     ["CUP_hgun_Glock17_blk", "CUP_muzzle_snds_M9", "", "optic_MRD_black", 
@@ -19,12 +19,12 @@ player setUnitLoadout [
     ["CUP_U_B_GER_Fleck_Crye", [
         ["ACE_CableTie", 4], ["ACE_EarPlugs", 1], ["ACE_IR_Strobe_Item", 1], 
         ["ItemcTabHCam", 1], ["ACE_epinephrine", 2], ["ACE_morphine", 2], 
-        ["ACE_MapTools", 1], ["ACE_Flashlight_XL50", 1], ["CUP_NVG_PVS15_black", 1], 
+        ["ACE_MapTools", 1], ["ACE_Flashlight_XL50", 1],
         ["CUP_H_OpsCore_Covered_Fleck", 1], ["kat_Caffeine", 1, 15], ["kat_Penthrox", 1, 10]
     ]],
     ["CUP_V_B_GER_Armatus_BB_Fleck", [
-        ["CUP_17Rnd_9x19_glock17", 3, 17], ["SmokeShell", 2, 1], ["SmokeShellGreen", 2, 1], 
-        ["ACE_M84", 4, 1], ["CUP_20Rnd_762x51_HK417_Camo_Wood", 7, 20], ["ACE_HuntIR_M203", 6, 1]
+        ["CUP_17Rnd_9x19_glock17", 3, 17], ["SmokeShell", 2, 1], ["SmokeShellGreen", 2, 1], ["CUP_muzzle_mfsup_Flashhider_762x51_Black", 1],
+        ["tsp_flashbang_m84", 4, 1], ["ACE_20Rnd_762x51_Mk319_Mod_0_Mag", 7, 20], ["ACE_HuntIR_M203", 6, 1]
     ]],
     ["CFP_Kitbag_Flecktarn", [
         ["kat_IV_16", 5], ["ACE_adenosine", 5], ["kat_chestSeal", 10], ["ACE_elasticBandage", 40], 
@@ -33,7 +33,7 @@ player setUnitLoadout [
         ["ACE_tourniquet", 4], ["ACE_splint", 2], ["ACE_salineIV_500", 12], 
         ["kat_Pulseoximeter", 3], ["kat_pocketBVM", 1], ["kat_nitroglycerin", 5], 
         ["kat_naloxone", 1], ["ACE_surgicalKit", 1], ["ACE_packingBandage", 20], 
-        ["kat_stethoscope", 1], ["kat_ncdKit", 10]
+        ["kat_stethoscope", 1], ["kat_ncdKit", 10], ["ACE_NVG_Gen4_Black_WP", 1]
     ]],
     "CUP_H_Ger_Boonie_Flecktarn",
     "CUP_G_PMC_Facewrap_Tropical_Glasses_Dark",
@@ -42,16 +42,16 @@ player setUnitLoadout [
 ];
 
 //------------------------------------------------------------------
-//	ACE Optionen fuer Spieler
+//  ACE Optionen fuer Spieler
 //------------------------------------------------------------------
-//	Medic:
+//  Medic:
 player setVariable ["ACE_medical_medicClass",2,true];
 
-//	Combat Engineer:
+//  Combat Engineer:
 player setVariable ["ACE_isEngineer",0,true];
 
-//	Explosive Specialist:
+//  Explosive Specialist:
 player setVariable ["ACE_isEOD",false,true];
 
-//	Waffe sichern
+//  Waffe sichern
 [ACE_player, currentWeapon ACE_player, true] call ace_safemode_fnc_setWeaponSafety;
