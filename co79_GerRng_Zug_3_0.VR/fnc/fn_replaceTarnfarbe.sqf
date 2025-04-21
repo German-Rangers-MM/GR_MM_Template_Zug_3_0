@@ -44,7 +44,7 @@ if (_tarn in ["bwtropen","bwwinter"]) then {
 			case "CUP_V_B_GER_PVest_Fleck_Gren": 	{ _weste = "CUP_V_B_GER_PVest_Trop_Gren" };
 			case "CUP_V_B_GER_PVest_Fleck_Gren_LT": { _weste = "CUP_V_B_GER_PVest_Trop_Gren_LT" };
 			case "GRE_PlateCarrier1_Flecktarn": 	{ _weste = "GRE_PlateCarrier1_Tropentarn" };
-			case "CUP_V_B_GER_Armatus_BB_Fleck":	{ _weste = "CUP_V_B_GER_Armatus_BB_Trop" }					
+			case "CUP_V_B_GER_Armatus_BB_Fleck":	{ _weste = "CUP_V_B_GER_Armatus_BB_Trop" };					
 		};
 		// Rucksack
 		switch (backpack player) do {
@@ -56,6 +56,9 @@ if (_tarn in ["bwtropen","bwwinter"]) then {
 			case "CUP_B_GER_Medic_Flecktarn": 	{ _ruck = "CUP_B_GER_Medic_Tropentarn" };
 			case "CFP_Camelbak_Mule_RngrGrn": 	{ _ruck = "CFP_Camelbak_Mule_Drab" };
 			case "B_FieldPack_green_F": 		{ _ruck = "B_FieldPack_cbr" };
+			case "tfw_ilbeRT1523_whip_flk": 	{ _ruck = "tfw_ilbeRT1523_whip_trp" };
+			case "tfw_ilbeRT1523_DD_flk": 		{ _ruck = "tfw_ilbeRT1523_DD_trp" };
+			case "tfw_ilbeRT1523_blade_flk": 	{ _ruck = "tfw_ilbeRT1523_blade_trp" };
 			case "ace_gunbag": 					{ _ruck = "ace_gunbag_Tan" };
 		};
 		// Helm
