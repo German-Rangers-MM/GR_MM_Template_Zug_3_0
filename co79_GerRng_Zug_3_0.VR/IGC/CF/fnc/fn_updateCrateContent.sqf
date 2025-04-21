@@ -33,7 +33,7 @@ _configContent deleteRange [0,2];
 // Add items to secondary listbox
 {
     _x params ["_className", "_quantity"];
-    private _pathToConfig = [_className] call IGC_CF_fnc_getConfigPath;
+    private _pathToConfig = [_className] call IGC_common_fnc_getConfigPath;
     private _displayName = getText (configFile >> _pathToConfig >> _className >> "displayName");
     private _index = _secondaryListbox lbAdd format["%1x %2", _quantity, _displayName];
     _secondaryListbox lbSetData [_index, str [_className, _quantity]];

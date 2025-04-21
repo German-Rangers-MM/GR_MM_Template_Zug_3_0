@@ -19,7 +19,7 @@ private _classNames = _categoryData select 1;
 {
     private _className = _x;
         
-    private _pathToConfig = [_className] call IGC_CF_fnc_getConfigPath;
+    private _pathToConfig = [_className] call IGC_common_fnc_getConfigPath;
 
     _displayName = getText (configFile >> _pathToConfig >> _className >> "displayName");
     

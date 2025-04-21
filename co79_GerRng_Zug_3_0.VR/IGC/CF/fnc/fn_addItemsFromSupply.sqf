@@ -34,7 +34,7 @@ for "_i" from 0 to (lbSize _ctrlInventory - 1) do {
 private _newQuantity = _currentQuantity + _amount;
 private _newData = str([_itemClass, _newQuantity]);
 
-private _pathToConfig = [_itemClass] call IGC_CF_fnc_getConfigPath;
+private _pathToConfig = [_itemClass] call IGC_common_fnc_getConfigPath;
 
 // Update or add entry
 if (_existingIndex != -1) then {

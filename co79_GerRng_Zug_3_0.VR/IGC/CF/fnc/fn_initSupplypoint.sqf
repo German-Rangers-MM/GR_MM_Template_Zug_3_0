@@ -4,10 +4,11 @@ Usage: [supplypointObject, [x-offset, y-offset, z-offset]] call IGC_CF_fnc_initS
 
 */
 
-params ["_object", "_offset"];
+params ["_object", "_offset", "_radius"];
 
 // Store offset in object variable
 _object setVariable ["supply_offset", _offset, true];
+_object setVariable ["supply_radius", _radius, true];
 
 // Create ACE action
 private _action = [
