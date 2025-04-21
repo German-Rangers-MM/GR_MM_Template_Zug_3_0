@@ -43,7 +43,8 @@ if (_tarn in ["bwtropen","bwwinter"]) then {
 		switch (vest player) do {
 			case "CUP_V_B_GER_PVest_Fleck_Gren": 	{ _weste = "CUP_V_B_GER_PVest_Trop_Gren" };
 			case "CUP_V_B_GER_PVest_Fleck_Gren_LT": { _weste = "CUP_V_B_GER_PVest_Trop_Gren_LT" };
-			case "GRE_PlateCarrier1_Flecktarn": 	{ _weste = "GRE_PlateCarrier1_Tropentarn" };					
+			case "GRE_PlateCarrier1_Flecktarn": 	{ _weste = "GRE_PlateCarrier1_Tropentarn" };
+			case "CUP_V_B_GER_Armatus_BB_Fleck":	{ _weste = "CUP_V_B_GER_Armatus_BB_Trop" }					
 		};
 		// Rucksack
 		switch (backpack player) do {
@@ -66,6 +67,7 @@ if (_tarn in ["bwtropen","bwwinter"]) then {
 			case "CUP_H_OpsCore_Covered_Fleck_NoHS": 	{ _helm = "CUP_H_OpsCore_Covered_Tropen_NoHS" };
 			case "CUP_H_OpsCore_Covered_Fleck_SF": 		{ _helm = "CUP_H_OpsCore_Covered_Tropen_SF" };	
 			case "CUP_H_Ger_Boonie2_Flecktarn": 		{ _helm = "CUP_H_Ger_Boonie2_desert" };	
+			case "CUP_H_Ger_Boonie_Flecktarn": 			{ _helm = "CUP_H_Ger_Boonie_desert" };
 			case "H_HelmetSpecB_wdl": 					{ _helm = "H_HelmetSpecB_sand" };	
 		};					
 	};
