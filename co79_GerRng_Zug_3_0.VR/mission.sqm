@@ -3105,68 +3105,6 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""GR_unitLoadout"", ""Sierra_TF""];" \n "group this setGroupId [""Sierra""];";
-								name="Sierra6";
-								description="Truppführer";
-								isPlayable=1;
-								class Inventory
-								{
-									class uniform
-									{
-										typeName="CUP_U_B_GER_Fleck_Crye";
-										isBackpack=0;
-									};
-									map="ItemMap";
-									compass="ItemCompass";
-									watch="ItemWatch";
-									radio="ItemRadio";
-								};
-							};
-							id=1455;
-							type="CUP_B_GER_BW_Fleck_Soldier_Sniper";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="Male07ENG";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=0.98000002;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
-						class Item5
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={1416,5.0014391,5123.0498};
-								angles[]={0,4.7309418,0};
-							};
-							side="West";
-							flags=5;
-							class Attributes
-							{
 								init="this setVariable [""GR_unitLoadout"", ""Sierra_Schuetze""];" \n "group this setGroupId [""Sierra""];";
 								name="Sierra7";
 								description="Schütze";
@@ -3184,8 +3122,8 @@ class Mission
 									radio="ItemRadio";
 								};
 							};
-							id=1456;
-							type="CUP_B_GER_BW_Fleck_Soldier_Scout";
+							id=1455;
+							type="CUP_B_GER_BW_Fleck_Soldier_Sniper";
 							class CustomAttributes
 							{
 								class Attribute0
@@ -3228,6 +3166,68 @@ class Mission
 									};
 								};
 								nAttributes=3;
+							};
+						};
+						class Item5
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1414,5.0014391,5123.0498};
+								angles[]={0,4.7291965,0};
+							};
+							side="West";
+							flags=5;
+							class Attributes
+							{
+								init="this setVariable [""GR_unitLoadout"", ""Sierra_TF""];" \n "group this setGroupId [""Sierra""];";
+								name="Sierra6";
+								description="Truppführer";
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="CUP_U_B_GER_Fleck_Crye";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+									radio="ItemRadio";
+								};
+							};
+							id=1456;
+							type="CUP_B_GER_BW_Fleck_Soldier_Sniper";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Male07ENG";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=0.98000002;
+										};
+									};
+								};
+								nAttributes=2;
 							};
 						};
 						class Item6
