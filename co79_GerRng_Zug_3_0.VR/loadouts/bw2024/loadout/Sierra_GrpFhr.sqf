@@ -1,16 +1,16 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
-//	Sierra_GrpFhr
+//  Sierra_GrpFhr
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 player setVariable ["GR_unitLoadout","Sierra_GrpFhr"];
 
-//	https://community.bistudio.com/wiki/Unit_Loadout_Array
+//  https://community.bistudio.com/wiki/Unit_Loadout_Array
 player setUnitLoadout [
-    ["CUP_arifle_HK417_12_Wood", "CUP_muzzle_snds_socom762rc", "CUP_acc_ANPEQ_15_Flashlight_OD_L", "CUP_optic_Elcan_SpecterDR_KF_RMR_od", 
-        ["CUP_20Rnd_762x51_HK417", 20], [], "CUP_bipod_Harris_1A2_L"
+    ["SPS_hk417_13_vfg_black_f", "muzzle_snds_HX762_black_H", "sps_M300C_RAID_IR", "CUP_optic_Elcan_SpecterDR_KF_RMR_black", 
+        ["ACE_20Rnd_762x51_Mk319_Mod_0_Mag", 20], [], "sps_atlas_bipod_m_blk"
     ],
     [],
     ["CUP_hgun_Glock17_blk", "CUP_muzzle_snds_M9", "", "optic_MRD_black", 
@@ -23,13 +23,13 @@ player setUnitLoadout [
         ["kat_Caffeine", 1, 15], ["kat_Penthrox", 1, 10]
     ]],
     ["CUP_V_B_GER_Armatus_BB_Fleck", [
-        ["CUP_17Rnd_9x19_glock17", 3, 17], ["SmokeShell", 2, 1], ["SmokeShellGreen", 2, 1], 
-        ["ACE_M84", 4, 1], ["CUP_20Rnd_762x51_HK417_Camo_Wood", 7, 20]
+        ["CUP_17Rnd_9x19_glock717", 3, 17], ["SmokeShell", 2, 1], ["SmokeShellGreen", 2, 1], 
+        ["tsp_flashbang_m84", 8, 1], ["ACE_20Rnd_762x51_Mk319_Mod_0_Mag", 7, 20]
     ]],
     ["tfw_ilbeMR3000_whip_sierraflk", [
-        ["CUP_H_OpsCore_Covered_Fleck", 1], ["CUP_NVG_PVS15_black", 1], ["ACE_salineIV_500", 4], 
+        ["CUP_H_OpsCore_Covered_Fleck", 1], ["ACE_NVG_Gen4_Black_WP", 1], ["ACE_salineIV_500", 4], 
         ["ACE_elasticBandage", 15], ["ACE_splint", 2], ["ACE_tourniquet", 2], 
-        ["kat_chestSeal", 1], ["ACE_packingBandage", 15], ["CUP_muzzle_mfsup_Flashhider_762x51_OD", 1], 
+        ["kat_chestSeal", 1], ["ACE_packingBandage", 15], ["CUP_muzzle_mfsup_Flashhider_762x51_Black", 1], 
         ["ACE_HuntIR_monitor", 1], ["ACE_surgicalKit", 1], ["B_IR_Grenade", 4, 1], 
         ["SmokeShellRed", 4, 1], ["SmokeShellPurple", 4, 1]
     ]],
@@ -40,16 +40,16 @@ player setUnitLoadout [
 ];
 
 //------------------------------------------------------------------
-//	ACE Optionen fuer Spieler
+//  ACE Optionen fuer Spieler
 //------------------------------------------------------------------
-//	Medic:
+//  Medic:
 player setVariable ["ACE_medical_medicClass",2,true];
 
-//	Combat Engineer:
+//  Combat Engineer:
 player setVariable ["ACE_isEngineer",0,true];
 
-//	Explosive Specialist:
+//  Explosive Specialist:
 player setVariable ["ACE_isEOD",true,true];
 
-//	Waffe sichern
+//  Waffe sichern
 [ACE_player, currentWeapon ACE_player, true] call ace_safemode_fnc_setWeaponSafety;
