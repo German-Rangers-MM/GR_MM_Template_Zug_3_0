@@ -22,7 +22,7 @@ _groupName = toLower (groupId group _unit);
 private _groupRoles = [];
 
 // Zugführung
-if (_groupName in ["foxtrott","victor"]) then {
+if (_groupName in ["foxtrot","victor"]) then {
 	_groupRoles = GR_ZugFhrRollen;
 };
 
