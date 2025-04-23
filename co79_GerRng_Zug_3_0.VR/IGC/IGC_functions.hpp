@@ -30,6 +30,8 @@ class IGC_CF {
 
         class limaOldSupplySpawnCrate{};
 
+        class getLoadFactorPre{};
+
     };
 };
 
@@ -53,7 +55,7 @@ class IGC_CE {
 
         class onAddFromSupply{};
 
-
+        class getLoadFactor{};
     };
 };
 
@@ -71,6 +73,7 @@ class IGC_CL {
 
         class loadCargo{};
 
+        class composeHint{};
     };
 };
 

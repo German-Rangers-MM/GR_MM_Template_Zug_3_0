@@ -53,3 +53,4 @@ switch (_pathToConfig) do {
 };
 
 [_dialog displayCtrl 220911, _currentBoxIndex] call IGC_CE_fnc_onInventorySelect;
+[] call IGC_CE_fnc_getLoadFactor;

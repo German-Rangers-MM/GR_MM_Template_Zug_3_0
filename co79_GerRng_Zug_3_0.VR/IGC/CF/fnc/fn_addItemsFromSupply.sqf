@@ -10,11 +10,12 @@ params ["_amount"];
 private _dialog = findDisplay 220901;
 private _ctrlInventory = _dialog displayCtrl 220912;  // Second listbox (inventory)
 private _ctrlEquipment = _dialog displayCtrl 220913;  // Third listbox (available items)
+private _boxClass = uiNamespace getVariable ["currentBoxClass", "B_supplyCrate_F"];
 
 // Get selected equipment item
 private _equipIndex = lbCurSel _ctrlEquipment;
 private _InventoryIndex = lbCurSel _ctrlInventory;
-if (_equipIndex == -1 && _InventoryIndex == -1) exitWith { hint "Select an item first!"; };
+if (_equipIndex == -1 || _InventoryIndex == -1) exitWith { hint "Select an item first!"; };
 
 private _itemClass = _ctrlEquipment lbData _equipIndex;
 private _displayName = _ctrlEquipment lbText _equipIndex;
@@ -51,3 +52,5 @@ if (_existingIndex != -1) then {
 
 hint format["Added %1 x%2", _displayName, _amount];
 
+
+[false,_boxClass] call IGC_CF_fnc_getLoadFactorPre;

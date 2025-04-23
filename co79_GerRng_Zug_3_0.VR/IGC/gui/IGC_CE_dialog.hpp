@@ -161,6 +161,14 @@ class IGC_CE_dialog {
             action = "[] call IGC_CE_fnc_onAddFromSupply";
         };
 
+        class IGC_LoadBar: IGC_GUI_PRE_ProgressBar {
+            idc= 220915;
+            x = IGC_GETCX(IGC_X_VAL,IGC_WIDTH_VAL,4.75,16);
+            y = IGC_GETCY(IGC_Y_VAL,IGC_HEIGHT_VAL,4.25,48);
+            w = IGC_GETW(IGC_WIDTH_VAL,(16/4.5));
+            h = IGC_GETH(IGC_HEIGHT_VAL,24);
+        };
+
         class IGC_DialogCross: IGC_GUI_PRE_DialogCross {};
     };
 };

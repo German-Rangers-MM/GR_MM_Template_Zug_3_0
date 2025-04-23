@@ -42,3 +42,5 @@ _configContent deleteRange [0,2];
 } forEach _configContent;
 
 lbSort _secondaryListbox;
+
+[true, _boxClass, _configContent] call IGC_CF_fnc_getLoadFactorPre;
