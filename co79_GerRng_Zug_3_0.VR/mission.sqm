@@ -4738,9 +4738,9 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""GR_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Foxtrott""];";
+								init="this setVariable [""GR_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Foxtrot""];";
 								name="Fox1";
-								description="Zugführer@Foxtrott";
+								description="Zugführer@Foxtrot";
 								isPlayable=1;
 								class Inventory
 								{
@@ -4800,9 +4800,9 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""GR_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Foxtrott""];";
+								init="this setVariable [""GR_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Foxtrot""];";
 								name="Fox2";
-								description="Stellvertretender Zugführer@Foxtrott";
+								description="Stellvertretender Zugführer@Foxtrot";
 								isPlayable=1;
 								class Inventory
 								{
@@ -4862,9 +4862,9 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""GR_unitLoadout"", ""ZugSani""];" \n "group this setGroupId [""Foxtrott""];";
+								init="this setVariable [""GR_unitLoadout"", ""ZugSani""];" \n "group this setGroupId [""Foxtrot""];";
 								name="Fox3";
-								description="Zug-Sanitäter@Foxtrott";
+								description="Zug-Sanitäter@Foxtrot";
 								isPlayable=1;
 								class Inventory
 								{
@@ -4924,7 +4924,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""GR_unitLoadout"", ""ZugFahr""];" \n "group this setGroupId [""Foxtrott""];";
+								init="this setVariable [""GR_unitLoadout"", ""ZugFahr""];" \n "group this setGroupId [""Foxtrot""];";
 								name="Fox4";
 								description="Fahrer Nahsicherer";
 								isPlayable=1;
@@ -6987,8 +6987,8 @@ class Mission
 							class Attributes
 							{
 								init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
-								name="Foxtrott_Ueberhang1";
-								description="Schütze Überhang@Foxtrott Überhang";
+								name="Foxtrot_Ueberhang1";
+								description="Schütze Überhang@Foxtrot Überhang";
 								isPlayable=1;
 								class Inventory
 								{
@@ -7049,8 +7049,8 @@ class Mission
 							class Attributes
 							{
 								init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
-								name="Foxtrott_Ueberhang2";
-								description="Schütze Überhang@Foxtrott Überhang";
+								name="Foxtrot_Ueberhang2";
+								description="Schütze Überhang@Foxtrot Überhang";
 								isPlayable=1;
 								class Inventory
 								{
@@ -7111,8 +7111,8 @@ class Mission
 							class Attributes
 							{
 								init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
-								name="Foxtrott_Ueberhang3";
-								description="Schütze Überhang@Foxtrott Überhang";
+								name="Foxtrot_Ueberhang3";
+								description="Schütze Überhang@Foxtrot Überhang";
 								isPlayable=1;
 								class Inventory
 								{
@@ -7173,8 +7173,8 @@ class Mission
 							class Attributes
 							{
 								init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
-								name="Foxtrott_Ueberhang4";
-								description="Schütze Überhang@Foxtrott Überhang";
+								name="Foxtrot_Ueberhang4";
+								description="Schütze Überhang@Foxtrot Überhang";
 								isPlayable=1;
 								class Inventory
 								{
@@ -7235,8 +7235,8 @@ class Mission
 							class Attributes
 							{
 								init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
-								name="Foxtrott_Ueberhang5";
-								description="Schütze Überhang@Foxtrott Überhang";
+								name="Foxtrot_Ueberhang5";
+								description="Schütze Überhang@Foxtrot Überhang";
 								isPlayable=1;
 								class Inventory
 								{
@@ -7297,8 +7297,8 @@ class Mission
 							class Attributes
 							{
 								init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
-								name="Foxtrott_Ueberhang6";
-								description="Schütze Überhang@Foxtrott Überhang";
+								name="Foxtrot_Ueberhang6";
+								description="Schütze Überhang@Foxtrot Überhang";
 								isPlayable=1;
 								class Inventory
 								{
@@ -7359,8 +7359,8 @@ class Mission
 							class Attributes
 							{
 								init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
-								name="Foxtrott_Ueberhang7";
-								description="Schütze Überhang@Foxtrott Überhang";
+								name="Foxtrot_Ueberhang7";
+								description="Schütze Überhang@Foxtrot Überhang";
 								isPlayable=1;
 								class Inventory
 								{
@@ -7421,8 +7421,8 @@ class Mission
 							class Attributes
 							{
 								init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
-								name="Foxtrott_Ueberhang8";
-								description="Schütze Überhang@Foxtrott Überhang";
+								name="Foxtrot_Ueberhang8";
+								description="Schütze Überhang@Foxtrot Überhang";
 								isPlayable=1;
 								class Inventory
 								{
@@ -7483,8 +7483,8 @@ class Mission
 							class Attributes
 							{
 								init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
-								name="Foxtrott_Ueberhang9";
-								description="Schütze Überhang@Foxtrott Überhang";
+								name="Foxtrot_Ueberhang9";
+								description="Schütze Überhang@Foxtrot Überhang";
 								isPlayable=1;
 								class Inventory
 								{
