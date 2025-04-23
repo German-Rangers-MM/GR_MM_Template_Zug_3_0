@@ -25,10 +25,20 @@ if (isNull _targetObject) exitWith { systemChat "Target vehicle not found!"; };
 // Handle the action
 switch (toLower _action) do {
     case "ace": {
-        { [_x, _targetObject, true] call ace_cargo_fnc_loadItem } forEach _objects;
+        private _results = [];
+        {
+            _success = [_x, _targetObject, true] call ace_cargo_fnc_loadItem;
+            _results pushBack [_x, _success];
+        } forEach _objects;
+        [_results] call IGC_CL_fnc_composeHint;
     };
     case "viv": {
-        { _targetObject setVehicleCargo _x } forEach _objects;
+        private _results = [];
+        {
+            _success = _targetObject setVehicleCargo _x;
+            _results pushBack [_x, _success];
+        } forEach _objects;
+        [_results] call IGC_CL_fnc_composeHint;
     };
     default {
         systemChat format ["Unknown action: %1", _action];

@@ -17,3 +17,5 @@ lbClear _listVehicles;
         _listVehicles lbSetValue [_index, _forEachIndex];
     };
 } forEach (nearestObjects [_center, ["All"], _radius]);
+
+lbSort _listVehicles;

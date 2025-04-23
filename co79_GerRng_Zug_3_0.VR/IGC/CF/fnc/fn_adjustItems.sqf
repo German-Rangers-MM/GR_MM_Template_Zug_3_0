@@ -3,6 +3,7 @@ params ["_amount"];
 // Get dialog controls
 private _dialog = findDisplay 220901;
 private _ctrlInventory = _dialog displayCtrl 220912;  // Second listbox
+private _boxClass = uiNamespace getVariable ["currentBoxClass", "B_supplyCrate_F"];
 
 // Check for valid selection
 private _inventoryIndex = lbCurSel _ctrlInventory;
@@ -33,3 +34,5 @@ if (_newQuantity > 0) then {
     _ctrlInventory lbDelete _inventoryIndex;
 };
 
+
+[false, _boxClass] call IGC_CF_fnc_getLoadFactorPre;

@@ -232,5 +232,5 @@ class CfgDebriefing
 class CfgFunctions {
 	#include "gui\CfgFunctions.hpp"	
 	#include "fnc\CfgFunctions.hpp"
-	#include "IGC_CF\IGC_CF_functions.hpp"
+	#include "IGC\IGC_functions.hpp"
 };

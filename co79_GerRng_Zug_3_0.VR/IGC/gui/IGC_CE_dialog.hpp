@@ -150,7 +150,7 @@ class IGC_CE_dialog {
 
         class IGC_ButtonAddFromSupply: IGC_GUI_PRE_DialogCross {
             text = "a3\ui_f\data\igui\cfg\holdactions\holdaction_loaddevice_ca.paa";
-            x = IGC_GETCX(IGC_X_VAL,IGC_WIDTH_VAL,9.5,16);
+            x = IGC_GETCX(IGC_X_VAL,IGC_WIDTH_VAL,9.75,16);
             y = IGC_GETCY(IGC_Y_VAL,IGC_HEIGHT_VAL,6.25,48);
             w = IGC_GETW(IGC_WIDTH_VAL,(48/4.25));
             h = IGC_GETH(IGC_HEIGHT_VAL,(48/7));
@@ -159,6 +159,25 @@ class IGC_CE_dialog {
             colorFocused[] = {0.2, 0.23, 0.18, 1};
             tooltip = "Gegenstand aus dem Lager einfügen";
             action = "[] call IGC_CE_fnc_onAddFromSupply";
+        };
+        
+        class IGC_ButtonDeleteCrate: IGC_ButtonAddFromSupply {
+            idc= 220916;
+            text = "a3\3den\data\cfg3den\history\deleteitems_ca.paa";
+            y = IGC_GETCY(IGC_Y_VAL,IGC_HEIGHT_VAL,39,48);
+            colorBackground[] = {0.2, 0.23, 0.18, 1};
+            colorActive[] = {0.25, 0.28, 0.23, 1};
+            colorFocused[] = {0.2, 0.23, 0.18, 1};
+            tooltip = "Kiste löschen";
+            action = "";
+        };
+
+        class IGC_LoadBar: IGC_GUI_PRE_ProgressBar {
+            idc= 220915;
+            x = IGC_GETCX(IGC_X_VAL,IGC_WIDTH_VAL,4.75,16);
+            y = IGC_GETCY(IGC_Y_VAL,IGC_HEIGHT_VAL,4.25,48);
+            w = IGC_GETW(IGC_WIDTH_VAL,(16/4.5));
+            h = IGC_GETH(IGC_HEIGHT_VAL,24);
         };
 
         class IGC_DialogCross: IGC_GUI_PRE_DialogCross {};
