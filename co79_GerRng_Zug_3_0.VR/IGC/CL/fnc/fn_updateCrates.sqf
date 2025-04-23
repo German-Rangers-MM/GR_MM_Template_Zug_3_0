@@ -19,3 +19,6 @@ lbClear _listCrates;
         _listCrates lbSetValue [_index, _forEachIndex];
     };
 } forEach (nearestObjects [_center, ["All"], _radius]);
+
+
+lbSort _listCrates;

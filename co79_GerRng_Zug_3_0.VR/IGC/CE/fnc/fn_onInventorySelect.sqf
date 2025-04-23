@@ -98,8 +98,6 @@ _quantities = _content select 1;
 } forEach (_classes);
 
 
-
-
 // Store selected inventory
 uiNamespace setVariable ["IGC_CE_SelectedInventory", _object];
 [] call IGC_CE_fnc_getLoadFactor;

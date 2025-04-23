@@ -18,3 +18,5 @@ lbClear _listInventories;
         _listInventories lbSetValue [_index, _forEachIndex];
     };
 } forEach (nearestObjects [_center, ["All"], _radius]);
+
+lbSort _listInventories;

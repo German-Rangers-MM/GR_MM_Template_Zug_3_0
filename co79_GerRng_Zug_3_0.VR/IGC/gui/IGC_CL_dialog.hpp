@@ -104,6 +104,20 @@ class IGC_CL_dialog {
             tooltip = "Listen aktualisieren";
             action = "[] call IGC_CL_fnc_updateLists;";
         };
+        
+        class IGC_ButtonDeleteCrate: IGC_GUI_PRE_DialogCross {
+            idc= 220916;
+            text = "a3\3den\data\cfg3den\history\deleteitems_ca.paa";
+            x = IGC_GETCX(IGC_X_VAL,IGC_WIDTH_VAL,7.5,16);
+            y = IGC_GETCY(IGC_Y_VAL,IGC_HEIGHT_VAL,29,48);
+            w = IGC_GETW(IGC_WIDTH_VAL,(48/3.25));
+            h = IGC_GETH(IGC_HEIGHT_VAL,(48/5));
+            colorBackground[] = {0.2, 0.23, 0.18, 1};
+            colorActive[] = {0.25, 0.28, 0.23, 1};
+            colorFocused[] = {0.2, 0.23, 0.18, 1};
+            tooltip = "Kiste löschen";
+            action = "[] call IGC_CL_fnc_deleteCrate;";
+        };
 
         class IGC_DialogCross: IGC_GUI_PRE_DialogCross {};
     };

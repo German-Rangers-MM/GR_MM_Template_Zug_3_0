@@ -53,6 +53,10 @@ _listInventories ctrlAddEventHandler ["LBSelChanged", {
     _this call IGC_CE_fnc_onInventorySelect;
 }];
 
+(_dialog displayCtrl 220916) ctrlAddEventHandler ["ButtonClick", {
+    _this call IGC_CE_fnc_deleteCrate;
+}];
+
 [] call IGC_CE_fnc_updateNearObjects;
 
 [] call IGC_CE_monitorInventories;

@@ -1,7 +1,6 @@
-// myDialog_fnc_updateSecondaryListbox.sqf
 params ["_primaryListbox", "_index"];
 
-private _dialog = ctrlParent _primaryListbox;
+private _dialog = findDisplay 220901;
 private _secondaryListbox = _dialog displayCtrl 220912;
 private _configPath = _primaryListbox lbData _index;
 
