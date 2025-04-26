@@ -269,6 +269,11 @@
     // ------------------------------------------------------------------
     "DemoCharge_Remote_Mag",
     "SatchelCharge_Remote_Mag",
+    "tsp_breach_popper_mag",
+    "tsp_breach_popper_auto_mag",
+    "tsp_breach_stick_mag",
+    "tsp_breach_package_mag",
+    "tsp_breach_silhouette_mag",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Medical
