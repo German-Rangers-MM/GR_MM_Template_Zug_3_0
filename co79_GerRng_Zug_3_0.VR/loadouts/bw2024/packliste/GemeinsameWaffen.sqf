@@ -41,7 +41,6 @@
     "CUP_arifle_HK416_CQB_Wood",
 
     //SPS
-    //fuck you tarquin for not fixing the formating, bitchass
     "SPS_hk416_14_5_g95_hk_black_f",
     "SPS_hk416_14_5_g95_hk_sf_black_f",
     "SPS_hk416_14_5_g95_hk_a7_black_f",
