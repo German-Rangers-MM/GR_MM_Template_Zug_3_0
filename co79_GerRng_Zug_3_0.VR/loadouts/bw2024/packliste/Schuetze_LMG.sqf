@@ -65,6 +65,26 @@
     "CUP_optic_AIMM_MICROT1_OD",
     "optic_MRD",
     "optic_MRD_black",    
+
+	//SPS
+    "sps_aimpoint_T1_Black",
+    "sps_aimpoint_T1_Black50",
+    "sps_aimpoint_T1_Sand",
+    "sps_aimpoint_T1_Sand50",
+    "sps_aimpoint_T1_3xMAG_up_Black",
+    "sps_aimpoint_T1_3xMAG_up",
+    "sps_aimpoint_T1_Black_High",
+    "sps_aimpoint_T1_Black_High50",
+    "sps_aimpoint_T1_High",
+    "sps_aimpoint_T1_High50",
+    "SPS_EOTech_Black",
+    "SPS_EOTech_Black50",
+    "SPS_EOTech_Tan",
+    "SPS_EOTech_Tan50",
+    "SPS_EOTech_Black_3xMAG_up",
+    "SPS_EOTech_Tan_3xMAG_up",
+    "SPS_EOTech_Black_5xMAG_up",
+    "SPS_EOTech_Tan_5xMAG_up",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Pointer
@@ -79,7 +99,19 @@
     "CUP_acc_LLM_black",
     "CUP_acc_LLM",
     "CUP_acc_LLM_od",
-    "CUP_acc_CZ_M3X",    
+    "CUP_acc_CZ_M3X",
+
+    //SPS
+    "sps_M300C",
+    "sps_M300C_tan", 
+    "sps_M300C_MAWL_IR",
+    "sps_M300C_MAWL_IR_tan",
+    "sps_M300C_MAWL_high_IR",
+    "sps_M300C_MAWL_high_IR_tan",
+    "sps_M300C_MAWL_LAMG_IR",
+    "sps_M300C_MAWL_LAMG_IR_tan",
+    "sps_M300C_MAWL_smr_IR",
+    "sps_M300C_MAWL_smr_IR_tan",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Bipods

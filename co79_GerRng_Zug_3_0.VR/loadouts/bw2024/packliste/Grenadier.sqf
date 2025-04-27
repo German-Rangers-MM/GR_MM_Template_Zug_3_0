@@ -16,6 +16,24 @@
     "CUP_arifle_HK416_AGL_Black",
     "CUP_arifle_HK416_AGL_Desert",
     "CUP_arifle_HK416_AGL_Wood",
+
+    //SPS
+    "SPS_hk416_14_5_glm_hk_black_f",
+    "SPS_hk416_14_5_glm_hk_sf_black_f",
+    "SPS_hk416_14_5_glm_hk_a7_black_f",
+    "SPS_hk416_14_5_glm_hk_ctr_black_f",
+    "SPS_hk416_14_5_glm_hk_ctr_sf_black_f",
+    "SPS_hk416_14_5_glm_hk_ctr_a7_black_f",
+    "SPS_hk416_16_5_glm_hk_black_f",
+    "SPS_hk416_16_5_glm_hk_sf_black_f",
+    "SPS_hk416_16_5_glm_hk_a7_black_f",
+    "SPS_hk416_16_5_glm_hk_ctr_black_f",
+    "SPS_hk416_16_5_glm_hk_ctr_sf_black_f",
+    "SPS_hk416_16_5_glm_hk_ctr_a7_black_f",
+
+
+
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Visiere
@@ -63,6 +81,26 @@
     "CUP_optic_AIMM_MICROT1_BLK",
     "CUP_optic_AIMM_MICROT1_tan",
     "CUP_optic_AIMM_MICROT1_OD",
+
+    //SPS
+    "sps_aimpoint_T1_Black",
+    "sps_aimpoint_T1_Black50",
+    "sps_aimpoint_T1_Sand",
+    "sps_aimpoint_T1_Sand50",
+    "sps_aimpoint_T1_3xMAG_up_Black",
+    "sps_aimpoint_T1_3xMAG_up",
+    "sps_aimpoint_T1_Black_High",
+    "sps_aimpoint_T1_Black_High50",
+    "sps_aimpoint_T1_High",
+    "sps_aimpoint_T1_High50",
+    "SPS_EOTech_Black",
+    "SPS_EOTech_Black50",
+    "SPS_EOTech_Tan",
+    "SPS_EOTech_Tan50",
+    "SPS_EOTech_Black_3xMAG_up",
+    "SPS_EOTech_Tan_3xMAG_up",
+    "SPS_EOTech_Black_5xMAG_up",
+    "SPS_EOTech_Tan_5xMAG_up",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Pointer
@@ -77,6 +115,18 @@
     "CUP_acc_LLM_black",
     "CUP_acc_LLM",
     "CUP_acc_LLM_od",
+
+    //SPS
+    "sps_M300C",
+    "sps_M300C_tan", 
+    "sps_M300C_MAWL_IR",
+    "sps_M300C_MAWL_IR_tan",
+    "sps_M300C_MAWL_high_IR",
+    "sps_M300C_MAWL_high_IR_tan",
+    "sps_M300C_MAWL_LAMG_IR",
+    "sps_M300C_MAWL_LAMG_IR_tan",
+    "sps_M300C_MAWL_smr_IR",
+    "sps_M300C_MAWL_smr_IR_tan",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Bipods
@@ -267,6 +317,20 @@
     "1Rnd_SmokeRed_Grenade_shell",
     "1Rnd_SmokeGreen_Grenade_shell",
     "1Rnd_Smoke_Grenade_shell",
+
+    //SPS
+    "SPS_HKG3PMAG_30Rnd_556x45_B",
+    "SPS_HKG3PMAG_30Rnd_556x45_B_Red",
+    "SPS_HKG3PMAG_30Rnd_556x45_B_M995",
+    "SPS_HKG3PMAG_30Rnd_556x45_B_Mk318",
+    "SPS_HKG3PMAG_30Rnd_556x45_FDE",
+    "SPS_HKG3PMAG_30Rnd_556x45_FDE_Red",
+    "SPS_HKG3PMAG_30Rnd_556x45_FDE_M995",
+    "SPS_HKG3PMAG_30Rnd_556x45_FDE_Mk318",
+    "SPS_HKG3PMAG_30Rnd_556x45_S",
+    "SPS_HKG3PMAG_30Rnd_556x45_S_Red",
+    "SPS_HKG3PMAG_30Rnd_556x45_S_M995",
+    "SPS_HKG3PMAG_30Rnd_556x45_S_Mk318"
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Grenades / throw
@@ -287,7 +351,10 @@
     // explosives / Put
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    
+    "tsp_breach_popper_mag",
+    "tsp_breach_popper_auto_mag",
+    "tsp_breach_stick_mag",
+    "tsp_breach_package_mag",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Medical
@@ -313,6 +380,9 @@
     "ACE_Flashlight_XL50",
     "ACE_Maptools",
     "ACE_wirecutter",
+    "ACE_Clacker",
+
+    "tsp_breach_shock",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Misc 2

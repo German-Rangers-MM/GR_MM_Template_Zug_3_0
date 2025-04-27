@@ -30,6 +30,20 @@
     "CUP_arifle_MG36_camo",
     "CUP_arifle_MG36_wdl",
     "LMG_03_F",
+
+    //SPS
+    "SPS_hk416_14_5_glm_hk_black_f",
+    "SPS_hk416_14_5_glm_hk_sf_black_f",
+    "SPS_hk416_14_5_glm_hk_a7_black_f",
+    "SPS_hk416_14_5_glm_hk_ctr_black_f",
+    "SPS_hk416_14_5_glm_hk_ctr_sf_black_f",
+    "SPS_hk416_14_5_glm_hk_ctr_a7_black_f",
+    "SPS_hk416_16_5_glm_hk_black_f",
+    "SPS_hk416_16_5_glm_hk_sf_black_f",
+    "SPS_hk416_16_5_glm_hk_a7_black_f",
+    "SPS_hk416_16_5_glm_hk_ctr_black_f",
+    "SPS_hk416_16_5_glm_hk_ctr_sf_black_f",
+    "SPS_hk416_16_5_glm_hk_ctr_a7_black_f",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Visiere

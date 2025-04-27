@@ -10,6 +10,91 @@
     "arifle_SPAR_03_blk_F",
     "arifle_SPAR_03_snd_F",
     "arifle_SPAR_03_khk_F",
+
+    //SPS
+    "SPS_hk416_20_black_f",
+    "SPS_hk416_20_hk_sf_black_f",
+    "SPS_hk416_20_hk_a7_black_f",
+    "SPS_hk416_20_vfg_black_f",
+    "SPS_hk416_20_hk_vfg_sf_black_f",
+    "SPS_hk416_20_hk_vfg_a7_black_f",
+    "SPS_hk416_20_afg_black_f",
+    "SPS_hk416_20_hk_afg_sf_black_f",
+    "SPS_hk416_20_hk_afg_a7_black_f",
+    "SPS_hk416_20_hk_ctr_black_f",
+    "SPS_hk416_20_hk_ctr_sf_black_f",
+    "SPS_hk416_20_hk_ctr_a7_black_f",
+    "SPS_hk416_20_hk_ctr_vfg_black_f",
+    "SPS_hk416_20_hk_ctr_vfg_sf_black_f",
+    "SPS_hk416_20_hk_ctr_vfg_a7_black_f",
+    "SPS_hk416_20_hk_ctr_afg_black_f",
+    "SPS_hk416_20_hk_ctr_afg_sf_black_f",
+    "SPS_hk416_20_hk_ctr_afg_a7_black_f",
+
+    "SPS_hk416_20_g95_black_f",
+    "SPS_hk416_20_g95_hk_sf_black_f",
+    "SPS_hk416_20_g95_hk_a7_black_f",
+    "SPS_hk416_20_g95_vfg_black_f",
+    "SPS_hk416_20_g95_hk_vfg_sf_black_f",
+    "SPS_hk416_20_g95_hk_vfg_a7_black_f",
+    "SPS_hk416_20_g95_afg_black_f",
+    "SPS_hk416_20_g95_hk_afg_sf_black_f",
+    "SPS_hk416_20_g95_hk_afg_a7_black_f",
+    "SPS_hk416_20_g95_hk_ctr_black_f",
+    "SPS_hk416_20_g95_hk_ctr_sf_black_f",
+    "SPS_hk416_20_g95_hk_ctr_a7_black_f",
+    "SPS_hk416_20_g95_hk_ctr_vfg_black_f",
+    "SPS_hk416_20_g95_hk_ctr_vfg_sf_black_f",
+    "SPS_hk416_20_g95_hk_ctr_vfg_a7_black_f",
+    "SPS_hk416_20_g95_hk_ctr_afg_black_f",
+    "SPS_hk416_20_g95_hk_ctr_afg_sf_black_f",
+    "SPS_hk416_20_g95_hk_ctr_afg_a7_black_f",
+
+    "SPS_hk416_20_exsmr_black_f",
+    "SPS_hk416_20_exsmr_hk_sf_black_f",
+    "SPS_hk416_20_exsmr_hk_a7_black_f",
+    "SPS_hk416_20_exsmr_vfg_black_f",
+    "SPS_hk416_20_exsmr_hk_vfg_sf_black_f",
+    "SPS_hk416_20_exsmr_hk_vfg_a7_black_f",
+    "SPS_hk416_20_exsmr_afg_black_f",
+    "SPS_hk416_20_exsmr_hk_afg_sf_black_f",
+    "SPS_hk416_20_exsmr_hk_afg_a7_black_f",
+    "SPS_hk416_20_exsmr_hk_ctr_black_f",
+    "SPS_hk416_20_exsmr_hk_ctr_sf_black_f",
+    "SPS_hk416_20_exsmr_hk_ctr_a7_black_f",
+    "SPS_hk416_20_exsmr_hk_ctr_vfg_black_f",
+    "SPS_hk416_20_exsmr_hk_ctr_vfg_sf_black_f",
+    "SPS_hk416_20_exsmr_hk_ctr_vfg_a7_black_f",
+    "SPS_hk416_20_exsmr_hk_ctr_afg_black_f",
+    "SPS_hk416_20_exsmr_hk_ctr_afg_sf_black_f",
+    "SPS_hk416_20_exsmr_hk_ctr_afg_a7_black_f",
+
+    "SPS_hk416_20_exsl_black_f",
+    "SPS_hk416_20_exsl_hk_sf_black_f",
+    "SPS_hk416_20_exsl_hk_a7_black_f",
+    "SPS_hk416_20_exsl_vfg_black_f",
+    "SPS_hk416_20_exsl_hk_vfg_sf_black_f",
+    "SPS_hk416_20_exsl_hk_vfg_a7_black_f",
+    "SPS_hk416_20_exsl_afg_black_f",
+    "SPS_hk416_20_exsl_hk_afg_sf_black_f",
+    "SPS_hk416_20_exsl_hk_afg_a7_black_f",
+    "SPS_hk416_20_exsl_hk_ctr_black_f",
+    "SPS_hk416_20_exsl_hk_ctr_sf_black_f",
+    "SPS_hk416_20_exsl_hk_ctr_a7_black_f",
+    "SPS_hk416_20_exsl_hk_ctr_vfg_black_f",
+    "SPS_hk416_20_exsl_hk_ctr_vfg_sf_black_f",
+    "SPS_hk416_20_exsl_hk_ctr_vfg_a7_black_f",
+    "SPS_hk416_20_exsl_hk_ctr_afg_black_f",
+    "SPS_hk416_20_exsl_hk_ctr_afg_sf_black_f",
+    "SPS_hk416_20_exsl_hk_ctr_afg_a7_black_f",
+
+    "SPS_hk417_20_vfg_black_f",
+    "SPS_hk417_20_afg_black_f",
+    "SPS_hk417_20_vfg_ral8000_f",
+    "SPS_hk417_20_afg_ral8000_f",
+    "SPS_hk417_20_vfg_fde_f",
+    "SPS_hk417_20_afg_fde_f",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Visiere
@@ -61,6 +146,38 @@
     "CUP_optic_AIMM_MICROT1_tan",
     "CUP_optic_AIMM_MICROT1_OD",
     "optic_NVS",
+
+    //SPS
+    "SPS_Optic_SnB_HP_1_8_Black_PVS24LR",
+    "SPS_Optic_SnB_HP_1_8_FDE_PVS24LR",
+    "SPS_Optic_SnB_HP_1_8_RAL8000_PVS24LR",
+    "SPS_Optic_SnB_HP_1_8_Black",
+    "SPS_Optic_SnB_HP_1_8_FDE",
+    "SPS_Optic_SnB_HP_1_8_RAL8000",
+    "SPS_EOTech_Vudu_Black_PVS24LR",
+    "SPS_EOTech_Vudu_Tan_PVS24LR",
+    "SPS_EOTech_Vudu_Black",
+    "SPS_EOTech_Vudu_Tan",
+
+    "sps_aimpoint_T1_Black",
+    "sps_aimpoint_T1_Black50",
+    "sps_aimpoint_T1_Sand",
+    "sps_aimpoint_T1_Sand50",
+    "sps_aimpoint_T1_3xMAG_up_Black",
+    "sps_aimpoint_T1_3xMAG_up",
+    "sps_aimpoint_T1_Black_High",
+    "sps_aimpoint_T1_Black_High50",
+    "sps_aimpoint_T1_High",
+    "sps_aimpoint_T1_High50",
+    "SPS_EOTech_Black",
+    "SPS_EOTech_Black50",
+    "SPS_EOTech_Tan",
+    "SPS_EOTech_Tan50",
+    "SPS_EOTech_Black_3xMAG_up",
+    "SPS_EOTech_Tan_3xMAG_up",
+    "SPS_EOTech_Black_5xMAG_up",
+    "SPS_EOTech_Tan_5xMAG_up",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Pointer
@@ -75,6 +192,18 @@
     "CUP_acc_LLM_black",
     "CUP_acc_LLM",
     "CUP_acc_LLM_od",
+
+    //SPS
+    "sps_M300C",
+    "sps_M300C_tan", 
+    "sps_M300C_MAWL_IR",
+    "sps_M300C_MAWL_IR_tan",
+    "sps_M300C_MAWL_high_IR",
+    "sps_M300C_MAWL_high_IR_tan",
+    "sps_M300C_MAWL_LAMG_IR",
+    "sps_M300C_MAWL_LAMG_IR_tan",
+    "sps_M300C_MAWL_smr_IR",
+    "sps_M300C_MAWL_smr_IR_tan",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Bipods
@@ -161,7 +290,32 @@
     // magazines
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    
+    //SPS
+    "SPS_HKG3PMAG_30Rnd_556x45_B_BeOTMT",
+    "SPS_HKG3PMAG_30Rnd_556x45_B_BeVLDT",
+    "SPS_20Rnd_762x51mm_M80A1_EPR",
+    "SPS_20Rnd_762x51mm_M80A1_EPR_IR",
+    "SPS_20Rnd_762x51mm_M80A1_EPR_Tracer",
+
+    "ACE_20Rnd_762x51mm_Mag_Tracer",
+    "ACE_20Rnd_762x51mm_M993_AP_Mag",
+
+    "CUP_20Rnd_762x51mm_DMR",
+    "CUP_20Rnd_TE1_Red_Tracer_762x51mm_DMR",
+
+    "SPS_HKG3PMAG_30Rnd_556x45_B",
+    "SPS_HKG3PMAG_30Rnd_556x45_B_Red",
+    "SPS_HKG3PMAG_30Rnd_556x45_B_M995",
+    "SPS_HKG3PMAG_30Rnd_556x45_B_Mk318",
+    "SPS_HKG3PMAG_30Rnd_556x45_FDE",
+    "SPS_HKG3PMAG_30Rnd_556x45_FDE_Red",
+    "SPS_HKG3PMAG_30Rnd_556x45_FDE_M995",
+    "SPS_HKG3PMAG_30Rnd_556x45_FDE_Mk318",
+    "SPS_HKG3PMAG_30Rnd_556x45_S",
+    "SPS_HKG3PMAG_30Rnd_556x45_S_Red",
+    "SPS_HKG3PMAG_30Rnd_556x45_S_M995",
+    "SPS_HKG3PMAG_30Rnd_556x45_S_Mk318"
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Grenades / throw
