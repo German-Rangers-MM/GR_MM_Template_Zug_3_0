@@ -23,7 +23,7 @@ player setUnitLoadout [
         ["kat_Caffeine", 1, 15], ["kat_Penthrox", 1, 10]
     ]],
     ["CUP_V_B_GER_Armatus_BB_Fleck", [
-        ["CUP_17Rnd_9x19_glock717", 3, 17], ["SmokeShell", 2, 1], ["SmokeShellGreen", 2, 1], 
+        ["CUP_17Rnd_9x19_glock17", 3, 17], ["SmokeShell", 2, 1], ["SmokeShellGreen", 2, 1], 
         ["tsp_flashbang_m84", 8, 1], ["ACE_20Rnd_762x51_Mk319_Mod_0_Mag", 7, 20]
     ]],
     ["tfw_ilbeMR3000_whip_sierraflk", [
