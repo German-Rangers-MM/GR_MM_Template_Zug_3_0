@@ -58,6 +58,7 @@ _whitelistedMods = 	[
 						"@PERSIST - RCO","2603942867",
 						"@BoxLoader - Vehicle in Vehicle loading","1199318917",
 						"@Boxloader - ACE compatability","1201499127",
+						"@Resonance Mods - Logistics", "2904244564",
 						"@ACE3 Arsenal Extended - Core","2522638637",
 						"@ACE3 Arsenal Extended - CUP","3135187540",
 						"@ILBE Assault Pack - Rewrite - GERRNG Edited","3314854956",
