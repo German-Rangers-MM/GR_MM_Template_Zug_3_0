@@ -1,5 +1,5 @@
 /*
-Usage: [supplypointObject, [x-offset, y-offset, z-offset]] call IGC_CF_fnc_initSupplyPoint;
+Usage: [supplypointObject, [x-offset, y-offset, z-offset], radius] call IGC_CF_fnc_initSupplyPoint;
 
 
 */
