@@ -1,5 +1,5 @@
 [
-    "Typ 2 - Drohne",
+    "EOD Typ 2 - Drohne",
     "ACE_Box_Chemlights",
     ["ACE_Flashlight_Maglite_ML300L",2],
     ["ACE_TacticalLadder_Pack",2],

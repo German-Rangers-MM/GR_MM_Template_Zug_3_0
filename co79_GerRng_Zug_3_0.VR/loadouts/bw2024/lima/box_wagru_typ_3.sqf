@@ -1,5 +1,5 @@
 [
-    "Typ 3 - MAAWS",
+    "WaGru Typ 3 - MAAWS",
     "Box_NATO_WpsLaunch_F",
     ["launch_MRAWS_green_F", 1],
     ["MRAWS_HEAT_F", 3],

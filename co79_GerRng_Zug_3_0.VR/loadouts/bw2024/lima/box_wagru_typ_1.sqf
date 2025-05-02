@@ -1,5 +1,5 @@
 [
-    "Typ 1 - MG3",
+    "WaGru Typ 1 - MG3",
     "Box_NATO_Wps_F",
     ["CUP_lmg_MG3_rail", 1],
     ["CUP_optic_Elcan_SpecterDR_KF_RMR_black", 1],

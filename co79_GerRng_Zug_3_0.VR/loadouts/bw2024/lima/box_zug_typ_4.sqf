@@ -1,9 +1,8 @@
 [
-    "Typ 4 - Granaten",
-    "ACE_Box_82mm_Mo_HE",
-    ["SmokeShell",30],
-    ["SmokeShellGreen",10],
-    ["SmokeShellRed",10],
-    ["SmokeShellPurple",10],
-    ["CUP_HandGrenade_M67",30]
+    "Zug Typ 4 - Panzerbrechend",
+    "ACE_Box_Ammo",
+    ["SPS_HKG3PMAG_30Rnd_556x45_B_M995",30],
+    ["SPS_HKG3PMAG_30Rnd_556x45_B_Mk318",20],
+    ["SPS_20Rnd_762x51mm_M80A1_EPR_Tracer",5],
+    ["SPS_20Rnd_762x51mm_M80A1_EPR",10]
 ];

@@ -1,5 +1,5 @@
 [
-    "Typ 11 - 60mm Sondermunition",
+    "WaGru ST Typ 11 - 60mm Sondermunition",
     "ACE_Box_82mm_Mo_HE",
     ["GerRng_Equipment_GerRng_vz99_HE", 4],
     ["GerRng_Equipment_GerRng_vz99_flare_IR", 6],

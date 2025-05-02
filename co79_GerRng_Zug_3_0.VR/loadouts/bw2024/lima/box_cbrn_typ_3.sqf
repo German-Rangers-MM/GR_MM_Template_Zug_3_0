@@ -1,5 +1,5 @@
 [
-    "Typ 3 - CBRN-UGV",
+    "CBRN Typ 3 - CBRN-UGV",
     "Land_PlasticCase_01_medium_olive_CBRN_F",
     ["ace_marker_flags_orange", 10],
     ["ACE_UAVBattery", 2],

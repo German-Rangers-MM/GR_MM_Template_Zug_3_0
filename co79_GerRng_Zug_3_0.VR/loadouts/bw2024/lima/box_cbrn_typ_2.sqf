@@ -1,5 +1,5 @@
 [
-    "Typ 2 - CBRN-Erkundung",
+    "CBRN Typ 2 - CBRN-Erkundung",
     "Land_PlasticCase_01_large_olive_CBRN_F",
     ["U_B_CBRN_Suit_01_Wdl_F", 4],
     ["B_CombinationUnitRespirator_01_F",4],

@@ -89,7 +89,6 @@ addons[]=
 	"A3_Props_F_Enoch_Military_Supplies",
 	"boxloader_pallet",
 	"boxloader_cargo",
-	"boxloader_ace",
 	"A3_Drones_F_Air_F_Gamma_UAV_01",
 	"A3_Drones_F_Soft_F_Gamma_UGV_01",
 	"CUP_WheeledVehicles_Boxer",
@@ -105,6 +104,7 @@ addons[]=
 	"A3_Soft_F_Offroad_01",
 	"A3_Soft_F_Orange_Van_02",
 	"A3_Structures_F_Ind_Shed",
+	"emr_main",
 	"ace_logistics_wirecutter",
 	"ace_concertina_wire",
 	"A3_Structures_F_Argo_Military_Bunkers",
@@ -116,7 +116,6 @@ addons[]=
 	"A3_Soft_F_Enoch_Van_02",
 	"A3_Structures_F_Mil_Flags",
 	"A3_Armor_F_Beta_APC_Tracked_01",
-	"adv_bobcat",
 	"ace_interaction",
 	"CUP_WheeledVehicles_Dingo",
 	"cfp_cup_b_ger",
@@ -148,7 +147,9 @@ addons[]=
 	"grad_trenches_functions",
 	"A3_Structures_F_Enoch_Military_Camonets",
 	"CUP_WheeledVehicles_Coyote",
-	"CUP_WheeledVehicles_Jackal"
+	"CUP_WheeledVehicles_Jackal",
+	"A3_Soft_F_Enoch_Truck_01",
+	"cTab"
 };
 class AddonsMetaData
 {
@@ -802,6 +803,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="[this, [0,5,1], 15] call IGC_CF_fnc_initSupplyPoint;";
 				name="limasupplypointstatic";
 			};
 			id=91;
@@ -13521,6 +13523,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="[this, [0,-6,0.5], 15] call IGC_CF_fnc_initSupplyPoint;";
 				name="limasupplypointmobile";
 			};
 			id=1762;

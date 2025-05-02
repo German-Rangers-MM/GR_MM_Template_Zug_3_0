@@ -29,32 +29,41 @@ _iconVerpflegung ="z\ace\addons\field_rations\ui\icon_hud_hungerstatus.paa";
     _zugBoxen = ["Zug Boxen","Zug Boxen",_iconZug,{ },{true}] call ace_interact_menu_fnc_createAction;
     [_x, 0, ["ACE_MainActions"], _zugBoxen] call ace_interact_menu_fnc_addActionToObject;
         //------------------------------------------------------------------
-        _zug1 = ["Zug1","Zug Typ 1 - Munition",_icon,{params ["_object"]; [_object,"box_zug_typ_1"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        _zug1 = ["Zug1","Zug Typ 1 - Standard 5.56",_icon,{params ["_object"]; [_object,"box_zug_typ_1"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
         [_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug1] call ace_interact_menu_fnc_addActionToObject;
 
-        _zug2 = ["Zug2","Zug Typ 2 - LMG-Munnition",_icon,{params ["_object"]; [_object,"box_zug_typ_2"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        _zug2 = ["Zug2","Zug Typ 2 - Standard 7.62",_icon,{params ["_object"]; [_object,"box_zug_typ_2"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
         [_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug2] call ace_interact_menu_fnc_addActionToObject;
 
-        _zug3 = ["Zug3","Zug Typ 3 - Unterlaufgranaten",_icon,{params ["_object"]; [_object,"box_zug_typ_3"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        _zug3 = ["Zug3","Zug Typ 3 - LMG-Munnition",_icon,{params ["_object"]; [_object,"box_zug_typ_3"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
         [_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug3] call ace_interact_menu_fnc_addActionToObject;
 
-        _zug4 = ["Zug4","Zug Typ 4 - Granaten",_icon,{params ["_object"]; [_object,"box_zug_typ_4"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        _zug4 = ["Zug4","Zug Typ 4 - Panzerbrechend",_icon,{params ["_object"]; [_object,"box_zug_typ_4"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
         [_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug4] call ace_interact_menu_fnc_addActionToObject;
 
-        _zug5 = ["Zug5","Zug Typ 5 - Ausrüstung",_icon,{params ["_object"]; [_object,"box_zug_typ_5"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        _zug5 = ["Zug5","Zug Typ 5 - Unterlaufgranaten",_icon,{params ["_object"]; [_object,"box_zug_typ_5"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
         [_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug5] call ace_interact_menu_fnc_addActionToObject;
 
-        _zug6 = ["Zug6","Zug Typ 6 - Anti-Tank",_icon,{params ["_object"]; [_object,"box_zug_typ_6"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        _zug6 = ["Zug6","Zug Typ 6 - Granaten",_icon,{params ["_object"]; [_object,"box_zug_typ_6"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
         [_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug6] call ace_interact_menu_fnc_addActionToObject;
 
-        _zug7 = ["Zug7","Zug Typ 7 - Elektronik",_icon,{params ["_object"]; [_object,"box_zug_typ_7"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        _zug7 = ["Zug7","Zug Typ 7 - Sprengmittel",_icon,{params ["_object"]; [_object,"box_zug_typ_7"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
         [_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug7] call ace_interact_menu_fnc_addActionToObject;
 
-        _zug8 = ["Zug10","Zug Typ 8 - Munition HK417",_icon,{params ["_object"]; [_object,"box_zug_typ_8"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        _zug8 = ["Zug8","Zug Typ 8 - Anti-Tank",_icon,{params ["_object"]; [_object,"box_zug_typ_8"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
         [_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug8] call ace_interact_menu_fnc_addActionToObject;
 
-        _zug9 = ["Zug10","Zug Typ 9 - Flashbangs",_icon,{params ["_object"]; [_object,"box_zug_typ_9"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        _zug9 = ["Zug9","Zug Typ 9 - Ausrüstung",_icon,{params ["_object"]; [_object,"box_zug_typ_9"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
         [_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug9] call ace_interact_menu_fnc_addActionToObject;
+
+        _zug10 = ["Zug10","Zug Typ 10 - Elektronik",_icon,{params ["_object"]; [_object,"box_zug_typ_10"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        [_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug10] call ace_interact_menu_fnc_addActionToObject;
+
+        _zug11 = ["Zug11","Zug Typ 11 - Munition HK417",_icon,{params ["_object"]; [_object,"box_zug_typ_11"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        [_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug11] call ace_interact_menu_fnc_addActionToObject;
+
+        _zug12 = ["Zug12","Zug Typ 12 - Flashbangs",_icon,{params ["_object"]; [_object,"box_zug_typ_11"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        [_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug12] call ace_interact_menu_fnc_addActionToObject;
         //------------------------------------------------------------------
     // Parent Action für WaGru Boxen
     _waGruBoxen = ["WaGru Boxen","WaGru Boxen",_iconWaGru,{ },{true}] call ace_interact_menu_fnc_createAction;
