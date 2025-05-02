@@ -20,7 +20,6 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-<<<<<<< Updated upstream
 		nextID=109;
 	};
 	class Camera
@@ -29,16 +28,6 @@ class EditorData
 		dir[]={0.80475181,-0.56953943,0.16755274};
 		up[]={0.55767113,0.82190263,0.1161102};
 		aside[]={0.20383966,1.1782395e-06,-0.97903353};
-=======
-		nextID=103;
-	};
-	class Camera
-	{
-		pos[]={1399.6934,27.017513,5164.146};
-		dir[]={0.66907322,-0.74299473,0.017596932};
-		up[]={0.74274218,0.66929317,0.019534504};
-		aside[]={0.026291536,6.861228e-09,-0.99965835};
->>>>>>> Stashed changes
 	};
 };
 binarizationWanted=0;
