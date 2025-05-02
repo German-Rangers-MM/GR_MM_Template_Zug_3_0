@@ -1,5 +1,5 @@
 [
-    "Typ 1 - Anzug",
+    "EOD Typ 1 - Anzug",
     "Box_NATO_Equip_F",
     ["CUP_H_RUS_Altyn_Shield_Down",2],
     ["TFAR_anprc152",2],

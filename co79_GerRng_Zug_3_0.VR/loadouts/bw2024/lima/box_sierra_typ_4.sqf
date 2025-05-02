@@ -1,5 +1,5 @@
 [
-    "Typ 4 - Trupp 2 - ST",
+    "Sierra Typ 4 - Trupp 2 - ST",
     "ACE_Box_Ammo",
     ["CUP_30Rnd_556x45_PMAG_BLACK", 20],
     ["CUP_6Rnd_12Gauge_Pellets_No0_Buck", 15],

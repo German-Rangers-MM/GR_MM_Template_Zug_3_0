@@ -1,5 +1,5 @@
 [
-    "Typ 4 - MAAWS Sondermunition",
+    "WaGru Typ 4 - MAAWS Sondermunition",
     "Box_NATO_WpsLaunch_F",
     ["MAA_MAAWS_ASM509", 4],
     ["MAA_MAAWS_HEDP502", 2],

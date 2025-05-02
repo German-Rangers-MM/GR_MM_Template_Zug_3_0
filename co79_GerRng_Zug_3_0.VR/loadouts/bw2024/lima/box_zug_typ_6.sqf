@@ -1,6 +1,9 @@
 [
-    "Typ 6 - Anti-Tank",
-    "Box_NATO_WpsLaunch_F",
-    ["CUP_launch_M72A6",2],
-    ["CUP_launch_HCPF3",2]
+    "Zug Typ 6 - Granaten",
+    "ACE_Box_82mm_Mo_HE",
+    ["SmokeShell",30],
+    ["SmokeShellGreen",10],
+    ["SmokeShellRed",10],
+    ["SmokeShellPurple",10],
+    ["CUP_HandGrenade_M67",30]
 ];

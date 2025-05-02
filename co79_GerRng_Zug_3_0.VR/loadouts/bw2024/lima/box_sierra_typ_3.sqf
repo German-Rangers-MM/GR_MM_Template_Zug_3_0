@@ -1,5 +1,5 @@
 [
-    "Typ 3 - Trupp 2 - U",
+    "Sierra Typ 3 - Trupp 2 - U",
     "ACE_Box_Ammo",
     ["CUP_200Rnd_TE1_Red_Tracer_556x45_M249_Pouch", 10],
     ["CUP_30Rnd_556x45_PMAG_BLACK", 20],

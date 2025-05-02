@@ -1,5 +1,5 @@
 [
-    "Typ 10 - 60mm Mörser u. Standardmun",
+    "WaGru ST Typ 10 - 60mm Mörser u. Standardmun",
     "Box_NATO_WpsLaunch_F",
     ["GerRng_Equipment_GerRng_vz99_carryWeapon", 1],
     ["GerRng_Equipment_GerRng_vz99_HE", 8],

@@ -1,5 +1,5 @@
 [
-    "Typ 5 - Titan AT",
+    "WaGru Typ 5 - Titan AT",
     "Box_NATO_WpsLaunch_F",
     ["launch_I_Titan_short_F", 1],
     ["Titan_AT", 4],

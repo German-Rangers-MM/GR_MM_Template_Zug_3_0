@@ -13,15 +13,18 @@ lbClear _listbox;
 switch (_category) do {
     case "zug": {
         _selections = [
-            ["Typ 1 - Munition", limapfad + "box_zug_typ_1.sqf"],
-            ["Typ 2 - LMG-Munition", limapfad + "box_zug_typ_2.sqf"],
-            ["Typ 3 - Unterlaufgranaten",limapfad + "box_zug_typ_3.sqf"],
-            ["Typ 4 - Granaten",limapfad + "box_zug_typ_4.sqf"],
-            ["Typ 5 - Ausrüstung",limapfad + "box_zug_typ_5.sqf"],
-            ["Typ 6 - Anti-Tank",limapfad + "box_zug_typ_6.sqf"],
-            ["Typ 7 - Elektronik",limapfad + "box_zug_typ_7.sqf"],
-            ["Typ 8 - Munition HK417",limapfad + "box_zug_typ_8.sqf"],
-            ["Typ 9 - Flashbangs",limapfad + "box_zug_typ_9.sqf"]
+            ["Typ 1 - Standard 5.56", limapfad + "box_zug_typ_1.sqf"],
+            ["Typ 2 - Standard 7.62", limapfad + "box_zug_typ_2.sqf"],
+            ["Typ 3 - LMG-Munition", limapfad + "box_zug_typ_3.sqf"],
+            ["Typ 4 - Panzerbrechend",limapfad + "box_zug_typ_4.sqf"],
+            ["Typ 5 - Unterlaufgranaten",limapfad + "box_zug_typ_5.sqf"],
+            ["Typ 6 - Granaten",limapfad + "box_zug_typ_6.sqf"],
+            ["Typ 7 - Sprengmittel",limapfad + "box_zug_typ_7.sqf"],
+            ["Typ 8 - Anti-Tank",limapfad + "box_zug_typ_8.sqf"],
+            ["Typ 9 - Ausrüstung",limapfad + "box_zug_typ_9.sqf"],
+            ["Typ 10 - Elektronik",limapfad + "box_zug_typ_10.sqf"],
+            ["Typ 11 - Munition HK417",limapfad + "box_zug_typ_11.sqf"],
+            ["Typ 12 - Flashbangs",limapfad + "box_zug_typ_12.sqf"]
         ];
     };
 

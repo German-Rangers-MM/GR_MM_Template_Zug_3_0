@@ -1,5 +1,5 @@
 [
-    "Typ 1- Trupp 1 - S",
+    "Sierra Typ 1- Trupp 1 - S",
     "ACE_Box_Ammo",
     ["CUP_5Rnd_762x67_G22", 15],
     ["CUP_5Rnd_86x70_L115A1", 15],

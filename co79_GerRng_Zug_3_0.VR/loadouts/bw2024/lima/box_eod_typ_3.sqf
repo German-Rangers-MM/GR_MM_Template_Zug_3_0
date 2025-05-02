@@ -1,5 +1,5 @@
 [
-    "Typ 3 - Ausrüstung",
+    "EOD Typ 3 - Ausrüstung",
     "ACE_Box_Misc",
     ["TFAR_anprc152",2],
     ["ACE_Chemlight_HiRed",16],

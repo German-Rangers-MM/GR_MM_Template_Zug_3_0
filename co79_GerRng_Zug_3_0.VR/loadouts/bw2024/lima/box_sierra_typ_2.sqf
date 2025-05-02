@@ -1,5 +1,5 @@
 [
-    "Typ 2 - Trupp 1 - A",
+    "Sierra Typ 2 - Trupp 1 - A",
     "ACE_Box_Ammo",
     ["B_UAV_01_backpack_F", 1],
     ["B_UAV_06_backpack_F", 1],

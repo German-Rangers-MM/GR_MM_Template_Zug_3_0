@@ -1,13 +1,11 @@
 [
-    "Typ 7 - Elektronik",
-    "ACE_Box_Chemlights",
-    ["Laserbatteries", 2],
-    ["Laserdesignator_02_ghex_F", 2],
-    ["ItemAndroid", 2],
-    ["ItemMicroDAGR", 2],
-    ["ItemcTab", 2],
-    ["B_UavTerminal", 2],
-    ["ACE_HuntIR_monitor", 2],
-    ["ACE_HuntIR_M203", 10],
-    ["ACE_UAVBattery", 4]
+    "Zug Typ 7 - Sprengmittel",
+    "ACE_Box_82mm_Mo_HE",
+    ["tsp_breach_block_mag",2],
+    ["tsp_breach_linear_mag",2],
+    ["tsp_breach_popper_mag",10],
+    ["ACE_Clacker",1],
+    ["tsp_breach_package_mag",2],
+    ["tsp_breach_shock",3],
+    ["tsp_breach_stick_mag",5]
 ];

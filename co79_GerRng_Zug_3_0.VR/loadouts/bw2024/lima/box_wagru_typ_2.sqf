@@ -1,5 +1,5 @@
 [
-    "Typ 2 - Mk48",
+    "WaGru Typ 2 - Mk48",
     "Box_NATO_Wps_F",
     ["CUP_lmg_Mk48_nohg", 1],
     ["CUP_optic_Elcan_SpecterDR_KF_RMR_black", 1],

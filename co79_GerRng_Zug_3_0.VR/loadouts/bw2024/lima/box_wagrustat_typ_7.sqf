@@ -1,5 +1,5 @@
 [
-    "Typ 7 - 82mm Mörser Waffe",
+    "WaGru ST Typ 7 - 82mm Mörser Waffe",
     "Box_NATO_WpsLaunch_F",
     ["CUP_m252_carry", 1],
     ["ace_csw_carryMortarBaseplate", 1],

@@ -1,5 +1,5 @@
 [
-    "Typ 5 - Ausrüstung",
+    "Sierra Typ 5 - Ausrüstung",
     "Box_NATO_Equip_F",
     ["ACE_NVG_Gen4_Black", 8],
     ["ACE_NVG_Gen4_Black_WP", 8],

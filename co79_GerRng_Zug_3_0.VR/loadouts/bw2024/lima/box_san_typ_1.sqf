@@ -1,5 +1,5 @@
 [
-    "Typ 1 - SanMat",
+    "San Typ 1 - SanMat",
     "ACE_medicalSupplyCrate",
     ["ACE_bodyBag",4],
     ["ACE_splint",22],
