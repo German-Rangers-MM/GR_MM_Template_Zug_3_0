@@ -52,7 +52,19 @@ if ((count _packListe) < 1) then  {
 private _uniqueWeaponSelection = [
 	"Schuetze_DM",
 	"Schuetze_LMG",
-	"Grenadier"
+	"Grenadier",
+	"Sierra_Aufkl",
+	"Sierra_AufSan",
+	"Sierra_Breacher",
+	"Sierra_GrpFhr",
+	"Sierra_MG",
+	"Sierra_NaSi",
+	"Sierra_San",
+	"Sierra_Scharf",
+	"Sierra_Schuetze",
+	"Sierra_Spotter",
+	"Sierra_TF"
+
 ];
 if(!(_unitLoadout in _uniqueWeaponSelection)) then {
     _gemeinsameWaffen = call compile preprocessFileLineNumbers format ["loadouts\%1\packliste\GemeinsameWaffen.sqf", fraktionV];
