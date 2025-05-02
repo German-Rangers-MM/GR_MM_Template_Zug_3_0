@@ -90,7 +90,8 @@ switch (_category) do {
             ["Typ 5 - Trupp 2 - U", limapfad + "box_sierra_typ_5.sqf"],
             ["Typ 6 - Trupp 2 - U", limapfad + "box_sierra_typ_6.sqf"],
             ["Typ 7 - Trupp 2 - ST", limapfad + "box_sierra_typ_7.sqf"],
-            ["Typ 8 - Ausrüstung", limapfad + "box_sierra_typ_8.sqf"]
+            ["Typ 8 - Munition", limapfad + "box_sierra_typ_8.sqf"],
+            ["Typ 9 - Ausrüstung", limapfad + "box_sierra_typ_9.sqf"]
         ];
     };
     case "supply": {
