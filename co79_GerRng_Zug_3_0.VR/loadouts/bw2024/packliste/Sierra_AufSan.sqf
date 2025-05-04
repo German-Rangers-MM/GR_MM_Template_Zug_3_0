@@ -6,19 +6,7 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 [
-/*
-	"CUP_arifle_HK416_CQB_Black",
-	"CUP_arifle_HK416_CQB_Desert",
-	"CUP_arifle_HK416_CQB_Wood",
 
-	"CUP_arifle_HK416_Black",
-	"CUP_arifle_HK416_Desert",
-	"CUP_arifle_HK416_Wood",
-
-	"CUP_arifle_HK417_12",
-	"CUP_arifle_HK417_12_Desert",
-	"CUP_arifle_HK417_12_Wood",
-*/
 	"SPS_hk416_11_sl_t_ctr_vfg_a7_black_f",
 	"SPS_hk416_11_sl_t_ctr_afg_a7_black_f",
 	"SPS_hk416_11_sl_t_ctr_a7_black_f",
