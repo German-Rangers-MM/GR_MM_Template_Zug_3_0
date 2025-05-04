@@ -1,10 +1,9 @@
 [
-    "Sierra Typ 3 - Trupp 2 - U",
-    "ACE_Box_Ammo",
-    ["CUP_200Rnd_TE1_Red_Tracer_556x45_M249_Pouch", 10],
-    ["CUP_30Rnd_556x45_PMAG_BLACK", 20],
-    ["CUP_17Rnd_9x19_glock17", 6],
-    ["SmokeShell", 10],
-    ["SmokeShellRed", 10],
-    ["SmokeShellGreen", 10]
+    "Sierra Typ 3 - Trupp 1 - A",
+    "Land_PlasticCase_01_medium_black_F",
+    ["CUP_5Rnd_762x67_G22", 15],
+    ["CUP_5Rnd_86x70_L115A1", 15],
+    ["SPS_20Rnd_762x51mm_M80A1_EPR_IR", 14],
+    ["CUP_40Rnd_46x30_MP7", 14],
+    ["CUP_17Rnd_9x19_glock17", 6]
 ];

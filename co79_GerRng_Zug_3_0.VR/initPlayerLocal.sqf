@@ -127,7 +127,7 @@ PPeffect_colorC ppEffectCommit 0;
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
-//						Sandstorm Effect
+//						Effects
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
@@ -142,6 +142,12 @@ PPeffect_colorC ppEffectCommit 0;
 
 //[player, 0.9, 0.5, true] call BIS_fnc_sandstorm;
 
+//FoggyBreath
+//_units = if (!isMultiplayer) then {switchableUnits} else {playableUnits};
+//{[_x, 0.03] execVM "scripts\core\foggy_breath.sqf"} forEach _units;
+
+//Ground Fog
+//null = [] execVM "scripts\core\GroundFog.sqf";
 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
@@ -366,12 +372,13 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 	};
 };
 
-//FoggyBreath
-//_units = if (!isMultiplayer) then {switchableUnits} else {playableUnits};
-//{[_x, 0.03] execVM "scripts\core\foggy_breath.sqf"} forEach _units;
-
-//Ground Fog
-//null = [] execVM "scripts\core\GroundFog.sqf";
+//------------------------------------------------------------------
+//------------------------------------------------------------------
+//
+//						
+//
+//------------------------------------------------------------------
+//------------------------------------------------------------------
 
 //Wenn das Missionsintro gestartet wurde, werden alle Spieler die reconnecten oder später dazu kommen in die Basis teleportiert.
 if (getMissionConfigValue "missionstartedfeat" == "true") then {

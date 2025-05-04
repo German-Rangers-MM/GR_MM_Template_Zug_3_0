@@ -191,20 +191,32 @@ _iconVerpflegung ="z\ace\addons\field_rations\ui\icon_hud_hungerstatus.paa";
     _Sierra = ["Sierra","Sierra",_iconSierra,{ },{true}] call ace_interact_menu_fnc_createAction;
     [_x, 0, ["ACE_MainActions"], _Sierra] call ace_interact_menu_fnc_addActionToObject;
         //------------------------------------------------------------------
-    _sierra1 = ["Sierra1","Sierra Typ 1- Trupp 1 - S",_icon,{params ["_object"]; [_object,"box_sierra_typ_1"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+    _sierra1 = ["Sierra1","Sierra Typ 1 - Trupp 1 - S",_icon,{params ["_object"]; [_object,"box_sierra_typ_1"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
     [_x, 0, ["ACE_MainActions", "Sierra"], _sierra1] call ace_interact_menu_fnc_addActionToObject;
 
-    _sierra2 = ["Sierra2","Sierra Typ 2 - Trupp 1 - A",_icon,{params ["_object"]; [_object,"box_sierra_typ_2"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+    _sierra2 = ["Sierra2","Sierra Typ 2 - Trupp 1 - S",_icon,{params ["_object"]; [_object,"box_sierra_typ_2"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
     [_x, 0, ["ACE_MainActions", "Sierra"], _sierra2] call ace_interact_menu_fnc_addActionToObject;
 
-    _sierra3 = ["Sierra3","Sierra Typ 3 - Trupp 2 - U",_icon,{params ["_object"]; [_object,"box_sierra_typ_3"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+    _sierra3 = ["Sierra3","Sierra Typ 3 - Trupp 1 - A",_icon,{params ["_object"]; [_object,"box_sierra_typ_3"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
     [_x, 0, ["ACE_MainActions", "Sierra"], _sierra3] call ace_interact_menu_fnc_addActionToObject;
 
-    _sierra4 = ["Sierra4","Sierra Typ 4 - Trupp 2 - ST",_icon,{params ["_object"]; [_object,"box_sierra_typ_4"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+    _sierra4 = ["Sierra4","Sierra Typ 4 - Trupp 1 - A",_icon,{params ["_object"]; [_object,"box_sierra_typ_4"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
     [_x, 0, ["ACE_MainActions", "Sierra"], _sierra4] call ace_interact_menu_fnc_addActionToObject;
 
-    _sierra5 = ["Sierra5","Sierra Typ 5 - Ausrüstung",_icon,{params ["_object"]; [_object,"box_sierra_typ_5"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+    _sierra5 = ["Sierra5","Sierra Typ 5 - Trupp 2 - U",_icon,{params ["_object"]; [_object,"box_sierra_typ_5"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
     [_x, 0, ["ACE_MainActions", "Sierra"], _sierra5] call ace_interact_menu_fnc_addActionToObject;
+
+    _sierra6 = ["Sierra6","Sierra Typ 6 - Trupp 2 - U",_icon,{params ["_object"]; [_object,"box_sierra_typ_6"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+    [_x, 0, ["ACE_MainActions", "Sierra"], _sierra6] call ace_interact_menu_fnc_addActionToObject;
+
+    _sierra7 = ["Sierra7","Sierra Typ 7 - Trupp 2 - ST",_icon,{params ["_object"]; [_object,"box_sierra_typ_7"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+    [_x, 0, ["ACE_MainActions", "Sierra"], _sierra7] call ace_interact_menu_fnc_addActionToObject;
+
+    _sierra8 = ["Sierra8","Sierra Typ 8 - Munition",_icon,{params ["_object"]; [_object,"box_sierra_typ_8"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+    [_x, 0, ["ACE_MainActions", "Sierra"], _sierra8] call ace_interact_menu_fnc_addActionToObject;
+
+    _sierra9 = ["Sierra9","Sierra Typ 9 - Ausrüstung",_icon,{params ["_object"]; [_object,"box_sierra_typ_9"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+    [_x, 0, ["ACE_MainActions", "Sierra"], _sierra9] call ace_interact_menu_fnc_addActionToObject;
     //------------------------------------------------------------------
 
     _supply = ["Supply","Transport Box (leer)",_icon,{params ["_object"]; [_object,"box_supply"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;

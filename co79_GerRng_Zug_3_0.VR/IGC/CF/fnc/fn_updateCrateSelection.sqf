@@ -83,11 +83,15 @@ switch (_category) do {
 
     case "sierra": {
         _selections = [
-            ["Typ 1- Trupp 1 - S", limapfad + "box_sierra_typ_1.sqf"],
-            ["Typ 2 - Trupp 1 - A", limapfad + "box_sierra_typ_2.sqf"],
-            ["Typ 3 - Trupp 2 - U",limapfad + "box_sierra_typ_3.sqf"],
-            ["Typ 4 - Trupp 2 - ST",limapfad + "box_sierra_typ_4.sqf"],
-            ["Typ 5 - Ausrüstung",limapfad + "box_sierra_typ_5.sqf"]
+            ["Typ 1 - Trupp 1 - S", limapfad + "box_sierra_typ_1.sqf"],
+            ["Typ 2 - Trupp 1 - S", limapfad + "box_sierra_typ_2.sqf"],
+            ["Typ 3 - Trupp 1 - A", limapfad + "box_sierra_typ_3.sqf"],
+            ["Typ 4 - Trupp 1 - A", limapfad + "box_sierra_typ_4.sqf"],
+            ["Typ 5 - Trupp 2 - U", limapfad + "box_sierra_typ_5.sqf"],
+            ["Typ 6 - Trupp 2 - U", limapfad + "box_sierra_typ_6.sqf"],
+            ["Typ 7 - Trupp 2 - ST", limapfad + "box_sierra_typ_7.sqf"],
+            ["Typ 8 - Munition", limapfad + "box_sierra_typ_8.sqf"],
+            ["Typ 9 - Ausrüstung", limapfad + "box_sierra_typ_9.sqf"]
         ];
     };
     case "supply": {
