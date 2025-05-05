@@ -158,6 +158,14 @@
     "1Rnd_SmokeRed_Grenade_shell",
     "1Rnd_SmokeGreen_Grenade_shell",
     "1Rnd_Smoke_Grenade_shell",
+
+    
+    "SPS_20Rnd_762x51mm_M80A1_EPR",
+    "SPS_20Rnd_762x51mm_M80A1_EPR_IR",
+    "SPS_20Rnd_762x51mm_M80A1_EPR_Tracer",
+
+    "CUP_20Rnd_762x51_DMR",
+    "CUP_20Rnd_TE1_Red_Tracer_762x51_DMR",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Grenades / throw
