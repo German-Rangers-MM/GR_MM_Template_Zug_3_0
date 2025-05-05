@@ -81,7 +81,18 @@ private _417blacklist =[
 	"Waffen_Spez",
 	"Waffen_Assi",
 	"ZugFhr",
-	"ZugSani"
+	"ZugSani",
+	"Sierra_Aufkl",
+	"Sierra_AufSan",
+	"Sierra_Breacher",
+	"Sierra_GrpFhr",
+	"Sierra_MG",
+	"Sierra_NaSi",
+	"Sierra_San",
+	"Sierra_Scharf",
+	"Sierra_Schuetze",
+	"Sierra_Spotter",
+	"Sierra_TF"
 ];
 if(!(_unitLoadout in _417blacklist)) then {
     //HK417
