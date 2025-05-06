@@ -294,11 +294,11 @@
     "SPS_20Rnd_762x51mm_M80A1_EPR_IR",
     "SPS_20Rnd_762x51mm_M80A1_EPR_Tracer",
 
-    "ACE_20Rnd_762x51mm_Mag_Tracer",
-    "ACE_20Rnd_762x51mm_M993_AP_Mag",
+    "ACE_20Rnd_762x51_Mag_Tracer",
+    "ACE_20Rnd_762x51_M993_AP_Mag",
 
-    "CUP_20Rnd_762x51mm_DMR",
-    "CUP_20Rnd_TE1_Red_Tracer_762x51mm_DMR",
+    "CUP_20Rnd_762x51_DMR",
+    "CUP_20Rnd_TE1_Red_Tracer_762x51_DMR",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Grenades / throw
