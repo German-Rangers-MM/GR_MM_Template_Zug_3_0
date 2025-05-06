@@ -52,6 +52,22 @@ jobs:
             new_name="${mission_name}_${{ steps.version.outputs.version }}.${ext}"
             mv "$pbo" "./pbos/$new_name"
           done
+
+          # Write to workflow summary
+          echo "### 🚀 Packed Missions" >> $GITHUB_STEP_SUMMARY
+          echo "**Version:** ${{ steps.version.outputs.version }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Mission File | Size |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------------|------|" >> $GITHUB_STEP_SUMMARY
+          
+          for pbo in ./pbos/*.pbo; do
+            size=$(ls -lh $pbo | awk '{print $5}')
+            filename=$(basename "$pbo")
+            echo "| \`$filename\` | $size |" >> $GITHUB_STEP_SUMMARY
+          done
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Total missions:** $(ls ./pbos/*.pbo | wc -l)" >> $GITHUB_STEP_SUMMARY
           
           echo "Packed and tagged missions:"
           ls -lh ./pbos/
