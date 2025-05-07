@@ -19,6 +19,10 @@ _whitelistedMods = 	[
 						"@Eden Mirror Function", "2807516605",
 						"@Snapping for Eden and Zeus","2961167812",
 						"@3DEN Better Inventory","1124993203",
+						"@LAMBS_Danger.fsm","1858075458",
+						"@LAMBS_RPG","1858070328",
+						"@LAMBS_Suppression","1808238502",
+						"@LAMBS_Turrets","1862208264",
 						
 						// CUP
 						"@CUP Terrains - Core", "583496184",
