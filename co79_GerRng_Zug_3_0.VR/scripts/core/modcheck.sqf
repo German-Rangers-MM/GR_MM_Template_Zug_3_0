@@ -6,6 +6,7 @@ _whitelistedMods = 	[
 						"@Zeus Enhanced", "1779063631",
 						"@Zeus Enhanced - ACE3 Compatibility", "2018593688",
 						"@NR6 Hal Evolved - Experimental Branch","3375984704",
+						"@LAMBS_Danger.fsm","1858075458",
 						"@LAFS - Light AI Fire Support","3323604819",
 						"@Dynamic AI Minefields - RCO","2650906858",
 
