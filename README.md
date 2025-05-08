@@ -6,9 +6,10 @@
 Um beizutragen, einfach eine Branch eröffnen und loslegen!
 
 Credits:
-- @ApacheLongbow
-- @Cesrap
+- [@TheApacheLongbow](https://github.com/TheApacheLongbow)
+- [@Cesrap](https://github.com/Cesrap)
 - @Ganvai
-- @ItsGiantCookie
+- [@ItsGiantCookie](https://github.com/ItsGiantCookie)/[@HendrikTank](https://github.com/HendrikTank)
 - @Lightning
-- @SmartGun2
+- [@SmartGun2](https://github.com/SmartGun2)
+- [@avogelsang-uni](https://github.com/avogelsang-uni)
