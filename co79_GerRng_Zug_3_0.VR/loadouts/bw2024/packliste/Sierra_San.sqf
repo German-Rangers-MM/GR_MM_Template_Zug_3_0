@@ -86,6 +86,11 @@
 	"SPS_EOTech_Tan_3xMAG_up",
 	"SPS_EOTech_Tan_5xMAG_up",
 
+	"CUP_optic_Elcan_SpecterDR_RMR_black",
+	"CUP_optic_Elcan_SpecterDR_KF_RMR_black",
+	"CUP_optic_Elcan_SpecterDR_RMR",
+	"CUP_optic_Elcan_SpecterDR_KF_RMR",
+
 	"sps_vortex_spitfire_gen2_x5_black",
 	"sps_vortex_spitfire_gen2_x5_RMR_black",
 	"sps_vortex_spitfire_gen2_x5_tan",
