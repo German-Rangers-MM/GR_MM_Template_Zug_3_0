@@ -33,7 +33,8 @@ if (getMissionConfigValue "dynamicGroupsFeat" == "true") then {
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-sleep 1;
+// warten auf die Variablen für Fraktion und Tarnfarbe vom Server
+waitUntil { sleep 1; !isNil "fraktionV" && !isNil "tarnfarbeV" };
 
 //Abfrage ob Datenbank oder frisches Loadout
 if (getMissionConfigValue "loadPlayers" == "true") then {
