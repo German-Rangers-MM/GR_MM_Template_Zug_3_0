@@ -1,0 +1,82 @@
+name: Package Mission
+
+on:
+  release:
+    types: [created,edited]
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Missions
+        uses: actions/checkout@v4
+        with:
+          path: source
+          
+      - name: Get and Transform Version
+        id: version
+        run: |
+          TAG=${{ github.event.release.tag_name }}
+          CLEAN_VERSION=$(echo "$TAG" | sed -E '
+            s/^v//;
+            s/([0-9]+)\.([0-9]+)\.([0-9]+)/\1\2\3/;
+            s/\+.*//;
+            s/-/_/;
+            s/^/v/
+          ')
+          echo "version=$CLEAN_VERSION" >> $GITHUB_OUTPUT
+          echo "Original tag: $TAG → Clean version: $CLEAN_VERSION"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - uses: robinraju/release-downloader@v1.7
+        with:
+          repository: "German-Rangers-MM/PBO-Packer"
+          latest: true
+          fileName: "pbo-packer"
+          
+      - name: Package Missions
+        run: |
+          mkdir -p pbos
+          chmod +x ./pbo-packer
+          ./pbo-packer ./source ./pbos
+          
+          # Rename files with version
+          for pbo in ./pbos/*.pbo; do
+            base="${pbo%.*}"
+            ext="${pbo##*.}"
+            mission_name=$(basename "$base")
+            new_name="${mission_name}_${{ steps.version.outputs.version }}.${ext}"
+            mv "$pbo" "./pbos/$new_name"
+          done
+
+          # Write to workflow summary
+          echo "### 🚀 Packed Missions" >> $GITHUB_STEP_SUMMARY
+          echo "**Version:** ${{ steps.version.outputs.version }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Mission File | Size |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------------|------|" >> $GITHUB_STEP_SUMMARY
+          
+          for pbo in ./pbos/*.pbo; do
+            size=$(ls -lh $pbo | awk '{print $5}')
+            filename=$(basename "$pbo")
+            echo "| \`$filename\` | $size |" >> $GITHUB_STEP_SUMMARY
+          done
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Total missions:** $(ls ./pbos/*.pbo | wc -l)" >> $GITHUB_STEP_SUMMARY
+          
+          echo "Packed and tagged missions:"
+          ls -lh ./pbos/
+          
+      - name: Upload Release Assets
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event.release.tag_name || steps.get-release.outputs.tag }}
+          files: |
+            pbos/*.pbo
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
