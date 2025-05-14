@@ -8,5 +8,6 @@ class SGN {
 		class replaceTarnfarbe{};
 		class rollDice{}; 
 		class infoHintHC{};
+		class setLrFrequencyTFAR{};
 	};
 };

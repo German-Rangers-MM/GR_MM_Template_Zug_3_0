@@ -190,6 +190,17 @@ if (isClass(configFile >> "cfgPatches" >> "task_force_radio")) then {
 };
 */
 
+// EHs für Automatische Frequenz Einstellung
+player addEventHandler ["GetInMan", {
+    params ["_unit", "_role", "_vehicle", "_turret"];    
+    _vehicle call SGN_fnc_setLrFrequencyTFAR;   
+}];
+
+player addEventHandler ["SeatSwitchedMan", {
+	params ["_unit1", "_unit2", "_vehicle"];
+	_vehicle call SGN_fnc_setLrFrequencyTFAR;	
+}];
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
