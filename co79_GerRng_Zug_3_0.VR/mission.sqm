@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=1904;
+		nextID=1907;
 	};
 	class MarkerIDProvider
 	{
@@ -20,11 +20,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=115;
+		nextID=127;
 	};
 	class Camera
 	{
-		pos[]={1288.9011,144.34662,5079.2832};
+		pos[]={1418.2806,17.061218,5137.6592};
 		dir[]={0.62014925,-0.58632874,0.52126801};
 		up[]={0.44890308,0.81000477,0.37732765};
 		aside[]={0.6434623,1.0677613e-06,-0.76552194};
@@ -75,7 +75,6 @@ addons[]=
 	"A3_Props_F_Enoch_Military_Supplies",
 	"boxloader_pallet",
 	"boxloader_cargo",
-	"boxloader_ace",
 	"A3_Drones_F_Air_F_Gamma_UAV_01",
 	"A3_Drones_F_Soft_F_Gamma_UGV_01",
 	"CUP_WheeledVehicles_Boxer",
@@ -120,6 +119,7 @@ addons[]=
 	"CUP_WaterVehicles_LCU1600",
 	"A3_Armor_F_Exp_APC_Tracked_01",
 	"A3_Armor_F_Beta_APC_Tracked_01",
+	"adv_bobcat",
 	"A3_Props_F_Orange_Humanitarian_Supplies",
 	"A3_Soft_F_Quadbike_01",
 	"cfp_vehicles",
@@ -185,7 +185,7 @@ class AddonsMetaData
 		{
 			className="GerRng_";
 			name="GerRng_";
-			author="jan";
+			author="dalleburn, jan";
 		};
 		class Item5
 		{
@@ -392,223 +392,224 @@ class AddonsMetaData
 		};
 		class Item36
 		{
-			className="boxloader_ace";
-			name="boxloader_ace";
-		};
-		class Item37
-		{
 			className="A3_Drones_F";
 			name="Arma 3 Beta - Drones";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item38
+		class Item37
 		{
 			className="CUP_WheeledVehicles_Boxer";
 			name="CUP_WheeledVehicles_Boxer";
 		};
-		class Item39
+		class Item38
 		{
 			className="CFP_B_DEARMY_WDL_WDL";
 			name="CFP_B_DEARMY_WDL_WDL";
 			author="CFP Team";
 		};
-		class Item40
+		class Item39
 		{
 			className="A3_Armor_F_Exp";
 			name="Arma 3 Apex - Armored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item41
+		class Item40
 		{
 			className="A3_Armor_F_Beta";
 			name="Arma 3 Beta - Armored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item42
+		class Item41
 		{
 			className="tfar_external_intercom";
 			name="TFAR - Intercom Phone";
 			author="Task Force Arrowhead Radio Team";
 		};
-		class Item43
+		class Item42
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item44
+		class Item43
 		{
 			className="ace_vehicle_damage";
 			name="ACE3 - Vehicle Damage";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item45
+		class Item44
 		{
 			className="A3_Armor_F_Tank";
 			name="Arma 3 Tank - Armored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item46
+		class Item45
 		{
 			className="CUP_WheeledVehicles_Stryker";
 			name="CUP_WheeledVehicles_Stryker";
 		};
-		class Item47
+		class Item46
 		{
 			className="CFP_B_USARMY_WDL";
 			name="CFP_B_USARMY_WDL";
 			author="CFP Team";
 		};
-		class Item48
+		class Item47
 		{
 			className="ace_spottingscope";
 			name="ACE3 - Spotting Scope";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item49
+		class Item48
 		{
 			className="A3_Soft_F";
 			name="Arma 3 Alpha - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item50
+		class Item49
 		{
 			className="A3_Soft_F_Orange";
 			name="Arma 3 Orange - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item51
+		class Item50
 		{
 			className="A3_Structures_F_Ind";
 			name="Arma 3 - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item52
+		class Item51
 		{
 			className="ace_logistics_wirecutter";
 			name="ACE3 - Logistics Wire Cutter";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item53
+		class Item52
 		{
 			className="ace_concertina_wire";
 			name="ACE3 - Concertina Wire";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item54
+		class Item53
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item55
+		class Item54
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item56
+		class Item55
 		{
 			className="A3_Props_F_Exp";
 			name="Arma 3 Apex - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item57
+		class Item56
 		{
 			className="CUP_TrackedVehicles_Leopard2";
 			name="CUP_TrackedVehicles_Leopard2";
 		};
-		class Item58
+		class Item57
 		{
 			className="A3_Soft_F_Enoch";
 			name="Arma 3 Contact Platform - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item59
+		class Item58
 		{
 			className="A3_Air_F_Orange";
 			name="Arma 3 Orange - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item60
+		class Item59
 		{
 			className="A3_Boat_F";
 			name="Arma 3 Alpha - Boats and Submersibles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item61
+		class Item60
 		{
 			className="cfp_b_gbarmy_wdl";
 			name="CFP - b_gbarmy_wdl";
 			author="CFP Team";
 		};
-		class Item62
+		class Item61
 		{
 			className="A3_Structures_F_EPB";
 			name="Arma 3 Adapt Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item63
+		class Item62
 		{
 			className="ace_interaction";
 			name="ACE3 - Interaction";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item64
+		class Item63
 		{
 			className="CUP_WheeledVehicles_Coyote";
 			name="CUP_WheeledVehicles_Coyote";
 		};
-		class Item65
+		class Item64
 		{
 			className="CUP_WheeledVehicles_Dingo";
 			name="CUP_WheeledVehicles_Dingo";
 		};
-		class Item66
+		class Item65
 		{
 			className="cfp_cup_b_ger";
 			name="cfp_cup_b_ger";
 			author="CFP Team";
 		};
-		class Item67
+		class Item66
 		{
 			className="CUP_Creatures_StaticWeapons";
 			name="CUP_Creatures_StaticWeapons";
 		};
-		class Item68
+		class Item67
 		{
 			className="CUP_WheeledVehicles_Jackal";
 			name="CUP_WheeledVehicles_Jackal";
 		};
-		class Item69
+		class Item68
 		{
 			className="CUP_WaterVehicles_MK10";
 			name="CUP_WaterVehicles_MK10";
 		};
-		class Item70
+		class Item69
 		{
 			className="CUP_WaterVehicles_LCU1600";
 			name="CUP_WaterVehicles_LCU1600";
+		};
+		class Item70
+		{
+			className="adv_bobcat";
+			name="adv_bobcat";
+			author="[SeL] Belbo // Adrian";
 		};
 		class Item71
 		{
@@ -13710,30 +13711,13 @@ class Mission
 				};
 				class Item4
 				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1432,8.9768047,5150};
-						angles[]={0,1.5464665,0};
-					};
-					side="Empty";
-					flags=5;
-					class Attributes
-					{
-						name="GR_baseFlag";
-					};
-					id=120;
-					type="FlagCarrierGermany_EP1";
-				};
-				class Item5
-				{
 					dataType="Marker";
 					position[]={1426,5,5149};
 					name="respawn_west";
 					type="Empty";
 					id=373;
 				};
-				class Item6
+				class Item5
 				{
 					dataType="Layer";
 					name="Zeus, HC";
@@ -14935,6 +14919,23 @@ class Mission
 						};
 					};
 					id=1903;
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1432,8.9768047,5150};
+						angles[]={0,1.5464665,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						name="GR_baseFlag";
+					};
+					id=1906;
+					type="FlagCarrierGermany_EP1";
 				};
 			};
 			id=1901;
