@@ -20,11 +20,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=127;
+		nextID=139;
 	};
 	class Camera
 	{
-		pos[]={1418.2806,17.061218,5137.6592};
+		pos[]={1388.4276,50.093952,5110.6553};
 		dir[]={0.62014925,-0.58632874,0.52126801};
 		up[]={0.44890308,0.81000477,0.37732765};
 		aside[]={0.6434623,1.0677613e-06,-0.76552194};
@@ -119,7 +119,6 @@ addons[]=
 	"CUP_WaterVehicles_LCU1600",
 	"A3_Armor_F_Exp_APC_Tracked_01",
 	"A3_Armor_F_Beta_APC_Tracked_01",
-	"adv_bobcat",
 	"A3_Props_F_Orange_Humanitarian_Supplies",
 	"A3_Soft_F_Quadbike_01",
 	"cfp_vehicles",
@@ -153,7 +152,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=90;
+		items=89;
 		class Item0
 		{
 			className="A3_Structures_F";
@@ -607,118 +606,112 @@ class AddonsMetaData
 		};
 		class Item70
 		{
-			className="adv_bobcat";
-			name="adv_bobcat";
-			author="[SeL] Belbo // Adrian";
-		};
-		class Item71
-		{
 			className="cfp_vehicles";
 			name="cfp_vehicles";
 			author="CFP Team";
 		};
-		class Item72
+		class Item71
 		{
 			className="CFP_B_USRANGERS_WDL";
 			name="CFP_B_USRANGERS_WDL";
 			author="Drew";
 		};
-		class Item73
+		class Item72
 		{
 			className="CFP_B_USMC_DES";
 			name="CFP_B_USMC_DES";
 			author="CFP Team";
 		};
-		class Item74
+		class Item73
 		{
 			className="CUP_WaterVehicles_RHIB";
 			name="CUP_WaterVehicles_RHIB";
 		};
-		class Item75
+		class Item74
 		{
 			className="A3_Signs_F";
 			name="Arma 3 - Signs";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item76
+		class Item75
 		{
 			className="A3_Armor_F_Gamma";
 			name="Arma 3 - Armored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item77
+		class Item76
 		{
 			className="ace_tripod";
 			name="ACE3 - Tripod";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item78
+		class Item77
 		{
 			className="ace_trenches";
 			name="ACE3 - Trenches";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item79
+		class Item78
 		{
 			className="grad_trenches_assets";
 			name="grad_trenches_assets";
 		};
-		class Item80
+		class Item79
 		{
 			className="grad_trenches_functions";
 			name="grad_trenches_functions";
 		};
-		class Item81
+		class Item80
 		{
 			className="CUP_AirVehciles_AW159";
 			name="CUP_AirVehciles_AW159";
 		};
-		class Item82
+		class Item81
 		{
 			className="CUP_WaterVehicles_Zodiac";
 			name="CUP_WaterVehicles_Zodiac";
 		};
-		class Item83
+		class Item82
 		{
 			className="CUP_Creatures_Military_Germany";
 			name="CUP_Creatures_Military_Germany";
 		};
-		class Item84
+		class Item83
 		{
 			className="ace_explosives";
 			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item85
+		class Item84
 		{
 			className="CUP_WarfareBuildings";
 			name="CUP_WarfareBuildings";
 		};
-		class Item86
+		class Item85
 		{
 			className="CUP_StandaloneTerrains_Core_Faction";
 			name="CUP_StandaloneTerrains_Core_Faction";
 		};
-		class Item87
+		class Item86
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item88
+		class Item87
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item89
+		class Item88
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
