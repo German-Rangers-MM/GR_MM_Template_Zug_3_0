@@ -14,9 +14,6 @@
     // Visiere
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    "CUP_optic_MicroT1",
-    "CUP_optic_MicroT1_coyote",
-    "CUP_optic_MicroT1_OD",
     "CUP_optic_AC11704_Black",
     "CUP_optic_AC11704_tan",
     "CUP_optic_AC11704_OD",
@@ -29,15 +26,6 @@
     "CUP_optic_Elcan_reflex",
     "CUP_optic_Elcan_reflex_Coyote",
     "CUP_optic_Elcan_reflex_OD",
-    "CUP_optic_HoloBlack",
-    "CUP_optic_HoloDesert",
-    "CUP_optic_HoloWdl",
-    "CUP_optic_Eotech553_Black",
-    "CUP_optic_Eotech533",
-    "CUP_optic_Eotech553_OD",
-    "CUP_optic_G33_HWS_BLK",
-    "CUP_optic_G33_HWS_tan",
-    "CUP_optic_G33_HWS_OD",
     "optic_Holosight_blk_F",
     "optic_Holosight",
     "optic_Holosight_lush_F",
@@ -60,9 +48,6 @@
     "CUP_optic_ZeissZPoint_desert",
     "CUP_optic_ZeissZPoint_wood",
     "CUP_optic_G36DualOptics_3D",
-    "CUP_optic_AIMM_MICROT1_BLK",
-    "CUP_optic_AIMM_MICROT1_tan",
-    "CUP_optic_AIMM_MICROT1_OD",
     "optic_MRD",
     "optic_MRD_black",    
 

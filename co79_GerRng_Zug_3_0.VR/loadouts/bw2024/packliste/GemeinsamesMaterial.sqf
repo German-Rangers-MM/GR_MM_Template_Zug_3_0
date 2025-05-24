@@ -203,5 +203,6 @@
     "ACE_EarPlugs",
     "ACE_IR_strobe_Item",
     "ACE_rope3",
+    "tsp_lockpick",
     "ItemcTabHCam"
 ];

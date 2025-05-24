@@ -31,6 +31,19 @@
     "SPS_hk416_16_5_glm_hk_ctr_sf_black_f",
     "SPS_hk416_16_5_glm_hk_ctr_a7_black_f",
 
+    "SPS_hk416_14_5_glm_hk_ral8000_f",
+    "SPS_hk416_14_5_glm_hk_sf_ral8000_f",
+    "SPS_hk416_14_5_glm_hk_a7_ral8000_f",
+    "SPS_hk416_14_5_glm_hk_ctr_ral8000_f",
+    "SPS_hk416_14_5_glm_hk_ctr_sf_ral8000_f",
+    "SPS_hk416_14_5_glm_hk_ctr_a7_ral8000_f",
+    "SPS_hk416_16_5_glm_hk_ral8000_f",
+    "SPS_hk416_16_5_glm_hk_sf_ral8000_f",
+    "SPS_hk416_16_5_glm_hk_a7_ral8000_f",
+    "SPS_hk416_16_5_glm_hk_ctr_ral8000_f",
+    "SPS_hk416_16_5_glm_hk_ctr_sf_ral8000_f",
+    "SPS_hk416_16_5_glm_hk_ctr_a7_ral8000_f",
+
 
 
 
@@ -39,9 +52,6 @@
     // Visiere
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    "CUP_optic_MicroT1",
-    "CUP_optic_MicroT1_coyote",
-    "CUP_optic_MicroT1_OD",
     "CUP_optic_AC11704_Black",
     "CUP_optic_AC11704_tan",
     "CUP_optic_AC11704_OD",
@@ -54,15 +64,6 @@
     "CUP_optic_Elcan_reflex",
     "CUP_optic_Elcan_reflex_Coyote",
     "CUP_optic_Elcan_reflex_OD",
-    "CUP_optic_HoloBlack",
-    "CUP_optic_HoloDesert",
-    "CUP_optic_HoloWdl",
-    "CUP_optic_Eotech553_Black",
-    "CUP_optic_Eotech533",
-    "CUP_optic_Eotech553_OD",
-    "CUP_optic_G33_HWS_BLK",
-    "CUP_optic_G33_HWS_tan",
-    "CUP_optic_G33_HWS_OD",
     "optic_Holosight_blk_F",
     "optic_Holosight",
     "optic_Holosight_lush_F",
@@ -78,9 +79,6 @@
     "CUP_optic_ZeissZPoint",
     "CUP_optic_ZeissZPoint_desert",
     "CUP_optic_ZeissZPoint_wood",
-    "CUP_optic_AIMM_MICROT1_BLK",
-    "CUP_optic_AIMM_MICROT1_tan",
-    "CUP_optic_AIMM_MICROT1_OD",
 
     //SPS
     "sps_aimpoint_T1_Black",
@@ -109,9 +107,6 @@
     "CUP_acc_ANPEQ_15_Flashlight_Black_L",
     "CUP_acc_ANPEQ_15_Flashlight_tan_L",
     "CUP_acc_ANPEQ_15_Flashlight_OD_L",
-    "CUP_acc_LLM01_L",
-    "CUP_acc_LLM01_desert_L",
-    "CUP_acc_LLM01_od_L",
     "CUP_acc_LLM_black",
     "CUP_acc_LLM",
     "CUP_acc_LLM_od",
