@@ -154,7 +154,7 @@ if isClass (configFile >> "CfgPatches" >> "ace_main") then
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 
-if (getMissionConfigValue "useDBMapMarkers" == "true") then {
+if ( (getMissionConfigValue "useDBMapMarkers" == "true")&&(isClass (configFile >> "CfgPatches" >> "inidbi2")) ) then {
 
 	//LOADOUTS SPEICHERN
 	"checkForDatabase" addPublicVariableEventHandler

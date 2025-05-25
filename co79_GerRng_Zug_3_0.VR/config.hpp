@@ -7,7 +7,7 @@ missionstartedfeat	= true;			// Sets if the "Mission Started"-Feature is availab
 dynamicGroupsFeat	= false;		// DynamicGroups_Function; Clients can then use action TeamSwitch ("U" by default) to access the Dynamic Groups interface.
 
 // Loadouts 
-loadPlayers 		= false;		// Sets if Loadouts for Players are loaded from DB
+loadPlayers 		= false;		// Der letzte Speicherstand von Persist RCO oder INIDB wird automatisch geladen
 fraktion 			= "bw2024"; 	// Sets the Loadout Path for the Mission start: "bwfleck" | "marsoc"
 tarnfarbe			= "bwfleck";	// Sets Camos of Faction: "bwfleck" | "bwtropen" | "bwwinter"
 
