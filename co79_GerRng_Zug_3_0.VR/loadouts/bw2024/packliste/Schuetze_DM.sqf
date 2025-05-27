@@ -161,7 +161,42 @@
     // magazines
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+<<<<<<< Updated upstream
     
+=======
+    "CUP_20Rnd_762x51_HK417",
+    "CUP_20Rnd_762x51_HK417_Camo_Desert",
+    "CUP_20Rnd_762x51_HK417_Camo_Wood",
+    "CUP_20Rnd_TE1_Red_Tracer_762x51_HK417",
+    "ACE_20Rnd_762x51_M993_AP_Mag",
+    
+    //SPS
+    "SPS_HKG3PMAG_30Rnd_556x45_B_BeOTMT",
+    "SPS_HKG3PMAG_30Rnd_556x45_B_BeVLDT",
+    "SPS_20Rnd_762x51mm_M80A1_EPR",
+    "SPS_20Rnd_762x51mm_M80A1_EPR_IR",
+    "SPS_20Rnd_762x51mm_M80A1_EPR_Tracer",
+
+    "ACE_20Rnd_762x51_Mag_Tracer",
+    "ACE_20Rnd_762x51_M993_AP_Mag",
+
+    "CUP_20Rnd_762x51_DMR",
+    "CUP_20Rnd_TE1_Red_Tracer_762x51_DMR",
+
+    "SPS_HKG3PMAG_30Rnd_556x45_B",
+    "SPS_HKG3PMAG_30Rnd_556x45_B_Red",
+    "SPS_HKG3PMAG_30Rnd_556x45_B_M995",
+    "SPS_HKG3PMAG_30Rnd_556x45_B_Mk318",
+    "SPS_HKG3PMAG_30Rnd_556x45_FDE",
+    "SPS_HKG3PMAG_30Rnd_556x45_FDE_Red",
+    "SPS_HKG3PMAG_30Rnd_556x45_FDE_M995",
+    "SPS_HKG3PMAG_30Rnd_556x45_FDE_Mk318",
+    "SPS_HKG3PMAG_30Rnd_556x45_S",
+    "SPS_HKG3PMAG_30Rnd_556x45_S_Red",
+    "SPS_HKG3PMAG_30Rnd_556x45_S_M995",
+    "SPS_HKG3PMAG_30Rnd_556x45_S_Mk318"
+
+>>>>>>> Stashed changes
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Grenades / throw
