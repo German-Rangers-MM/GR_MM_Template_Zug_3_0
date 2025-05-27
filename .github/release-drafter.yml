@@ -1,0 +1,60 @@
+name-template: 'v$RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
+categories:
+  - title: '🚀Neue Features'
+    labels:
+      - 'feature'
+      - 'enhancement'
+      
+  - title: '🐛 Bug Fixes'
+    labels:
+      - 'fix'
+      - 'bugfix'
+      - 'bug'
+
+  - title: '🌐 Mission-Updates'
+    labels:
+      - 'Mission-Update'
+
+  - title: '🎯 Loadout-Updates'
+    labels:
+      - 'Loadout-Update'
+
+  - title: '📋 Packlisten-Updates'
+    labels:
+      - 'Packlisten-Update'
+
+  - title: '🚚 Limakisten-Updates'
+    labels:
+      - 'Limakisten-Update'
+
+  - title: '📂 Script-Updates'
+    labels:
+      - 'Script-Update'
+
+  - title: '🍵 Documentation-Updates'
+    labels:
+      - 'Documentation'
+      
+  - title: '🧰 Repo und Workflow Maintenance'
+    labels:
+      - 'root'
+      - 'Repo-Update'
+  
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
+version-resolver:
+  major:
+    labels:
+      - 'major'
+  minor:
+    labels:
+      - 'minor'
+  patch:
+    labels:
+      - 'patch'
+  default: patch
+template: |
+  ## Changes
+
+  $CHANGES

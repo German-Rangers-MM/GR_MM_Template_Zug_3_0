@@ -272,7 +272,7 @@ GR_Packlisten = [
 	group this setGroupID ["Kilo"];
 	group this setGroupID ["Lima"];
 	group this setGroupID ["Mike"];
-	group this setGroupID ["Foxtrott"];
+	group this setGroupID ["Foxtrot"];
 	group this setGroupID ["Victor"];
 	group this setGroupID ["Alpha"];
 	group this setGroupID ["Bravo"];

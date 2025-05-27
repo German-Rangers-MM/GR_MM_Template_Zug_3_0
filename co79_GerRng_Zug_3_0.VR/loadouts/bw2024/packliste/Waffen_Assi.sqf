@@ -20,9 +20,6 @@
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     "CUP_optic_SMAW_Scope",
-    "CUP_optic_AIMM_MICROT1_BLK",
-    "CUP_optic_AIMM_MICROT1_tan",
-    "CUP_optic_AIMM_MICROT1_OD",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Pointer
@@ -171,6 +168,11 @@
     "GerRng_Equipment_GerRng_vz99_HE",
     "GerRng_Equipment_GerRng_vz99_smokeWhite",
     "GerRng_Equipment_GerRng_vz99_smokeWhiteVT",
+    "SPS_HKG3PMAG_30Rnd_556x45_B_BeOTMT",
+    "SPS_HKG3PMAG_30Rnd_556x45_B_BeVLDT",
+    "SPS_HKG3PMAG_30Rnd_556x45_FDE_BeOTMT",
+    "SPS_HKG3PMAG_30Rnd_556x45_FDE_BeVLDT",
+    
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Grenades / throw

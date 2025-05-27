@@ -1,16 +1,16 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
-//	Sierra_Schuetze
+//  Sierra_Schuetze
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 player setVariable ["GR_unitLoadout","Sierra_Schuetze"];
 
-//	https://community.bistudio.com/wiki/Unit_Loadout_Array
+//  https://community.bistudio.com/wiki/Unit_Loadout_Array
 player setUnitLoadout [
-    ["CUP_arifle_HK416_CQB_Wood", "CUP_muzzle_snds_SCAR_L", "CUP_acc_ANPEQ_15_Flashlight_OD_L", "CUP_optic_AIMM_MICROT1_OD", 
-        ["CUP_30Rnd_556x45_PMAG_OD", 30], [], "CUP_bipod_Harris_1A2_L"
+    ["SPS_hk416_11_sl_t_ctr_vfg_a7_black_f", "muzzle_snds_HXQD556K_black_M", "sps_M300C_RAID_IR", "SPS_EOTech_Black_5xMAG_up", 
+        ["SPS_HKG3PMAG_30Rnd_556x45_B_Mk318", 30], [], ""
     ],
     [],
     ["CUP_hgun_Glock17_blk", "CUP_muzzle_snds_M9", "", "optic_MRD_black", 
@@ -23,11 +23,11 @@ player setUnitLoadout [
         ["kat_Penthrox", 1, 10]
     ]],
     ["CUP_V_B_GER_Armatus_BB_Fleck", [
-        ["CUP_30Rnd_556x45_PMAG_OD", 7, 30], ["CUP_17Rnd_9x19_glock17", 3, 17], 
-        ["SmokeShell", 2, 1], ["SmokeShellGreen", 2, 1], ["ACE_M84", 4, 1]
+        ["SPS_HKG3PMAG_30Rnd_556x45_B_Mk318", 7, 30], ["CUP_17Rnd_9x19_glock17", 3, 17], 
+        ["SmokeShell", 2, 1], ["SmokeShellGreen", 2, 1], ["tsp_flashbang_m84", 4, 1]
     ]],
     ["CFP_Camelbak_Mule_RngrGrn", [
-        ["CUP_H_OpsCore_Covered_Fleck", 1], ["CUP_NVG_PVS15_black", 1], 
+        ["CUP_H_OpsCore_Covered_Fleck", 1], ["ACE_NVG_Gen4_Black_WP", 1], 
         ["ACE_salineIV_500", 4], ["ACE_wirecutter", 1], ["ACE_EntrenchingTool", 1], 
         ["ACE_elasticBandage", 15], ["ACE_splint", 2], ["ACE_tourniquet", 2], 
         ["kat_chestSeal", 1], ["ACE_packingBandage", 15], 
@@ -40,16 +40,16 @@ player setUnitLoadout [
 ];
 
 //------------------------------------------------------------------
-//	ACE Optionen fuer Spieler
+//  ACE Optionen fuer Spieler
 //------------------------------------------------------------------
-//	Medic:
+//  Medic:
 player setVariable ["ACE_medical_medicClass",0,true];
 
-//	Combat Engineer:
+//  Combat Engineer:
 player setVariable ["ACE_isEngineer",0,true];
 
-//	Explosive Specialist:
+//  Explosive Specialist:
 player setVariable ["ACE_isEOD",false,true];
 
-//	Waffe sichern
+//  Waffe sichern
 [ACE_player, currentWeapon ACE_player, true] call ace_safemode_fnc_setWeaponSafety;

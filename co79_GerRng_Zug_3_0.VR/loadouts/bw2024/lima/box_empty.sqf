@@ -1,12 +1,33 @@
-if (! isServer) exitWith {};
+private _dialog = findDisplay 220901;
+if (isNull _dialog) exitWith {};
 
-_box = _this select 0;
 
-clearWeaponCargoGlobal _box; 
-clearMagazineCargoGlobal _box;
-clearItemCargoGlobal _box;
-clearBackpackCargoGlobal _box;
+// Get box class from dialog variable
+        private _boxClass = "ACE_Box_Chemlights";
 
-// für diese Box Gewichtslimit Ignorieren
-//[_box, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
-//[_box, true, [0, 2, 0], 90, true] call ace_dragging_fnc_setDraggable;
+
+        // Get reference object and offset
+        private _sourceObject = uiNamespace getVariable ["currentSupplyObject", objNull];
+        private _offset = _sourceObject getVariable ["supply_offset", [0,3,0]];
+
+        // Calculate spawn position with offset
+        private _spawnPos = _sourceObject modelToWorld _offset;
+
+        // Create supply box at calculated position
+        private _supplyBox = createVehicle [_boxClass, _spawnPos, [], 0, "CAN_COLLIDE"];
+        _supplyBox setDir (getDir _sourceObject);
+        _supplyBox setPosATL ASLToATL AGLToASL _spawnPos;
+
+        clearWeaponCargoGlobal _supplyBox; 
+        clearMagazineCargoGlobal _supplyBox;
+        clearItemCargoGlobal _supplyBox;
+        clearBackpackCargoGlobal _supplyBox;
+
+        _supplyBox allowDamage false;
+
+        [_supplyBox] spawn {
+            //systemchat str _this;
+            params ["_supplyBox"];
+            sleep 2;
+            _supplyBox allowDamage true;
+        };

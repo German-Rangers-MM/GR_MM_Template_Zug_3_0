@@ -1,0 +1,108 @@
+name: Determining altered Files
+on:
+    pull_request_target:
+        branches:
+          - main
+        types: [opened, edited, synchronize, reopened]
+jobs:
+  # JOB to run change detection
+  changes:
+    runs-on: ubuntu-latest
+    # Required permissions
+    permissions:
+      pull-requests: read
+    # Set job outputs to values from filter step
+    outputs:
+      cba: ${{ steps.filter.outputs.cba }}
+      template: ${{ steps.filter.outputs.template }}
+      workflows: ${{ steps.filter.outputs.workflows }}
+    steps:
+    # For pull requests it's not necessary to checkout the code
+    - uses: dorny/paths-filter@v3
+      id: filter
+      with:
+        token: ${{ secrets.GR_MM_TOKEN }}
+        base: 'main'
+        filters: |
+          cba:
+            - 'cba_configs/**'
+          template:
+            - '!cba_configs/**'
+            - '!.github/**'
+            - 'co79_GerRng_Zug_3_0.VR/'
+          workflows:
+            - '.github/**'
+
+  # JOB to build and test backend code
+  cba:
+    needs: changes
+    if: ${{ needs.changes.outputs.cba == 'true' }}
+    runs-on: ubuntu-latest
+    name: 'Check for Config-Changes'
+    steps:
+     - run: echo 'CBA-Configs have been altered'
+
+
+  template:
+    needs: changes
+    if: ${{ needs.changes.outputs.template == 'true' }}
+    runs-on: ubuntu-latest
+    name: 'Check for Template-Changes'
+    steps:
+     - run: echo 'Template has been altered'
+
+  workflows:
+    needs: changes
+    if: ${{ needs.changes.outputs.workflows == 'true' }}
+    runs-on: ubuntu-latest
+    name: 'Check for Workflows-Changes'
+    steps:
+     - run: echo 'Workflows have been altered'
+            
+  lint:
+    needs: template
+    runs-on: ubuntu-latest
+    name: SQF Linting
+    steps:
+       - name: Checkout
+         uses: actions/checkout@v4
+       - uses: arma-actions/sqflint@v1.0
+         name: Validate with SQFLint with custom arguments
+         with:
+            args: --directory co79_GerRng_Zug_3_0.VR
+
+  autoapprove:
+    if: |
+      always() && 
+      (needs.cba.result == 'success' || needs.workflows.result == 'success')
+    needs: [cba, workflows]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auto Approve for Workflows
+        if: ${{github.actor == 'ItsGiantCookie' || github.actor == 'HendrikTank' }}
+        uses: hmarr/auto-approve-action@v4
+        with:
+            review-message: "Auto approved Workflow-Update"
+            
+      - name: Auto Approve for Configs
+        if: ${{github.actor == 'Cesrap' }}
+        uses: hmarr/auto-approve-action@v4
+        with:
+            review-message: "Auto approved CBA-Config-Update"
+
+  autoassign:
+    if: |
+      always()
+    needs: [template, cba, workflows]
+    runs-on: ubuntu-latest
+    name: 'Auto-assign PR'
+    steps:
+      - name: 'Assigning PR'
+        if: ${{github.actor != 'Cesrap' }}
+        uses: pozil/auto-assign-issue@v2
+        with:
+            repo-token: ${{ secrets.GR_MM_TOKEN }}
+            teams: mission-makers-dev
+            numOfAssignee: 1
+            abortIfPreviousAssignees: true
+            allowSelfAssign: false

@@ -14,9 +14,6 @@
     // Visiere
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    "CUP_optic_MicroT1",
-    "CUP_optic_MicroT1_coyote",
-    "CUP_optic_MicroT1_OD",
     "CUP_optic_AC11704_Black",
     "CUP_optic_AC11704_tan",
     "CUP_optic_AC11704_OD",
@@ -29,15 +26,6 @@
     "CUP_optic_Elcan_reflex",
     "CUP_optic_Elcan_reflex_Coyote",
     "CUP_optic_Elcan_reflex_OD",
-    "CUP_optic_HoloBlack",
-    "CUP_optic_HoloDesert",
-    "CUP_optic_HoloWdl",
-    "CUP_optic_Eotech553_Black",
-    "CUP_optic_Eotech533",
-    "CUP_optic_Eotech553_OD",
-    "CUP_optic_G33_HWS_BLK",
-    "CUP_optic_G33_HWS_tan",
-    "CUP_optic_G33_HWS_OD",
     "optic_Holosight_blk_F",
     "optic_Holosight",
     "optic_Holosight_lush_F",
@@ -60,11 +48,28 @@
     "CUP_optic_ZeissZPoint_desert",
     "CUP_optic_ZeissZPoint_wood",
     "CUP_optic_G36DualOptics_3D",
-    "CUP_optic_AIMM_MICROT1_BLK",
-    "CUP_optic_AIMM_MICROT1_tan",
-    "CUP_optic_AIMM_MICROT1_OD",
     "optic_MRD",
     "optic_MRD_black",    
+
+	//SPS
+    "sps_aimpoint_T1_Black",
+    "sps_aimpoint_T1_Black50",
+    "sps_aimpoint_T1_Sand",
+    "sps_aimpoint_T1_Sand50",
+    "sps_aimpoint_T1_3xMAG_up_Black",
+    "sps_aimpoint_T1_3xMAG_up",
+    "sps_aimpoint_T1_Black_High",
+    "sps_aimpoint_T1_Black_High50",
+    "sps_aimpoint_T1_High",
+    "sps_aimpoint_T1_High50",
+    "SPS_EOTech_Black",
+    "SPS_EOTech_Black50",
+    "SPS_EOTech_Tan",
+    "SPS_EOTech_Tan50",
+    "SPS_EOTech_Black_3xMAG_up",
+    "SPS_EOTech_Tan_3xMAG_up",
+    "SPS_EOTech_Black_5xMAG_up",
+    "SPS_EOTech_Tan_5xMAG_up",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Pointer
@@ -79,7 +84,19 @@
     "CUP_acc_LLM_black",
     "CUP_acc_LLM",
     "CUP_acc_LLM_od",
-    "CUP_acc_CZ_M3X",    
+    "CUP_acc_CZ_M3X",
+
+    //SPS
+    "sps_M300C",
+    "sps_M300C_tan", 
+    "sps_M300C_MAWL_IR",
+    "sps_M300C_MAWL_IR_tan",
+    "sps_M300C_MAWL_high_IR",
+    "sps_M300C_MAWL_high_IR_tan",
+    "sps_M300C_MAWL_LAMG_IR",
+    "sps_M300C_MAWL_LAMG_IR_tan",
+    "sps_M300C_MAWL_smr_IR",
+    "sps_M300C_MAWL_smr_IR_tan",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Bipods

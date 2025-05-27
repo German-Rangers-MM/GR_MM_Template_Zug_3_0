@@ -1,24 +1,9 @@
-// Kiste Sierra Typ III - Munition
-/* Aufruf im Editor mit:
-
-_path = format ["loadouts\%1\lima\box_sierra_typ_iii.sqf", getMissionConfigValue "fraktion"]; 
-null = [this] execVM _path;
-
-*/
-
-if (! isServer) exitWith {};
-
-_box = _this select 0;
-
-clearWeaponCargoGlobal _box; 
-clearMagazineCargoGlobal _box;
-clearItemCargoGlobal _box;
-clearBackpackCargoGlobal _box;
-
-_box addItemCargoGlobal ["7Rnd_408_Mag", 15];
-_box addItemCargoGlobal ["CUP_20Rnd_762x51_HK417", 30];
-_box addItemCargoGlobal ["CUP_21Rnd_9x19_M17_Black", 15];
-
-// für diese Box Gewichtslimit Ignorieren
-//[_box, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
-//[_box, true, [0, 2, 0], 90, true] call ace_dragging_fnc_setDraggable;
+[
+    "Sierra Typ 3 - Trupp 1 - A",
+    "Land_PlasticCase_01_medium_black_F",
+    ["CUP_5Rnd_762x67_G22", 15],
+    ["CUP_5Rnd_86x70_L115A1", 15],
+    ["SPS_20Rnd_762x51mm_M80A1_EPR_IR", 14],
+    ["CUP_40Rnd_46x30_MP7", 14],
+    ["CUP_17Rnd_9x19_glock17", 6]
+];

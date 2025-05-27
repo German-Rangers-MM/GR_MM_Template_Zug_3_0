@@ -13,11 +13,16 @@ _whitelistedMods = 	[
 						"@3den Enhanced", "623475643",
 						"@ZEC - Zeus and Eden Templates - Building Compositions", "642912021",
 						"@ZEI - Zeus and Eden Interiors", "1251859358",
+						"@ZEI - Zeus and Eden Interiors ( Continued )", "3438718557",
 						"@ZECCUP - Zeus and Eden Templates for CUP Terrains", "750186990",
 						"@Eden 2.0","2193296534",
 						"@Eden Mirror Function", "2807516605",
 						"@Snapping for Eden and Zeus","2961167812",
 						"@3DEN Better Inventory","1124993203",
+						"@LAMBS_Danger.fsm","1858075458",
+						"@LAMBS_RPG","1858070328",
+						"@LAMBS_Suppression","1808238502",
+						"@LAMBS_Turrets","1862208264",
 						
 						// CUP
 						"@CUP Terrains - Core", "583496184",
@@ -57,10 +62,13 @@ _whitelistedMods = 	[
 						"@PERSIST - RCO","2603942867",
 						"@BoxLoader - Vehicle in Vehicle loading","1199318917",
 						"@Boxloader - ACE compatability","1201499127",
+						"@Resonance Mods - Logistics", "2904244564",
 						"@ACE3 Arsenal Extended - Core","2522638637",
 						"@ACE3 Arsenal Extended - CUP","3135187540",
 						"@ILBE Assault Pack - Rewrite - GERRNG Edited","3314854956",
 						"@A3 Thermal Improvement", "2041057379",
+						"@SPS Weapons V2", "2811886291",
+						"@SPS Equipment", "1187306764",
 
 						//Additional Maps
 						"@Jbad", "520618345",
@@ -105,10 +113,11 @@ _whitelistedMods = 	[
 						"@cb_blood", "2362277256",
 						"@Enhanced Map Ace Version", "2467590475",
 						"@Simplex Support Services", "1850026051",
+						"@Simplex Support Services [DEV BUILD]", "3029520419",
 						"@DUI - Squad Radar", "1638341685",
 						"@BackpackOnChest - Redux", "2372036642",
 						"@Arma 3 PiShock", "3024239355",
-						"@AWESome : Aerial Warfare Enhanced Somehow","1301399507",
+						"@AWESome : Aerial Warfare Enhanced Somehow", "1301399507",
 						
 						//Visual
 						"@Blastcore Edited (standalone version)", "767380317",
@@ -140,6 +149,8 @@ _whitelistedMods = 	[
 						"@JSRS SOUNDMOD - CUP WEAPONS MOD SOUND SUPPORT", "1624803912",
 						"@JSRS SOUNDMOD - CUP VEHICLES MOD SOUND SUPPORT", "1624804924",
 						"@JSRS SOUNDMOD - Reloading Sounds", "1429098683",
+						"@JSRS SOUNDMOD 2025 Beta - RC2.2", "3407948300",
+						"@JSRS SOUNDMOD 2025 Beta - AiO Compat Files RC2.2", "3407970596",
 						
 						
 						//Zeus Mods

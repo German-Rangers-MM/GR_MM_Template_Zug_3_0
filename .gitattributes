@@ -1,1 +1,7 @@
 .git* export-ignore
+cba_configs/ export-ignore
+*.html export-ignore
+*.md export-ignore
+*.html linguist-vendored
+*.cpp linguist-language=SQF
+*.hpp linguist-language=SQF

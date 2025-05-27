@@ -1,18 +1,33 @@
 // Kiste Sanität Typ III - Verpflegung
 // Aufruf im Editor mit     _nul = execvm "scripts\supplies\box_san_typ_3.sqf";
 
-if (! isServer) exitWith {};
+private _dialog = findDisplay 220901;
+if (isNull _dialog) exitWith {};
 
-_box = _this select 0;
+// Get box class from dialog variable
+private _boxClass = "Land_PlasticCase_01_medium_gray_F";
 
-clearWeaponCargoGlobal _box; 
-clearMagazineCargoGlobal _box;
-clearItemCargoGlobal _box;
-clearBackpackCargoGlobal _box;
+
+// Get reference object and offset
+private _sourceObject = uiNamespace getVariable ["currentSupplyObject", objNull];
+private _offset = _sourceObject getVariable ["supply_offset", [0,3,0]];
+
+// Calculate spawn position with offset
+private _spawnPos = _sourceObject modelToWorld _offset;
+
+// Create supply box at calculated position
+private _supplyBox = createVehicle [_boxClass, _spawnPos, [], 0, "CAN_COLLIDE"];
+_supplyBox setDir (getDir _sourceObject);
+_supplyBox setPosATL ASLToATL AGLToASL _spawnPos;
+
+_supplyBox allowDamage false;
+
+private _crateContent = [];
+
 
 for "_i" from 0 to random [14,15,20] do 
 {
-    _mre = selectRandom
+    _class = selectRandom
     [
         "ACE_Humanitarian_Ration",
         "ACE_MRE_BeefStew",
@@ -24,13 +39,20 @@ for "_i" from 0 to random [14,15,20] do
         "ACE_MRE_MeatballsPasta",
         "ACE_MRE_SteakVegetables"
     ];
-    _amount = random [1,4,12];
-    _box addItemCargoGlobal [_mre, _amount];
+    _quantity = random [1,4,12];
+    _crateContent append [[_class, _quantity]];
 };
 
-_box addItemCargoGlobal ["ACE_WaterBottle",16];
+_crateContent append [["ACE_WaterBottle",16]];
 
+{
+    _x params ["_class", "_quantity"];
+    _supplyBox addItemCargoGlobal [_class, _quantity];
+} forEach _crateContent;
 
-// für diese Box Gewichtslimit Ignorieren
-//[_box, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
-//[_box, true, [0, 2, 0], 90, true] call ace_dragging_fnc_setDraggable;
+[_supplyBox] spawn {
+	//systemchat str _this;
+	params ["_supplyBox"];
+	sleep 2;
+	_supplyBox allowDamage true;
+};
