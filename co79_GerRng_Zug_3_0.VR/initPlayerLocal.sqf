@@ -64,20 +64,20 @@ if (getMissionConfigValue "loadPlayers" == "true") then {
 					4: If the Detailed Load will apply to players who join while the mission is in progress. <BOOLEAN>				
 				*/
 				
-				[[2,0,0,0,true],"RCOP\RCOPersist\RCOPcrateFiller.sqf"] remoteExec ["execVM",0];
+				[] spawn {
+					waitUntil { sleep 1; uiTime > 5; };
+					[[2,0,0,0,true],"RCOP\RCOPersist\RCOPcrateFiller.sqf"] remoteExec ["execVM",0];
+				};
 			};
 		};
 		
-		// gespeichertes Loadout vorhanden?			
+		// gespeichertes player Loadout vorhanden?			
 		_playerBasedLoadout = profileNamespace getVariable ["rimmy_camp_var_playerLoadout", [ ]]; // Player-Profile based -> Loadout-Array
 		
+		// gespeichertes slot Loadout vorhanden?		
 		_slotBasedLoadout = [];
-		_slotBasedData = profileNamespace getVariable ["rimmy_camp_var_slotLoadout", [ ]];  // Slot-Based -> HashMap		
-		
-		// check ob player in HashMap
-		if ((vehicleVarName player) in _slotBasedData) then {
-			_slotBasedLoadout = _slotBasedData get (vehicleVarName player);		
-		};			
+		_slotBasedData = profileNamespace getVariable ["rimmy_camp_var_slotLoadout", [ ]];  // Slot-Based -> HashMap			
+		if ((vehicleVarName player) in _slotBasedData) then { _slotBasedLoadout = _slotBasedData get (vehicleVarName player); };			
 		
 		// gespeichertes Loadout gefunden -> Persist-RCO sollte das Loadout automatisch laden
 		if ( ((count _playerBasedLoadout) > 0) || ((count _slotBasedLoadout) > 0) ) then {			
@@ -98,28 +98,7 @@ if (getMissionConfigValue "loadPlayers" == "true") then {
             player setUnitLoadout _gear;            
             _standardLoadout = false;
         };      
-    };
- 
-    // workaround für ACE Unit Traits
-    // greift nicht für spieler, die im Lauf der Mission die Rolle gewechselt haben
-    _loadoutName = player getVariable ["GR_unitLoadout", "UNDEFINED"];
-    _medT   = 0;
-    _engT   = 0;
-    _eodT   = false;
-    
-    _medic_1 = ["Schuetze_EHB"];
-    _medic_2 = ["Lima","ZugSani","Mike_AvD","Mike_Sani","Sanitaeter","Sanitaeter_WaGru","Sierra_NaSi"];
-    _engineer = ["Lima"];
-    _eod = ["Lima"];
-    
-    if (_loadoutName in _medic_1) then { _medT = 1; };
-    if (_loadoutName in _medic_2) then { _medT = 2; };
-    if (_loadoutName in _engineer) then { _engT = 2; };
-    if (_loadoutName in _eod) then { _eodT = true; };
-    
-    player setVariable ["ACE_medical_medicClass",_medT,true];
-    player setVariable ["ACE_isEngineer",_engT,true];
-    player setVariable ["ACE_isEOD",_eodT,true];    
+    }; 
 };
  
 // kein Loadout gespeichert -> Standard Loadout zuweisen

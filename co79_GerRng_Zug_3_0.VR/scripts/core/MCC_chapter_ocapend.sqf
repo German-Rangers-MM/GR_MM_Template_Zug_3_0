@@ -4,6 +4,11 @@
 //
 params ["_delay", "_gameType", "_endingType"];
 
+// save ACE Unit Traits of all players to Server Profile 
+if (! isNil "GR_savedAceTraitsMap") then {
+	profileNamespace setVariable ["GR_savedAceTraitsVar", GR_savedAceTraitsMap];
+};
+
 private _win = true;
 if (_endingType isEqualTo "end3") then {
 	_win = false;

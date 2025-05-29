@@ -19,7 +19,11 @@ removeallWeapons player;
 	sleep 2;
 	call compile preprocessFileLineNumbers format ['loadouts\%1\loadout\%2.sqf', fraktionV, _data];
 	[tarnfarbeV] call SGN_fnc_replaceTarnfarbe;	
+	[player, _data] execVM format ["loadouts\%1\aceUnitTraits.sqf", fraktionV];
+	//	Waffe sichern
+	[ACE_player, currentWeapon ACE_player, true] call ace_safemode_fnc_setWeaponSafety;
 	sleep 2;
+	// Waffe senken
 	player action ["WeaponOnBack", player];
 };
 

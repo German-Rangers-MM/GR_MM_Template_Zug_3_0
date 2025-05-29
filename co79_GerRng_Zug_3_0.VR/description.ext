@@ -94,7 +94,7 @@ class Params {
 		title = "Mod Check";
 		values[] = {1,0};
 		texts[] = {"Ein","Aus"};
-		default = 1;	
+		default = 0;	
 	};
 	
 	class GR_viewDistance {
