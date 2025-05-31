@@ -65,7 +65,7 @@ if (getMissionConfigValue "loadPlayers" == "true") then {
 				*/
 				
 				[] spawn {
-					waitUntil { sleep 1; uiTime > 5; };
+					waitUntil { sleep 1; time > 5; };
 					[[2,0,0,0,true],"RCOP\RCOPersist\RCOPcrateFiller.sqf"] remoteExec ["execVM",0];
 				};
 			};
@@ -237,36 +237,42 @@ if (isClass(configFile >> "cfgPatches" >> "task_force_radio")) then {
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
-//						German Rangers GUI
+//						German Rangers Base Menu
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 
-_playerGrp = group player;
-
 //Bestimmt wann das GR Menü angezeigt wird. Im Umkreis der Basis (Radius 50m)und vor Missionsstart.
-_condition = {player distance GR_baseFlag < 100 || missionstarted == false};
+_conditionBase = {player distance2D GR_baseFlag < 100 || missionstarted == false};
 
 // Creating a Sub Menu Category GR Base with Logo
-_base_menu = ["GR Base","GR Base","images\GermanRangersLogo.paa",{  },_condition] call ace_interact_menu_fnc_createAction;
-[(typeOf player), 1, ["ACE_SelfActions"], _base_menu] call ace_interact_menu_fnc_addActionToClass;
+_base_menu = ["GR Base","GR Base","images\GermanRangersLogo.paa",{  },_conditionBase] call ace_interact_menu_fnc_createAction;
+[player, 1, ["ACE_SelfActions"], _base_menu] call ace_interact_menu_fnc_addActionToObject;
 
 //Add Waffenkammer to ACE Menu GR Base
 if (getMissionConfigValue "allowWaffenkammer" == "true") then { 
-	_waffenkammer = ["Waffenkammer","Waffenkammer","a3\ui_f\data\gui\rsc\rscdisplayarsenal\spacegarage_ca.paa",{ execVM waffenkammerpfad; },_condition] call ace_interact_menu_fnc_createAction;
-	[(typeOf player), 1, ["ACE_SelfActions","GR Base"], _waffenkammer] call ace_interact_menu_fnc_addActionToClass;
+	_waffenkammer = ["Waffenkammer","Waffenkammer","a3\ui_f\data\gui\rsc\rscdisplayarsenal\spacegarage_ca.paa",{ execVM waffenkammerpfad; },_conditionBase] call ace_interact_menu_fnc_createAction;
+	[player, 1, ["ACE_SelfActions","GR Base"], _waffenkammer] call ace_interact_menu_fnc_addActionToObject;
 };
 
 // Add Teleport to ACE Menu GR Base
-_teleport_action = ["Teleporter","Teleporter","a3\ui_f\data\igui\cfg\simpletasks\types\move_ca.paa",{ [player] spawn GR_fnc_createTeleportDialog; },_condition] call ace_interact_menu_fnc_createAction;
+_teleport_action = ["Teleporter","Teleporter","a3\ui_f\data\igui\cfg\simpletasks\types\move_ca.paa",{ [player] spawn GR_fnc_createTeleportDialog; },_conditionBase] call ace_interact_menu_fnc_createAction;
 [player, 1, ["ACE_SelfActions","GR Base"], _teleport_action] call ace_interact_menu_fnc_addActionToObject;
 
 // Add Loadout to ACE Menu GR Base
 if (getMissionConfigValue "allowLoadouts" == "true") then {
 	// neue function für Zug 3.0	
-	_loadout_action = ["Loadouts","Loadouts","a3\ui_f\data\gui\rsc\rscdisplayarsenal\handgun_ca.paa",{ [player] spawn GR_fnc_createLoadoutDialog; },_condition] call ace_interact_menu_fnc_createAction;
+	_loadout_action = ["Loadouts","Loadouts","a3\ui_f\data\gui\rsc\rscdisplayarsenal\handgun_ca.paa",{ [player] spawn GR_fnc_createLoadoutDialog; },_conditionBase] call ace_interact_menu_fnc_createAction;
 	[player, 1, ["ACE_SelfActions","GR Base"], _loadout_action] call ace_interact_menu_fnc_addActionToObject;	
 };
+
+//------------------------------------------------------------------
+//------------------------------------------------------------------
+//
+//						German Rangers Equipment Menu
+//
+//------------------------------------------------------------------
+//------------------------------------------------------------------
 
 // Add Würfeln Category to ACE Menu GR Equipment
 _diceMain = ["GR_diceMain","Würfeln","a3\3den\data\displays\display3den\toolbar\widget_local_ca.paa",{  },{true}] call ace_interact_menu_fnc_createAction;
@@ -278,7 +284,15 @@ _actionDice20 = ["GR_rollDice20","(W20)","",{ [player,"(W20)", floor (random 20)
 _actionDice6 = ["GR_rollDice6","(W6)","",{ [player,"(W6)", floor (random 6)+1,8] spawn SGN_fnc_rollDice; },{true}] call ace_interact_menu_fnc_createAction;
 [player, 1, ["ACE_SelfActions", "GerRng_equip","GR_diceMain"], _actionDice6] call ace_interact_menu_fnc_addActionToObject;
 
-// Debug Funktionen - Nur im Editor / SP verfügbar
+//------------------------------------------------------------------
+//------------------------------------------------------------------
+//
+//						Debug Funktionen 
+//					Nur im Editor / SP verfügbar
+//
+//------------------------------------------------------------------
+//------------------------------------------------------------------
+
 if (! isMultiplayer) then {		
 	// Full ACE Arsenal Action
 	_action = ["open","<t color='#52fc03'>Full ACE Arsenal</t>",["","#52fc03"],{ [player] spawn SGN_fnc_createArsenalACE; },{true}] call ace_interact_menu_fnc_createAction;
@@ -325,33 +339,35 @@ _mission_failed = ["Ende: Mission Failed","Ende: Mission Failed","",{ ["End3"] e
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 
-if (_playerGrp == grplima || _playerGrp == grpkilo || _playerGrp == grpfox || _playerGrp == grpvictor || _playerGrp == grphotel) then {
-	// Creating the Admin Control Menu Category GR Base with Logo
-	_adminmenu = ["GR Admin Menu","GR Admin Menu","images\GermanRangersLogo.paa",{}, {true}] call ace_interact_menu_fnc_createAction;
-	[(typeOf player), 1, ["ACE_SelfActions"], _adminmenu] call ace_interact_menu_fnc_addActionToClass;
+//Bestimmt für wen das GR Admin Menü angezeigt wird. 
+_conditionAdmin = { group player in [grplima,grpkilo,grpfox,grpvictor,grphotel] || (call BIS_fnc_admin > 0) };
 
-	_avdheal = ["AvD Heal","AvD Heal","a3\ui_f\data\igui\cfg\simpletasks\types\heal_ca.paa",{[player, cursorObject] call ace_medical_treatment_fnc_fullHeal},{true}] call ace_interact_menu_fnc_createAction;
-	[(typeOf player), 1, ["ACE_SelfActions","GR Admin Menu"], _avdheal] call ace_interact_menu_fnc_addActionToClass;
+// Creating the Admin Control Menu Category GR Base with Logo
+_adminmenu = ["GR Admin Menu","GR Admin Menu","images\GermanRangersLogo.paa",{}, _conditionAdmin] call ace_interact_menu_fnc_createAction;
+[player, 1, ["ACE_SelfActions"], _adminmenu] call ace_interact_menu_fnc_addActionToObject;
 
-	[(typeOf player), 1, ["ACE_SelfActions","GR Admin Menu"], _start_mission] call ace_interact_menu_fnc_addActionToClass;
+_avdheal = ["AvD Heal","AvD Heal","a3\ui_f\data\igui\cfg\simpletasks\types\heal_ca.paa",{[player, cursorObject] call ace_medical_treatment_fnc_fullHeal},_conditionAdmin] call ace_interact_menu_fnc_createAction;
+[player, 1, ["ACE_SelfActions","GR Admin Menu"], _avdheal] call ace_interact_menu_fnc_addActionToObject;
 
-	[(typeOf player), 1, ["ACE_SelfActions","GR Admin Menu"], _mission_succesful] call ace_interact_menu_fnc_addActionToClass;
-	
-	[(typeOf player), 1, ["ACE_SelfActions","GR Admin Menu"], _to_be_continued] call ace_interact_menu_fnc_addActionToClass;
-	
-	[(typeOf player), 1, ["ACE_SelfActions","GR Admin Menu"], _mission_failed] call ace_interact_menu_fnc_addActionToClass;
-	
-	_checkHCs = ["Check HCs","Check HCs","a3\ui_f\data\igui\cfg\simpletasks\types\intel_ca.paa",{[[player], SGN_fnc_infoHintHC] remoteExec ["spawn", 2];},{true}] call ace_interact_menu_fnc_createAction;
-	[player, 1, ["ACE_SelfActions","GR Admin Menu"], _checkHCs] call ace_interact_menu_fnc_addActionToObject;
-};
+[player, 1, ["ACE_SelfActions","GR Admin Menu"], _start_mission] call ace_interact_menu_fnc_addActionToObject;
 
-if (_playerGrp == grpmike) then {
+[player, 1, ["ACE_SelfActions","GR Admin Menu"], _mission_succesful] call ace_interact_menu_fnc_addActionToObject;
+
+[player, 1, ["ACE_SelfActions","GR Admin Menu"], _to_be_continued] call ace_interact_menu_fnc_addActionToObject;
+
+[player, 1, ["ACE_SelfActions","GR Admin Menu"], _mission_failed] call ace_interact_menu_fnc_addActionToObject;
+
+_checkHCs = ["Check HCs","Check HCs","a3\ui_f\data\igui\cfg\simpletasks\types\intel_ca.paa",{[[player], SGN_fnc_infoHintHC] remoteExec ["spawn", 2];},_conditionAdmin] call ace_interact_menu_fnc_createAction;
+[player, 1, ["ACE_SelfActions","GR Admin Menu"], _checkHCs] call ace_interact_menu_fnc_addActionToObject;
+
+
+if (group player == grpmike) then {
 	// Creating the Admin Control Menu Category GR Base with Logo
 	_avdmenu = ["GR AvD Menu","GR Avd Menu","images\GermanRangersLogo.paa",{}, {true}] call ace_interact_menu_fnc_createAction;
-	[(typeOf player), 1, ["ACE_SelfActions"], _avdmenu] call ace_interact_menu_fnc_addActionToClass;
+	[player, 1, ["ACE_SelfActions"], _avdmenu] call ace_interact_menu_fnc_addActionToObject;
 
 	_avdheal = ["AvD Heal","AvD Heal","a3\ui_f\data\igui\cfg\simpletasks\types\heal_ca.paa",{[player, cursorObject] call ace_medical_treatment_fnc_fullHeal},{true}] call ace_interact_menu_fnc_createAction;
-	[(typeOf player), 1, ["ACE_SelfActions","GR AvD Menu"], _avdheal] call ace_interact_menu_fnc_addActionToClass;
+	[player, 1, ["ACE_SelfActions","GR AvD Menu"], _avdheal] call ace_interact_menu_fnc_addActionToObject;
 };
 
 //------------------------------------------------------------------
@@ -372,8 +388,8 @@ if (_playerGrp == grpmike) then {
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 
-if (getMissionConfigValue "limaSupplyPoints" == "true") then {
-	if (_playerGrp == grplima || _playerGrp == grpkilo || _playerGrp == grphotel || _playerGrp == grpmike) then {
+if (getMissionConfigValue "limaSupplyPoints" == "true") then {	
+	if (group player in [grplima,grpkilo,grphotel,grpmike]) then {
 		
 		// Icon für Paletten-deploy
 		_icon = "a3\ui_f\data\igui\cfg\cursors\iconboardin_ca.paa";
