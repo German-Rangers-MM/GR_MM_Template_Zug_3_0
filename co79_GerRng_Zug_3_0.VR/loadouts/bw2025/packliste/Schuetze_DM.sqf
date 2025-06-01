@@ -352,6 +352,7 @@
     "CUP_20Rnd_762x51_HK417_Camo_Desert",
     "CUP_20Rnd_762x51_HK417_Camo_Wood",
     "CUP_20Rnd_TE1_Red_Tracer_762x51_HK417",
+    "ACE_20Rnd_762x51_M993_AP_Mag",
     //SPS
     "SPS_HKG3PMAG_30Rnd_556x45_B_BeOTMT",
     "SPS_HKG3PMAG_30Rnd_556x45_B_BeVLDT",
