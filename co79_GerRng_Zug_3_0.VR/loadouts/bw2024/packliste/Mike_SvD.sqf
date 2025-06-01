@@ -82,10 +82,12 @@
     "CUP_V_B_GER_Pvest_Fleck_RFL_LT",
     "CUP_V_B_GER_Pvest_Trop_RFL_LT",
     "CUP_V_B_GER_Tactical_Fleck",
-    "CUP_V_B_GER_Armatus__BBFleck",
-    "CUP_V_B_GER_Armatus_BB_Fleck",
     "CUP_V_B_GER_Armatus_Trop",
+    "CUP_V_B_GER_Armatus_BB_Trop",
     "CUP_V_B_GER_Armatus_Fleck",
+    "CUP_V_B_GER_Armatus_BB_Fleck",
+    "CUP_V_B_Armatus_Black",
+    "CUP_V_B_Armatus_BB_Black",
     "V_Chestrig_rgr",
 
     "Aircrew_vest_2_NH",
@@ -149,6 +151,8 @@
     
     "B_SCBA_01_F",
     "B_CombinationUnitRespirator_01_F",
+
+    "CFP_Kitbag_Olive",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Helme
@@ -174,6 +178,7 @@
     "G_RegulatorMask_F",
     "G_Aviator",
     "G_Bandanna_aviator",
+    "G_Bandanna_blk",
     "CUP_G_TK_roundGlasses",
     "CUP_G_TK_roundGlasses_blk",
     // ------------------------------------------------------------------

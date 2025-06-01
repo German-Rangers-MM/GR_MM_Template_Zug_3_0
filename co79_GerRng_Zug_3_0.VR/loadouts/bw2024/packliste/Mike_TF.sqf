@@ -130,10 +130,12 @@
     "CUP_V_B_GER_Pvest_Fleck_TL_LT",
     "CUP_V_B_GER_Pvest_Trop_TL_LT",
     "CUP_V_B_GER_Tactical_Fleck",
-    "CUP_V_B_GER_Armatus_BB_Fleck",
-    "CUP_V_B_GER_Armatus_BB_Fleck",
     "CUP_V_B_GER_Armatus_Trop",
+    "CUP_V_B_GER_Armatus_BB_Trop",
     "CUP_V_B_GER_Armatus_Fleck",
+    "CUP_V_B_GER_Armatus_BB_Fleck",
+    "CUP_V_B_Armatus_Black",
+    "CUP_V_B_Armatus_BB_Black",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // backpacks
@@ -191,6 +193,8 @@
     
     "B_SCBA_01_F",
     "B_CombinationUnitRespirator_01_F",
+
+    "CFP_Kitbag_Olive",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Helme
@@ -220,7 +224,7 @@
     "G_RegulatorMask_F",
     "G_Aviator",
     "G_Bandanna_aviator",
-    
+    "G_Bandanna_blk",    
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // NVGs
