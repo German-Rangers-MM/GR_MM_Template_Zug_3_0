@@ -98,10 +98,12 @@
     "CUP_V_B_GER_Pvest_Fleck_Med_LT",
     "CUP_V_B_GER_Pvest_Trop_Med_LT",
     "CUP_V_B_GER_Tactical_Fleck",
-    "CUP_V_B_GER_Armatus_BB_Fleck",
-    "CUP_V_B_GER_Armatus_BB_Fleck",
     "CUP_V_B_GER_Armatus_Trop",
+    "CUP_V_B_GER_Armatus_BB_Trop",
     "CUP_V_B_GER_Armatus_Fleck",
+    "CUP_V_B_GER_Armatus_BB_Fleck",
+    "CUP_V_B_Armatus_Black",
+    "CUP_V_B_Armatus_BB_Black",
     "V_Chestrig_rgr",
 
     "Aircrew_vest_2_NH",
@@ -200,6 +202,7 @@
     "CUP_G_TK_roundGlasses_blk",
     "G_Aviator",
     "G_Bandanna_aviator",
+    "G_Bandanna_blk",
     "G_AirPurifyingRespirator_01_F",
     "G_RegulatorMask_F",
     // ------------------------------------------------------------------
