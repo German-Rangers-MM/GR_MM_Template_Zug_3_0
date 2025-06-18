@@ -42,6 +42,33 @@
     "CUP_smg_MP5A5",
     "SMG_05_F",
     "CUP_smg_MP7",
+
+    //SPS
+    "SPS_hk416_14_5_glm_hk_black_f",
+    "SPS_hk416_14_5_glm_hk_sf_black_f",
+    "SPS_hk416_14_5_glm_hk_a7_black_f",
+    "SPS_hk416_14_5_glm_hk_ctr_black_f",
+    "SPS_hk416_14_5_glm_hk_ctr_sf_black_f",
+    "SPS_hk416_14_5_glm_hk_ctr_a7_black_f",
+    "SPS_hk416_16_5_glm_hk_black_f",
+    "SPS_hk416_16_5_glm_hk_sf_black_f",
+    "SPS_hk416_16_5_glm_hk_a7_black_f",
+    "SPS_hk416_16_5_glm_hk_ctr_black_f",
+    "SPS_hk416_16_5_glm_hk_ctr_sf_black_f",
+    "SPS_hk416_16_5_glm_hk_ctr_a7_black_f",
+
+    "SPS_hk416_14_5_glm_hk_ral8000_f",
+    "SPS_hk416_14_5_glm_hk_sf_ral8000_f",
+    "SPS_hk416_14_5_glm_hk_a7_ral8000_f",
+    "SPS_hk416_14_5_glm_hk_ctr_ral8000_f",
+    "SPS_hk416_14_5_glm_hk_ctr_sf_ral8000_f",
+    "SPS_hk416_14_5_glm_hk_ctr_a7_ral8000_f",
+    "SPS_hk416_16_5_glm_hk_ral8000_f",
+    "SPS_hk416_16_5_glm_hk_sf_ral8000_f",
+    "SPS_hk416_16_5_glm_hk_a7_ral8000_f",
+    "SPS_hk416_16_5_glm_hk_ctr_ral8000_f",
+    "SPS_hk416_16_5_glm_hk_ctr_sf_ral8000_f",
+    "SPS_hk416_16_5_glm_hk_ctr_a7_ral8000_f",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Visiere
@@ -117,6 +144,7 @@
     "CUP_MK19_carry",
     "CUP_m252_carry",
     "ace_csw_carryMortarBaseplate",
+    "GerRng_Equipment_GerRng_vz99_carryWeapon",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // uniforms
@@ -302,6 +330,7 @@
     "C_UavTerminal",
     
     "ChemicalDetector_01_watch_F",
+    "KAT_ChemicalDetector",
     
     "tfw_blade",
     "tfw_dd",
@@ -366,6 +395,11 @@
     "ACE_1Rnd_82mm_Mo_Illum",
     "ACE_1Rnd_82mm_Mo_Smoke",
     "ACE_1Rnd_82mm_Mo_HE_LaserGuided",
+    "GerRng_Equipment_GerRng_vz99_flare_IR",
+    "GerRng_Equipment_GerRng_vz99_flare",
+    "GerRng_Equipment_GerRng_vz99_HE",
+    "GerRng_Equipment_GerRng_vz99_smokeWhite",
+    "GerRng_Equipment_GerRng_vz99_smokeWhiteVT",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Grenades / throw
@@ -437,6 +471,7 @@
     "ACE_SpottingScope",
     "ACE_Tripod",
     "Attachable_Helistretcher",
+    "tfw_rf3080Item",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Misc 2
@@ -450,6 +485,14 @@
     "ace_marker_flags_white",
     "ace_marker_flags_yellow",
     "ace_marker_flags_green",
+    "ace_flags_black",
+    "ace_flags_blue",
+    "ace_flags_green",
+    "ace_flags_orange",
+    "ace_flags_purple",
+    "ace_flags_red",
+    "ace_flags_white",
+    "ace_flags_yellow",
     "ACE_rope12",
     "ACE_rope15",
     "ACE_rope15",

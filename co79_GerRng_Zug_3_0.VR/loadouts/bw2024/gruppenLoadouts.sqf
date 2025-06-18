@@ -60,6 +60,17 @@ GR_WaffenRollen = [
 					["Waffen-Assi. Titan AT","Waffen_Assi_TitanAT"],
 					["Waffen-Spez. Titan AA","Waffen_Spez_TitanAA"],
 					["Waffen-Assi. Titan AA","Waffen_Assi_TitanAA"],
+					["Waffen-Spezi. M2","Waffen_Spez_M2"],
+					["Waffen-Assi. M2","Waffen_Assi_M2"],
+					["Waffen-Spezi. Mk19","Waffen_Spez_Mk19"],
+					["Waffen-Assi. Mk19","Waffen_Assi_Mk19"],
+					["Waffen-Spezi. TOW","Waffen_Spez_TOW"],
+					["Waffen-Assi. TOW","Waffen_Assi_TOW"],
+					["Waffen-Spezi. Mörser","Waffen_Spez_Moerser"],
+					["Waffen-Assi. Mörser","Waffen_Assi_Moerser"],
+					["Spezialpionier Mörser","Spezialpionier_Moerser"],
+					["Spezialpionier Tripod Normal","Spezialpionier_TriNorm"],
+					["Spezialpionier Tripod Low","Spezialpionier_TriLow"],
 					["Spezialpionier","Spezialpionier"]
 ];
 
@@ -72,9 +83,15 @@ GR_WaffenRollen = [
 GR_ScharfRollen = [
 					["Gruppenführer","Sierra_GrpFhr"],
 					["Aufklärungssanitäter","Sierra_AufSan"],
+					["Truppführer","Sierra_TF"],
 					["Scharfschütze","Sierra_Scharf"],
 					["Spotter","Sierra_Spotter"],
-					["Nahsicherer","Sierra_NaSi"]				
+					["Aufklärer","Sierra_Aufkl"],
+					["Breacher","Sierra_Breacher"],
+					["LMG-Schütze","Sierra_MG"],
+					["Sanitäter","Sierra_San"],
+					["Nahsicherer","Sierra_NaSi"],
+					["Schütze","Sierra_Schuetze"]				
 ];
 
 //-----------------------------------------------------------------------------
@@ -153,11 +170,17 @@ GR_AlleRollen = [
 					["Schütze-EHB","Schuetze_EHB"],
 					["Schütze-DM","Schuetze_DM"],
 					["Schütze-LMG","Schuetze_LMG"],
-					["Aufklärungssanitäter","Sierra_AufSan"],
 					["Gruppenführer","Sierra_GrpFhr"],
-					["Nahsicherer","Sierra_NaSi"],
+					["Aufklärungssanitäter","Sierra_AufSan"],
+					["Truppführer","Sierra_TF"],
 					["Scharfschütze","Sierra_Scharf"],
 					["Spotter","Sierra_Spotter"],
+					["Aufklärer","Sierra_Aufkl"],
+					["Breacher","Sierra_Breacher"],
+					["LMG-Schütze","Sierra_MG"],
+					["Sanitäter","Sierra_San"],
+					["Nahsicherer","Sierra_NaSi"],
+					["Schütze","Sierra_Schuetze"],
 					["Spezialpionier", "Spezialpionier"],
 					["Truppführer","TrpFhr"],
 					["Truppführer Mike", "Mike_TF"],
@@ -195,11 +218,17 @@ GR_Packlisten = [
 					"Schuetze_DM",
 					"Schuetze_EHB",
 					"Schuetze_LMG",
+					"Sierra_Aufkl",
 					"Sierra_AufSan",
+					"Sierra_Breacher",
 					"Sierra_GrpFhr",
+					"Sierra_MG",
 					"Sierra_NaSi",
+					"Sierra_San",
 					"Sierra_Scharf",
+					"Sierra_Schuetze",
 					"Sierra_Spotter",
+					"Sierra_TF",
 					"Spezialpionier",
 					"TrpFhr",
 					"Waffen_Assi",
@@ -243,7 +272,7 @@ GR_Packlisten = [
 	group this setGroupID ["Kilo"];
 	group this setGroupID ["Lima"];
 	group this setGroupID ["Mike"];
-	group this setGroupID ["Foxtrott"];
+	group this setGroupID ["Foxtrot"];
 	group this setGroupID ["Victor"];
 	group this setGroupID ["Alpha"];
 	group this setGroupID ["Bravo"];

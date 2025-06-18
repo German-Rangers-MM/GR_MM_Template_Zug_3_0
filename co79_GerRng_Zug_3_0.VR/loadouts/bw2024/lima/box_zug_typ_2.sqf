@@ -1,23 +1,9 @@
-// Kiste Zug Typ II - LMG-Munnition
-/* Aufruf im Editor mit:
-
-_path = format ["loadouts\%1\lima\box_zug_typ_2.sqf", getMissionConfigValue "fraktion"]; 
-null = [this] execVM _path;
-
-*/
-
-if (! isServer) exitWith {};
-
-_box = _this select 0;
-
-clearWeaponCargoGlobal _box; 
-clearMagazineCargoGlobal _box;
-clearItemCargoGlobal _box;
-clearBackpackCargoGlobal _box;
-
-_box addMagazineCargoGlobal ["CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249_Pouch",10];
-_box addMagazineCargoGlobal ["CUP_100Rnd_556x45_BetaCMag",10];
-
-// für diese Box Gewichtslimit Ignorieren
-//[_box, true, [0, 1, 1], 0, true] call ace_dragging_fnc_setCarryable;
-//[_box, true, [0, 2, 0], 90, true] call ace_dragging_fnc_setDraggable;
+[
+    "Zug Typ 2 - Standard 7.62",
+    "ACE_Box_Ammo",
+    ["ACE_20Rnd_762x51_Mag_Tracer",15],
+    ["CUP_20Rnd_TE1_Red_Tracer_762x51_HK417",5],
+    ["CUP_20Rnd_762x51_HK417",15],
+    ["CUP_20Rnd_TE1_Red_Tracer_762x51_DMR",5],
+    ["CUP_20Rnd_762x51_DMR",15]
+];

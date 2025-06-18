@@ -1,0 +1,34 @@
+name: "Pull Request Labeler"
+on:
+  pull_request_target:
+  workflow_dispatch:
+    inputs:
+      pr-number:
+        description: 'The PR number to label'
+        required: true
+        type: number
+
+jobs:
+  label-auto:
+    # Only runs for automatic pull_request_target events
+    if: github.event_name == 'pull_request_target'
+    permissions:
+      contents: read
+      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/labeler@v5
+      with:
+        pull-request-number: ${{ github.event.number }}
+
+  label-manual:
+    # Only runs for manual workflow_dispatch triggers
+    if: github.event_name == 'workflow_dispatch'
+    permissions:
+      contents: read
+      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/labeler@v5
+      with:
+        pr-number: ${{ fromJSON(github.event.inputs.pr-number) }}

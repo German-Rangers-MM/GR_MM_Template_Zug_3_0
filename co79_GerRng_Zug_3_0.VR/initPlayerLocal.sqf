@@ -33,7 +33,8 @@ if (getMissionConfigValue "dynamicGroupsFeat" == "true") then {
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-sleep 1;
+// warten auf die Variablen für Fraktion und Tarnfarbe vom Server
+waitUntil { sleep 1; !isNil "fraktionV" && !isNil "tarnfarbeV" };
 
 //Abfrage ob Datenbank oder frisches Loadout
 if (getMissionConfigValue "loadPlayers" == "true") then {
@@ -127,7 +128,7 @@ PPeffect_colorC ppEffectCommit 0;
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
-//						Sandstorm Effect
+//						Effects
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
@@ -142,6 +143,12 @@ PPeffect_colorC ppEffectCommit 0;
 
 //[player, 0.9, 0.5, true] call BIS_fnc_sandstorm;
 
+//FoggyBreath
+//_units = if (!isMultiplayer) then {switchableUnits} else {playableUnits};
+//{[_x, 0.03] execVM "scripts\core\foggy_breath.sqf"} forEach _units;
+
+//Ground Fog
+//null = [] execVM "scripts\core\GroundFog.sqf";
 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
@@ -217,6 +224,16 @@ if (getMissionConfigValue "allowLoadouts" == "true") then {
 	[player, 1, ["ACE_SelfActions","GR Base"], _loadout_action] call ace_interact_menu_fnc_addActionToObject;	
 };
 
+// Add Würfeln Category to ACE Menu GR Equipment
+_diceMain = ["GR_diceMain","Würfeln","a3\3den\data\displays\display3den\toolbar\widget_local_ca.paa",{  },{true}] call ace_interact_menu_fnc_createAction;
+[player, 1, ["ACE_SelfActions", "GerRng_equip"], _diceMain] call ace_interact_menu_fnc_addActionToObject; 
+
+_actionDice20 = ["GR_rollDice20","(W20)","",{ [player,"(W20)", floor (random 20)+1,8] spawn SGN_fnc_rollDice; },{true}] call ace_interact_menu_fnc_createAction;
+[player, 1, ["ACE_SelfActions","GerRng_equip","GR_diceMain"], _actionDice20] call ace_interact_menu_fnc_addActionToObject; 
+
+_actionDice6 = ["GR_rollDice6","(W6)","",{ [player,"(W6)", floor (random 6)+1,8] spawn SGN_fnc_rollDice; },{true}] call ace_interact_menu_fnc_createAction;
+[player, 1, ["ACE_SelfActions", "GerRng_equip","GR_diceMain"], _actionDice6] call ace_interact_menu_fnc_addActionToObject;
+
 // Debug Funktionen - Nur im Editor / SP verfügbar
 if (! isMultiplayer) then {		
 	// Full ACE Arsenal Action
@@ -279,6 +296,9 @@ if (_playerGrp == grplima || _playerGrp == grpkilo || _playerGrp == grpfox || _p
 	[(typeOf player), 1, ["ACE_SelfActions","GR Admin Menu"], _to_be_continued] call ace_interact_menu_fnc_addActionToClass;
 	
 	[(typeOf player), 1, ["ACE_SelfActions","GR Admin Menu"], _mission_failed] call ace_interact_menu_fnc_addActionToClass;
+	
+	_checkHCs = ["Check HCs","Check HCs","a3\ui_f\data\igui\cfg\simpletasks\types\intel_ca.paa",{[[player], SGN_fnc_infoHintHC] remoteExec ["spawn", 2];},{true}] call ace_interact_menu_fnc_createAction;
+	[player, 1, ["ACE_SelfActions","GR Admin Menu"], _checkHCs] call ace_interact_menu_fnc_addActionToObject;
 };
 
 if (_playerGrp == grpmike) then {
@@ -298,156 +318,7 @@ if (_playerGrp == grpmike) then {
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 
-if (getMissionConfigValue "limaSupplyPoints" == "true") then {
-	if (_playerGrp == grplima || _playerGrp == grpkilo || _playerGrp == grphotel || _playerGrp == grpmike) then {
-		
-		// Icon für Boxen-deploy
-		_icon = "a3\ui_f\data\igui\cfg\cursors\iconboardin_ca.paa";
-		_iconEod = "a3\ui_f\data\igui\cfg\simpletasks\types\mine_ca.paa";
-		_iconCBRN = "z\ace\addons\medical_gui\data\categories\airway_management.paa";
-		_iconWaGru = "a3\ui_f\data\gui\rsc\rscdisplayarsenal\secondaryweapon_ca.paa";
-		_iconZug = "a3\ui_f\data\gui\rsc\rscdisplayarsenal\cargomagall_ca.paa";
-		_iconErsatz = "a3\ui_f\data\igui\cfg\actions\repair_ca.paa";
-		_iconSan = "a3\ui_f\data\igui\cfg\simpletasks\types\heal_ca.paa";
-		_iconBodybags = "z\ace\addons\medical_gui\ui\grave.paa";
-		_iconSierra = "a3\weapons_f\data\ui\icon_sniper_ca.paa";
-
-		// Lima Supply Point Static & Mobile
-		{
-			// Parent Action für Zug Boxen
-			_zugBoxen = ["Zug Boxen","Zug Boxen",_iconZug,{ },{true}] call ace_interact_menu_fnc_createAction;
-			[_x, 0, ["ACE_MainActions"], _zugBoxen] call ace_interact_menu_fnc_addActionToObject;
-				//------------------------------------------------------------------
-				_zug1 = ["Zug1","Zug Typ 1 - Munition",_icon,{[["zug1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug1] call ace_interact_menu_fnc_addActionToObject;
-
-				_zug2 = ["Zug2","Zug Typ 2 - LMG-Munnition",_icon,{[["zug2",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug2] call ace_interact_menu_fnc_addActionToObject;
-
-				_zug3 = ["Zug3","Zug Typ 3 - Unterlaufgranaten",_icon,{[["zug3",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug3] call ace_interact_menu_fnc_addActionToObject;
-
-				_zug4 = ["Zug4","Zug Typ 4 - Granaten",_icon,{[["zug4",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug4] call ace_interact_menu_fnc_addActionToObject;
-
-				_zug5 = ["Zug5","Zug Typ 5 - Ausrüstung",_icon,{[["zug5",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug5] call ace_interact_menu_fnc_addActionToObject;
-
-				_zug6 = ["Zug6","Zug Typ 6 - Anti-Tank",_icon,{[["zug6",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug6] call ace_interact_menu_fnc_addActionToObject;
-
-				_zug7 = ["Zug7","Zug Typ 7 - Elektronik",_icon,{[["zug7",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug7] call ace_interact_menu_fnc_addActionToObject;
-
-				_zug8 = ["Zug10","Zug Typ 8 - Munition HK417",_icon,{[["zug8",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug8] call ace_interact_menu_fnc_addActionToObject;
-
-				_zug9 = ["Zug10","Zug Typ 9 - Flashbangs",_icon,{[["zug9",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug9] call ace_interact_menu_fnc_addActionToObject;
-				//------------------------------------------------------------------
-			// Parent Action für WaGru Boxen
-			_waGruBoxen = ["WaGru Boxen","WaGru Boxen",_iconWaGru,{ },{true}] call ace_interact_menu_fnc_createAction;
-			[_x, 0, ["ACE_MainActions"], _waGruBoxen] call ace_interact_menu_fnc_addActionToObject;
-				//------------------------------------------------------------------
-				_wagru1 = ["WaGru1","WaGru Typ 1 - MG3",_icon,{[["WaGru1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "WaGru Boxen"], _wagru1] call ace_interact_menu_fnc_addActionToObject;
-							
-				_wagru2 = ["wagru2","WaGru Typ 2 - Mk48",_icon,{[["WaGru2",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "WaGru Boxen"], _wagru2] call ace_interact_menu_fnc_addActionToObject;
-							
-				_wagru3 = ["wagru3","WaGru Typ 3 - MAAWS",_icon,{[["wagru3",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "WaGru Boxen"], _wagru3] call ace_interact_menu_fnc_addActionToObject;
-							
-				_wagru4 = ["wagru4","WaGru Typ 4 - Titan AT",_icon,{[["wagru4",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "WaGru Boxen"], _wagru4] call ace_interact_menu_fnc_addActionToObject;
-							
-				_wagru5 = ["wagru5","WaGru Typ 5 - Titan AA",_icon,{[["wagru5",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "WaGru Boxen"], _wagru5] call ace_interact_menu_fnc_addActionToObject;
-							
-				_wagru6 = ["wagru6","WaGru Typ 6 - Metis",_icon,{[["wagru6",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "WaGru Boxen"], _wagru6] call ace_interact_menu_fnc_addActionToObject;
-				
-				_wagru7 = ["wagru7","WaGru Typ 7 - Combat Engineering",_icon,{[["wagru7",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "WaGru Boxen"], _wagru7] call ace_interact_menu_fnc_addActionToObject;
-				//------------------------------------------------------------------
-			// Parent Action für EOD Boxen
-			_eodBoxen = ["EOD Boxen","EOD Boxen",_iconEod,{ },{true}] call ace_interact_menu_fnc_createAction;
-			[_x, 0, ["ACE_MainActions"], _eodBoxen] call ace_interact_menu_fnc_addActionToObject;
-				//------------------------------------------------------------------
-				_eod1 = ["EOD1","EOD Typ I - Anzug",_icon,{[["eod1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions","EOD Boxen"], _eod1] call ace_interact_menu_fnc_addActionToObject;	
-			
-				_eod2 = ["EOD2","EOD Typ II - Drohne",_icon,{[["eod2",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions","EOD Boxen"], _eod2] call ace_interact_menu_fnc_addActionToObject;	
-			
-				_eod3 = ["EOD3","EOD Typ III - Ausrüstung",_icon,{[["eod3",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions","EOD Boxen"], _eod3] call ace_interact_menu_fnc_addActionToObject;
-
-				_eod4 = ["EOD3","EOD Typ IV - Zug",_icon,{[["eod4",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions","EOD Boxen"], _eod4] call ace_interact_menu_fnc_addActionToObject;
-				//------------------------------------------------------------------
-			// Parent Action für CBRN Boxen
-			_cbrnBoxen = ["CBRN Boxen","CBRN Boxen",_iconCBRN,{ },{true}] call ace_interact_menu_fnc_createAction;
-			[_x, 0, ["ACE_MainActions"], _cbrnBoxen] call ace_interact_menu_fnc_addActionToObject;
-				//------------------------------------------------------------------
-				_cbrn1 = ["CBRN1","Typ 1 - CBRN-Schutz",_icon,{[["cbrn1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "CBRN Boxen"], _cbrn1] call ace_interact_menu_fnc_addActionToObject;
-
-				_cbrn2 = ["CBRN2","Typ 2 - CBRN-Erkundung",_icon,{[["cbrn2",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "CBRN Boxen"], _cbrn2] call ace_interact_menu_fnc_addActionToObject;
-
-				_cbrn3 = ["CBRN2","Typ 3 - CBRN-UGV",_icon,{[["cbrn3",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "CBRN Boxen"], _cbrn3] call ace_interact_menu_fnc_addActionToObject;
-				//------------------------------------------------------------------
-			// Parent Action für San Boxen
-			_sanBoxen = ["San Boxen","San Boxen",_iconSan,{ },{true}] call ace_interact_menu_fnc_createAction;
-			[_x, 0, ["ACE_MainActions"], _sanBoxen] call ace_interact_menu_fnc_addActionToObject;
-				//------------------------------------------------------------------
-				_san1 = ["San1","San Typ 1 - SanMat",_icon,{[["san1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "San Boxen"], _san1] call ace_interact_menu_fnc_addActionToObject;	
-			
-				_san2 = ["San1","San Typ 2 - Leichensäcke",_iconBodybags,{[["san2",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "San Boxen"], _san2] call ace_interact_menu_fnc_addActionToObject;	
-				//------------------------------------------------------------------
-			// Parent Action für Ersatzteile
-			_ersatzteile = ["Ersatzteile","Ersatzteile",_iconErsatz,{ },{true}] call ace_interact_menu_fnc_createAction;
-			[_x, 0, ["ACE_MainActions"], _ersatzteile] call ace_interact_menu_fnc_addActionToObject;
-				//------------------------------------------------------------------
-				_ersatzKette = ["ersatzKette","Ersatzkette",_icon,{[["ersatzkette",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "Ersatzteile"], _ersatzKette] call ace_interact_menu_fnc_addActionToObject;
-
-				_ersatzRad = ["ersatzRad","Ersatzrad",_icon,{[["ersatzrad",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-				[_x, 0, ["ACE_MainActions", "Ersatzteile"], _ersatzRad] call ace_interact_menu_fnc_addActionToObject;
-				//------------------------------------------------------------------
-
-// Parent Action für Sierra
-			_Sierra = ["Sierra","Sierra",_iconSierra,{ },{true}] call ace_interact_menu_fnc_createAction;
-			[_x, 0, ["ACE_MainActions"], _Sierra] call ace_interact_menu_fnc_addActionToObject;
-				//------------------------------------------------------------------
-			_sierra1 = ["Sierra1","Sierra Typ 1- GM6 Munition",_icon,{[["sierra1",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-			[_x, 0, ["ACE_MainActions", "Sierra"], _sierra1] call ace_interact_menu_fnc_addActionToObject;
-
-			_sierra2 = ["Sierra2","Sierra Typ 2 - M107 Munition",_icon,{[["sierra2",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-			[_x, 0, ["ACE_MainActions", "Sierra"], _sierra2] call ace_interact_menu_fnc_addActionToObject;
-
-			_sierra3 = ["Sierra3","Sierra Typ 3 - M200 Munition",_icon,{[["sierra3",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-			[_x, 0, ["ACE_MainActions", "Sierra"], _sierra3] call ace_interact_menu_fnc_addActionToObject;
-
-			_sierra4 = ["Sierra4","Sierra Typ 4 - Waffen",_icon,{[["sierra4",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-			[_x, 0, ["ACE_MainActions", "Sierra"], _sierra4] call ace_interact_menu_fnc_addActionToObject;
-
-			_sierra5 = ["Sierra5","Sierra Typ 5 - Ausrüstung",_icon,{[["sierra5",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-			[_x, 0, ["ACE_MainActions", "Sierra"], _sierra5] call ace_interact_menu_fnc_addActionToObject;
-			//------------------------------------------------------------------
-
-			_supply = ["Supply","Transport Box (leer)",_icon,{[["supply",_this#0], limapfad + "limaSupplyPoints.sqf"] remoteExec ["execVM"];},{true}] call ace_interact_menu_fnc_createAction;
-			[_x, 0, ["ACE_MainActions"], _supply] call ace_interact_menu_fnc_addActionToObject;
-
-
-			
-		} forEach [limasupplypointstatic,limasupplypointmobile];		
-	};
-};
+//Deprecated moved to IGC_CF
 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
@@ -502,12 +373,13 @@ if (getMissionConfigValue "limaSupplyPoints" == "true") then {
 	};
 };
 
-//FoggyBreath
-//_units = if (!isMultiplayer) then {switchableUnits} else {playableUnits};
-//{[_x, 0.03] execVM "scripts\core\foggy_breath.sqf"} forEach _units;
-
-//Ground Fog
-//null = [] execVM "scripts\core\GroundFog.sqf";
+//------------------------------------------------------------------
+//------------------------------------------------------------------
+//
+//						
+//
+//------------------------------------------------------------------
+//------------------------------------------------------------------
 
 //Wenn das Missionsintro gestartet wurde, werden alle Spieler die reconnecten oder später dazu kommen in die Basis teleportiert.
 if (getMissionConfigValue "missionstartedfeat" == "true") then {
@@ -536,4 +408,7 @@ titleText ["Missionsvorbereitung", "BLACK IN" ];
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 
-//[] execVM "scripts\core\modcheck.sqf";
+_modCheck = ["GR_modCheckParam", 1] call BIS_fnc_getParamValue;
+if (_modCheck != 0) then {
+	[] execVM "scripts\core\modcheck.sqf";
+};

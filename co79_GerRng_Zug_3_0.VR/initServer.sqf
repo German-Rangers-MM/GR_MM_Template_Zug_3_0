@@ -65,7 +65,7 @@ Unterteilt in Woodland oder Arid
 Fortify Baumoeglichkeiten Objekt, kosten(bauzeit)
 Bauzeit: Ist immer (x * 8) + 20, sprich eine Bauzeit "1" ist 28 Sekunden, "2" ist 36, "0.5" ist 24 und "-1" ist 12 Sekunden
 */
-
+/*
 //Woodland
 if isClass (configFile >> "CfgPatches" >> "ace_main") then
 {
@@ -104,7 +104,7 @@ if isClass (configFile >> "CfgPatches" >> "ace_main") then
 	["GerRng_MedTent_01",5]
 	]] call acex_fortify_fnc_registerObjects;
 };
-
+*/
 /*
 //Arid
 if isClass (configFile >> "CfgPatches" >> "ace_main") then

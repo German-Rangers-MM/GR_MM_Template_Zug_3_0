@@ -55,10 +55,12 @@
     "CUP_V_B_GER_Pvest_Fleck_Med_LT",
     "CUP_V_B_GER_Pvest_Trop_Med_LT",
     "CUP_V_B_GER_Tactical_Fleck",
-    "CUP_V_B_GER_Armatus_BB_Fleck",
-    "CUP_V_B_GER_Armatus_BB_Fleck",
     "CUP_V_B_GER_Armatus_Trop",
+    "CUP_V_B_GER_Armatus_BB_Trop",
     "CUP_V_B_GER_Armatus_Fleck",
+    "CUP_V_B_GER_Armatus_BB_Fleck",
+    "CUP_V_B_Armatus_Black",
+    "CUP_V_B_Armatus_BB_Black",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // backpacks
@@ -134,6 +136,7 @@
     // ------------------------------------------------------------------
     "G_Aviator",
     "G_Bandanna_aviator",
+    "G_Bandanna_blk",
     "CUP_G_TK_roundGlasses",
     "G_AirPurifyingRespirator_01_F",
     "G_RegulatorMask_F",
@@ -253,6 +256,7 @@
     "ACE_SpottingScope",
     "ACE_Tripod",
     "Attachable_Helistretcher",
+    "tfw_rf3080Item",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Misc 2
@@ -265,7 +269,15 @@
     "ace_marker_flags_red",
     "ace_marker_flags_white",
     "ace_marker_flags_yellow",
-    "ace_marker_flags_green",
+    "ace_marker_flags_green", 
+    "ace_flags_black",
+    "ace_flags_blue",
+    "ace_flags_green",
+    "ace_flags_orange",
+    "ace_flags_purple",
+    "ace_flags_red",
+    "ace_flags_white",
+    "ace_flags_yellow",
     "ACE_rope12",
     "ACE_rope15",
     "ACE_rope15",

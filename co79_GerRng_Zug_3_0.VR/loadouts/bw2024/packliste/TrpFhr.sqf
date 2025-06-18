@@ -19,6 +19,40 @@
     "CUP_arifle_HK417_12_AG36",
     "CUP_arifle_HK417_12_AG36_Desert",
     "CUP_arifle_HK417_12_AG36_Wood",
+
+    //SPS
+    "SPS_hk416_14_5_glm_hk_black_f",
+    "SPS_hk416_14_5_glm_hk_sf_black_f",
+    "SPS_hk416_14_5_glm_hk_a7_black_f",
+    "SPS_hk416_14_5_glm_hk_ctr_black_f",
+    "SPS_hk416_14_5_glm_hk_ctr_sf_black_f",
+    "SPS_hk416_14_5_glm_hk_ctr_a7_black_f",
+    "SPS_hk416_16_5_glm_hk_black_f",
+    "SPS_hk416_16_5_glm_hk_sf_black_f",
+    "SPS_hk416_16_5_glm_hk_a7_black_f",
+    "SPS_hk416_16_5_glm_hk_ctr_black_f",
+    "SPS_hk416_16_5_glm_hk_ctr_sf_black_f",
+    "SPS_hk416_16_5_glm_hk_ctr_a7_black_f",
+
+    "SPS_hk417_13_vfg_black_f",
+    "SPS_hk417_13_afg_black_f",
+    "SPS_hk417_13_glm_black_f",
+    "SPS_hk417_13_vfg_ral8000_f",
+    "SPS_hk417_13_afg_ral8000_f",
+    "SPS_hk417_13_glm_ral8000_f",
+    "SPS_hk417_13_vfg_fde_f",
+    "SPS_hk417_13_afg_fde_f",
+    "SPS_hk417_13_glm_fde_f",
+
+    "SPS_hk417_16_vfg_black_f",
+    "SPS_hk417_16_afg_black_f",
+    "SPS_hk417_16_glm_black_f",
+    "SPS_hk417_16_vfg_ral8000_f",
+    "SPS_hk417_16_afg_ral8000_f",
+    "SPS_hk417_16_glm_ral8000_f",
+    "SPS_hk417_16_vfg_fde_f",
+    "SPS_hk417_16_afg_fde_f",
+    "SPS_hk417_16_glm_fde_f",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Visiere
@@ -27,9 +61,6 @@
     "CUP_optic_ZeissZPoint",
     "CUP_optic_ZeissZPoint_desert",
     "CUP_optic_ZeissZPoint_wood",
-    "CUP_optic_AIMM_MICROT1_BLK",
-    "CUP_optic_AIMM_MICROT1_tan",
-    "CUP_optic_AIMM_MICROT1_OD",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Pointer
@@ -124,6 +155,14 @@
     "1Rnd_SmokeRed_Grenade_shell",
     "1Rnd_SmokeGreen_Grenade_shell",
     "1Rnd_Smoke_Grenade_shell",
+
+    
+    "SPS_20Rnd_762x51mm_M80A1_EPR",
+    "SPS_20Rnd_762x51mm_M80A1_EPR_IR",
+    "SPS_20Rnd_762x51mm_M80A1_EPR_Tracer",
+
+    "CUP_20Rnd_762x51_DMR",
+    "CUP_20Rnd_TE1_Red_Tracer_762x51_DMR",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Grenades / throw
@@ -138,6 +177,12 @@
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     "DemoCharge_Remote_Mag",
+    "tsp_breach_popper_mag",
+    "tsp_breach_popper_auto_mag",
+    "tsp_breach_linear_mag",
+    "tsp_breach_linear_auto_mag",
+    "tsp_breach_stick_mag",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Medical
@@ -150,7 +195,9 @@
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     "ACE_Clacker",
-    "ACE_M26_Clacker"
+    "ACE_M26_Clacker",
+    "tsp_breach_shock",
+    "tsp_lockpick"
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Misc 2
