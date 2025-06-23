@@ -118,6 +118,7 @@ _whitelistedMods = 	[
 						"@BackpackOnChest - Redux", "2372036642",
 						"@Arma 3 PiShock", "3024239355",
 						"@AWESome : Aerial Warfare Enhanced Somehow", "1301399507",
+						"Turret Enhanced", "1623498241",
 						
 						//Visual
 						"@Blastcore Edited (standalone version)", "767380317",
