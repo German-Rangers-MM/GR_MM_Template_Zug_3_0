@@ -52,6 +52,9 @@ _whitelistedMods = 	[
 						"@Breach - Rewrite", "3283645995",
 						"@Speshal Core", "3283642267",
 
+						"@cTAB Advanced [BETA]", "3438246217",
+						"@cTAB Connect [BETA]", "3438247879",
+
 						//Gameplay & Ausrüstung
 						"@Crows Electronic Warfare", "2515887728",
 						"@MAAWS Additional Ammo Types", "2589302544",
