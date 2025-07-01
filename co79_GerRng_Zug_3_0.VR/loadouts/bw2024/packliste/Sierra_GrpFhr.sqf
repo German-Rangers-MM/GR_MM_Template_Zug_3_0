@@ -241,6 +241,10 @@
 
 	"CUP_muzzle_snds_M9",
 
+	"muzzle_antenna_02_f",
+	"muzzle_antenna_03_f",
+	"muzzle_antenna_01_f",
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -263,6 +267,8 @@
 //------------------------------------------------------------------
 
 	"CUP_hgun_Glock17_blk",
+
+	"hgun_esd_01_F",
 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
@@ -642,11 +648,14 @@
 	"tsp_breach_linear_auto_mag",
 	"tsp_breach_popper_mag",
 	"tsp_breach_popper_auto_mag",
+	"tsp_breach_dip_mag",
+	"tsp_breach_dip_auto_mag",
 	"tsp_breach_package_mag",
 	"tsp_breach_silhouette_mag",
 	"tsp_breach_stick_mag",
 	
 	"tsp_flashbang_m84",
+	"tsp_flashbang_m84s",
 	
 	"tsp_lockpick",
 	"tsp_paperclip",
@@ -688,6 +697,10 @@
 	"ACE_CableTie",
 	"ACE_IR_Strobe_Item",
 	"ACE_UAVBattery",
+
+	"tfw_rf3080Item",
+	"crowsew_ctrack",
+	"crowsew_tfar_icom",
 
 	"ACE_SpraypaintBlack",
 	"ACE_SpraypaintGreen",
