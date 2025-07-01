@@ -518,6 +518,7 @@
 //------------------------------------------------------------------
 
 	"tsp_flashbang_m84",
+	"tsp_flashbang_m84s",
 	
 	"tsp_lockpick",
 	"tsp_paperclip",
