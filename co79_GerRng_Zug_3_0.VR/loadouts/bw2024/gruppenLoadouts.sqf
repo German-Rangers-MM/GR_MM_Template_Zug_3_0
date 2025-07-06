@@ -36,7 +36,9 @@ GR_SchuetzenRollen = [
 	["Schütze","Schuetze"],
 	["Schütze-DM","Schuetze_DM"],
 	["Schütze-EHB","Schuetze_EHB"],
-	["Schütze-LMG","Schuetze_LMG"]
+	["Schütze-LMG","Schuetze_LMG"],
+	["Breacher","Breacher"]
+	
 ];
 
 //-----------------------------------------------------------------------------
