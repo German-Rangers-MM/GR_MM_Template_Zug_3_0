@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=139;
+		nextID=151;
 	};
 	class Camera
 	{
-		pos[]={1388.4276,50.093952,5110.6553};
-		dir[]={0.62014925,-0.58632874,0.52126801};
-		up[]={0.44890308,0.81000477,0.37732765};
-		aside[]={0.6434623,1.0677613e-06,-0.76552194};
+		pos[]={1388.4871,60.537048,5092.1016};
+		dir[]={0.62012243,-0.58630311,0.52124542};
+		up[]={0.44881299,0.81009179,0.37725088};
+		aside[]={0.64344001,1.4901161e-08,-0.76549655};
 	};
 };
 binarizationWanted=0;
@@ -5939,7 +5939,7 @@ class Mission
 									class Attributes
 									{
 										init="this setVariable [""GR_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Kilo""];";
-										name="Kilo1";
+										name="persist1";
 										description="Kompanieführer@Kilo";
 										isPlayer=1;
 										isPlayable=1;
@@ -13884,7 +13884,7 @@ class Mission
 										class data
 										{
 											singleType="STRING";
-											value="Kilo1";
+											value="persist1";
 										};
 									};
 								};
