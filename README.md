@@ -13,4 +13,4 @@ Credits:
 - @Lightning
 - [@SmartGun2](https://github.com/SmartGun2)
 - [@avogelsang-uni](https://github.com/avogelsang-uni)
-- [@NotCallMeHacker] (https://github.com/NotCallMeHacker)
+- [@NotCallMeHacker](https://github.com/NotCallMeHacker)
