@@ -412,3 +412,32 @@ _modCheck = ["GR_modCheckParam", 1] call BIS_fnc_getParamValue;
 if (_modCheck != 0) then {
 	[] execVM "scripts\core\modcheck.sqf";
 };
+
+//------------------------------------------------------------------
+//------------------------------------------------------------------
+//
+//					CTAB Templates
+//
+//------------------------------------------------------------------
+//------------------------------------------------------------------
+
+[
+    "maps-beta.plan-ops.fr#72",0,"Lima Bestellung",
+    "N A C H S C H U B A N F O R D E R U N G",
+    "https://maps-beta.plan-ops.fr/MessageTemplates/Details/72?t=IuD-E8bp3bR6YMgy5FchCdiEwA5NpaRv80CgM61cqSA",
+    [
+        ["N A C H S C H U B A N F O R D E R U N G","",[]],
+        ["","",[["• 1.0-ALL: ","Bedarf aller Gruppen des Zuges abgefragt",0],[" • 1.1-OKK: ","Freigabe von Kilo",0]]],
+        ["","",[["• 2.1-ANF: ","Anfordernde Stelle",3],[" • 2.2-FRQ: ","Frequenz der Anforderer",4],
+        [" • 2.3-BLZ: ","Blufor an LZ",0]]],
+        ["","",[["• 3.1-TYP: ","Typ + Menge der Kisten",8]]],
+        ["","",[["• 4.1-LZN: ","LZ Name",5],[" • 4.2-LZI: ","LZ Merkierung (Rauch/Licht)",0],[" • 4.3-LZW: ","LZ Hindernisse",0]]],
+        ["• 5.1-RST","",[["rückführen","",6],["zurücklassen","",6]]],
+        ["","",[["• 6.1-AUS: ","Ausführung (ASAP/Zeit/Befehl)",0],[" • 6.2-CHK: ","gecheckt von",0]]]
+    ]
+] call ctab_fnc_registerMessageTemplate;
+
+
+
+
+
