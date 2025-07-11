@@ -63,6 +63,14 @@
 	"SPS_hk417_20_vfg_fde_f",
 	"SPS_hk417_20_afg_fde_f",
 
+	"SPS_hk337_t_ctr_vfg_black_f",
+	"SPS_hk337_t_ctr_afg_black_f",
+	"SPS_hk337_t_ctr_black_f",
+
+	"SPS_hk337_t_ctr_vfg_fde_f",
+	"SPS_hk337_t_ctr_afg_fde_f",
+	"SPS_hk337_t_ctr_fde_f",
+
 	"CUP_arifle_HK417_20",
 	"CUP_arifle_HK417_20_Desert",
 	"CUP_arifle_HK417_20_Wood",
@@ -396,6 +404,8 @@
     "tfw_ilbeRT1523_whip_coy",
     "tfw_ilbeMR3000_whip_coy",
 
+    "ACE_TacticalLadder_Pack",
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -533,6 +543,11 @@
 	"SPS_20Rnd_762x51mm_M80A1_EPR",
 	"SPS_20Rnd_762x51mm_M80A1_EPR_Tracer",
 	"SPS_20Rnd_762x51mm_M80A1_EPR_IR",
+
+	"SPS_HKG3PMAG_30Rnd_300BLK_110_B",
+	"SPS_HKG3PMAG_30Rnd_300BLK_110_T",
+	"SPS_HKG3PMAG_30Rnd_300BLK_230_B",
+	"SPS_HKG3PMAG_30Rnd_300BLK_230_T",
 
 	"CUP_200Rnd_TE1_Red_Tracer_556x45_M249_Pouch",
 	"CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch",
