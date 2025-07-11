@@ -43,12 +43,11 @@ _whitelistedMods = 	[
 
 						//German Rangers Extras
 						"@NATO Markers+", "1340701737",
-						"@cTab", "871504836",
 						"@Enhanced Movement", "333310405",
 						"@Enhanced Movement Rework", "2034363662",
 						"@German Rangers Equipment", "2996640864",
-						"@cTab 1erGTD", "2262006564",
-						"@SIT 1erGTD", "2262009445",
+						"@cTAB Connect [BETA]", "3438247879",
+						"@cTAB Advanced [BETA]", "3438246217",
 						"@Breach - Rewrite", "3283645995",
 						"@Speshal Core", "3283642267",
 
