@@ -48,6 +48,8 @@ _whitelistedMods = 	[
 						"@German Rangers Equipment", "2996640864",
 						"@cTAB Connect [BETA]", "3438247879",
 						"@cTAB Advanced [BETA]", "3438246217",
+						"@cTab 1erGTD", "2262006564",
+						"@SIT 1erGTD", "2262009445",
 						"@Breach - Rewrite", "3283645995",
 						"@Speshal Core", "3283642267",
 
