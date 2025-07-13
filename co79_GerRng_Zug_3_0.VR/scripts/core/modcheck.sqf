@@ -153,8 +153,8 @@ _whitelistedMods = 	[
 						"@JSRS SOUNDMOD - CUP WEAPONS MOD SOUND SUPPORT", "1624803912",
 						"@JSRS SOUNDMOD - CUP VEHICLES MOD SOUND SUPPORT", "1624804924",
 						"@JSRS SOUNDMOD - Reloading Sounds", "1429098683",
-						"@JSRS SOUNDMOD 2025 Beta - RC2.2", "3407948300",
-						"@JSRS SOUNDMOD 2025 Beta - AiO Compat Files RC2.2", "3407970596",
+						"@JSRS SOUNDMOD 2025 Beta - RC3", "3407948300",
+						"@JSRS SOUNDMOD 2025 Beta - AiO Compat Files RC3", "3407970596",
 						
 						
 						//Zeus Mods
