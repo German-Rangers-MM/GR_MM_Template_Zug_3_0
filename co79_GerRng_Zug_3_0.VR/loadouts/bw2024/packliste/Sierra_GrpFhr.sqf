@@ -63,6 +63,14 @@
 	"SPS_hk417_20_vfg_fde_f",
 	"SPS_hk417_20_afg_fde_f",
 
+	"SPS_hk337_t_ctr_vfg_black_f",
+	"SPS_hk337_t_ctr_afg_black_f",
+	"SPS_hk337_t_ctr_black_f",
+
+	"SPS_hk337_t_ctr_vfg_fde_f",
+	"SPS_hk337_t_ctr_afg_fde_f",
+	"SPS_hk337_t_ctr_fde_f",
+
 	"CUP_arifle_HK417_20",
 	"CUP_arifle_HK417_20_Desert",
 	"CUP_arifle_HK417_20_Wood",
@@ -241,6 +249,10 @@
 
 	"CUP_muzzle_snds_M9",
 
+	"muzzle_antenna_02_f",
+	"muzzle_antenna_03_f",
+	"muzzle_antenna_01_f",
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -263,6 +275,8 @@
 //------------------------------------------------------------------
 
 	"CUP_hgun_Glock17_blk",
+
+	"hgun_esd_01_F",
 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
@@ -389,6 +403,8 @@
     "tfw_ilbeMR3000_whip_gr",
     "tfw_ilbeRT1523_whip_coy",
     "tfw_ilbeMR3000_whip_coy",
+
+    "ACE_TacticalLadder_Pack",
 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
@@ -528,6 +544,11 @@
 	"SPS_20Rnd_762x51mm_M80A1_EPR_Tracer",
 	"SPS_20Rnd_762x51mm_M80A1_EPR_IR",
 
+	"SPS_HKG3PMAG_30Rnd_300BLK_110_B",
+	"SPS_HKG3PMAG_30Rnd_300BLK_110_T",
+	"SPS_HKG3PMAG_30Rnd_300BLK_230_B",
+	"SPS_HKG3PMAG_30Rnd_300BLK_230_T",
+
 	"CUP_200Rnd_TE1_Red_Tracer_556x45_M249_Pouch",
 	"CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch",
 
@@ -642,11 +663,14 @@
 	"tsp_breach_linear_auto_mag",
 	"tsp_breach_popper_mag",
 	"tsp_breach_popper_auto_mag",
+	"tsp_breach_dip_mag",
+	"tsp_breach_dip_auto_mag",
 	"tsp_breach_package_mag",
 	"tsp_breach_silhouette_mag",
 	"tsp_breach_stick_mag",
 	
 	"tsp_flashbang_m84",
+	"tsp_flashbang_m84s",
 	
 	"tsp_lockpick",
 	"tsp_paperclip",
@@ -688,6 +712,10 @@
 	"ACE_CableTie",
 	"ACE_IR_Strobe_Item",
 	"ACE_UAVBattery",
+
+	"tfw_rf3080Item",
+	"crowsew_ctrack",
+	"crowsew_tfar_icom",
 
 	"ACE_SpraypaintBlack",
 	"ACE_SpraypaintGreen",

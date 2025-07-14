@@ -356,6 +356,11 @@
 	"SPS_20Rnd_762x51mm_M80A1_EPR_Tracer",
 	"SPS_20Rnd_762x51mm_M80A1_EPR_IR",
 
+	"SPS_HKG3PMAG_30Rnd_300BLK_110_B",
+	"SPS_HKG3PMAG_30Rnd_300BLK_110_T",
+	"SPS_HKG3PMAG_30Rnd_300BLK_230_B",
+	"SPS_HKG3PMAG_30Rnd_300BLK_230_T",
+
 	"CUP_200Rnd_TE1_Red_Tracer_556x45_M249_Pouch",
 	"CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch",
 
@@ -462,11 +467,14 @@
 	"tsp_breach_linear_auto_mag",
 	"tsp_breach_popper_mag",
 	"tsp_breach_popper_auto_mag",
+	"tsp_breach_dip_mag",
+	"tsp_breach_dip_auto_mag",
 	"tsp_breach_package_mag",
 	"tsp_breach_silhouette_mag",
 	"tsp_breach_stick_mag",
 	
 	"tsp_flashbang_m84",
+	"tsp_flashbang_m84s",
 	
 	"tsp_lockpick",
 	"tsp_paperclip",

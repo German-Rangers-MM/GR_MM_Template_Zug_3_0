@@ -84,6 +84,14 @@
 	"SPS_AI_AXMC308_26_G_PRCFB_F",
 	"SPS_AI_AXMC308_26_DE_PRCFB_F",
 
+	"SPS_hk337_t_ctr_vfg_black_f",
+	"SPS_hk337_t_ctr_afg_black_f",
+	"SPS_hk337_t_ctr_black_f",
+
+	"SPS_hk337_t_ctr_vfg_fde_f",
+	"SPS_hk337_t_ctr_afg_fde_f",
+	"SPS_hk337_t_ctr_fde_f",
+
 	"CUP_smg_MP7",
 	"CUP_smg_MP7_desert",
 	"CUP_smg_MP7_woodland",
@@ -452,6 +460,11 @@
 	"SPS_20Rnd_762x51mm_M80A1_EPR_Tracer",
 	"SPS_20Rnd_762x51mm_M80A1_EPR_IR",
 
+	"SPS_HKG3PMAG_30Rnd_300BLK_110_B",
+	"SPS_HKG3PMAG_30Rnd_300BLK_110_T",
+	"SPS_HKG3PMAG_30Rnd_300BLK_230_B",
+	"SPS_HKG3PMAG_30Rnd_300BLK_230_T",
+
 	"CUP_200Rnd_TE1_Red_Tracer_556x45_M249_Pouch",
 	"CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch",
 
@@ -553,9 +566,11 @@
 //------------------------------------------------------------------
 
 	"tsp_flashbang_m84",
+	"tsp_flashbang_m84s",
 	
 	"tsp_lockpick",
 	"tsp_paperclip",
+
 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
