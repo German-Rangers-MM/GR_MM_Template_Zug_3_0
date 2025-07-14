@@ -434,3 +434,16 @@ if (_modCheck != 0) then {
         ]
     ]
 ] call ctab_fnc_registerMessageTemplate;
+
+["maps-beta.plan-ops.fr#106",0,"SANSTAT","SANSTAT",
+    "https://maps-beta.plan-ops.fr/MessageTemplates/Details/106?t=i5su5j6-gSMte_qUqtg0sqL0lX14zPs-IHg7LlzY8DM",
+    [
+        ["SANSTATUS","",[]],
+        ["","Auskunft",[["1.0-AUS: ","Auskünftige Stelle",3]]],
+        ["","Status Auskunft",[["2.0-LAUS:","Sanlage",6],["0","Grün",6],["1","Gelb",6],["2","Rot",6],["A","Blau",6],["B","Schwarz",6],["2.1-MAUS:","Sanmat",6],["0","Grün",6],["1","Gelb",6],["2","Rot",6]]],
+        ["","Status Alpha/Zulu",[["3.0-LSE:","Sanlage",6],["0","Grün",6],["1","Gelb",6],["2","Rot",6],["A","Blau",6],["B","Schwarz",6],["3.1-MSE:","Sanmat",6],["0","Grün",6],["1","Gelb",6],["2","Rot",6]]],
+        ["","Status Bravo/Yankee",[["4.0-LWG:","Sanlage",6],["0","Grün",6],["1","Gelb",6],["2","Rot",6],["A","Blau",6],["B","Schwarz",6],["4.1-MWG:","Sanmat",6],["0","Grün",6],["1","Gelb",6],["2","Rot",6]]],
+        ["","Status Charlie/X-Ray",[["5.0-LSZ:","Sanlage",6],["0","Grün",6],["1","Gelb",6],["2","Rot",6],["A","Blau",6],["B","Schwarz",6],["5.1-MSZ:","Sanmat",6],["0","Grün",6],["1","Gelb",6],["2","Rot",6]]],
+        ["","Status Sonstige",[["6.0-LEX:","Sanlage",6],["0","Grün",6],["1","Gelb",6],["2","Rot",6],["A","Blau",6],["B","Schwarz",6],["6.1-MEX:","Sanmat",6],["0","Grün",6],["1","Gelb",6],["2","Rot",6],["6.2-CEX","Callsign",0]]]
+    ]
+] call ctab_fnc_registerMessageTemplate;
