@@ -70,6 +70,7 @@ _whitelistedMods = 	[
 						"@A3 Thermal Improvement", "2041057379",
 						"@SPS Weapons V2", "2811886291",
 						"@SPS Equipment", "1187306764",
+						"@Hate's Digital Camera", "2577441180",
 
 						//Additional Maps
 						"@Jbad", "520618345",
