@@ -193,6 +193,8 @@
     "H_PilotHelmetHeli_B",
     "H_PilotHelmetHeli_I_E",
     "H_CrewHelmetHeli_I_E",
+    "GerRng_helmets_helmet_pilot_b",
+    "GerRng_helmets_helmet_pilot_w",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // goggles

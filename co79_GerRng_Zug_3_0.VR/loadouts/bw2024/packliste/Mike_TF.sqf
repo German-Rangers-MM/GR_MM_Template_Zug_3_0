@@ -225,6 +225,8 @@
     "H_HelmetSpecB_wdl",
     "H_HelmetSpecB_sand",
     "CUP_H_SPH4_khaki",
+    "GerRng_helmets_helmet_pilot_b",
+    "GerRng_helmets_helmet_pilot_w",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // goggles

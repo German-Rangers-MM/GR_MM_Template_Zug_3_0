@@ -126,6 +126,8 @@
     "H_crewHelmetHeli_O",
     "H_pilotHelmetHeli_O",
     "H_Helmetcrew_B",
+    "GerRng_helmets_helmet_pilot_b",
+    "GerRng_helmets_helmet_pilot_w",
     "CUP_H_Ger_Boonie_Flecktarn",
     "CUP_H_Ger_Boonie_desert",
     "CUP_H_Ger_Boonie2_Flecktarn",
