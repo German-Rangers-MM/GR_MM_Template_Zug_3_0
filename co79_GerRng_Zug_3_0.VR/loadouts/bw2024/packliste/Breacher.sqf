@@ -98,6 +98,7 @@
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     "ACE_M84",
+    "tsp_flashbang_m84",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // explosives / Put
@@ -109,6 +110,8 @@
     "tsp_breach_linear_auto_mag",
     "tsp_breach_popper_mag",
     "tsp_breach_popper_auto_mag",
+    "tsp_breach_dip_mag",
+    "tsp_breach_dip_auto_mag",
     "tsp_breach_package_mag",
     "tsp_breach_silhouette_mag",
     "tsp_breach_stick_mag",
