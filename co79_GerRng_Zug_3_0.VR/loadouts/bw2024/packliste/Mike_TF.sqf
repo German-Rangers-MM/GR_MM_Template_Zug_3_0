@@ -216,15 +216,11 @@
     "CUP_H_Ger_Cap_EP_tan1",
     "CUP_H_Ger_Cap_Grn2",
     "H_Construction_basic_yellow_F",
-    "H_pilotHelmetFighter_B",
-    "H_crewHelmetHeli_O",
-    "H_pilotHelmetHeli_O",
     "H_Helmetcrew_B",
-    "H_crewHelmetHeli_B",
-    "H_pilotHelmetHeli_B",
     "H_HelmetSpecB_wdl",
     "H_HelmetSpecB_sand",
     "CUP_H_SPH4_khaki",
+    
     "GerRng_helmets_helmet_pilot_b",
     "GerRng_helmets_helmet_pilot_w",
     // ------------------------------------------------------------------

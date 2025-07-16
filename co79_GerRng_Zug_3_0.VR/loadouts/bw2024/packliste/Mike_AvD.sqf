@@ -129,6 +129,7 @@
     "CUP_H_Ger_Boonie2_desert",
     "CUP_H_Ger_Cap_EP_Grn1",
     "CUP_H_Ger_Cap_EP_tan1",
+    
     "GerRng_helmets_helmet_pilot_b",
     "GerRng_helmets_helmet_pilot_w",
     // ------------------------------------------------------------------
