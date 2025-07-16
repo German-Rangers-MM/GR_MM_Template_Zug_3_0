@@ -121,17 +121,16 @@
     // Helme
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    "H_crewHelmetHeli_B",
-    "H_pilotHelmetHeli_B",
-    "H_crewHelmetHeli_O",
-    "H_pilotHelmetHeli_O",
-    "H_Helmetcrew_B",
     "CUP_H_Ger_Boonie_Flecktarn",
     "CUP_H_Ger_Boonie_desert",
     "CUP_H_Ger_Boonie2_Flecktarn",
     "CUP_H_Ger_Boonie2_desert",
     "CUP_H_Ger_Cap_EP_Grn1",
     "CUP_H_Ger_Cap_EP_tan1",
+
+    "H_Helmetcrew_B",
+    "GerRng_helmets_helmet_pilot_b",
+    "GerRng_helmets_helmet_pilot_w",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // goggles

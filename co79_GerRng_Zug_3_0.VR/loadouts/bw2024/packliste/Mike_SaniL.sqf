@@ -271,6 +271,10 @@
     "CUP_optic_SB_11_4x20_PM_tan",
     "CUP_optic_SB_11_4x20_PM",
 
+    "optic_AMS",
+    "optic_AMS_khk",
+    "optic_AMS_snd",
+
     //SPS
     "SPS_Optic_SnB_HP_1_8_Black_PVS24LR",
     "SPS_Optic_SnB_HP_1_8_FDE_PVS24LR",
@@ -398,6 +402,9 @@
     "CUP_H_Ger_Boonie2_desert",
     "CUP_H_Ger_Cap_EP_Grn1",
     "CUP_H_Ger_Cap_EP_tan1",
+
+    "GerRng_helmets_helmet_pilot_b",
+    "GerRng_helmets_helmet_pilot_w",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // goggles
