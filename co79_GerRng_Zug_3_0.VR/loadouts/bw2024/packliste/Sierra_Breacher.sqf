@@ -269,7 +269,7 @@
 	"CFP_Kitbag_Tropentarn",
 
 	"B_UAV_01_backpack_F",
-	"B_UAV_06_backpack_F",
+	"GerRng_faction_UAV_06_backpack_F",
 
 	"ACE_TacticalLadder_Pack",
 

@@ -212,7 +212,7 @@
     "B_UGV_02_Science_backpack_F",
     "B_UAV_01_backpack_F",
     "B_UAV_06_backpack_F",
-    "C_IDAP_UAV_06_antimine_backpack_F",
+    "GerRng_faction_UAV_06_antimine_backpack_F",
     "CUP_B_Mk19_Gun_Bag",
     "CUP_B_Mk19_Tripod_Bag",
     "CUP_B_M2_Gun_Bag",

@@ -187,6 +187,31 @@
     "kat_chestSeal",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+    // Provisions
+    // ------------------------------------------------------------------
+    // ------------------------------------------------------------------
+    "GerRng_utils_HydrationBladder_2L_Empty",
+    "GerRng_utils_HydrationBladder_2L_1_4",
+    "GerRng_utils_HydrationBladder_2L_2_4",
+    "GerRng_utils_HydrationBladder_2L_3_4",
+    "GerRng_utils_HydrationBladder_2L",
+    "GerRng_utils_HydrationBladder_3L_Empty",
+    "GerRng_utils_HydrationBladder_3L_1_6",
+    "GerRng_utils_HydrationBladder_3L_2_6",
+    "GerRng_utils_HydrationBladder_3L_3_6",
+    "GerRng_utils_HydrationBladder_3L_5_6",
+    "GerRng_utils_HydrationBladder_3L_5_6",
+    "GerRng_utils_HydrationBladder_3L",
+
+    "ACE_WaterBottle_Empty",
+    "ACE_WaterBottle_Half",
+    "ACE_WaterBottle",
+    "ACE_Canteen_Empty",
+    "ACE_Canteen_Half",
+    "ACE_Canteen",
+    "ACE_Humanitarian_Ration",
+    // ------------------------------------------------------------------
+    // ------------------------------------------------------------------
     // Misc 1
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------

@@ -291,6 +291,10 @@
 
 	"CUP_launch_HCPF3",
 	"CUP_launch_BF3",
+
+	"GerRng_utils_remote_designator_d",
+	"GerRng_utils_remote_designator_w",
+	
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -351,7 +355,7 @@
 	"CFP_Kitbag_Tropentarn",
 
 	"B_UAV_01_backpack_F",
-	"B_UAV_06_backpack_F",
+	"GerRng_faction_UAV_06_backpack_F",
 
 	"TFAR_rt1523g_big_bwmod",
 	"TFAR_rt1523g_big_bwmod_tropen",
