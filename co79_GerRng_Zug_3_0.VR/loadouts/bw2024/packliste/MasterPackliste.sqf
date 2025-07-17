@@ -709,7 +709,6 @@
     "CUP_MK19_carry",
     "CUP_m252_carry",
     "ace_csw_carryMortarBaseplate",
-    "GerRng_Equipment_GerRng_vz99_carryWeapon",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // uniforms
@@ -1026,11 +1025,6 @@
     "CUP_FlareGreen_265_M",
     "CUP_FlareRed_265_M",
     "CUP_StarClusterRed_265_M",
-    "GerRng_Equipment_GerRng_vz99_flare_IR",
-    "GerRng_Equipment_GerRng_vz99_flare",
-    "GerRng_Equipment_GerRng_vz99_HE",
-    "GerRng_Equipment_GerRng_vz99_smokeWhite",
-    "GerRng_Equipment_GerRng_vz99_smokeWhiteVT",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Grenades / throw
