@@ -34,25 +34,6 @@
     "SPS_hk416_16_5_glm_hk_ctr_sf_black_f",
     "SPS_hk416_16_5_glm_hk_ctr_a7_black_f",
 
-    "SPS_hk417_13_vfg_black_f",
-    "SPS_hk417_13_afg_black_f",
-    "SPS_hk417_13_glm_black_f",
-    "SPS_hk417_13_vfg_ral8000_f",
-    "SPS_hk417_13_afg_ral8000_f",
-    "SPS_hk417_13_glm_ral8000_f",
-    "SPS_hk417_13_vfg_fde_f",
-    "SPS_hk417_13_afg_fde_f",
-    "SPS_hk417_13_glm_fde_f",
-
-    "SPS_hk417_16_vfg_black_f",
-    "SPS_hk417_16_afg_black_f",
-    "SPS_hk417_16_glm_black_f",
-    "SPS_hk417_16_vfg_ral8000_f",
-    "SPS_hk417_16_afg_ral8000_f",
-    "SPS_hk417_16_glm_ral8000_f",
-    "SPS_hk417_16_vfg_fde_f",
-    "SPS_hk417_16_afg_fde_f",
-    "SPS_hk417_16_glm_fde_f",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Visiere
@@ -155,14 +136,6 @@
     "1Rnd_SmokeRed_Grenade_shell",
     "1Rnd_SmokeGreen_Grenade_shell",
     "1Rnd_Smoke_Grenade_shell",
-
-    
-    "SPS_20Rnd_762x51mm_M80A1_EPR",
-    "SPS_20Rnd_762x51mm_M80A1_EPR_IR",
-    "SPS_20Rnd_762x51mm_M80A1_EPR_Tracer",
-
-    "CUP_20Rnd_762x51_DMR",
-    "CUP_20Rnd_TE1_Red_Tracer_762x51_DMR",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Grenades / throw

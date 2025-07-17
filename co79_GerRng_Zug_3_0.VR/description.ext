@@ -75,7 +75,7 @@ class Header
 {
  gameType = COOP;
  minPlayers = 1;
- maxPlayers = 79;
+ maxPlayers = 108;
 };
 
 class CfgTaskEnhancements
