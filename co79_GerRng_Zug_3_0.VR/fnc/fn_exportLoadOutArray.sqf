@@ -17,7 +17,7 @@ if (_loNa in ["Lima"]) 																					then { _eodT = true; 	}; // EOD
 _lo 	= getUnitLoadout player;
 
 _header = composeText [_s,_br,_s,_br,_c,_br,_c,_tab,_loNa,_br,_c,_br,_s,_br,_s,_br];
-_setVar = composeText ["player setVariable [",str "GR_unitLoadout"+",",str _loNa,"];",_br];
+_setVar = composeText ["player setVariable [",str "GR_unitLoadout"+",",str _loNa,",","true","];",_br];
 _array	= composeText ["player setUnitLoadout [", _br, _tab, str (_lo #0)+",", _br, _tab, str (_lo #1)+",", _br, _tab, str (_lo #2)+",", _br, _tab, str (_lo #3)+",", _br, _tab, str (_lo #4)+",", _br, _tab, str (_lo #5)+",", _br, _tab, str (_lo #6)+",", str (_lo #7)+",", str (_lo #8)+",", _br, _tab, str (_lo #9), _br, "];"];
 
 _medic 	= composeText ["player setVariable [",str "ACE_medical_medicClass"+",",str _medT,",","true","];",_br];
@@ -26,7 +26,8 @@ _eod 	= composeText ["player setVariable [",str "ACE_isEOD"+",",str _eodT,",","t
 _lock	= "[ACE_player, currentWeapon ACE_player, true] call ace_safemode_fnc_setWeaponSafety;";		
 _options = composeText [_s,_br,_c,_tab,"ACE Optionen fuer Spieler",_br,_s,_br,_c,_tab,"Medic:",_br,_medic,_br,_c,_tab,"Combat Engineer:",_br,_engi,_br,_c,_tab,"Explosive Specialist:",_br,_eod,_br,_c,_tab,"Waffe sichern",_br,_lock];
 
-_output = composeText [_header,_setVar,_br,_c,_tab,_li,_br,_array,_br,_br,_options]; 
+//_output = composeText [_header,_setVar,_br,_c,_tab,_li,_br,_array,_br,_br,_options]; 
+_output = composeText [_header,_setVar,_br,_c,_tab,_li,_br,_array]; 
 copyToClipboard str _output;
 
 hint "Export Successful";
