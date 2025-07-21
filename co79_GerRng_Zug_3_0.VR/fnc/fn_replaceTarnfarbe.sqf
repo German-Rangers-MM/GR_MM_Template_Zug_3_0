@@ -43,7 +43,7 @@ if (_tarn in ["bwtropen","bwwinter"]) then {
 		switch (vest player) do {
 			case "CUP_V_B_GER_PVest_Fleck_Gren": 	{ _weste = "CUP_V_B_GER_PVest_Trop_Gren" };
 			case "CUP_V_B_GER_PVest_Fleck_Gren_LT": { _weste = "CUP_V_B_GER_PVest_Trop_Gren_LT" };
-			case "GRE_PlateCarrier1_Flecktarn": 	{ _weste = "GRE_PlateCarrier1_Tropentarn" };
+			case "gerrng_PlateCarrier1_Flecktarn": 	{ _weste = "gerrng_PlateCarrier1_Tropentarn" };
 			case "CUP_V_B_GER_Armatus_BB_Fleck":	{ _weste = "CUP_V_B_GER_Armatus_BB_Trop" };					
 		};
 		// Rucksack
