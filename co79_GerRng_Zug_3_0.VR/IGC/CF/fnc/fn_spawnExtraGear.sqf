@@ -5,6 +5,32 @@ if (isNull _dialog) exitWith {};
 
 // Add items based on category
 switch (_type) do {
+
+    case "water": {
+         private _boxClass = "GerRng_rations_waterCarrier";
+
+
+        // Get reference object and offset
+        private _sourceObject = uiNamespace getVariable ["currentSupplyObject", objNull];
+        private _offset = _sourceObject getVariable ["supply_offset", [0,3,0]];
+
+        // Calculate spawn position with offset
+        private _spawnPos = _sourceObject modelToWorld _offset;
+
+        // Create supply box at calculated position
+        private _supplyBox = createVehicle [_boxClass, _spawnPos, [], 0, "CAN_COLLIDE"];
+        _supplyBox setDir (getDir _sourceObject);
+        _supplyBox setPosATL ASLToATL AGLToASL _spawnPos;
+
+        _supplyBox allowDamage false;
+
+        [_supplyBox] spawn {
+            //systemchat str _this;
+            params ["_supplyBox"];
+            sleep 2;
+            _supplyBox allowDamage true;
+        };
+    };
     case "tire": {
         // Get box class from dialog variable
         private _boxClass = "ACE_Wheel";
