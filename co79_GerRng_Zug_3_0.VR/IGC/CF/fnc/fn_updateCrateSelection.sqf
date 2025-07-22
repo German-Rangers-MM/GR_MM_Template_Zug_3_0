@@ -51,9 +51,7 @@ switch (_category) do {
             ["Typ 6 - TOW Munition",limapfad + "box_wagrustat_typ_6.sqf"],
             ["Typ 7 - 82mm Mörser Waffe",limapfad + "box_wagrustat_typ_7.sqf"],
             ["Typ 8 - 82mm Munition HE",limapfad + "box_wagrustat_typ_8.sqf"],
-            ["Typ 9 - 82mm Sondermunition",limapfad + "box_wagrustat_typ_9.sqf"],
-            ["Typ 10 - 60mm Mörser u. Standardmun",limapfad + "box_wagrustat_typ_10.sqf"],
-            ["Typ 11 - 60mm Sondermunition",limapfad + "box_wagrustat_typ_11.sqf"]
+            ["Typ 9 - 82mm Sondermunition",limapfad + "box_wagrustat_typ_9.sqf"]
         ];
     };
 
