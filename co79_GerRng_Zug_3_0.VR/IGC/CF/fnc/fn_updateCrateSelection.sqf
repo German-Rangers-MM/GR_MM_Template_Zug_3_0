@@ -84,7 +84,7 @@ switch (_category) do {
             ["Verpflegung 1 - EPa Typ 1-4", limapfad + "box_vpfl_typ_1.sqf"],
             ["Verpflegung 2 - EPa Typ 5-9", limapfad + "box_vpfl_typ_2.sqf"],
             ["Verpflegung 3 - EPa Typ 10-14", limapfad + "box_vpfl_typ_3.sqf"],
-            ["Verpflegung 4 - EPa Typ 16-19", limapfad + "box_vpfl_typ_4.sqf"],
+            ["Verpflegung 4 - EPa Typ 15-19", limapfad + "box_vpfl_typ_4.sqf"],
             ["Verpflegung 5 - Notration", limapfad + "box_vpfl_typ_5.sqf"]
         ];
     };
