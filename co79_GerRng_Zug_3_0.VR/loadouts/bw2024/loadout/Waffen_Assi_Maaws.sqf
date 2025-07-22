@@ -14,7 +14,7 @@ player setUnitLoadout [
 	["CUP_hgun_M17_Black","","","",["CUP_17Rnd_9x19_M17_Black",17],[],""],
 	["CUP_U_B_GER_Fleck_Crye",[["ACE_fieldDressing",5],["ACE_elasticBandage",5],["ACE_packingBandage",5],["kat_chestSeal",2],["ACE_morphine",1],["ACE_salineIV_500",2],["ACE_splint",2],["ACE_tourniquet",2],["ACE_CableTie",2],["ACE_EarPlugs",1],["ItemcTabHCam",1],["ACE_IR_Strobe_Item",2],["ACE_Flashlight_XL50",1],["ACE_MapTools",1]]],
 	["gerrng_PlateCarrier1_Flecktarn",[["CUP_NVG_PVS15_black",1],["ACE_EntrenchingTool",1],["CUP_17Rnd_9x19_M17_Black",1,17],["CUP_30Rnd_556x45_G36_wdl",6,30]]],
-	["B_Carryall_oli",[["MAA_MAAWS_ASM509",2,1],["MAA_MAAWS_SMOKE469",1,1],["MAA_MAAWS_HEDP502",2,1],["GerRng_MAAWS_GMM_MT",1,1]]],
+	["B_Carryall_oli",[["MAA_MAAWS_ASM509",2,1],["MAA_MAAWS_SMOKE469",1,1],["MAA_MAAWS_HEDP502",2,1],["GerRng_maaws_munitions_MAAWS_GMM_MT",1,1]]],
 	"CUP_H_OpsCore_Covered_Fleck_SF","",["Rangefinder","","","",[],[],""],
 	["ItemMap","ItemMicroDAGR","TFAR_anprc152","ItemCompass","ItemWatch",""]
 ];

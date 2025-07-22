@@ -28,11 +28,14 @@ _categories lbSetData [4, "cbrn"];
 _categories lbAdd "San Boxen";
 _categories lbSetData [5, "san"];
 
+_categories lbAdd "Verpflegungs Boxen";
+_categories lbSetData [6, "vpfl"];
+
 _categories lbAdd "Sierra Boxen";
-_categories lbSetData [6, "sierra"];
+_categories lbSetData [7, "sierra"];
 
 _categories lbAdd "Transport Boxen (leer)";
-_categories lbSetData [7, "supply"];
+_categories lbSetData [8, "supply"];
 
 
 _categories lbSetCurSel 0;

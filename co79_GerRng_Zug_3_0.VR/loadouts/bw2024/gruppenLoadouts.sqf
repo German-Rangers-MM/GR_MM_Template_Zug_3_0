@@ -262,7 +262,6 @@ GR_Packlisten = [
 	grpxray
 	grpyankee
 	grpsierra
-	grpwhiskey	
 
 
 //-----------------------------------------------------------------------------
@@ -284,6 +283,5 @@ GR_Packlisten = [
 	group this setGroupID ["X-Ray"];
 	group this setGroupID ["Yankee"];
 	group this setGroupID ["Sierra"];
-	group this setGroupID ["Whiskey"];	
 	
 */

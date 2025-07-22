@@ -189,18 +189,18 @@ class IGC_CF_dialog {
             action = "[""track""]call IGC_CF_fnc_spawnExtraGear;";
         };
 
+        class IGC_ButtonWaterCarrier: IGC_ButtonSpareTire {
+            text = "\z\ace\addons\field_rations\ui\icon_hud_thirststatus.paa";
+            x = IGC_GETCX(IGC_X_VAL,IGC_WIDTH_VAL,3.5,16);
+            tooltip = "Wasserbehälter spawnen";
+            action = "[""water""]call IGC_CF_fnc_spawnExtraGear;";
+        };
+
         class IGC_ButtonEmptyBox: IGC_ButtonSpareTire {
             text = "\a3\ui_f\data\map\vehicleicons\iconcrate_ca.paa";
             x = IGC_GETCX(IGC_X_VAL,IGC_WIDTH_VAL,2.5,16);
             tooltip = "Leere Kiste spawnen";
             action = "[""supply""]call IGC_CF_fnc_spawnExtraGear;";
-        };
-
-        class IGC_ButtonMREBox: IGC_ButtonSpareTire {
-            text = "\z\ace\addons\field_rations\ui\icon_hud_hungerstatus.paa";
-            x = IGC_GETCX(IGC_X_VAL,IGC_WIDTH_VAL,3.5,16);
-            tooltip = "Versorgungskiste spawnen";
-            action = "[""mre""]call IGC_CF_fnc_spawnExtraGear;";
         };
 
         class IGC_ButtonOrder: IGC_ButtonSpareTire {
