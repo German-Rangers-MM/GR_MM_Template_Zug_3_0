@@ -37,7 +37,7 @@ if (_groupName in ["bravo","yankee"]) then {
 };
 
 // Scharfschützentrupps
-if (_groupName in ["sierra","whiskey"]) then {
+if (_groupName in ["sierra"]) then {
 	_groupRoles = GR_ScharfRollen;
 };
 
