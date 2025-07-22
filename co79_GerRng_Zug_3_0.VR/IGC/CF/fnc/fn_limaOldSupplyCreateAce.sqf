@@ -169,11 +169,29 @@ _iconVerpflegung ="z\ace\addons\field_rations\ui\icon_hud_hungerstatus.paa";
         [_x, 0, ["ACE_MainActions", "San Boxen"], _san1] call ace_interact_menu_fnc_addActionToObject;	
     
         _san2 = ["San2","San Typ 2 - Leichensäcke",_iconBodybags,{params ["_object"]; [_object,"box_san_typ_2"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
-        [_x, 0, ["ACE_MainActions", "San Boxen"], _san2] call ace_interact_menu_fnc_addActionToObject;	
-        /*
-        _san3 = ["San3","San Typ 3 - Verpflegung",_iconVerpflegung,{params ["_object"]; [_object,"box_san_typ_3"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
-        [_x, 0, ["ACE_MainActions", "San Boxen"], _san3] call ace_interact_menu_fnc_addActionToObject;
-        */
+        [_x, 0, ["ACE_MainActions", "San Boxen"], _san2] call ace_interact_menu_fnc_addActionToObject;
+        //------------------------------------------------------------------
+    // Parent Action für Verpflegungs Boxen
+    _vpflBoxen = ["Verpflegungs Boxen","Verpflegungs Boxen",_iconVerpflegung,{ },{true}] call ace_interact_menu_fnc_createAction;
+    [_x, 0, ["ACE_MainActions"], _vpflBoxen] call ace_interact_menu_fnc_addActionToObject;
+        //------------------------------------------------------------------
+        _vpfl1 = ["Vpfl1","Verpflegung 1 - EPa Typ 1-4",_icon,{params ["_object"]; [_object,"box_vpfl_typ_1"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        [_x, 0, ["ACE_MainActions", "Verpflegungs Boxen"], _vpfl1] call ace_interact_menu_fnc_addActionToObject;  
+    
+        _vpfl2 = ["Vpfl2","Verpflegung 2 - EPa Typ 5-9",_icon,{params ["_object"]; [_object,"box_vpfl_typ_2"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        [_x, 0, ["ACE_MainActions", "Verpflegungs Boxen"], _vpfl2] call ace_interact_menu_fnc_addActionToObject;  
+
+        _vpfl3 = ["Vpfl3","Verpflegung 3 - EPa Typ 10-14",_icon,{params ["_object"]; [_object,"box_vpfl_typ_3"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        [_x, 0, ["ACE_MainActions", "Verpflegungs Boxen"], _vpfl3] call ace_interact_menu_fnc_addActionToObject;  
+    
+        _vpfl4 = ["Vpfl4","Verpflegung 4 - EPa Typ 16-19",_icon,{params ["_object"]; [_object,"box_vpfl_typ_4"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        [_x, 0, ["ACE_MainActions", "Verpflegungs Boxen"], _vpfl4] call ace_interact_menu_fnc_addActionToObject;
+
+        _vpfl5 = ["Vpfl5","Verpflegung 5 - Wasser",_icon,{params ["_object"]; [_object,"box_vpfl_typ_5"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        [_x, 0, ["ACE_MainActions", "Verpflegungs Boxen"], _vpfl5] call ace_interact_menu_fnc_addActionToObject;  
+
+        _vpfl6 = ["Vpfl6","Verpflegung 6 - Notration",_icon,{params ["_object"]; [_object,"box_vpfl_typ_6"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        [_x, 0, ["ACE_MainActions", "Verpflegungs Boxen"], _vpfl6] call ace_interact_menu_fnc_addActionToObject;  
         //------------------------------------------------------------------
     // Parent Action für Ersatzteile
     /*

@@ -23,8 +23,8 @@
             "CUP_U_B_GER_Fleck_Crye2",
             "CUP_U_B_GER_Crye",
             "CUP_U_B_GER_Crye2",
-            "GRE_PlateCarrier1_Flecktarn",
-            "GRE_PlateCarrier1_Tropentarn",
+            "gerrng_PlateCarrier1_Flecktarn",
+            "gerrng_PlateCarrier1_Tropentarn",
             "CUP_H_Ger_M92_Cover",
             "CUP_H_Ger_M92_Cover_GG_CB",
             "CUP_H_Ger_M92_Cover_GG_CF",
@@ -122,7 +122,6 @@
             "SMG_05_F",
             "CUP_smg_MP7",
 
-            
             "CUP_hgun_M17_Black",
             "CUP_hgun_M17_Coyote",
             "CUP_hgun_M17_Green"
@@ -155,7 +154,20 @@
             "CUP_20Rnd_46x30_MP7",
             "CUP_40Rnd_46x30_MP7",
             "CUP_40Rnd_46x30_MP7_Red_Tracer",
-            "CUP_30Rnd_9x19_MP5"
+            "CUP_30Rnd_9x19_MP5",
+
+            "SPS_HKG3PMAG_30Rnd_556x45_B",
+            "SPS_HKG3PMAG_30Rnd_556x45_B_Red",
+            "SPS_HKG3PMAG_30Rnd_556x45_B_M995",
+            "SPS_HKG3PMAG_30Rnd_556x45_B_Mk318",
+            "SPS_HKG3PMAG_30Rnd_556x45_FDE",
+            "SPS_HKG3PMAG_30Rnd_556x45_FDE_Red",
+            "SPS_HKG3PMAG_30Rnd_556x45_FDE_M995",
+            "SPS_HKG3PMAG_30Rnd_556x45_FDE_Mk318",
+            "SPS_HKG3PMAG_30Rnd_556x45_S",
+            "SPS_HKG3PMAG_30Rnd_556x45_S_Red",
+            "SPS_HKG3PMAG_30Rnd_556x45_S_M995",
+            "SPS_HKG3PMAG_30Rnd_556x45_S_Mk318"
         ]
     ],
     
@@ -214,22 +226,47 @@
             "CUP_optic_AIMM_MICROT1_OD",
             "optic_MRD",
             "optic_MRD_black",
+            "sps_aimpoint_T1_Black",
+            "sps_aimpoint_T1_Black50",
+            "sps_aimpoint_T1_Sand",
+            "sps_aimpoint_T1_Sand50",
+            "sps_aimpoint_T1_3xMAG_up_Black",
+            "sps_aimpoint_T1_3xMAG_up",
+            "sps_aimpoint_T1_Black_High",
+            "sps_aimpoint_T1_Black_High50",
+            "sps_aimpoint_T1_High",
+            "sps_aimpoint_T1_High50",
+            "SPS_EOTech_Black",
+            "SPS_EOTech_Black50",
+            "SPS_EOTech_Tan",
+            "SPS_EOTech_Tan50",
+            "SPS_EOTech_Black_3xMAG_up",
+            "SPS_EOTech_Tan_3xMAG_up",
+            "SPS_EOTech_Black_5xMAG_up",
+            "SPS_EOTech_Tan_5xMAG_up",
 
             //Pointer
             "CUP_acc_ANPEQ_15_Flashlight_Black_L",
             "CUP_acc_ANPEQ_15_Flashlight_tan_L",
             "CUP_acc_ANPEQ_15_Flashlight_OD_L",
-            "CUP_acc_LLM01_L",
-            "CUP_acc_LLM01_desert_L",
-            "CUP_acc_LLM01_od_L",
             "CUP_acc_LLM_black",
             "CUP_acc_LLM",
             "CUP_acc_LLM_od",
             "CUP_acc_CZ_M3X",
+        
+            "sps_M300C",
+            "sps_M300C_tan", 
+            "sps_M300C_MAWL_IR",
+            "sps_M300C_MAWL_IR_tan",
+            "sps_M300C_MAWL_high_IR",
+            "sps_M300C_MAWL_high_IR_tan",
+            "sps_M300C_MAWL_LAMG_IR",
+            "sps_M300C_MAWL_LAMG_IR_tan",
+            "sps_M300C_MAWL_smr_IR",
+            "sps_M300C_MAWL_smr_IR_tan",
 
-                    
             "CUP_bipod_Harris_1A2_L_BLK",
-            "CUP_Bipod_G36"
+            "CUP_Bipod_G36"        
         ]
     ],
     
@@ -250,15 +287,16 @@
             "launch_B_Titan_short_F",
             "CUP_toW2_carry",
             "ace_csw_m220CarryTripod",
-            "GerRng_HMG_M2_Sh_carry",
-            "GerRng_HMG_M2_ScSh_carry",
             "ace_csw_m3CarryTripod",
             "ace_csw_m3CarryTripodLow",
-            "GerRng_GMG_Mk19",
             "CUP_MK19_carry",
             "CUP_m252_carry",
-            "ace_csw_carryMortarBaseplate",
-            "GerRng_Equipment_GerRng_vz99_carryWeapon"
+            "GerRng_csw_GraMaWa_carry",
+            "GerRng_csw_M3M_carry",
+            "GerRng_csw_M3M_carry_Scope",
+            "GerRng_csw_M3M_carry_Shield",
+            "GerRng_csw_M3M_carry_ScopeShield",
+            "ace_csw_carryMortarBaseplate"
         ]
     ],
     
@@ -285,7 +323,22 @@
             "miniGrenade",
             "B_IR_Grenade",
             "ACE_HandFlare_Red",
-            "ACE_HandFlare_Green"
+            "ACE_HandFlare_Green",
+            "ACE_M84",
+            "tsp_flashbang_m84",
+            "tsp_breach_block_mag",
+            "tsp_breach_block_auto_mag",
+            "tsp_breach_linear_mag",
+            "tsp_breach_linear_auto_mag",
+            "tsp_breach_popper_mag",
+            "tsp_breach_popper_auto_mag",
+            "tsp_breach_dip_mag",
+            "tsp_breach_dip_auto_mag",
+            "tsp_breach_package_mag",
+            "tsp_breach_silhouette_mag",
+            "tsp_breach_stick_mag",
+            "DemoCharge_Remote_Mag",
+            "SatchelCharge_Remote_Mag"
         ]
     ],
     
@@ -393,6 +446,39 @@
             "kat_phenylephrine",
             "kat_stethoscope",
             "kat_ncdKit"
+        ]
+    ],
+
+    [
+        "Verpflegung", 
+        [
+            "GerRng_rations_HydrationBladder_2L",
+            "GerRng_rations_HydrationBladder_3L",
+
+            "GerRng_rations_EPa_typ_i",
+            "GerRng_rations_EPa_typ_iia",
+            "GerRng_rations_EPa_typ_iib",
+            "GerRng_rations_EPa_typ_iii",
+            "GerRng_rations_EPa_typ_iv",
+            "GerRng_rations_EPa_typ_v",
+            "GerRng_rations_EPa_typ_vi",
+            "GerRng_rations_EPa_typ_vii",
+            "GerRng_rations_EPa_typ_viii",
+            "GerRng_rations_EPa_typ_ix",
+            "GerRng_rations_EPa_typ_x",
+            "GerRng_rations_EPa_typ_xi",
+            "GerRng_rations_EPa_typ_xii",
+            "GerRng_rations_EPa_typ_xiii",
+            "GerRng_rations_EPa_typ_xiv",
+            "GerRng_rations_EPa_typ_xv",
+            "GerRng_rations_EPa_typ_xvi",
+            "GerRng_rations_EPa_typ_xvii",
+            "GerRng_rations_EPa_typ_xviii",
+            "GerRng_rations_EPa_typ_xix",
+
+            "ACE_WaterBottle",
+            "ACE_Canteen",
+            "ACE_Humanitarian_Ration"
         ]
     ],
     

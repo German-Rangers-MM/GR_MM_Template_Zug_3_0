@@ -190,17 +190,7 @@
     // Provisions
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    "GerRng_rations_HydrationBladder_2L_Empty",
-    "GerRng_rations_HydrationBladder_2L_1_4",
-    "GerRng_rations_HydrationBladder_2L_2_4",
-    "GerRng_rations_HydrationBladder_2L_3_4",
     "GerRng_rations_HydrationBladder_2L",
-    "GerRng_rations_HydrationBladder_3L_Empty",
-    "GerRng_rations_HydrationBladder_3L_1_6",
-    "GerRng_rations_HydrationBladder_3L_2_6",
-    "GerRng_rations_HydrationBladder_3L_3_6",
-    "GerRng_rations_HydrationBladder_3L_4_6",
-    "GerRng_rations_HydrationBladder_3L_5_6",
     "GerRng_rations_HydrationBladder_3L",
 
     "GerRng_rations_EPa_typ_i",
@@ -224,11 +214,7 @@
     "GerRng_rations_EPa_typ_xviii",
     "GerRng_rations_EPa_typ_xix",
 
-    "ACE_WaterBottle_Empty",
-    "ACE_WaterBottle_Half",
     "ACE_WaterBottle",
-    "ACE_Canteen_Empty",
-    "ACE_Canteen_Half",
     "ACE_Canteen",
     "ACE_Humanitarian_Ration",
     // ------------------------------------------------------------------

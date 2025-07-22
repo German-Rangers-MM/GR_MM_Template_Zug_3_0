@@ -81,6 +81,17 @@ switch (_category) do {
         ];
     };
 
+    case "vpfl": {
+        _selections = [
+            ["Verpflegung 1 - EPa Typ 1-4", limapfad + "box_vpfl_typ_1.sqf"],
+            ["Verpflegung 2 - EPa Typ 5-9", limapfad + "box_vpfl_typ_2.sqf"],
+            ["Verpflegung 3 - EPa Typ 10-14", limapfad + "box_vpfl_typ_3.sqf"],
+            ["Verpflegung 4 - EPa Typ 16-19", limapfad + "box_vpfl_typ_4.sqf"],
+            ["Verpflegung 5 - Wasser", limapfad + "box_vpfl_typ_5.sqf"],
+            ["Verpflegung 6 - Notration", limapfad + "box_vpfl_typ_6.sqf"]
+        ];
+    };
+
     case "sierra": {
         _selections = [
             ["Typ 1 - Trupp 1 - S", limapfad + "box_sierra_typ_1.sqf"],

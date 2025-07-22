@@ -5,10 +5,6 @@ if (isNull _dialog) exitWith {};
 
 // Add items based on category
 switch (_type) do {
-    case "mre": {
-        [] execVM limapfad + "box_san_typ_3.sqf";
-    };
-    
     case "tire": {
         // Get box class from dialog variable
         private _boxClass = "ACE_Wheel";
