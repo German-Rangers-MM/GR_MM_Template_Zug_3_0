@@ -435,6 +435,7 @@ if (_modCheck != 0) then {
     ]
 ] call ctab_fnc_registerMessageTemplate;
 
+
 ["maps-beta.plan-ops.fr#106",0,"SANSTAT","SANSTAT",
     "https://maps-beta.plan-ops.fr/MessageTemplates/Details/106?t=i5su5j6-gSMte_qUqtg0sqL0lX14zPs-IHg7LlzY8DM",
     [
@@ -446,4 +447,122 @@ if (_modCheck != 0) then {
         ["","Status Charlie/X-Ray",[["5.0-LSZ:","Sanlage",6],["0","Grün",6],["1","Gelb",6],["2","Rot",6],["A","Blau",6],["B","Schwarz",6],["5.1-MSZ:","Sanmat",6],["0","Grün",6],["1","Gelb",6],["2","Rot",6]]],
         ["","Status Sonstige",[["6.0-LEX:","Sanlage",6],["0","Grün",6],["1","Gelb",6],["2","Rot",6],["A","Blau",6],["B","Schwarz",6],["6.1-MEX:","Sanmat",6],["0","Grün",6],["1","Gelb",6],["2","Rot",6],["6.2-CEX","Callsign",0]]]
     ]
+] call ctab_fnc_registerMessageTemplate;
+
+
+["maps-beta.plan-ops.fr#114",3,"CCA Check-In","CCA Check-In",
+"https://maps-beta.plan-ops.fr/MessageTemplates/Details/114?t=-raxWlW2prP2GSXweE--6nnANTpyH-03yaP-3ANTGdg",
+	[
+		["CCA Check-In","",[]],
+		["Line 1","",[["","Callsign Bodeneinheit",0],[", this is ","Callsign LFZ",0]]],
+		["Line 2","",[["Aircraft Team Composition and Location: ","",0]]],
+		["Line 3","",[["Munitions available: ","",0],["Guns, ","",6],["Rockets, ","",6],["Missiles","",6]]],
+		["Line 4","",[["Nightvision available, ","",6],["Thermals available, ","",6],["Radar available","",6]]],
+		["Line 5","",[["Station Time: ","",0]]]
+	]
+] call ctab_fnc_registerMessageTemplate;
+
+
+["maps-beta.plan-ops.fr#115",3,"CCA","CCA",
+"https://maps-beta.plan-ops.fr/MessageTemplates/Details/115?t=Q-z2udQadY2OtQn_mF8kgf1WZaA5Pf0mCVmOwzn2nkg",
+	[
+		["CCA","",[]],
+		["Line 1","",[["Aircraft Callsign: ","",0],["Observer Callsign: ","",0]]],
+		["Line 2","",[["My position ","TRP, Grid, etc.)",0],[", marked by","(Rauch, Flare, etc.)",0]]],
+		["Line 3","",[["Target Location: ","",0]]],
+		["Line 4","",[["","Description",0],[", maked by ","(Smoke, Laser, etc.)",0]]],
+		["Line 5","",[]],
+		["AA-Threat","",[["AAA,","",6],["MANPADS,","",6],["SAM,","",6],["Aircraft,","",6],["Fighters","",6]]],
+		["Danger Close","",[["Yes, ","Position & Markierung",0],["No","",6]]],
+		["Restrictions:","",[["Yes, ","",0],["No","",6]]],
+		["At my Command","",[["Yes","",6],["No","",6]]],
+		["Over.","",[]]
+	]
+] call ctab_fnc_registerMessageTemplate;
+
+
+["maps-beta.plan-ops.fr#109",3,"Check-In","Check-In",
+"https://maps-beta.plan-ops.fr/MessageTemplates/Details/109?t=OB5iHHtfNKFBdi9t3BZXKd4Nf1gYuSJb2XMnT8kIfVU",
+	[
+		["Check-In","",[]],
+		["1","",[["Callsign: ","",0]]],
+		["2","",[["Package Composition: ","(z.b. 1 Lynx)",0]]],
+		["3","",[["Position: ","(z.B. Verfügungsraum Kiel)",0],[", Altitude: ","(in m)",0]]],
+		["4","",[["Ordnance: ","(z.B. 4x Hellfire radar Guided, 20mm Canon)",0]]],
+		["5","",[["Time on Station: ","(z.b. 90min)",0]]],
+		["6","",[["Sensors & Capabilities: ","(z.B. Radar, 8 Transport slots)",0]]],
+		["7","",[["Abort Code: ","(z.B. "" 3x Sonne oder Gelber Rauch/Flare"")",0]]]
+	]
+] call ctab_fnc_registerMessageTemplate;
+
+
+["maps-beta.plan-ops.fr#113",0,"SpotRep","SpotRep",
+"https://maps-beta.plan-ops.fr/MessageTemplates/Details/113?t=q8vFuLc83UXjsxdbmBngSYUGiST5wYLg0UW5GfNUI4I",
+	[
+		["SpotRep","",[]],
+		["Line 1","",[["Size: ","",0]]],
+		["Line 2","",[["Activity: ","",0]]],
+		["Line 3","",[["Uniform / Unit: ","",0]]],
+		["Line 4","",[["Time: ","",0]]],
+		["Line 5","",[["Equipment: ","",0]]]
+	]
+] call ctab_fnc_registerMessageTemplate;
+
+
+["maps-beta.plan-ops.fr#110",0,"Situation Report","Situation Report",
+"https://maps-beta.plan-ops.fr/MessageTemplates/Details/110?t=NKi3rjL9PQFMKUmF6Uyf0oCkvPGIcWoOzX0rZF4XLZw",
+	[
+		["Situation Report","",[]],
+		["Enemy Situation","",[["","",0]]],
+		["Threats","",[["","",0]]],
+		["Friendly Situation","",[["","",0]]],
+		["Remarks / restrictions","",[["","",0]]]
+	]
+] call ctab_fnc_registerMessageTemplate;
+
+
+["maps-beta.plan-ops.fr#108",3,"5 Line RW CAS","5 Line RW CAS",
+	"https://maps-beta.plan-ops.fr/MessageTemplates/Details/108?t=aVlvWsJkG9b33GlkEsLnnw5GSfX4nYw0SdEv9hDPdcI",
+	[
+		["5 Line RW CAS","",[]],
+		["Line 1","",[["","Aircraft Callsign",0],[",","JTAC Callsign",0],[", 5-Line, Type 1 Control,","",6],[", 5-Line, Type 2 Control,","",6],[", 5-Line, Type 3 Control,","",6],["MoA BoC,","",6],["MoA BoT,","",6],["Ordnance Requested:","",0]]],
+		["Line 2","",[["My Position:","",5],[", marked by: ","(Smoke, Strobe, etc.)",0]]],
+		["Line 3","",[["Target Location,","(TRP; Grid; etc.)",0]]],
+		["Line 4","",[["","(Target Description)",0],[", marked by ","(Laser, IR point, Smoke, etc.)",0]]],
+		["Line 5","",[]],
+		["AA-Threat","",[["No","",6],["MANPADS, ","",6],["AAA, ","",6],["SAM,","",6],["Aircraft,","",6],["Fighters","",6]]],
+		["Final Attack Heading","",[["","",0]]],
+		["Laser Code","",[["","",0]]],
+		["Danger Close","",[["No","",6],["Yes, ","(Gruppen & Position)",8]]],
+		["Ingress via","",[["","(e.g. North West)",0],[", Egress via: ","(e.g. South East)",0]]],
+		["Additonal Calls Requested","",[["No","",6],["Yes,","",0]]],
+		["Additional Remarks","",[["","",0]]]
+	]
+] call ctab_fnc_registerMessageTemplate;
+
+
+["maps-beta.plan-ops.fr#112",2,"CFF","CFF",
+"https://maps-beta.plan-ops.fr/MessageTemplates/Details/112?t=cvPtVtb3lzRe4q7OSoM_deL4e9jJEsl76s7DzyHnXUw",
+	[
+		["CFF","",[]],
+		["Line 1","",[["JTAC Callsign: ","",0],[", Battery Callsign: ","",0],[", Firemission ID:","",0]]],
+		["Line 2","",[["Type of Mission: Adjust Fire","",6],["Type of Mission: Fire for Effect","",6],["Type of Mission: Suppress","",6],["Type of Mission: Immediate Suppression","",6],[", Size of Element to Fire: ","(z.B. Batterie, 2 Geschütze, etc.)",0],[", Method of Target Location: Grid","",6],[", Method of Target Location: Polar","",6],[", Method of Target Location: Shift from known Point","",6]]],
+		["Line 3: Target Location","",[["Grid - ","",0],["Polar - ","",0],["Shift from Known Point - ","",0]]],
+		["Line 4","",[["Target Description: ","",8]]],
+		["Line 5: Method of Engagement","",[["Fire Type: Area, ","",6],["Fire Type: Precision, ","",6],["Danger Close: Yes, ","",6],["Danger Close: No, ","",6],["Ammo Load: Uniform, ","",6],["Ammo Load: Mixed, ","",6],["Ammo Type & Amount: ","",0],[", Sheaf: Converged","",6],[", Sheaf: Special: ","",0],[", Sheaf: Open","",6],[", Sheaf: Parallel","",6],[", Sheaf: Standard","",6]]],
+		["Line 6: Method of Control","",[["Fire when Ready","",6],["At my Command","",6],["Time on Target: ","",0],["Check Fire","",6],["Cannot Observe","",6],["Continuous Illum.","",6],["Continuos Fire: ","",0],["Cease Loading","",6],["Repeat","",6]]]
+	]
+] call ctab_fnc_registerMessageTemplate;
+
+
+["maps-beta.plan-ops.fr#111",0,"BDA","BDA",
+"https://maps-beta.plan-ops.fr/MessageTemplates/Details/111?t=0XnLZlGcpssZXrkPZSSXRgCfo9PN9HtOwdbuw_BtBks",
+	[
+		["BDA","",[]],
+		["Hits","",[["Direct Hit","",6],["Close Hit","",6],["Deviation","",6],["Miss","",6]]],
+		["Effect","",[["Good Effect","",6],["Effect","",6],["Bad Effect","",6],["No Effect","",6]]],
+		["Observer Target Line (in Mil)","",[["","",1]]],
+		["Devation","",[["Add: ","",0],["Drop: ","",0],["Left: ","",0],["Right: ","",0]]],
+		["Behavior","",[["Repeat","",6],["Repeat with corrections","",6],["End of Firemission","",6]]]
+	]
 ] call ctab_fnc_registerMessageTemplate;
