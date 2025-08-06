@@ -18,6 +18,7 @@
 GR_ZugFhrRollen = [
 	["Zugführer","ZugFhr"],
 	["Zug Sanitäter","ZugSani"],
+	["Nahsicherer / JTAC","Zug_JTAC"],
 	["Fahrer", "ZugFahr"]
 ];
 
@@ -124,13 +125,11 @@ GR_HotelRollen = [
 
 GR_MikeRollen = [
 	["Arzt vom Dienst","Mike_AvD"],
-	["Truppführer","Mike_TF"],
 	["Sanitäter vom Dienst","Mike_SvD"],
-	["Sanitäter (Mike)","Sanitaeter"],
+	["Sanitäter - Fahrzeugführer","Mike_SaniP"],
+	["Sanitäter (Mike)","Mike_Sani"],
 	["Leichter Sanitäter","Mike_SaniL"],
-	["Fahrer (Mike)","Mike_Fahrer"],
-	["Techniker Mike","Mike_Techniker"],
-	["Schütze (Mike)","Mike_SchM"]
+	["Leichter Sanitäter / techniker","Mike_SaniL_Tech"]
 ];
 
 //-----------------------------------------------------------------------------
@@ -141,7 +140,13 @@ GR_MikeRollen = [
 
 GR_LimaRollen = [
 	["Standard","Lima"],
-	["Pilot","Lima_Pilot"]
+	["Pilot","Lima_Pilot"],
+	["Romeo Artillerie","Romeo_Arty"],
+	["Romeo Pilot","Romeo_Pilot"],
+	["Romeo Truppführer","Romeo_TF"],
+	["Romeo Späh Truppführer","Romeo_R_TF"],
+	["Romeo Späh DM","Romeo_R_DM"],
+	["Romeo Späh Grenadier","Romeo_R_Gren"]
 ];
 
 //-----------------------------------------------------------------------------
@@ -160,12 +165,17 @@ GR_AlleRollen = [
 	["Lima","Lima"],
 	["Pilot","Lima_Pilot"],
 	["Arzt vom Dienst","Mike_AvD"],
-	["Fahrer","Mike_Fahrer"],
 	["Sanitäter vom Dienst","Mike_SvD"],
 	["Sanitäter (Mike)","Mike_Sani"],
-	["Schütze (Mike)","Mike_SchM"],
-	["Techniker","Mike_Techniker"],
+	["Sanitäter - Fahrzeugführer","Mike_SaniP"],
 	["Sanitäter Leicht","Mike_SaniL"],
+	["Sanitäter Leicht / Techniker","Mike_SaniL_Tech"],
+	["Romeo Artillerie","Romeo_Arty"],
+	["Romeo Pilot","Romeo_Pilot"],
+	["Romeo Späh DM","Romeo_R_DM"],
+	["Romeo Späh Grenadier","Romeo_R_Gren"],
+	["Romeo Späh Truppführer","Romeo_R_TF"],
+	["Romeo Truppführer","Romeo_TF"],
 	["Sanitäter","Sanitaeter"],
 	["Sanitäter WaGru","Sanitaeter_WaGru"],
 	["Schütze","Schuetze"],
@@ -208,13 +218,17 @@ GR_Packlisten = [
 	"KpFhr",
 	"Lima",
 	"Mike_AvD",
-	"Mike_Fahrer",
 	"Mike_Sani",
+	"Mike_SaniP",
 	"Mike_SaniL",
-	"Mike_SchM",
+	"Mike_SaniL_Tech",
 	"Mike_SvD",
-	"Mike_TF",
-	"Mike_Techniker",
+	"Romeo_Arty",
+	"Romeo_Pilot",
+	"Romeo_R_DM",
+	"Romeo_R_Gren",
+	"Romeo_R_TF",
+	"Romeo_TF",
 	"Sanitaeter",
 	"Sanitaeter_WaGru",
 	"Schuetze",

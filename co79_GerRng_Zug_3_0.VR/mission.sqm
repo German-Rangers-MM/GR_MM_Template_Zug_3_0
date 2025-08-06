@@ -6,9 +6,13 @@ class EditorData
 	scaleGridStep=1;
 	autoGroupingDist=10;
 	toggles=549;
+	mods[]=
+	{
+		"3denEnhanced"
+	};
 	class ItemIDProvider
 	{
-		nextID=2146;
+		nextID=2185;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=163;
+		nextID=199;
 	};
 	class Camera
 	{
-		pos[]={1357.1456,47.006809,5131.3716};
-		dir[]={0.79814214,-0.5267964,0.2927717};
-		up[]={0.49476269,0.84984976,0.18148588};
-		aside[]={0.34439695,1.1819066e-06,-0.93888164};
+		pos[]={1403.0822,14.044767,5110.8037};
+		dir[]={0.73080337,-0.66888696,0.13611022};
+		up[]={0.65758145,0.74335945,0.12247296};
+		aside[]={0.18309948,-5.4104021e-08,-0.98309869};
 	};
 };
 binarizationWanted=0;
@@ -32,6 +36,7 @@ addons[]=
 {
 	"A3_Structures_F_Walls",
 	"A3_Structures_F_Mil_Helipads",
+	"Desert",
 	"RCOP_patches",
 	"A3_Structures_F_Mil_BagFence",
 	"A3_Structures_F_Argo_Military_Fortifications",
@@ -70,6 +75,7 @@ addons[]=
 	"A3_Drones_F_Air_F_Gamma_UAV_01",
 	"ace_spottingscope",
 	"A3_Structures_F_Ind_Shed",
+	"emr_main",
 	"ace_logistics_wirecutter",
 	"ace_concertina_wire",
 	"A3_Structures_F_Argo_Military_Bunkers",
@@ -105,6 +111,8 @@ addons[]=
 	"A3_Static_F_Mark_Designator_01",
 	"A3_Static_F_Enoch_Designator_01",
 	"GerRng_engineering",
+	"ace_flags",
+	"ace_marker_flags",
 	"A3_Characters_F",
 	"A3_Weapons_F",
 	"CUP_Creatures_Military_Germany",
@@ -121,7 +129,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=64;
+		items=68;
 		class Item0
 		{
 			className="A3_Structures_F";
@@ -138,400 +146,426 @@ class AddonsMetaData
 		};
 		class Item2
 		{
+			className="Desert";
+			name="Desert";
+		};
+		class Item3
+		{
 			className="RCOP_patches";
 			name="PERSIST - RCO";
 			author="Rimmy";
 		};
-		class Item3
+		class Item4
 		{
 			className="A3_Structures_F_Argo";
 			name="Arma 3 Malden - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item4
+		class Item5
 		{
 			className="A3_Structures_F_Enoch_Military";
 			name="Arma 3 Contact Platform - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item5
+		class Item6
 		{
 			className="A3_Structures_F_Exp";
 			name="Arma 3 Apex - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item6
+		class Item7
 		{
 			className="A3_Props_F_Enoch";
 			name="Arma 3 Contact Platform - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
+		class Item8
 		{
 			className="A3_Structures_F_Exp_Civilian";
 			name="Arma 3 Apex - Civilian Buildings";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
+		class Item9
 		{
 			className="CUP_Misc3_Config";
 			name="CUP_Misc3_Config";
 		};
-		class Item9
+		class Item10
 		{
 			className="A3_Props_F_Decade_Objectives";
 			name="A3_Props_F_Decade_Objectives";
 		};
-		class Item10
+		class Item11
 		{
 			className="CUP_Misc_e_Config";
 			name="CUP_Misc_e_Config";
 		};
-		class Item11
+		class Item12
 		{
 			className="A3_Props_F_Orange";
 			name="Arma 3 Orange - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item13
 		{
 			className="boxloader_tractor";
 			name="boxloader_tractor";
 		};
-		class Item13
+		class Item14
 		{
 			className="CUP_WheeledVehicles_TowingTractor";
 			name="CUP_WheeledVehicles_TowingTractor";
 		};
-		class Item14
+		class Item15
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item15
+		class Item16
 		{
 			className="ace_rearm";
 			name="ACE3 - Rearm";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item16
+		class Item17
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item17
+		class Item18
 		{
 			className="ace_refuel";
 			name="ACE3 - Refuel";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item18
+		class Item19
 		{
 			className="ace_ballistics";
 			name="ACE3 - Ballistics";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item19
+		class Item20
 		{
 			className="ace_mk6mortar";
 			name="ACE3 - Mk6 Mortar";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item20
+		class Item21
 		{
 			className="A3_Supplies_F_Exp";
 			name="Arma 3 Apex - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item21
+		class Item22
 		{
 			className="ace_dragging";
 			name="ACE3 - Dragging";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item22
+		class Item23
 		{
 			className="ace_chemlights";
 			name="ACE3 - Chemlights";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item23
+		class Item24
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item24
+		class Item25
 		{
 			className="ace_medical_treatment";
 			name="ACE3 - Medical Treatment";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item25
+		class Item26
 		{
 			className="ace_common";
 			name="ACE3 - Common";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item26
+		class Item27
 		{
 			className="ace_flashsuppressors";
 			name="ACE3 - Flash Suppressors";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item27
+		class Item28
 		{
 			className="ace_grenades";
 			name="ACE3 - Grenades";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item28
+		class Item29
 		{
 			className="ace_parachute";
 			name="ACE3 - Parachute";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item29
+		class Item30
 		{
 			className="ace_flashlights";
 			name="ACE3 - Flashlights";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item30
+		class Item31
 		{
 			className="boxloader_pallet";
 			name="boxloader_pallet";
 		};
-		class Item31
+		class Item32
 		{
 			className="boxloader_cargo";
 			name="boxloader_cargo";
 		};
-		class Item32
+		class Item33
 		{
 			className="A3_Drones_F";
 			name="Arma 3 Beta - Drones";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item33
+		class Item34
 		{
 			className="ace_spottingscope";
 			name="ACE3 - Spotting Scope";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item34
+		class Item35
 		{
 			className="A3_Structures_F_Ind";
 			name="Arma 3 - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item35
+		class Item36
+		{
+			className="emr_main";
+			name="Enhanced Movement Rework";
+			author="Simplex Team";
+			url="https://github.com/SceptreOfficial/Enhanced-Movement-Rework";
+		};
+		class Item37
 		{
 			className="ace_logistics_wirecutter";
 			name="ACE3 - Logistics Wire Cutter";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item36
+		class Item38
 		{
 			className="ace_concertina_wire";
 			name="ACE3 - Concertina Wire";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item37
+		class Item39
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item38
+		class Item40
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item39
+		class Item41
 		{
 			className="A3_Props_F_Exp";
 			name="Arma 3 Apex - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item40
+		class Item42
 		{
 			className="A3_Structures_F_EPB";
 			name="Arma 3 Adapt Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item41
+		class Item43
 		{
 			className="ace_interaction";
 			name="ACE3 - Interaction";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item42
+		class Item44
 		{
 			className="CUP_Creatures_StaticWeapons";
 			name="CUP_Creatures_StaticWeapons";
 		};
-		class Item43
+		class Item45
 		{
 			className="A3_Signs_F";
 			name="Arma 3 - Signs";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item44
+		class Item46
 		{
 			className="ace_tripod";
 			name="ACE3 - Tripod";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item45
+		class Item47
 		{
 			className="ace_trenches";
 			name="ACE3 - Trenches";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item46
+		class Item48
 		{
 			className="grad_trenches_assets";
 			name="grad_trenches_assets";
 		};
-		class Item47
+		class Item49
 		{
 			className="grad_trenches_functions";
 			name="grad_trenches_functions";
 		};
-		class Item48
+		class Item50
 		{
 			className="GerRng_faction";
 			name="GERRNG - Faction";
 			author="German Rangers Moddingteam";
 		};
-		class Item49
+		class Item51
 		{
 			className="GerRng_csw";
 			name="GERRNG - Crew Served Weapons";
 			author="German Rangers Moddingteam";
 		};
-		class Item50
+		class Item52
 		{
 			className="GerRng_rations";
 			name="GERRNG - Rations";
 			author="German Rangers Moddingteam";
 		};
-		class Item51
+		class Item53
 		{
 			className="A3_Static_F_Mark";
 			name="Arma 3 Marksmen - Turrets";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item52
+		class Item54
 		{
 			className="A3_Static_F_Enoch";
 			name="Arma 3 Enoch - Turrets";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item53
+		class Item55
 		{
 			className="GerRng_engineering";
 			name="GERRNG - Engineering";
 			author="German Rangers Moddingteam";
 		};
-		class Item54
+		class Item56
+		{
+			className="ace_flags";
+			name="ACE3 - Flags";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item57
+		{
+			className="ace_marker_flags";
+			name="ACE3 - Marker Flags";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item58
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item55
+		class Item59
 		{
 			className="CUP_Creatures_Military_Germany";
 			name="CUP_Creatures_Military_Germany";
 		};
-		class Item56
+		class Item60
 		{
 			className="CFP_B_DEARMY_WDL_WDL";
 			name="CFP_B_DEARMY_WDL_WDL";
 			author="CFP Team";
 		};
-		class Item57
+		class Item61
 		{
 			className="ace_explosives";
 			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item58
+		class Item62
 		{
 			className="CUP_WarfareBuildings";
 			name="CUP_WarfareBuildings";
 		};
-		class Item59
+		class Item63
 		{
 			className="CUP_StandaloneTerrains_Core_Faction";
 			name="CUP_StandaloneTerrains_Core_Faction";
 		};
-		class Item60
+		class Item64
 		{
 			className="A3_Structures_F_Bootcamp";
 			name="Arma 3 Bootcamp Update - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item61
+		class Item65
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item62
+		class Item66
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item63
+		class Item67
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
@@ -888,18 +922,17 @@ class Mission
 					name="GerRng Persist RCO";
 					class Entities
 					{
-						items=318;
+						items=334;
 						class Item0
 						{
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={1408.912,4.9995542,5267.772};
+								position[]={1415,5,5275};
 								angles[]={0,1.5707964,0};
 							};
 							id=1568;
 							type="RCOF_LimitedFortify";
-							atlOffset=-0.00044584274;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -1015,7 +1048,7 @@ class Mission
 										class data
 										{
 											singleType="STRING";
-											value="[""B_MRAP_01_F"",""GerRng_FENNEK_NEF_W"",""GerRng_FENNEK_NEF_D"",""C_Offroad_01_Comms_F"",""C_Van_02_serice_F""]";
+											value="[""GerRng_faction_FENNEK_NEF_W"",""GerRng_faction_FENNEK_NEF_D"",""GerRng_faction_Amarok_covered_comms_GER_TRP"",""GerRng_faction_Amarok_covered_comms_GER_Grn"",""GerRng_faction_Amarok_covered_comms_GER_FLK"",""GerRng_faction_Amarok_engineering_GER_TRP"",""GerRng_faction_Amarok_engineering_covered_GER_TRP"",""GerRng_faction_Amarok_engineering_GER_Grn"",""GerRng_faction_Amarok_engineering_covered_GER_Grn"",""GerRng_faction_Amarok_engineering_GER_FLK"",""GerRng_faction_Amarok_engineering_covered_GER_FLK""]";
 										};
 									};
 								};
@@ -1067,7 +1100,7 @@ class Mission
 										class data
 										{
 											singleType="STRING";
-											value="[""B_Slingload_01_Cargo_F""]";
+											value="[""B_Slingload_01_Cargo_F"",""GerRng_faction_MSP_Cargo_F""]";
 										};
 									};
 								};
@@ -1145,7 +1178,7 @@ class Mission
 										class data
 										{
 											singleType="STRING";
-											value="[""B_Truck_01_box_F"",""GerRng_Lkw15t_Box_W"",""GerRng_Lkw15t_Box_D"",""B_APC_Tracked_01_CRV_F"",""B_T_APC_Tracked_01_CRV_F""]";
+											value="[""B_Truck_01_box_F"",""GerRng_faction_Lkw15t_Box_W"",""GerRng_faction_Lkw15t_Box_D"",""GerRng_faction_APC_tracked_CRV""]";
 										};
 									};
 								};
@@ -1157,13 +1190,12 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={1414.8414,4.9995542,5276.6299};
-								angles[]={0,1.5707966,0};
+								position[]={1415,5,5277};
+								angles[]={0,1.5707964,0};
 							};
 							flags=1;
 							id=1569;
 							type="RCOP_DefineSavedFOBs";
-							atlOffset=-0.00044584274;
 						};
 						class Item2
 						{
@@ -2223,9 +2255,100 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								textures="green";
 							};
 							id=1629;
 							type="boxloader_kalmar";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="VehicleCustomization";
+									expression="if (local _this) then {([_this] + _value + [true]) call (uinamespace getvariable 'BIS_fnc_initVehicle')};";
+									class Value
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="ARRAY";
+														class value
+														{
+															items=2;
+															class Item0
+															{
+																class data
+																{
+																	singleType="STRING";
+																	value="green";
+																};
+															};
+															class Item1
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=1;
+																};
+															};
+														};
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="ARRAY";
+														class value
+														{
+															items=4;
+															class Item0
+															{
+																class data
+																{
+																	singleType="STRING";
+																	value="roof_hide";
+																};
+															};
+															class Item1
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=0;
+																};
+															};
+															class Item2
+															{
+																class data
+																{
+																	singleType="STRING";
+																	value="tool_hide";
+																};
+															};
+															class Item3
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=0;
+																};
+															};
+														};
+													};
+												};
+											};
+										};
+									};
+								};
+								nAttributes=1;
+							};
 						};
 						class Item59
 						{
@@ -4206,7 +4329,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={1509,6.7171087,5166.0327};
+								position[]={1516,6.7171087,5161.0327};
 								angles[]={0,4.712389,0};
 							};
 							side="Empty";
@@ -4222,7 +4345,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={1509,6.7171087,5163.0327};
+								position[]={1509,6.7171087,5161.0327};
 								angles[]={0,4.712389,0};
 							};
 							side="Empty";
@@ -4238,7 +4361,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={1509,6.7171087,5160.0327};
+								position[]={1502,6.7171087,5161.0327};
 								angles[]={0,4.712389,0};
 							};
 							side="Empty";
@@ -4350,7 +4473,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={1516,6.7171087,5166.0327};
+								position[]={1516,6.7171087,5164.0327};
 								angles[]={0,4.712389,0};
 							};
 							side="Empty";
@@ -4366,7 +4489,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={1516,6.7171087,5163.0327};
+								position[]={1509,6.7171087,5164.0327};
 								angles[]={0,4.712389,0};
 							};
 							side="Empty";
@@ -4382,7 +4505,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={1516,6.7171087,5160.0327};
+								position[]={1502,6.7171087,5164.0327};
 								angles[]={0,4.712389,0};
 							};
 							side="Empty";
@@ -4398,7 +4521,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={1502,6.7171087,5166.0327};
+								position[]={1516,6.7171087,5167.0327};
 								angles[]={0,4.712389,0};
 							};
 							side="Empty";
@@ -4414,7 +4537,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={1502,6.7171087,5163.0327};
+								position[]={1509,6.7171087,5167.0327};
 								angles[]={0,4.712389,0};
 							};
 							side="Empty";
@@ -4430,7 +4553,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={1502,6.7171087,5160.0327};
+								position[]={1502,6.7171087,5167.0327};
 								angles[]={0,4.712389,0};
 							};
 							side="Empty";
@@ -6567,6 +6690,261 @@ class Mission
 							id=2144;
 							type="GerRng_engineering_miclic";
 						};
+						class Item318
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1394,5.9885817,5275};
+								angles[]={0,1.5707963,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=2178;
+							type="ace_flags_carrier_black";
+						};
+						class Item319
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1394,5.9885817,5274};
+								angles[]={0,1.5707963,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=2179;
+							type="ace_flags_carrier_blue";
+						};
+						class Item320
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1394,5.9885817,5273};
+								angles[]={0,1.5707963,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=2180;
+							type="ace_flags_carrier_green";
+						};
+						class Item321
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1394,5.9885817,5272};
+								angles[]={0,1.5707963,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=2169;
+							type="ace_flags_carrier_orange";
+						};
+						class Item322
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1394,5.9885817,5268};
+								angles[]={0,1.5707963,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=2168;
+							type="ace_flags_carrier_purple";
+						};
+						class Item323
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1394,5.9885817,5271};
+								angles[]={0,1.5707963,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=2165;
+							type="ace_flags_carrier_red";
+						};
+						class Item324
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1394,5.9885817,5270};
+								angles[]={0,1.5707963,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=2166;
+							type="ace_flags_carrier_white";
+						};
+						class Item325
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1394,5.9885817,5269};
+								angles[]={0,1.5707963,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=2167;
+							type="ace_flags_carrier_yellow";
+						};
+						class Item326
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1393,6.3745632,5246};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=2163;
+							type="GerRng_faction_MedTent_01";
+						};
+						class Item327
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1396,5.4699674,5275};
+								angles[]={0,1.5707963,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=2171;
+							type="ace_marker_flags_black";
+						};
+						class Item328
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1396,5.4699674,5274};
+								angles[]={0,1.5707963,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=2172;
+							type="ace_marker_flags_blue";
+						};
+						class Item329
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1396,5.4699674,5273};
+								angles[]={0,1.5707963,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=2173;
+							type="ace_marker_flags_green";
+						};
+						class Item330
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1396,5.4699674,5272};
+								angles[]={0,1.5707963,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=2174;
+							type="ace_marker_flags_orange";
+						};
+						class Item331
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1396,5.4699674,5271};
+								angles[]={0,1.5707963,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=2175;
+							type="ace_marker_flags_red";
+						};
+						class Item332
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1396,5.4699674,5270};
+								angles[]={0,1.5707963,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=2176;
+							type="ace_marker_flags_white";
+						};
+						class Item333
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1396,5.4699674,5269};
+								angles[]={0,1.5707963,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=2177;
+							type="ace_marker_flags_yellow";
+						};
 					};
 					id=1567;
 				};
@@ -7788,82 +8166,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={1413,5.0014391,5111.0498};
-										angles[]={0,4.7137504,0};
-									};
-									side="West";
-									flags=5;
-									class Attributes
-									{
-										init="this setVariable [""GR_unitLoadout"", ""Mike_TF""];" \n "group this setGroupId [""Mike""];";
-										name="Mike6";
-										description="Truppführer@Mike";
-										isPlayable=1;
-										class Inventory
-										{
-											class uniform
-											{
-												typeName="CUP_U_B_GER_Fleck_Crye";
-												isBackpack=0;
-											};
-											map="ItemMap";
-											compass="ItemCompass";
-											watch="ItemWatch";
-											radio="ItemRadio";
-										};
-									};
-									id=1460;
-									type="CUP_B_GER_BW_Fleck_Soldier";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="ace_isMedic";
-											expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1;
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male07ENG";
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1.05;
-												};
-											};
-										};
-										nAttributes=3;
-									};
-								};
-								class Item2
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={1413,5.0014391,5115.0498};
+										position[]={1411,5.0014391,5109.0498};
 										angles[]={0,4.7119179,0};
 									};
 									side="West";
@@ -7871,7 +8174,7 @@ class Mission
 									class Attributes
 									{
 										init="this setVariable [""GR_unitLoadout"", ""Mike_Sani""];" \n "group this setGroupId [""Mike""];";
-										name="Mike2";
+										name="Mike7";
 										description="Sanitäter@Mike";
 										isPlayable=1;
 										class Inventory
@@ -7933,12 +8236,12 @@ class Mission
 										nAttributes=3;
 									};
 								};
-								class Item3
+								class Item2
 								{
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={1413,5.0014391,5113.0498};
+										position[]={1413,5.0014391,5115.0498};
 										angles[]={0,4.7119179,0};
 									};
 									side="West";
@@ -7946,7 +8249,7 @@ class Mission
 									class Attributes
 									{
 										init="this setVariable [""GR_unitLoadout"", ""Mike_SvD""];" \n "group this setGroupId [""Mike""];";
-										name="Mike4";
+										name="Mike2";
 										description="Sanitäter vom Dienst@Mike";
 										isPlayable=1;
 										class Inventory
@@ -8008,188 +8311,12 @@ class Mission
 										nAttributes=3;
 									};
 								};
-								class Item4
+								class Item3
 								{
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={1411,5.0014391,5113.0498};
-										angles[]={0,4.7137504,0};
-									};
-									side="West";
-									flags=5;
-									class Attributes
-									{
-										init="this setVariable [""GR_unitLoadout"", ""Mike_Fahrer""];" \n "group this setGroupId [""Mike""];";
-										name="Mike3";
-										description="Fahrer@Mike";
-										isPlayable=1;
-										class Inventory
-										{
-											class uniform
-											{
-												typeName="CUP_U_B_GER_Fleck_Crye";
-												isBackpack=0;
-											};
-											map="ItemMap";
-											compass="ItemCompass";
-											watch="ItemWatch";
-											radio="ItemRadio";
-										};
-									};
-									id=1463;
-									type="CUP_B_GER_BW_Fleck_Soldier";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="ace_isMedic";
-											expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1;
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male07ENG";
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1.05;
-												};
-											};
-										};
-										nAttributes=3;
-									};
-								};
-								class Item5
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={1411,5.0014391,5111.0498};
-										angles[]={0,4.7137504,0};
-									};
-									side="West";
-									flags=5;
-									class Attributes
-									{
-										init="this setVariable [""GR_unitLoadout"", ""Mike_Techniker""];" \n "group this setGroupId [""Mike""];";
-										name="Mike5";
-										description="Techniker@Mike";
-										isPlayable=1;
-										class Inventory
-										{
-											class uniform
-											{
-												typeName="CUP_U_B_GER_Fleck_Crye";
-												isBackpack=0;
-											};
-											map="ItemMap";
-											compass="ItemCompass";
-											watch="ItemWatch";
-											radio="ItemRadio";
-										};
-									};
-									id=1464;
-									type="CUP_B_GER_BW_Fleck_Soldier";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="ace_isMedic";
-											expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1;
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="ace_isEngineer";
-											expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=2;
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male07ENG";
-												};
-											};
-										};
-										class Attribute3
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1.05;
-												};
-											};
-										};
-										class Attribute4
-										{
-											property="ace_isEOD";
-											expression="_this setVariable ['ACE_isEOD', _value, true]";
-											class Value
-											{
-												class data
-												{
-													singleType="BOOL";
-													value=1;
-												};
-											};
-										};
-										nAttributes=5;
-									};
-								};
-								class Item6
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={1411,5.0014391,5109.0498};
+										position[]={1413,5.0014391,5113.0498};
 										angles[]={0,4.7137504,0};
 									};
 									side="West";
@@ -8197,7 +8324,7 @@ class Mission
 									class Attributes
 									{
 										init="this setVariable [""GR_unitLoadout"", ""Mike_SaniL""];" \n "group this setGroupId [""Mike""];";
-										name="Mike7";
+										name="Mike4";
 										description="Leichter Sanitäter@Mike";
 										isPlayable=1;
 										class Inventory
@@ -8259,21 +8386,21 @@ class Mission
 										nAttributes=3;
 									};
 								};
-								class Item7
+								class Item4
 								{
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={1413,5.0014391,5109.0498};
-										angles[]={0,4.7137504,0};
+										position[]={1411,5.0014391,5113.0498};
+										angles[]={0,4.7119179,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Mike_SchM""];" \n "group this setGroupId [""Mike""];";
-										name="Mike8";
-										description="Schütze@Mike";
+										init="this setVariable [""GR_unitLoadout"", ""Mike_SaniP""];" \n "group this setGroupId [""Mike""];";
+										name="Mike3";
+										description="Sanitäter / Fahrzeugführer@Mike";
 										isPlayable=1;
 										class Inventory
 										{
@@ -8288,8 +8415,8 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=1466;
-									type="CUP_B_GER_BW_Fleck_Soldier";
+									id=2147;
+									type="CUP_B_GER_BW_Fleck_Medic";
 									class CustomAttributes
 									{
 										class Attribute0
@@ -8301,7 +8428,7 @@ class Mission
 												class data
 												{
 													singleType="SCALAR";
-													value=1;
+													value=2;
 												};
 											};
 										};
@@ -8327,7 +8454,232 @@ class Mission
 												class data
 												{
 													singleType="SCALAR";
-													value=1.05;
+													value=0.97000003;
+												};
+											};
+										};
+										nAttributes=3;
+									};
+								};
+								class Item5
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={1413,5.0014391,5111.0498};
+										angles[]={0,4.7119179,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""GR_unitLoadout"", ""Mike_Sani""];" \n "group this setGroupId [""Mike""];";
+										name="Mike6";
+										description="Sanitäter@Mike";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=2149;
+									type="CUP_B_GER_BW_Fleck_Medic";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="ace_isMedic";
+											expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male07ENG";
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.97000003;
+												};
+											};
+										};
+										nAttributes=3;
+									};
+								};
+								class Item6
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={1411,5.0014391,5111.0498};
+										angles[]={0,4.7119179,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""GR_unitLoadout"", ""Mike_SaniP""];" \n "group this setGroupId [""Mike""];";
+										name="Mike5";
+										description="Sanitäter / Fahrzeugführer@Mike";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=2151;
+									type="CUP_B_GER_BW_Fleck_Medic";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="ace_isMedic";
+											expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male07ENG";
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.97000003;
+												};
+											};
+										};
+										nAttributes=3;
+									};
+								};
+								class Item7
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={1413,5.0014391,5109.0498};
+										angles[]={0,4.7119179,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""GR_unitLoadout"", ""Mike_SaniL_Tech""];" \n "group this setGroupId [""Mike""];";
+										name="Mike8";
+										description="L-San-Tech@Mike";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=2182;
+									type="CUP_B_GER_BW_Fleck_Medic";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="ace_isMedic";
+											expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male07ENG";
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.97000003;
 												};
 											};
 										};
@@ -8377,7 +8729,7 @@ class Mission
 							side="West";
 							class Entities
 							{
-								items=8;
+								items=11;
 								class Item0
 								{
 									dataType="Object";
@@ -8392,7 +8744,7 @@ class Mission
 									{
 										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
 										name="Lima1";
-										description="Gruppenführer@Lima";
+										description="Gruppenführer / LuftMobOffz@Lima";
 										isPlayable=1;
 										class Inventory
 										{
@@ -8480,7 +8832,7 @@ class Mission
 									{
 										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
 										name="Lima2";
-										description="Truppführer@Lima";
+										description="Truppführer / MarschFhr@Lima";
 										isPlayable=1;
 										class Inventory
 										{
@@ -8568,7 +8920,7 @@ class Mission
 									{
 										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
 										name="Lima3";
-										description="Lima-Schütze@Lima";
+										description="Logistiker@Lima";
 										isPlayable=1;
 										class Inventory
 										{
@@ -8643,7 +8995,7 @@ class Mission
 									{
 										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
 										name="Lima5";
-										description="Lima-Schütze@Lima";
+										description="Pionier@Lima";
 										isPlayable=1;
 										class Inventory
 										{
@@ -8718,7 +9070,7 @@ class Mission
 									{
 										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
 										name="Lima6";
-										description="Lima-Schütze@Lima";
+										description="Pionier@Lima";
 										isPlayable=1;
 										class Inventory
 										{
@@ -8793,7 +9145,7 @@ class Mission
 									{
 										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
 										name="Lima4";
-										description="Lima-Schütze@Lima";
+										description="Logistiker@Lima";
 										isPlayable=1;
 										class Inventory
 										{
@@ -8868,7 +9220,7 @@ class Mission
 									{
 										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
 										name="Lima8";
-										description="Lima-Schütze@Lima";
+										description="Pionier@Lima";
 										isPlayable=1;
 										class Inventory
 										{
@@ -8943,7 +9295,7 @@ class Mission
 									{
 										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
 										name="Lima7";
-										description="Lima-Schütze@Lima";
+										description="Logistiker@Lima";
 										isPlayable=1;
 										class Inventory
 										{
@@ -8959,6 +9311,244 @@ class Mission
 										};
 									};
 									id=1475;
+									type="CUP_B_GER_BW_Fleck_Soldier_Engineer";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="ace_isEngineer";
+											expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male08ENG";
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.95999998;
+												};
+											};
+										};
+										nAttributes=3;
+									};
+								};
+								class Item8
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={1415,5.0014391,5131.0498};
+										angles[]={0,4.6971869,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""GR_unitLoadout"", ""Romeo_TF""];" \n "group this setGroupId [""Lima""];";
+										name="Lima9";
+										description="Truppführer / FUOffz@Lima";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=2153;
+									type="CUP_B_GER_BW_Fleck_Soldier_TL";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="ace_isEngineer";
+											expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male07ENG";
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="ace_isEOD";
+											expression="_this setVariable ['ACE_isEOD', _value, true]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item9
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={1415,5.0014391,5129.0498};
+										angles[]={0,4.7016206,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""GR_unitLoadout"", ""Romeo_Arty""];" \n "group this setGroupId [""Lima""];";
+										name="Lima10";
+										description="WSO@Lima";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=2155;
+									type="CUP_B_GER_BW_Fleck_Soldier_Engineer";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="ace_isEngineer";
+											expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male08ENG";
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.95999998;
+												};
+											};
+										};
+										nAttributes=3;
+									};
+								};
+								class Item10
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={1415,5.0014391,5127.0498};
+										angles[]={0,4.7016206,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""GR_unitLoadout"", ""Romeo_Arty""];" \n "group this setGroupId [""Lima""];";
+										name="Lima11";
+										description="WSO@Lima";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=2157;
 									type="CUP_B_GER_BW_Fleck_Soldier_Engineer";
 									class CustomAttributes
 									{
@@ -9239,7 +9829,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={1420.978,5.0014391,5125.2144};
+										position[]={1420.978,5.0014391,5125.2148};
 										angles[]={0,4.7054429,0};
 									};
 									side="West";
@@ -9248,7 +9838,7 @@ class Mission
 									{
 										init="this setVariable [""GR_unitLoadout"", ""ZugFahr""];" \n "group this setGroupId [""Foxtrot""];";
 										name="Fox4";
-										description="Fahrer Nahsicherer";
+										description="Nahsicherer / JTAC";
 										isPlayable=1;
 										class Inventory
 										{
@@ -12175,7 +12765,7 @@ class Mission
 									{
 										init="this setVariable [""GR_unitLoadout"", ""ZugFahr""];" \n "group this setGroupId [""Victor""];";
 										name="Victor4";
-										description="Fahrer Nahsicherer";
+										description="Nahsicherer / JTAC";
 										isPlayable=1;
 										class Inventory
 										{
@@ -15699,11 +16289,11 @@ class Mission
 	{
 		class LinkIDProvider
 		{
-			nextID=313;
+			nextID=329;
 		};
 		class Links
 		{
-			items=313;
+			items=329;
 			class Item0
 			{
 				linkID=0;
@@ -18829,6 +19419,166 @@ class Mission
 				linkID=312;
 				item0=2144;
 				item1=1626;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item313
+			{
+				linkID=313;
+				item0=2163;
+				item1=1569;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item314
+			{
+				linkID=314;
+				item0=2165;
+				item1=1569;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item315
+			{
+				linkID=315;
+				item0=2166;
+				item1=1569;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item316
+			{
+				linkID=316;
+				item0=2167;
+				item1=1569;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item317
+			{
+				linkID=317;
+				item0=2168;
+				item1=1569;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item318
+			{
+				linkID=318;
+				item0=2169;
+				item1=1569;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item319
+			{
+				linkID=319;
+				item0=2171;
+				item1=1569;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item320
+			{
+				linkID=320;
+				item0=2172;
+				item1=1569;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item321
+			{
+				linkID=321;
+				item0=2173;
+				item1=1569;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item322
+			{
+				linkID=322;
+				item0=2174;
+				item1=1569;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item323
+			{
+				linkID=323;
+				item0=2175;
+				item1=1569;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item324
+			{
+				linkID=324;
+				item0=2176;
+				item1=1569;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item325
+			{
+				linkID=325;
+				item0=2177;
+				item1=1569;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item326
+			{
+				linkID=326;
+				item0=2178;
+				item1=1569;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item327
+			{
+				linkID=327;
+				item0=2179;
+				item1=1569;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item328
+			{
+				linkID=328;
+				item0=2180;
+				item1=1569;
 				class CustomData
 				{
 					type="Sync";
