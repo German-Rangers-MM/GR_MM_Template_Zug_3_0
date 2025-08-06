@@ -31,5 +31,8 @@
     ["kat_AED",2],
     ["kat_scalpel",2],
     ["kat_oxygenTank_150",5],
-    ["kat_BVM",2]
+    ["kat_BVM",2],
+
+    ["GerRng_kat_changes_glucometerSet",2],
+    ["GerRng_kat_changes_GSCI",9]
 ];
