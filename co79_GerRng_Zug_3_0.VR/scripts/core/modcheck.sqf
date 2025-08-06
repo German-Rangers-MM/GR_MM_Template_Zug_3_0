@@ -6,8 +6,18 @@ _whitelistedMods = 	[
 						"@Zeus Enhanced", "1779063631",
 						"@Zeus Enhanced - ACE3 Compatibility", "2018593688",
 						"@NR6 Hal Evolved - Experimental Branch","3375984704",
-						"@LAFS - Light AI Fire Support","3323604819",
-						"@Dynamic AI Minefields - RCO","2650906858",
+
+						// Kampagnen Mods
+						"@FPV Drone Crocus", "3045129955",
+						"@AET Plan Importer", "3488328833",
+						"@User Input Menus", "1673595418",
+						"@Hate's Digital Camera", "2577441180",
+						"@Animate - Radio", "3283635033",
+						"@Metis Marker", "1508091616",
+						"@LAFS - Light AI Fire Support", "3323604819",
+						"@Dynamic AI Minefields - RCO", "2650906858",
+						"@Global Ops Terrains", "2917444360",
+						"@North Takistan", "2829330653",
 
 						// Missionmaker Mods
 						"@3den Enhanced", "623475643",
@@ -70,7 +80,6 @@ _whitelistedMods = 	[
 						"@A3 Thermal Improvement", "2041057379",
 						"@SPS Weapons V2", "2811886291",
 						"@SPS Equipment", "1187306764",
-						"@Hate's Digital Camera", "2577441180",
 
 						//Additional Maps
 						"@Jbad", "520618345",
