@@ -12,6 +12,7 @@ _whitelistedMods = 	[
 						"@AET Plan Importer", "3488328833",
 						"@User Input Menus", "1673595418",
 						"@Hate's Digital Camera", "2577441180",
+						"@GRAD Civilians", "2140453587",
 						"@Animate - Radio", "3283635033",
 						"@Metis Marker", "1508091616",
 						"@LAFS - Light AI Fire Support", "3323604819",

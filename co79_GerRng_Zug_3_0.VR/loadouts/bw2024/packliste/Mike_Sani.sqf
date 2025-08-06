@@ -286,6 +286,9 @@
     "kat_TXA",
     "kat_stethoscope",
     "kat_ncdKit",
+    
+    "GerRng_kat_changes_glucometerSet",
+    "GerRng_kat_changes_GSCI",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Misc 1
