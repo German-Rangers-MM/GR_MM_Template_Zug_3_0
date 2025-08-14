@@ -510,7 +510,25 @@
     "SPS_hk416d_14_5_exsmr_hk_ctr_afg_ral8000_f",
     "SPS_hk416d_14_5_exsmr_hk_ctr_afg_sf_ral8000_f",
 
+    "SPS_hk416d_10_4_hk_ral8000_f",
+    "SPS_hk416d_10_4_hk_vfg_ral8000_f",
+    "SPS_hk416d_10_4_hk_afg_ral8000_f",
+    "SPS_hk416d_10_4_hk_ctr_ral8000_f",
+    "SPS_hk416d_10_4_hk_ctr_vfg_ral8000_f",
+    "SPS_hk416d_10_4_hk_ctr_afg_ral8000_f",
 
+    "SPS_hk416d_10_4_smr_hk_ral8000_f",
+    "SPS_hk416d_10_4_smr_hk_sf_ral8000_f",
+    "SPS_hk416d_10_4_smr_hk_vfg_ral8000_f",
+    "SPS_hk416d_10_4_smr_hk_vfg_sf_ral8000_f",
+    "SPS_hk416d_10_4_smr_hk_afg_ral8000_f",
+    "SPS_hk416d_10_4_smr_hk_afg_sf_ral8000_f",
+    "SPS_hk416d_10_4_smr_hk_ctr_ral8000_f",
+    "SPS_hk416d_10_4_smr_hk_ctr_sf_ral8000_f",
+    "SPS_hk416d_10_4_smr_hk_ctr_vfg_ral8000_f",
+    "SPS_hk416d_10_4_smr_hk_ctr_vfg_sf_ral8000_f",
+    "SPS_hk416d_10_4_smr_hk_ctr_afg_ral8000_f",
+    "SPS_hk416d_10_4_smr_hk_ctr_afg_sf_ral8000_f",
     
 
 

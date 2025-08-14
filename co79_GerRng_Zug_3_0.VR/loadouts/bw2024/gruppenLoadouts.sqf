@@ -141,6 +141,18 @@ GR_MikeRollen = [
 GR_LimaRollen = [
 	["Standard","Lima"],
 	["Pilot","Lima_Pilot"],
+	["Sanitäter","Lima_Sani"],
+	["Führung","Lima_GF"]
+];
+
+
+//-----------------------------------------------------------------------------
+//
+//						Romeo - Feuerunterstützungstrupp
+//
+//-----------------------------------------------------------------------------
+
+GR_RomeoRollen = [
 	["Romeo Artillerie","Romeo_Arty"],
 	["Romeo Pilot","Romeo_Pilot"],
 	["Romeo Truppführer","Romeo_TF"],
@@ -163,7 +175,9 @@ GR_AlleRollen = [
 	["Gruppenführer WaGru","GrpFhr_WaGru"],
 	["Kompanieführer","KpFhr"],
 	["Lima","Lima"],
+	["Führung","Lima_GF"],
 	["Pilot","Lima_Pilot"],
+	["Sanitäter","Lima_Sani"],
 	["Arzt vom Dienst","Mike_AvD"],
 	["Sanitäter vom Dienst","Mike_SvD"],
 	["Sanitäter (Mike)","Mike_Sani"],
@@ -200,6 +214,7 @@ GR_AlleRollen = [
 	["Waffen-Spez.","Waffen_Spez"],
 	["Fahrer", "ZugFahr"],
 	["Zugführer","ZugFhr"],
+	["Nahsicherer / JTAC","Zug_JTAC"],
 	["Zug Sanitäter","ZugSani"]
 ];
 
@@ -217,6 +232,9 @@ GR_Packlisten = [
 	"GrpFhr_WaGru",
 	"KpFhr",
 	"Lima",
+	"Lima_GF",
+	"Lima_Pilot",
+	"Lima_Sani",
 	"Mike_AvD",
 	"Mike_Sani",
 	"Mike_SaniP",
@@ -252,6 +270,7 @@ GR_Packlisten = [
 	"Waffen_Spez",
 	"ZugFahr",
 	"ZugFhr",
+	"Zug_JTAC",
 	"ZugSani"
 ];
 
@@ -267,6 +286,7 @@ GR_Packlisten = [
 	grpkilo
 	grplima
 	grpmike
+	grpromeo
 	grpfox
 	grpvictor
 	grpalpha
@@ -288,6 +308,7 @@ GR_Packlisten = [
 	group this setGroupID ["Kilo"];
 	group this setGroupID ["Lima"];
 	group this setGroupID ["Mike"];
+	group this setGroupID ["Romeo"];
 	group this setGroupID ["Foxtrot"];
 	group this setGroupID ["Victor"];
 	group this setGroupID ["Alpha"];

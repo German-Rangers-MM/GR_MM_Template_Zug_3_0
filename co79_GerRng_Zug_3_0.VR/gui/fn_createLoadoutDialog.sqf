@@ -61,6 +61,11 @@ if (_groupName in ["lima"]) then {
 	_groupRoles = GR_LimaRollen;
 };
 
+// Romeo - Feuerunterstützungstrupp
+if (_groupName in ["romeo"]) then {
+	_groupRoles = GR_RomeoRollen;
+};
+
 // fill listbox
 {
 	_index = _listbox lbAdd (_x select 0);

@@ -74,6 +74,11 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 
+	"CUP_optic_AC11704_Black",
+	"CUP_optic_AC11704_Jungle",
+	"CUP_optic_AC11704_OD",
+	"CUP_optic_AC11704_Tan",
+
 	"SPS_EOTech_Black",
 	"SPS_EOTech_Black_3xMAG_up",
 	"SPS_EOTech_Black_5xMAG_up",

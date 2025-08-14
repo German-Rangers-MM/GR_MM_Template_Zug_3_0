@@ -26,7 +26,7 @@ player setUnitLoadout [
 player setVariable ["ACE_medical_medicClass",0,true];
 
 //	Combat Engineer:
-player setVariable ["ACE_isEngineer",0,true];
+player setVariable ["ACE_isEngineer",1,true];
 
 //	Explosive Specialist:
 player setVariable ["ACE_isEOD",false,true];
