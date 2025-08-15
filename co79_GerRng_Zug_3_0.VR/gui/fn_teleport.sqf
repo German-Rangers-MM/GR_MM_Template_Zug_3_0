@@ -27,6 +27,7 @@ switch (_targetGroup) do {
 	case "Kilo": {		_jumpTarget = (units grpkilo select 0); };
 	case "Lima": {		_jumpTarget = (units grplima select 0); };
 	case "Mike": {		_jumpTarget = (units grpmike select 0); };
+	case "Romeo": {		_jumpTarget = (units grpromeo select 0); };
 	case "Foxtrot": {	_jumpTarget = (units grpfox select 0); };
 	case "Victor": {	_jumpTarget = (units grpvictor select 0); };
 	case "Alpha": {		_jumpTarget = (units grpalpha select 0); };

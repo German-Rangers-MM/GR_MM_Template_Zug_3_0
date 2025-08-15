@@ -1,11 +1,11 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
-//	Lima
+//	Lima_GF
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-player setVariable ["GR_unitLoadout","Lima"];
+player setVariable ["GR_unitLoadout","Lima_GF"];
 
 //	https://community.bistudio.com/wiki/Unit_Loadout_Array
 player setUnitLoadout [
@@ -23,7 +23,7 @@ player setUnitLoadout [
 //	ACE Optionen fuer Spieler
 //------------------------------------------------------------------
 //	Medic:
-player setVariable ["ACE_medical_medicClass",0,false];
+player setVariable ["ACE_medical_medicClass",1,true];
 
 //	Combat Engineer:
 player setVariable ["ACE_isEngineer",2,true];
