@@ -6,9 +6,13 @@ class EditorData
 	scaleGridStep=1;
 	autoGroupingDist=10;
 	toggles=549;
+	mods[]=
+	{
+		"3denEnhanced"
+	};
 	class ItemIDProvider
 	{
-		nextID=2566;
+		nextID=2951;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=223;
+		nextID=241;
 	};
 	class Camera
 	{
-		pos[]={1344.5837,96.644356,5099.0454};
-		dir[]={0.60513037,-0.63597578,0.47911096};
-		up[]={0.49866638,0.7716527,0.39481813};
-		aside[]={0.62079489,-8.2713086e-08,-0.78407496};
+		pos[]={1425.3583,25.908691,5187.6997};
+		dir[]={0.78339618,-0.61943978,-0.053199414};
+		up[]={0.61808336,0.78496158,-0.041968182};
+		aside[]={-0.067755066,8.9468085e-07,-0.99782807};
 	};
 };
 binarizationWanted=0;
@@ -32,6 +36,7 @@ addons[]=
 {
 	"A3_Structures_F_Walls",
 	"A3_Structures_F_Mil_Helipads",
+	"Desert",
 	"RCOP_patches",
 	"A3_Structures_F_Mil_BagFence",
 	"A3_Structures_F_Argo_Military_Fortifications",
@@ -70,6 +75,7 @@ addons[]=
 	"A3_Drones_F_Air_F_Gamma_UAV_01",
 	"ace_spottingscope",
 	"A3_Structures_F_Ind_Shed",
+	"emr_main",
 	"ace_logistics_wirecutter",
 	"ace_concertina_wire",
 	"A3_Structures_F_Argo_Military_Bunkers",
@@ -123,7 +129,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=66;
+		items=68;
 		class Item0
 		{
 			className="A3_Structures_F";
@@ -140,414 +146,426 @@ class AddonsMetaData
 		};
 		class Item2
 		{
+			className="Desert";
+			name="Desert";
+		};
+		class Item3
+		{
 			className="RCOP_patches";
 			name="PERSIST - RCO";
 			author="Rimmy";
 		};
-		class Item3
+		class Item4
 		{
 			className="A3_Structures_F_Argo";
 			name="Arma 3 Malden - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item4
+		class Item5
 		{
 			className="A3_Structures_F_Enoch_Military";
 			name="Arma 3 Contact Platform - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item5
+		class Item6
 		{
 			className="A3_Structures_F_Exp";
 			name="Arma 3 Apex - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item6
+		class Item7
 		{
 			className="A3_Props_F_Enoch";
 			name="Arma 3 Contact Platform - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
+		class Item8
 		{
 			className="A3_Structures_F_Exp_Civilian";
 			name="Arma 3 Apex - Civilian Buildings";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
+		class Item9
 		{
 			className="CUP_Misc3_Config";
 			name="CUP_Misc3_Config";
 		};
-		class Item9
+		class Item10
 		{
 			className="A3_Props_F_Decade_Objectives";
 			name="A3_Props_F_Decade_Objectives";
 		};
-		class Item10
+		class Item11
 		{
 			className="CUP_Misc_e_Config";
 			name="CUP_Misc_e_Config";
 		};
-		class Item11
+		class Item12
 		{
 			className="A3_Props_F_Orange";
 			name="Arma 3 Orange - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item13
 		{
 			className="boxloader_tractor";
 			name="boxloader_tractor";
 		};
-		class Item13
+		class Item14
 		{
 			className="CUP_WheeledVehicles_TowingTractor";
 			name="CUP_WheeledVehicles_TowingTractor";
 		};
-		class Item14
+		class Item15
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item15
+		class Item16
 		{
 			className="ace_rearm";
 			name="ACE3 - Rearm";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item16
+		class Item17
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item17
+		class Item18
 		{
 			className="ace_refuel";
 			name="ACE3 - Refuel";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item18
+		class Item19
 		{
 			className="ace_ballistics";
 			name="ACE3 - Ballistics";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item19
+		class Item20
 		{
 			className="ace_mk6mortar";
 			name="ACE3 - Mk6 Mortar";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item20
+		class Item21
 		{
 			className="A3_Supplies_F_Exp";
 			name="Arma 3 Apex - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item21
+		class Item22
 		{
 			className="ace_dragging";
 			name="ACE3 - Dragging";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item22
+		class Item23
 		{
 			className="ace_chemlights";
 			name="ACE3 - Chemlights";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item23
+		class Item24
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item24
+		class Item25
 		{
 			className="ace_medical_treatment";
 			name="ACE3 - Medical Treatment";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item25
+		class Item26
 		{
 			className="ace_common";
 			name="ACE3 - Common";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item26
+		class Item27
 		{
 			className="ace_flashsuppressors";
 			name="ACE3 - Flash Suppressors";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item27
+		class Item28
 		{
 			className="ace_grenades";
 			name="ACE3 - Grenades";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item28
+		class Item29
 		{
 			className="ace_parachute";
 			name="ACE3 - Parachute";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item29
+		class Item30
 		{
 			className="ace_flashlights";
 			name="ACE3 - Flashlights";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item30
+		class Item31
 		{
 			className="boxloader_pallet";
 			name="boxloader_pallet";
 		};
-		class Item31
+		class Item32
 		{
 			className="boxloader_cargo";
 			name="boxloader_cargo";
 		};
-		class Item32
+		class Item33
 		{
 			className="A3_Drones_F";
 			name="Arma 3 Beta - Drones";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item33
+		class Item34
 		{
 			className="ace_spottingscope";
 			name="ACE3 - Spotting Scope";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item34
+		class Item35
 		{
 			className="A3_Structures_F_Ind";
 			name="Arma 3 - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item35
+		class Item36
+		{
+			className="emr_main";
+			name="Enhanced Movement Rework";
+			author="Simplex Team";
+			url="https://github.com/SceptreOfficial/Enhanced-Movement-Rework";
+		};
+		class Item37
 		{
 			className="ace_logistics_wirecutter";
 			name="ACE3 - Logistics Wire Cutter";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item36
+		class Item38
 		{
 			className="ace_concertina_wire";
 			name="ACE3 - Concertina Wire";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item37
+		class Item39
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item38
+		class Item40
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item39
+		class Item41
 		{
 			className="A3_Props_F_Exp";
 			name="Arma 3 Apex - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item40
+		class Item42
 		{
 			className="A3_Structures_F_EPB";
 			name="Arma 3 Adapt Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item41
+		class Item43
 		{
 			className="ace_interaction";
 			name="ACE3 - Interaction";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item42
+		class Item44
 		{
 			className="CUP_Creatures_StaticWeapons";
 			name="CUP_Creatures_StaticWeapons";
 		};
-		class Item43
+		class Item45
 		{
 			className="A3_Signs_F";
 			name="Arma 3 - Signs";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item44
+		class Item46
 		{
 			className="ace_tripod";
 			name="ACE3 - Tripod";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item45
+		class Item47
 		{
 			className="ace_trenches";
 			name="ACE3 - Trenches";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item46
+		class Item48
 		{
 			className="grad_trenches_assets";
 			name="grad_trenches_assets";
 		};
-		class Item47
+		class Item49
 		{
 			className="grad_trenches_functions";
 			name="grad_trenches_functions";
 		};
-		class Item48
+		class Item50
 		{
 			className="GerRng_faction";
 			name="GERRNG - Faction";
 			author="German Rangers Moddingteam";
 		};
-		class Item49
+		class Item51
 		{
 			className="GerRng_csw";
 			name="GERRNG - Crew Served Weapons";
 			author="German Rangers Moddingteam";
 		};
-		class Item50
+		class Item52
 		{
 			className="GerRng_rations";
 			name="GERRNG - Rations";
 			author="German Rangers Moddingteam";
 		};
-		class Item51
+		class Item53
 		{
 			className="A3_Static_F_Mark";
 			name="Arma 3 Marksmen - Turrets";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item52
+		class Item54
 		{
 			className="A3_Static_F_Enoch";
 			name="Arma 3 Enoch - Turrets";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item53
+		class Item55
 		{
 			className="GerRng_engineering";
 			name="GERRNG - Engineering";
 			author="German Rangers Moddingteam";
 		};
-		class Item54
+		class Item56
 		{
 			className="ace_flags";
 			name="ACE3 - Flags";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item55
+		class Item57
 		{
 			className="ace_marker_flags";
 			name="ACE3 - Marker Flags";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item56
+		class Item58
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item57
+		class Item59
 		{
 			className="CUP_Creatures_Military_Germany";
 			name="CUP_Creatures_Military_Germany";
 		};
-		class Item58
+		class Item60
 		{
 			className="CFP_B_DEARMY_WDL_WDL";
 			name="CFP_B_DEARMY_WDL_WDL";
 			author="CFP Team";
 		};
-		class Item59
+		class Item61
 		{
 			className="ace_explosives";
 			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item60
+		class Item62
 		{
 			className="CUP_WarfareBuildings";
 			name="CUP_WarfareBuildings";
 		};
-		class Item61
+		class Item63
 		{
 			className="CUP_StandaloneTerrains_Core_Faction";
 			name="CUP_StandaloneTerrains_Core_Faction";
 		};
-		class Item62
+		class Item64
 		{
 			className="A3_Structures_F_Bootcamp";
 			name="Arma 3 Bootcamp Update - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item63
+		class Item65
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item64
+		class Item66
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item65
+		class Item67
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
@@ -597,7 +615,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1;
+		items=2;
 		class Item0
 		{
 			dataType="Layer";
@@ -926,7 +944,7 @@ class Mission
 										class data
 										{
 											singleType="STRING";
-											value="[[""Land_BagBunker_Tower_F"",25],[""Land_BagBunker_Large_F"",25],[""Land_HBarrier_01_tower_green_F"",25],[""Land_BagBunker_01_large_green_F"",25],[""Land_TentHangar_V1_F"",150],[""Land_Bunker_01_small_F"",250],[""Land_Bunker_01_tall_F"",250],[""Land_Bunker_01_HQ_F"",300],[""Land_Bunker_01_big_F"",300],[""Land_i_Shed_Ind_F"",100],[""Land_Shed_Big_F"",75],[""Land_Shed_Small_F"",50],[""Land_PortableLight_double_F"",5],[""Land_HelipadSquare_F"",20],[""RuggedTerminal_01_communications_F"",5]]";
+											value="[[""Land_HBarrier_Tower_F"",40],[""Land_Razorwire_F"",20],[""Land_Mil_WiredFence_Gate_F"",20],[""Land_Net_Fence_Gate_F"",15],[""Land_GameProofFence_01_l_gate_F"",15],[""Land_Mil_ConcreteWall_F"",30],[""Land_HelipadSquare_F"",20],[""Land_PortableHelipadLight_01_F"",5],[""WireFence"",20],[""Hedgehog_EP1"",10],[""Land_Shed_13_F"",50],[""Land_GuardShed"",50],[""Land_SignM_WarningMilitaryArea_english_F""],5],[""Land_SignM_WarningMilAreaSmall_english_F"",5],[""Land_PortableLight_double_F"",5],[""RuggedTerminal_01_communications_F"",5]]";
 										};
 									};
 								};
@@ -939,7 +957,7 @@ class Mission
 										class data
 										{
 											singleType="STRING";
-											value="[[""Land_CanvasCover_02_F"",50],[""Land_CanvasCover_01_F"",75],[""Land_MedicalTent_01_NATO_generic_outer_F"",30],[""Land_MedicalTent_01_NATO_generic_open_F"",35],[""Land_ConnectorTent_01_NATO_open_F"",20],[""Land_ConnectorTent_01_NATO_cross_F"",20],[""Land_ConnectorTent_01_NATO_closed_F"",20],[""Land_MedicalTent_01_NATO_tropic_generic_outer_F"",30],[""Land_MedicalTent_01_NATO_tropic_generic_open_F"",35],[""Land_ConnectorTent_01_NATO_tropic_closed_F"",20],[""Land_ConnectorTent_01_NATO_tropic_cross_F"",20],[""Land_ConnectorTent_01_NATO_tropic_open_F"",20],[""Land_ConnectorTent01_floor_dark_F"",5],[""RuggedTerminal_01_communications_F"",5]]";
+											value="[[""Land_FieldToilet_F""15],[""Land_TentLamp_01_suspended_red_F"",5],[""Land_TentLamp_01_suspended_F"",5],[""Land_MedicalTent_01_NATO_generic_open_F"",35],[""Land_MedicalTent_01_NATO_generic_outer_F"",35],[""Land_ConnectorTent_01_NATO_closed_F"",20],[""Land_ConnectorTent_01_NATO_cross_F"",20],[""Land_Connector_Tent_01_NATO_open_F"",20],[""Land_CamoNetB_NATO"",15],[""Land_CamoNet_NATO"",15],[""Land_CamoNet_NATO_EP1"",15],[""Land_CamoNetB_NATO_EP1"",15],[""Land_MedicalTent_01_floor_light_F""],5],[""Land_CampingChair_V2_F"",5],[""Land_CampingTable_F"",5],[""Land_Sun_chair_green_F"",5],[""RuggedTerminal_01_communications_F"",5]]";
 										};
 									};
 								};
@@ -965,7 +983,7 @@ class Mission
 										class data
 										{
 											singleType="STRING";
-											value="[[""Land_BagFence_01_long_green_F"",10],[""Land_BagFence_01_round_green_F"",10],[""Land_SandbagBarricade_01_half_F"",10],[""Land_SandbagBarricade_01_F"",15],[""Land_SandbagBarricade_01_hole_F"",15],[""Land_BagBunker_01_small_green_F"",50],[""Land_HBarrier_01_line_1_green_F"",10],[""Land_HBarrier_01_line_3_green_F"",15],[""Land_HBarrier_01_line_5_green_F"",20],[""Land_Plank_01_4m_F"",10],[""CamoNet_wdl_open_F"",15],[""Land_CamoNetB_NATO_EP1"",15],[""CamoNet_wdl_open_F"",20],[""Land_PortableLight_double_F"",5],[""RuggedTerminal_01_communications_F"",5]]";
+											value="[[""Land_BagFence_01_long_green_F"",10],[""Land_BagFence_01_short_green_F"",10],[""Land_BagFence_01_round_green_F"",10],[""Land_BagFence_01_corner_green_F"",10],[""Land_SandbagBarricade_01_F"",15],[""Land_SandbagBarricade_01_hole_F"",15],[""Land_Plank_01_4m_F"",10],[""Land_Plank_01_8m_F"",20],[""Land_TimberLog_05_F"",10],[""Land_MedicalTent_01_wdl_generic_outer_F"",50],[""Land_HBarrier_01_line_1_green_F"",10],[""Land_HBarrier_01_line_3_green_F"",15],[""Land_HBarrier_01_line_5_green_F"",20],[""Land_RoadBarrier_01_F"",25],[""Land_PortableLight_double_F"",5],[""RuggedTerminal_01_communications_F"",5]]";
 										};
 									};
 								};
@@ -1004,7 +1022,7 @@ class Mission
 										class data
 										{
 											singleType="STRING";
-											value="[[""Land_BagFence_Long_F"",10],[""Land_BagFence_Round_F"",10],[""Land_SandbagBarricade_01_half_F"",10],[""Land_SandbagBarricade_01_F"",15],[""Land_SandbagBarricade_01_hole_F"",15],[""Land_BagBunker_Small_F"",50],[""Land_Plank_01_4m_F"",10],[""Land_HBarrier_1_F"",10],[""Land_HBarrier_3_F"",15],[""Land_HBarrier_5_F"",20],[""Land_CamoNet_NATO_EP1"",15],[""Land_CamoNetVar_NATO_EP1"",15],[""Land_CamoNetB_NATO_EP1"",20],[""Land_PortableLight_double_F"",5],[""RuggedTerminal_01_communications_F"",5]]";
+											value="[[""Land_BagFence_Long_F"",10],[""Land_BagFence_Short_F"",10],[""Land_BagFence_Round_F"",10],[""Land_BagFence_Corner_F"",10],[""Land_SandbagBarricade_01_F"",15],[""Land_SandbagBarricade_01_hole_F"",15],[""Land_Plank_01_4m_F"",10],[""Land_Plank_01_8m_F"",20],[""Land_TimberLog_05_F"",10],[""Land_MedicalTent_01_NATO_generic_outer_F"",50],[""Land_HBarrier_1_F"",10],[""Land_HBarrier_3_F"",15],[""Land_HBarrier_5_F"",20],[""Land_RoadBarrier_01_F"",25],[""Land_PortableLight_double_F"",5],[""RuggedTerminal_01_communications_F"",5]]";
 										};
 									};
 								};
@@ -4809,7 +4827,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={1514.998,5.2189794,5152.9062};
+								position[]={1514.998,5.2189794,5152.9063};
 								angles[]={0,4.712389,0};
 							};
 							side="Empty";
@@ -6287,6 +6305,23 @@ class Mission
 							};
 							id=1910;
 							type="GerRng_faction_WG_13_Sea_Lynx";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="ace_fastroping_equipFRIES";
+									expression="[_this] call ace_fastroping_fnc_equipFRIES";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								nAttributes=1;
+							};
 						};
 						class Item295
 						{
@@ -6973,7 +7008,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2428;
+									id=2814;
 									type="B_officer_F";
 									class CustomAttributes
 									{
@@ -7035,7 +7070,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2429;
+									id=2815;
 									type="B_officer_F";
 									class CustomAttributes
 									{
@@ -7097,7 +7132,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2430;
+									id=2816;
 									type="B_officer_F";
 									class CustomAttributes
 									{
@@ -7159,7 +7194,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2431;
+									id=2817;
 									type="B_officer_F";
 									class CustomAttributes
 									{
@@ -7221,7 +7256,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2564;
+									id=2818;
 									type="B_officer_F";
 									class CustomAttributes
 									{
@@ -7259,7 +7294,7 @@ class Mission
 							{
 								name="GrpHotel";
 							};
-							id=2427;
+							id=2813;
 						};
 						class Item1
 						{
@@ -7298,7 +7333,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2433;
+									id=2820;
 									type="B_officer_F";
 									class CustomAttributes
 									{
@@ -7360,7 +7395,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2434;
+									id=2821;
 									type="B_officer_F";
 									class CustomAttributes
 									{
@@ -7398,7 +7433,7 @@ class Mission
 							{
 								name="GrpKilo";
 							};
-							id=2432;
+							id=2819;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -7466,7 +7501,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2436;
+									id=2823;
 									type="B_Soldier_SL_F";
 									class CustomAttributes
 									{
@@ -7555,7 +7590,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2437;
+									id=2824;
 									type="CUP_B_GER_BW_Fleck_Medic";
 									class CustomAttributes
 									{
@@ -7643,7 +7678,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2438;
+									id=2825;
 									type="CUP_B_GER_BW_Fleck_Soldier_TL";
 									class CustomAttributes
 									{
@@ -7718,7 +7753,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2439;
+									id=2826;
 									type="CUP_B_GER_BW_Fleck_Soldier_Scout";
 									class CustomAttributes
 									{
@@ -7806,7 +7841,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2440;
+									id=2827;
 									type="CUP_B_GER_BW_Fleck_Soldier_Scout";
 									class CustomAttributes
 									{
@@ -7894,7 +7929,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2441;
+									id=2828;
 									type="CUP_B_GER_BW_Fleck_Soldier_TL";
 									class CustomAttributes
 									{
@@ -7969,7 +8004,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2442;
+									id=2829;
 									type="CUP_B_GER_BW_Fleck_Soldier_Scout";
 									class CustomAttributes
 									{
@@ -8057,7 +8092,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2443;
+									id=2830;
 									type="CUP_B_GER_BW_Fleck_Soldier_Scout";
 									class CustomAttributes
 									{
@@ -8121,7 +8156,7 @@ class Mission
 							{
 								name="GrpSierra";
 							};
-							id=2435;
+							id=2822;
 						};
 						class Item3
 						{
@@ -8159,7 +8194,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2445;
+									id=2832;
 									type="B_officer_F";
 									class CustomAttributes
 									{
@@ -8234,7 +8269,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2446;
+									id=2833;
 									type="CUP_B_GER_BW_Fleck_Medic";
 									class CustomAttributes
 									{
@@ -8309,7 +8344,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2447;
+									id=2834;
 									type="CUP_B_GER_BW_Fleck_Medic";
 									class CustomAttributes
 									{
@@ -8384,7 +8419,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2448;
+									id=2835;
 									type="CUP_B_GER_BW_Fleck_Medic";
 									class CustomAttributes
 									{
@@ -8459,7 +8494,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2449;
+									id=2836;
 									type="CUP_B_GER_BW_Fleck_Soldier";
 									class CustomAttributes
 									{
@@ -8534,7 +8569,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2450;
+									id=2837;
 									type="CUP_B_GER_BW_Fleck_Medic";
 									class CustomAttributes
 									{
@@ -8609,7 +8644,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2451;
+									id=2838;
 									type="CUP_B_GER_BW_Fleck_Medic";
 									class CustomAttributes
 									{
@@ -8684,7 +8719,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2452;
+									id=2839;
 									type="CUP_B_GER_BW_Fleck_Medic";
 									class CustomAttributes
 									{
@@ -8735,7 +8770,7 @@ class Mission
 							{
 								name="GrpMike";
 							};
-							id=2444;
+							id=2831;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -8773,7 +8808,7 @@ class Mission
 							side="West";
 							class Entities
 							{
-								items=11;
+								items=8;
 								class Item0
 								{
 									dataType="Object";
@@ -8786,7 +8821,7 @@ class Mission
 									flags=7;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
+										init="this setVariable [""GR_unitLoadout"", ""Lima_GF""];" \n "group this setGroupId [""Lima""];";
 										name="Lima1";
 										description="Gruppenführer / LuftMobOffz@Lima";
 										isPlayable=1;
@@ -8803,7 +8838,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2454;
+									id=2845;
 									type="B_Soldier_SL_F";
 									class CustomAttributes
 									{
@@ -8874,7 +8909,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
+										init="this setVariable [""GR_unitLoadout"", ""Lima_GF""];" \n "group this setGroupId [""Lima""];";
 										name="Lima2";
 										description="Truppführer / MarschFhr@Lima";
 										isPlayable=1;
@@ -8891,7 +8926,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2455;
+									id=2846;
 									type="CUP_B_GER_BW_Fleck_Soldier_TL";
 									class CustomAttributes
 									{
@@ -8955,94 +8990,6 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={1415,5.0014391,5131.0498};
-										angles[]={0,4.6971869,0};
-									};
-									side="West";
-									flags=5;
-									class Attributes
-									{
-										init="this setVariable [""GR_unitLoadout"", ""Romeo_TF""];" \n "group this setGroupId [""Lima""];";
-										name="Lima9";
-										description="Truppführer / FUOffz@Lima";
-										isPlayable=1;
-										class Inventory
-										{
-											class uniform
-											{
-												typeName="CUP_U_B_GER_Fleck_Crye";
-												isBackpack=0;
-											};
-											map="ItemMap";
-											compass="ItemCompass";
-											watch="ItemWatch";
-											radio="ItemRadio";
-										};
-									};
-									id=2456;
-									type="CUP_B_GER_BW_Fleck_Soldier_TL";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="ace_isEngineer";
-											expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=2;
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male07ENG";
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1.02;
-												};
-											};
-										};
-										class Attribute3
-										{
-											property="ace_isEOD";
-											expression="_this setVariable ['ACE_isEOD', _value, true]";
-											class Value
-											{
-												class data
-												{
-													singleType="BOOL";
-													value=1;
-												};
-											};
-										};
-										nAttributes=4;
-									};
-								};
-								class Item3
-								{
-									dataType="Object";
-									class PositionInfo
-									{
 										position[]={1411,5.0014391,5129.0498};
 										angles[]={0,4.7016206,0};
 									};
@@ -9067,7 +9014,82 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2457;
+									id=2847;
+									type="CUP_B_GER_BW_Fleck_Soldier_Engineer";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="ace_isEngineer";
+											expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male08ENG";
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.95999998;
+												};
+											};
+										};
+										nAttributes=3;
+									};
+								};
+								class Item3
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={1411,5.0014391,5127.0498};
+										angles[]={0,4.7016206,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""GR_unitLoadout"", ""Lima_Sani""];" \n "group this setGroupId [""Lima""];";
+										name="Lima4";
+										description="Logistiker/San@Lima";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=2848;
 									type="CUP_B_GER_BW_Fleck_Soldier_Engineer";
 									class CustomAttributes
 									{
@@ -9118,7 +9140,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={1411,5.0014391,5127.0498};
+										position[]={1413,5.0014391,5129.0498};
 										angles[]={0,4.7016206,0};
 									};
 									side="West";
@@ -9126,8 +9148,8 @@ class Mission
 									class Attributes
 									{
 										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
-										name="Lima4";
-										description="Logistiker/San@Lima";
+										name="Lima5";
+										description="Mun.-Logistiker@Lima";
 										isPlayable=1;
 										class Inventory
 										{
@@ -9142,7 +9164,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2458;
+									id=2849;
 									type="CUP_B_GER_BW_Fleck_Soldier_Engineer";
 									class CustomAttributes
 									{
@@ -9193,7 +9215,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={1413,5.0014391,5129.0498};
+										position[]={1413,5.0014391,5127.0498};
 										angles[]={0,4.7016206,0};
 									};
 									side="West";
@@ -9201,8 +9223,8 @@ class Mission
 									class Attributes
 									{
 										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
-										name="Lima5";
-										description="Mun.-Logistiker@Lima";
+										name="Lima6";
+										description="Pionier-Koor.@Lima";
 										isPlayable=1;
 										class Inventory
 										{
@@ -9217,7 +9239,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2459;
+									id=2850;
 									type="CUP_B_GER_BW_Fleck_Soldier_Engineer";
 									class CustomAttributes
 									{
@@ -9268,7 +9290,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={1413,5.0014391,5127.0498};
+										position[]={1411,5.0014391,5125.0498};
 										angles[]={0,4.7016206,0};
 									};
 									side="West";
@@ -9276,8 +9298,8 @@ class Mission
 									class Attributes
 									{
 										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
-										name="Lima6";
-										description="Pionier-Koor.@Lima";
+										name="Lima7";
+										description="Sprengpionier@Lima";
 										isPlayable=1;
 										class Inventory
 										{
@@ -9292,7 +9314,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2460;
+									id=2851;
 									type="CUP_B_GER_BW_Fleck_Soldier_Engineer";
 									class CustomAttributes
 									{
@@ -9343,81 +9365,6 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={1411,5.0014391,5125.0498};
-										angles[]={0,4.7016206,0};
-									};
-									side="West";
-									flags=5;
-									class Attributes
-									{
-										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
-										name="Lima7";
-										description="Sprengpionier@Lima";
-										isPlayable=1;
-										class Inventory
-										{
-											class uniform
-											{
-												typeName="CUP_U_B_GER_Fleck_Crye";
-												isBackpack=0;
-											};
-											map="ItemMap";
-											compass="ItemCompass";
-											watch="ItemWatch";
-											radio="ItemRadio";
-										};
-									};
-									id=2461;
-									type="CUP_B_GER_BW_Fleck_Soldier_Engineer";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="ace_isEngineer";
-											expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=2;
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male08ENG";
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=0.95999998;
-												};
-											};
-										};
-										nAttributes=3;
-									};
-								};
-								class Item8
-								{
-									dataType="Object";
-									class PositionInfo
-									{
 										position[]={1413,5.0014391,5125.0498};
 										angles[]={0,4.7016206,0};
 									};
@@ -9442,157 +9389,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2462;
-									type="CUP_B_GER_BW_Fleck_Soldier_Engineer";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="ace_isEngineer";
-											expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=2;
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male08ENG";
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=0.95999998;
-												};
-											};
-										};
-										nAttributes=3;
-									};
-								};
-								class Item9
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={1415,5.0014391,5129.0498};
-										angles[]={0,4.7016206,0};
-									};
-									side="West";
-									flags=5;
-									class Attributes
-									{
-										init="this setVariable [""GR_unitLoadout"", ""Romeo_Arty""];" \n "group this setGroupId [""Lima""];";
-										name="Lima10";
-										description="WSO@Lima";
-										isPlayable=1;
-										class Inventory
-										{
-											class uniform
-											{
-												typeName="CUP_U_B_GER_Fleck_Crye";
-												isBackpack=0;
-											};
-											map="ItemMap";
-											compass="ItemCompass";
-											watch="ItemWatch";
-											radio="ItemRadio";
-										};
-									};
-									id=2463;
-									type="CUP_B_GER_BW_Fleck_Soldier_Engineer";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="ace_isEngineer";
-											expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=2;
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male08ENG";
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=0.95999998;
-												};
-											};
-										};
-										nAttributes=3;
-									};
-								};
-								class Item10
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={1415,5.0014391,5127.0498};
-										angles[]={0,4.7016206,0};
-									};
-									side="West";
-									flags=5;
-									class Attributes
-									{
-										init="this setVariable [""GR_unitLoadout"", ""Romeo_Arty""];" \n "group this setGroupId [""Lima""];";
-										name="Lima11";
-										description="WSO@Lima";
-										isPlayable=1;
-										class Inventory
-										{
-											class uniform
-											{
-												typeName="CUP_U_B_GER_Fleck_Crye";
-												isBackpack=0;
-											};
-											map="ItemMap";
-											compass="ItemCompass";
-											watch="ItemWatch";
-											radio="ItemRadio";
-										};
-									};
-									id=2464;
+									id=2852;
 									type="CUP_B_GER_BW_Fleck_Soldier_Engineer";
 									class CustomAttributes
 									{
@@ -9643,7 +9440,7 @@ class Mission
 							{
 								name="GrpLima";
 							};
-							id=2453;
+							id=2844;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -9711,7 +9508,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2466;
+									id=2854;
 									type="B_officer_F";
 									class CustomAttributes
 									{
@@ -9773,7 +9570,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2467;
+									id=2855;
 									type="B_officer_F";
 									class CustomAttributes
 									{
@@ -9835,7 +9632,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2468;
+									id=2856;
 									type="CUP_B_GER_BW_Fleck_Medic";
 									class CustomAttributes
 									{
@@ -9897,7 +9694,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2469;
+									id=2857;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -9935,7 +9732,7 @@ class Mission
 							{
 								name="GrpFox";
 							};
-							id=2465;
+							id=2853;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -10003,7 +9800,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2471;
+									id=2859;
 									type="B_Soldier_SL_F";
 									class CustomAttributes
 									{
@@ -10078,7 +9875,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2472;
+									id=2860;
 									type="CUP_B_GER_BW_Fleck_Soldier_TL";
 									class CustomAttributes
 									{
@@ -10140,7 +9937,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2473;
+									id=2861;
 									type="CUP_B_GER_BW_Fleck_Soldier_TL";
 									class CustomAttributes
 									{
@@ -10202,7 +9999,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2474;
+									id=2862;
 									type="CUP_B_GER_BW_Fleck_Medic";
 									class CustomAttributes
 									{
@@ -10264,7 +10061,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2475;
+									id=2863;
 									type="B_soldier_AR_F";
 									class CustomAttributes
 									{
@@ -10326,7 +10123,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2476;
+									id=2864;
 									type="B_soldier_AR_F";
 									class CustomAttributes
 									{
@@ -10388,7 +10185,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2477;
+									id=2865;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -10450,7 +10247,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2478;
+									id=2866;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -10512,7 +10309,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2479;
+									id=2867;
 									type="CUP_B_GER_BW_Fleck_Soldier_Marksman";
 									class CustomAttributes
 									{
@@ -10574,7 +10371,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2480;
+									id=2868;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -10636,7 +10433,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2481;
+									id=2869;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -10674,7 +10471,7 @@ class Mission
 							{
 								name="GrpAlpha";
 							};
-							id=2470;
+							id=2858;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -10729,7 +10526,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2483;
+									id=2871;
 									type="B_Soldier_SL_F";
 									class CustomAttributes
 									{
@@ -10804,7 +10601,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2484;
+									id=2872;
 									type="CUP_B_GER_BW_Fleck_Medic";
 									class CustomAttributes
 									{
@@ -10862,7 +10659,7 @@ class Mission
 											};
 										};
 									};
-									id=2485;
+									id=2873;
 									type="B_soldier_exp_F";
 									class CustomAttributes
 									{
@@ -10937,7 +10734,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2486;
+									id=2874;
 									type="CUP_B_GER_BW_Fleck_Soldier_MG3";
 									class CustomAttributes
 									{
@@ -10999,7 +10796,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2487;
+									id=2875;
 									type="CUP_B_GER_BW_Fleck_Soldier_Ammo";
 									class CustomAttributes
 									{
@@ -11061,7 +10858,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2488;
+									id=2876;
 									type="CUP_B_GER_BW_Fleck_Soldier_MG3";
 									class CustomAttributes
 									{
@@ -11123,7 +10920,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2489;
+									id=2877;
 									type="CUP_B_GER_BW_Fleck_Soldier_Ammo";
 									class CustomAttributes
 									{
@@ -11185,7 +10982,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2490;
+									id=2878;
 									type="CUP_B_GER_BW_Fleck_Soldier_MG3";
 									class CustomAttributes
 									{
@@ -11247,7 +11044,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2491;
+									id=2879;
 									type="CUP_B_GER_BW_Fleck_Soldier_Ammo";
 									class CustomAttributes
 									{
@@ -11285,7 +11082,7 @@ class Mission
 							{
 								name="GrpBravo";
 							};
-							id=2482;
+							id=2870;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -11340,7 +11137,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2493;
+									id=2881;
 									type="B_Soldier_SL_F";
 									class CustomAttributes
 									{
@@ -11415,7 +11212,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2494;
+									id=2882;
 									type="CUP_B_GER_BW_Fleck_Soldier_TL";
 									class CustomAttributes
 									{
@@ -11477,7 +11274,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2495;
+									id=2883;
 									type="CUP_B_GER_BW_Fleck_Soldier_TL";
 									class CustomAttributes
 									{
@@ -11539,7 +11336,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2496;
+									id=2884;
 									type="CUP_B_GER_BW_Fleck_Medic";
 									class CustomAttributes
 									{
@@ -11601,7 +11398,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2497;
+									id=2885;
 									type="B_soldier_AR_F";
 									class CustomAttributes
 									{
@@ -11663,7 +11460,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2498;
+									id=2886;
 									type="CUP_B_GER_BW_Fleck_Soldier_Marksman";
 									class CustomAttributes
 									{
@@ -11725,7 +11522,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2499;
+									id=2887;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -11787,7 +11584,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2500;
+									id=2888;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -11849,7 +11646,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2501;
+									id=2889;
 									type="CUP_B_GER_BW_Fleck_Soldier_Marksman";
 									class CustomAttributes
 									{
@@ -11911,7 +11708,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2502;
+									id=2890;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -11973,7 +11770,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2503;
+									id=2891;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -12011,7 +11808,7 @@ class Mission
 							{
 								name="GrpCharlie";
 							};
-							id=2492;
+							id=2880;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -12066,7 +11863,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2505;
+									id=2893;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -12128,7 +11925,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2506;
+									id=2894;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -12190,7 +11987,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2507;
+									id=2895;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -12252,7 +12049,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2508;
+									id=2896;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -12314,7 +12111,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2509;
+									id=2897;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -12376,7 +12173,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2510;
+									id=2898;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -12438,7 +12235,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2511;
+									id=2899;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -12500,7 +12297,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2512;
+									id=2900;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -12562,7 +12359,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2513;
+									id=2901;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -12600,7 +12397,7 @@ class Mission
 							{
 								name="GrpFoxUeber";
 							};
-							id=2504;
+							id=2892;
 						};
 						class Item10
 						{
@@ -12638,7 +12435,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2515;
+									id=2903;
 									type="B_officer_F";
 									class CustomAttributes
 									{
@@ -12700,7 +12497,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2516;
+									id=2904;
 									type="B_officer_F";
 									class CustomAttributes
 									{
@@ -12762,7 +12559,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2517;
+									id=2905;
 									type="CUP_B_GER_BW_Fleck_Medic";
 									class CustomAttributes
 									{
@@ -12824,7 +12621,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2518;
+									id=2906;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -12862,7 +12659,7 @@ class Mission
 							{
 								name="GrpVictor";
 							};
-							id=2514;
+							id=2902;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -12930,7 +12727,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2520;
+									id=2908;
 									type="B_Soldier_SL_F";
 									class CustomAttributes
 									{
@@ -13005,7 +12802,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2521;
+									id=2909;
 									type="CUP_B_GER_BW_Fleck_Soldier_TL";
 									class CustomAttributes
 									{
@@ -13067,7 +12864,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2522;
+									id=2910;
 									type="CUP_B_GER_BW_Fleck_Soldier_TL";
 									class CustomAttributes
 									{
@@ -13129,7 +12926,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2523;
+									id=2911;
 									type="CUP_B_GER_BW_Fleck_Medic";
 									class CustomAttributes
 									{
@@ -13191,7 +12988,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2524;
+									id=2912;
 									type="B_soldier_AR_F";
 									class CustomAttributes
 									{
@@ -13253,7 +13050,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2525;
+									id=2913;
 									type="CUP_B_GER_BW_Fleck_Soldier_Marksman";
 									class CustomAttributes
 									{
@@ -13315,7 +13112,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2526;
+									id=2914;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -13377,7 +13174,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2527;
+									id=2915;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -13439,7 +13236,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2528;
+									id=2916;
 									type="B_soldier_AR_F";
 									class CustomAttributes
 									{
@@ -13501,7 +13298,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2529;
+									id=2917;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -13563,7 +13360,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2530;
+									id=2918;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -13601,7 +13398,7 @@ class Mission
 							{
 								name="GrpZulu";
 							};
-							id=2519;
+							id=2907;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -13656,7 +13453,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2532;
+									id=2920;
 									type="B_Soldier_SL_F";
 									class CustomAttributes
 									{
@@ -13732,7 +13529,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2533;
+									id=2921;
 									type="CUP_B_GER_BW_Fleck_Medic";
 									class CustomAttributes
 									{
@@ -13790,7 +13587,7 @@ class Mission
 											};
 										};
 									};
-									id=2534;
+									id=2922;
 									type="B_soldier_exp_F";
 									class CustomAttributes
 									{
@@ -13852,7 +13649,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2535;
+									id=2923;
 									type="CUP_B_GER_BW_Fleck_Soldier_MG3";
 									class CustomAttributes
 									{
@@ -13914,7 +13711,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2536;
+									id=2924;
 									type="CUP_B_GER_BW_Fleck_Soldier_Ammo";
 									class CustomAttributes
 									{
@@ -13976,7 +13773,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2537;
+									id=2925;
 									type="CUP_B_GER_BW_Fleck_Soldier_MG3";
 									class CustomAttributes
 									{
@@ -14038,7 +13835,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2538;
+									id=2926;
 									type="CUP_B_GER_BW_Fleck_Soldier_Ammo";
 									class CustomAttributes
 									{
@@ -14100,7 +13897,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2539;
+									id=2927;
 									type="CUP_B_GER_BW_Fleck_Soldier_MG3";
 									class CustomAttributes
 									{
@@ -14162,7 +13959,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2540;
+									id=2928;
 									type="CUP_B_GER_BW_Fleck_Soldier_Ammo";
 									class CustomAttributes
 									{
@@ -14200,7 +13997,7 @@ class Mission
 							{
 								name="GrpYankee";
 							};
-							id=2531;
+							id=2919;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -14255,7 +14052,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2542;
+									id=2930;
 									type="B_Soldier_SL_F";
 									class CustomAttributes
 									{
@@ -14330,7 +14127,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2543;
+									id=2931;
 									type="CUP_B_GER_BW_Fleck_Soldier_TL";
 									class CustomAttributes
 									{
@@ -14392,7 +14189,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2544;
+									id=2932;
 									type="CUP_B_GER_BW_Fleck_Soldier_TL";
 									class CustomAttributes
 									{
@@ -14454,7 +14251,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2545;
+									id=2933;
 									type="CUP_B_GER_BW_Fleck_Medic";
 									class CustomAttributes
 									{
@@ -14516,7 +14313,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2546;
+									id=2934;
 									type="B_soldier_AR_F";
 									class CustomAttributes
 									{
@@ -14578,7 +14375,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2547;
+									id=2935;
 									type="CUP_B_GER_BW_Fleck_Soldier_Marksman";
 									class CustomAttributes
 									{
@@ -14640,7 +14437,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2548;
+									id=2936;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -14702,7 +14499,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2549;
+									id=2937;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -14764,7 +14561,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2550;
+									id=2938;
 									type="B_soldier_AR_F";
 									class CustomAttributes
 									{
@@ -14826,7 +14623,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2551;
+									id=2939;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -14888,7 +14685,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2552;
+									id=2940;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -14926,7 +14723,7 @@ class Mission
 							{
 								name="GrpXray";
 							};
-							id=2541;
+							id=2929;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -14981,7 +14778,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2554;
+									id=2942;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -15043,7 +14840,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2555;
+									id=2943;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -15105,7 +14902,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2556;
+									id=2944;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -15167,7 +14964,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2557;
+									id=2945;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -15229,7 +15026,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2558;
+									id=2946;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -15291,7 +15088,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2559;
+									id=2947;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -15353,7 +15150,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2560;
+									id=2948;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -15415,7 +15212,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2561;
+									id=2949;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -15477,7 +15274,7 @@ class Mission
 											radio="ItemRadio";
 										};
 									};
-									id=2562;
+									id=2950;
 									type="CUP_B_GER_BW_Fleck_Soldier_GL";
 									class CustomAttributes
 									{
@@ -15515,7 +15312,7 @@ class Mission
 							{
 								name="GrpVicUeber";
 							};
-							id=2553;
+							id=2941;
 						};
 					};
 					id=1074;
@@ -16395,6 +16192,257 @@ class Mission
 				};
 			};
 			id=1901;
+		};
+		class Item1
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1418,5.0014391,5122.0498};
+						angles[]={0,4.6971869,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="this setVariable [""GR_unitLoadout"", ""Romeo_TF""];" \n "group this setGroupId [""Romeo""];";
+						name="Romeo1";
+						description="Gruppenführer / Staffelführer@Romeo";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_U_B_GER_Fleck_Crye";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+						};
+					};
+					id=2841;
+					type="CUP_B_GER_BW_Fleck_Soldier_TL";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isEngineer";
+							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=2;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male07ENG";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.02;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="ace_isEOD";
+							expression="_this setVariable ['ACE_isEOD', _value, true]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1418,5.0014391,5120.0498};
+						angles[]={0,4.7016206,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setVariable [""GR_unitLoadout"", ""Romeo_Arty""];" \n "group this setGroupId [""Romeo""];";
+						name="Romeo2";
+						description="WSO@Romeo";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_U_B_GER_Fleck_Crye";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+						};
+					};
+					id=2842;
+					type="CUP_B_GER_BW_Fleck_Soldier_Engineer";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isEngineer";
+							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=2;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1418,5.0014391,5118.0498};
+						angles[]={0,4.7016206,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setVariable [""GR_unitLoadout"", ""Romeo_Arty""];" \n "group this setGroupId [""Romeo""];";
+						name="Romeo3";
+						description="WSO@Romeo";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_U_B_GER_Fleck_Crye";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+						};
+					};
+					id=2843;
+					type="CUP_B_GER_BW_Fleck_Soldier_Engineer";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isEngineer";
+							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=2;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=2840;
 		};
 	};
 	class Connections
