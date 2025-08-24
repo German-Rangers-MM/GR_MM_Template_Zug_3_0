@@ -1230,7 +1230,7 @@ class Mission
 										class data
 										{
 											singleType="STRING";
-											value="[[""Land_HBarrier_Tower_F"",40],[""Land_Razorwire_F"",20],[""Land_Mil_WiredFence_Gate_F"",20],[""Land_Net_Fence_Gate_F"",15],[""Land_GameProofFence_01_l_gate_F"",15],[""Land_Mil_ConcreteWall_F"",30],[""Land_HelipadSquare_F"",20],[""Land_PortableHelipadLight_01_F"",5],[""WireFence"",20],[""Hedgehog_EP1"",10],[""Land_Shed_13_F"",50],[""Land_GuardShed"",50],[""Land_SignM_WarningMilitaryArea_english_F""],5],[""Land_SignM_WarningMilAreaSmall_english_F"",5],[""Land_PortableLight_double_F"",5],[""RuggedTerminal_01_communications_F"",5]]";
+											value="[[""Land_HBarrier_Tower_F"",40],[""Land_Razorwire_F"",20],[""Land_Mil_WiredFence_Gate_F"",20],[""Land_Net_Fence_Gate_F"",15],[""Land_GameProofFence_01_l_gate_F"",15],[""Land_Mil_ConcreteWall_F"",30],[""Land_HelipadSquare_F"",20],[""Land_PortableHelipadLight_01_F"",5],[""WireFence"",20],[""Hedgehog_EP1"",10],[""Land_Shed_13_F"",50],[""Land_GuardShed"",50],[""Land_SignM_WarningMilitaryArea_english_F"",5],[""Land_SignM_WarningMilAreaSmall_english_F"",5],[""Land_PortableLight_double_F"",5],[""RuggedTerminal_01_communications_F"",5]]";
 										};
 									};
 								};
