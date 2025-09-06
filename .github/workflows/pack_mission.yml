@@ -46,10 +46,12 @@ jobs:
           
           # Rename files with version
           for pbo in ./pbos/*.pbo; do
-            base="${pbo%.*}"
+            base=$(basename "$pbo")
+            mission_name="${base%%.*}"
+            map_ext="${base#*.}"
+            map_name="${map_ext%.*}"
             ext="${pbo##*.}"
-            mission_name=$(basename "$base")
-            new_name="${mission_name}_${{ steps.version.outputs.version }}.${ext}"
+            new_name="${mission_name}_${{ steps.version.outputs.version }}.${map_name}.${ext}"
             mv "$pbo" "./pbos/$new_name"
           done
 
