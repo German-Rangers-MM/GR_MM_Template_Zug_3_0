@@ -46,11 +46,74 @@
     "SPS_hk416_16_5_glm_hk_ctr_ral8000_f",
     "SPS_hk416_16_5_glm_hk_ctr_sf_ral8000_f",
     "SPS_hk416_16_5_glm_hk_ctr_a7_ral8000_f",
+
+	"SPS_hk416_11_sl_t_ctr_vfg_a7_black_f",
+	"SPS_hk416_11_sl_t_ctr_afg_a7_black_f",
+	"SPS_hk416_11_sl_t_ctr_a7_black_f",
+	"SPS_hk416_11_glm_t_ctr_a7_black_f",
+
+	"SPS_hk416_11_sl_t_ctr_vfg_a7_fde_f",
+	"SPS_hk416_11_sl_t_ctr_afg_a7_fde_f",
+	"SPS_hk416_11_sl_t_ctr_a7_fde_f",
+	"SPS_hk416_11_glm_t_ctr_a7_fde_f",
+
+	"SPS_hk416_14_5_g95_t_ctr_vfg_a7_black_f",
+	"SPS_hk416_14_5_g95_t_ctr_afg_a7_black_f",
+	"SPS_hk416_14_5_g95_t_ctr_a7_black_f",
+	"SPS_hk416_14_5_glm_t_ctr_a7_black_f",
+
+	"SPS_hk416_14_5_g95_t_ctr_vfg_a7_fde_f",
+	"SPS_hk416_14_5_g95_t_ctr_afg_a7_fde_f",
+	"SPS_hk416_14_5_g95_t_ctr_a7_fde_f",
+	"SPS_hk416_14_5_glm_t_ctr_a7_fde_f",
+
+	"SPS_hk416_16_5_g95_t_ctr_vfg_a7_black_f",
+	"SPS_hk416_16_5_g95_t_ctr_afg_a7_black_f",
+	"SPS_hk416_16_5_g95_t_ctr_a7_black_f",
+	"SPS_hk416_16_5_glm_t_ctr_a7_black_f",
+
+	"SPS_hk416_16_5_g95_t_ctr_vfg_a7_fde_f",
+	"SPS_hk416_16_5_g95_t_ctr_afg_a7_fde_f",
+	"SPS_hk416_16_5_g95_t_ctr_a7_fde_f",
+	"SPS_hk416_16_5_glm_t_ctr_a7_fde_f",
+
+	"SPS_hk417_13_vfg_black_f",
+	"SPS_hk417_13_afg_black_f",
+	"SPS_hk417_13_glm_black_f",
+	"SPS_hk417_13_vfg_fde_f",
+	"SPS_hk417_13_afg_fde_f",
+	"SPS_hk417_13_glm_fde_f",
+
+	"SPS_hk417_16_vfg_black_f",
+	"SPS_hk417_16_afg_black_f",
+	"SPS_hk417_16_glm_black_f",
+	"SPS_hk417_16_vfg_fde_f",
+	"SPS_hk417_16_afg_fde_f",
+	"SPS_hk417_16_glm_fde_f",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Visiere
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+    "CUP_optic_SB_11_4x20_PM_od",
+    "CUP_optic_SB_11_4x20_PM_tan",
+    "CUP_optic_SB_11_4x20_PM",
+
+    "optic_AMS",
+    "optic_AMS_khk",
+    "optic_AMS_snd",
+
+    //SPS
+    "SPS_Optic_SnB_HP_1_8_Black_PVS24LR",
+    "SPS_Optic_SnB_HP_1_8_FDE_PVS24LR",
+    "SPS_Optic_SnB_HP_1_8_RAL8000_PVS24LR",
+    "SPS_Optic_SnB_HP_1_8_Black",
+    "SPS_Optic_SnB_HP_1_8_FDE",
+    "SPS_Optic_SnB_HP_1_8_RAL8000",
+    "SPS_EOTech_Vudu_Black_PVS24LR",
+    "SPS_EOTech_Vudu_Tan_PVS24LR",
+    "SPS_EOTech_Vudu_Black",
+    "SPS_EOTech_Vudu_Tan",
     
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
@@ -63,7 +126,7 @@
     // Bipods
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    
+	"sps_atlas_bipod_m_blk",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Secondarys
