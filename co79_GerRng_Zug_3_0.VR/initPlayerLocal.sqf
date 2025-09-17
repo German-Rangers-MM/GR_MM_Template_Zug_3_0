@@ -449,6 +449,40 @@ if (_modCheck != 0) then {
 ] call ctab_fnc_registerMessageTemplate;
 
 
+["maps-beta.plan-ops.fr#134",3,"LZ Briefing (Lima)","LZ Briefing (Lima)",
+	"https://maps-beta.plan-ops.fr/MessageTemplates/Details/134?t=fygGyJ1NySMG_sL9OmHirTziuDQu3UleSSual7J8d_U",
+		[
+			["LZ Briefing (Lima)","",[]],
+			["Line 1","",[["Anfordernde Einheit: ","",0],["Frequenz: ","",0]]],
+			["Line 2","",[["LZ Name: ","",0],["LZ Markierung: ","",0]]],
+			["Line 3","",[["Hindernisse: ","",0],["Göße & Lage: ","",0],["LZ Status: ","",0]]],
+			["Line 4","",[["Auftragsart: ","",0]]],
+			["Line 5","",[["Ausführungsansatz: ","",0],["Weitere Informationen: ","",0]]]
+		]
+] call ctab_fnc_registerMessageTemplate;
+
+
+["maps-beta.plan-ops.fr#133",3,"LZ Briefing (Romeo):","LZ Briefing (Romeo):",
+	"https://maps-beta.plan-ops.fr/MessageTemplates/Details/133?t=OQgChw5LM0QPohp4NYjgaeqwaux6hoae8DfE63TcENs",
+		[
+			["LZ Briefing (Romeo):","",[]],
+			["Coordinator Callsign","",[["","",0]]],
+			["Aircraft Callsign","",[["","",0]]],
+			["Coordination Frequency","",[["","",0]]],
+			["LZ Position","",[["","",0]]],
+			["Mark","",[["","",0]]],
+			["Altitude & Size","",[["","",0]]],
+			["Obstacles","",[["","",0]]],
+			["Friendly Position","",[["","",0]]],
+			["Hostile Position","",[["","",0]]],
+			["Situation","",[["","",0]]],
+			["Routing","",[["Ingress: ","",0],["Egress: ","",0]]],
+			["Cargo","",[["Passengers: ","",0],["Cargo: ","",0]]],
+			["Remarks","",[["","",0]]]
+		]
+] call ctab_fnc_registerMessageTemplate;
+
+
 ["maps-beta.plan-ops.fr#114",3,"CCA Check-In","CCA Check-In",
 	"https://maps-beta.plan-ops.fr/MessageTemplates/Details/114?t=-raxWlW2prP2GSXweE--6nnANTpyH-03yaP-3ANTGdg",
 	[
@@ -512,10 +546,28 @@ if (_modCheck != 0) then {
 	"https://maps-beta.plan-ops.fr/MessageTemplates/Details/110?t=NKi3rjL9PQFMKUmF6Uyf0oCkvPGIcWoOzX0rZF4XLZw",
 		[
 			["Situation Report","",[]],
-			["Enemy Situation","",[["","",0]]],
 			["Threats","",[["","",0]]],
+			["Enemy Situation","",[["","",0]]],
 			["Friendly Situation","",[["","",0]]],
-			["Remarks / restrictions","",[["","",0]]]
+			["Artillery","",[["","",0]]],
+			["Clearance Auth.","",[["","",0]]],
+			["Hazards","",[["","",0]]],
+			["Restrictions","",[["","",0]]],
+			["Remarks","",[["","",0]]]
+		]
+] call ctab_fnc_registerMessageTemplate;
+
+
+["maps-beta.plan-ops.fr#131",3,"Sensor Tasking","Sensor Tasking",
+	"https://maps-beta.plan-ops.fr/MessageTemplates/Details/131?t=xnNWWNOjhG1dEKAsTwysBRAmUNtU_FoW2AcHT9k4jkU",
+		[
+			["Sensor Tasking","",[]],
+			["Line 1","",[["Aircraft Callsign: ","",0],[" JTAC Callsign: ","",0]]],
+			["Line 2","",[["Requested Sensor: ","",0]]],
+			["Line 3","",[["Target Area: ","",0],["Radius: ","",0]]],
+			["Line 4","",[["Friendly Units: ","",0]]],
+			["Line 5","",[["Purpose of Sensor Tasking: ","",0]]],
+			["Line 6","",[["Remarks: ","",0]]]
 		]
 ] call ctab_fnc_registerMessageTemplate;
 
@@ -536,6 +588,25 @@ if (_modCheck != 0) then {
 			["Ingress via","",[["","(e.g. North West)",0],[", Egress via: ","(e.g. South East)",0]]],
 			["Additonal Calls Requested","",[["No","",6],["Yes,","",0]]],
 			["Additional Remarks","",[["","",0]]]
+		]
+] call ctab_fnc_registerMessageTemplate;
+
+
+["maps-beta.plan-ops.fr#132",3,"9-Line","9-Line",
+	"https://maps-beta.plan-ops.fr/MessageTemplates/Details/132?t=5-xeHVKpcRwxiD7e5FewzsZTQ0QO5363wpb4wiVbwsY",
+		[
+			["9-Line","",[]],
+			["Game Plan:","",[["Type of Control: ","",0],["Method of Attack: ","",0],["Ordnance: ","",0]]],
+			["Line 1. IP","",[["","",0]]],
+			["Line 2. Heading","",[["","",0]]],
+			["Line 3. Distance","",[["","",0]]],
+			["Line 4. TGT Elevation","",[]],
+			["Line 5. TGT Description","",[["","",0]]],
+			["Line 6. TGT Location","",[["","",0]]],
+			["Line 7. Mark","",[["","",0]]],
+			["Line 8. Friendlies","",[["","",0]]],
+			["Line 9. Egress","",[["","",0]]],
+			["Remarks / Restrictions","",[["","",0]]]
 		]
 ] call ctab_fnc_registerMessageTemplate;
 
@@ -561,8 +632,9 @@ if (_modCheck != 0) then {
 			["BDA","",[]],
 			["Hits","",[["Direct Hit","",6],["Close Hit","",6],["Deviation","",6],["Miss","",6]]],
 			["Effect","",[["Good Effect","",6],["Effect","",6],["Bad Effect","",6],["No Effect","",6]]],
+			["TGT Status","",[["","",0]]],
 			["Observer Target Line (in Mil)","",[["","",1]]],
-			["Devation","",[["Add: ","",0],["Drop: ","",0],["Left: ","",0],["Right: ","",0]]],
+			["Deviation","",[["Add: ","",0],["Drop: ","",0],["Left: ","",0],["Right: ","",0]]],
 			["Behavior","",[["Repeat","",6],["Repeat with corrections","",6],["End of Firemission","",6]]]
 		]
 ] call ctab_fnc_registerMessageTemplate;
