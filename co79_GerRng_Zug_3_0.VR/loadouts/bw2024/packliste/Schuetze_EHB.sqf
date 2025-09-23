@@ -115,23 +115,40 @@
     "ACE_salineIV",
     "ACE_splint",
     "kat_IV_16",
+    "kat_Carbonate",
     "kat_BVM",
     "kat_EACA",
+    "kat_IO_FAST",
     "kat_fentanyl",
+    "kat_ketamine",
     "kat_larynx",
+    "kat_naloxone",
     "kat_nitroglycerin",
     "kat_Penthrox",
-    "kat_TXA"
+    "kat_TXA",
+    "kat_Pulseoximeter",
+    "kat_stethoscope",
+    "kat_ncdKit",
+    
+    "GerRng_kat_changes_glucometerSet",
+    "GerRng_kat_changes_GSCI",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Misc 1
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    
+    "kat_CarryStretcherBag",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Misc 2
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    
+    "ace_marker_flags_black",
+    "ace_marker_flags_blue",
+    "ace_marker_flags_orange",
+    "ace_marker_flags_purple",
+    "ace_marker_flags_red",
+    "ace_marker_flags_white",
+    "ace_marker_flags_yellow",
+    "ace_marker_flags_green"
 ];

@@ -1129,7 +1129,7 @@
     "ACE_SpottingScope",
     "ACE_Tripod",
     "ACE_wirecutter",
-    "Attachable_Helistretcher",
+    "kat_CarryStretcherBag",
     "tfw_rf3080Item",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------

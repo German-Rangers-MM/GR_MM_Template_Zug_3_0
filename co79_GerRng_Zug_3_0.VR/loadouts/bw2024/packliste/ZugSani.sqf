@@ -220,7 +220,7 @@
     "ACE_PlottingBoard",
     "ACE_RangeCard",
     "ACE_M26_Clacker",
-    "Attachable_Helistretcher",
+    "kat_CarryStretcherBag",
     "ACE_RangeTable_82mm",
     
     "tfw_blade",
