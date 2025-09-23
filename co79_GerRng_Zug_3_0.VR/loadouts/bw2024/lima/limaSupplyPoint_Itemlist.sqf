@@ -364,7 +364,7 @@
             "ACE_RangeCard",
             "ACE_SpottingScope",
             "ACE_Tripod",
-            "Attachable_Helistretcher",
+            "kat_CarryStretcherBag",
             "tfw_rf3080Item",
             "ace_marker_flags_black",
             "ace_marker_flags_blue",

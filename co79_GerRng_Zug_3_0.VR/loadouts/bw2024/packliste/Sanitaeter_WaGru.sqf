@@ -202,7 +202,7 @@
     "ACE_M26_Clacker",
     "ACE_PlottingBoard",
     "ACE_RangeCard",
-    "Attachable_Helistretcher",
+    "kat_CarryStretcherBag",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Misc 2
