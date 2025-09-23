@@ -116,7 +116,6 @@
     "ACE_splint",
     "kat_IV_16",
     "kat_BVM",
-    "kat_EACA",
     "kat_fentanyl",
     "kat_larynx",
     "kat_nitroglycerin",
