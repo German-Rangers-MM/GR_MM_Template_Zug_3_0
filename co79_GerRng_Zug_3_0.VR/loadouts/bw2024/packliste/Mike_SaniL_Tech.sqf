@@ -481,7 +481,7 @@
     // Misc 1
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    "Attachable_Helistretcher",
+    "kat_CarryStretcherBag",
     "ACE_DefusalKit",
     "ACE_EntrenchingTool",
     "ACE_Fortify",
