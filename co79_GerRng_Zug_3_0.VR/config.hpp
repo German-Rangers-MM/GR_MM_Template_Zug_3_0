@@ -18,6 +18,7 @@ fraktionListN[] 	= {"Bundeswehr"}; 	// Deprecated
 allowWaffenkammer	= true;			// Sets if the Waffenkammer is available ingame
 allowLoadouts		= true;			// Sets if the Loadout Change is available ingame
 rearm				= true;			// Sets if Weaponchange and Reload is enabled in Waffenkammer
+compileLoadout		= true;			// Sets if Loadout files are compiled on Mission Start.
 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
