@@ -1243,7 +1243,7 @@ class Mission
 										class data
 										{
 											singleType="STRING";
-											value="[[""Land_FieldToilet_F""15],[""Land_TentLamp_01_suspended_red_F"",5],[""Land_TentLamp_01_suspended_F"",5],[""Land_MedicalTent_01_NATO_generic_open_F"",35],[""Land_MedicalTent_01_NATO_generic_outer_F"",35],[""Land_ConnectorTent_01_NATO_closed_F"",20],[""Land_ConnectorTent_01_NATO_cross_F"",20],[""Land_Connector_Tent_01_NATO_open_F"",20],[""Land_CamoNetB_NATO"",15],[""Land_CamoNet_NATO"",15],[""Land_CamoNet_NATO_EP1"",15],[""Land_CamoNetB_NATO_EP1"",15],[""Land_MedicalTent_01_floor_light_F""],5],[""Land_CampingChair_V2_F"",5],[""Land_CampingTable_F"",5],[""Land_Sun_chair_green_F"",5],[""RuggedTerminal_01_communications_F"",5]]";
+											value="[[""Land_FieldToilet_F"",15],[""Land_TentLamp_01_suspended_red_F"",5],[""Land_TentLamp_01_suspended_F"",5],[""Land_MedicalTent_01_NATO_generic_open_F"",35],[""Land_MedicalTent_01_NATO_generic_outer_F"",35],[""Land_ConnectorTent_01_NATO_closed_F"",20],[""Land_ConnectorTent_01_NATO_cross_F"",20],[""Land_Connector_Tent_01_NATO_open_F"",20],[""Land_CamoNetB_NATO"",15],[""Land_CamoNet_NATO"",15],[""Land_CamoNet_NATO_EP1"",15],[""Land_CamoNetB_NATO_EP1"",15],[""Land_MedicalTent_01_floor_light_F"",5],[""Land_CampingChair_V2_F"",5],[""Land_CampingTable_F"",5],[""Land_Sun_chair_green_F"",5],[""RuggedTerminal_01_communications_F"",5]]";
 										};
 									};
 								};
