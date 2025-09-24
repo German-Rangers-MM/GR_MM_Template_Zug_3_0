@@ -1,14 +1,15 @@
-private _compileLoadout = getMissionConfigValue ["compileLoadout","true"];
-
 private _unitLoadOut = "";
 private _loadOutFile = "";
 
-if(_compileLoadout isEqualTo "true") then {
+if(getMissionConfigValue "compileLoadout" == "true") then {
+	systemChat "Compiling Loadout File...";
 	switch (playerSide) do {
 		case west: {
 			
 			_unitLoadOut = player getVariable "GR_unitLoadout";
+			systemChat str _unitLoadOut;
 			_loadOutFile = format ["loadouts\%1\loadout\%2.sqf", fraktionV, _unitLoadOut];
+			systemChat str _loadOutFile;
 			[tarnfarbeV] call SGN_fnc_replaceTarnfarbe;
 		};
 		case east: {
@@ -23,13 +24,6 @@ if(_compileLoadout isEqualTo "true") then {
 			_unitLoadOut = player getVariable "CIV_unitLoadout";
 			_loadOutFile = format ["loadouts\%1\loadout\%2.sqf", fraktionCV, _unitLoadOut];
 		};
-		default {
-			_unitLoadOut = nil;
-			_loadOutFile = nil;
-		};
 	};
-};
-
-if !isNil _loadOutFile then {
 	call compile preprocessFileLineNumbers _loadOutFile;
 };
