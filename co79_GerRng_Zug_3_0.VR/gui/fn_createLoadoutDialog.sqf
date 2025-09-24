@@ -17,7 +17,7 @@ private _display 		= findDisplay 7777;
 private _confirmButton	= _display displayCtrl 1614;
 private _listbox 		= _display displayCtrl 1500;
 
-_groupName = toLower (groupId group _unit);
+private _groupName = toLower (groupId group _unit);
  
 private _groupRoles = [];
 
@@ -68,7 +68,7 @@ if (_groupName in ["romeo"]) then {
 
 // fill listbox
 {
-	_index = _listbox lbAdd (_x select 0);
+	private _index = _listbox lbAdd (_x select 0);
 	_listbox lbSetData [_index, (_x select 1)];
 } forEach _groupRoles;
 

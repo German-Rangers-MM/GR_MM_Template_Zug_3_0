@@ -16,8 +16,8 @@ _int = _this select 1; //intensity of fog (0 to 1)
 while {alive _unit} do {
     sleep (2 + random 2); // random time between breaths
 
-    _source = "logic" createVehicleLocal (getpos _unit);
-    _fog = "#particlesource" createVehicleLocal getpos _source;
+    private _source = "logic" createVehicleLocal (getpos _unit);
+    private _fog = "#particlesource" createVehicleLocal getpos _source;
     _fog setParticleParams [["a3\data_f\ParticleEffects\Universal\Universal.p3d", 16, 12, 13,0],
     "", 
     "Billboard", 

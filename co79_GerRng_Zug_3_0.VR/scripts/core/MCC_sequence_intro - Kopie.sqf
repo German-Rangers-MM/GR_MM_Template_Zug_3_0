@@ -10,7 +10,7 @@ titleText ["<t color='#ffffff' size='2'>01.08.2022. 3 Stunden vor Abzug der Germ
 
 sleep 4;
 
-_camera = "camera" camCreate [8361.84,7120.07,5];
+private _camera = "camera" camCreate [8361.84,7120.07,5];
 _camera cameraEffect ["internal","back"];
 
 showCinemaBorder true;

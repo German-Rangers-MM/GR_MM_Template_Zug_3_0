@@ -19,7 +19,7 @@ private _boxClass = "B_supplyCrate_F";
 if (count _configContent > 1) then {
     _boxClass = _configContent select 1;
     uiNamespace setVariable ["currentBoxClass", _boxClass];
-    _boxName = _configContent select 0;
+    private _boxName = _configContent select 0;
     uiNamespace setVariable ["currentBoxname", _boxName];
 };
 

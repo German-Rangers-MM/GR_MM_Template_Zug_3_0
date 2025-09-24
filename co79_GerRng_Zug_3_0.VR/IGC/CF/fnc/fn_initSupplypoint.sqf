@@ -16,7 +16,7 @@ private _action = [
     "Supplypoint-Menu öffnen",
     "\a3\ui_f\data\igui\cfg\actions\reload_ca.paa",
     { 
-        params ["_target", "_player"];
+        params ["_target"];
         uiNamespace setVariable ["currentSupplyObject", _target];
         [_this] call IGC_CF_fnc_openDialog;
     },
