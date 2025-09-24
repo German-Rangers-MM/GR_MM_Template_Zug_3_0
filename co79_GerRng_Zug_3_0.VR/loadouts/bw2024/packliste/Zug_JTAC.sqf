@@ -208,6 +208,9 @@
     "SPS_hk416_20_exsl_hk_ctr_afg_ral8000_f",
     "SPS_hk416_20_exsl_hk_ctr_afg_sf_ral8000_f",
     "SPS_hk416_20_exsl_hk_ctr_afg_a7_ral8000_f",
+
+    "SPS_hk416_11_glm_hk_ctr_black_f",
+    "SPS_hk416_11_glm_ral8000_f",
     
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
@@ -284,6 +287,10 @@
     "CUP_V_B_GER_Pvest_Trop_TL",
     "CUP_V_B_GER_Pvest_Fleck_TL_LT",
     "CUP_V_B_GER_Pvest_Trop_TL_LT",
+    "CUP_V_B_GER_Armatus_Fleck",
+    "CUP_V_B_GER_Armatus_BB_Fleck",
+    "CUP_V_B_GER_Armatus_Trop",
+    "CUP_V_B_GER_Armatus_BB_Trop",
     "V_Chestrig_rgr",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
