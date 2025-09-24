@@ -1,11 +1,11 @@
 if (isServer) exitWith {};
 
-_sleepRandom = random [5, 25, 40];
+private _sleepRandom = random [5, 25, 40];
 
 sleep _sleepRandom;
 
 // Teleport Player
-_vehicle = objectParent player;
+private _vehicle = objectParent player;
 
 switch (_vehicle) do {
 		case transport_1: 	{ player moveInAny start_1; };
@@ -16,13 +16,13 @@ switch (_vehicle) do {
 		case transport_6: 	{ player moveInAny start_6; };
 };
 
-_vehicle2 = objectParent player;
+private _vehicle2 = objectParent player;
 
 if (_vehicle == _vehicle2) then {
 
-	_a = 1;
-	_name = name player;
-	
+	private _a = 1;
+	private _name = name player;
+
 	while {_vehicle == _vehicle2} do
 	{
 

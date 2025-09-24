@@ -21,7 +21,7 @@ private _classNames = _categoryData select 1;
         
     private _pathToConfig = [_className] call IGC_common_fnc_getConfigPath;
 
-    _displayName = getText (configFile >> _pathToConfig >> _className >> "displayName");
+    private _displayName = getText (configFile >> _pathToConfig >> _className >> "displayName");
     
 
     // Fallback to classname if no display name

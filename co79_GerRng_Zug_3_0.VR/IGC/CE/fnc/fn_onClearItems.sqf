@@ -1,6 +1,5 @@
 
 private _dialog = findDisplay 221901;
-private _ctrlInventoryContent = _dialog displayCtrl 220912;
 private _object = uiNamespace getVariable "IGC_CE_SelectedInventory";
 
 private _boxList = _dialog displayCtrl 220911;

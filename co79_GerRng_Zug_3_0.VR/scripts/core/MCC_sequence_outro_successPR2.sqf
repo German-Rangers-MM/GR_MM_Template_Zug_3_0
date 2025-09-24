@@ -17,13 +17,13 @@ titleText ["", "BLACK OUT", 1, true, true];
 sleep 2.5;
 cutText ["", "BLACK IN", 3, true, true];
 
-_playerName = (toUpper profileName) splitString "" joinString " ";;
+private _playerName = (toUpper profileName) splitString "" joinString " ";
 
-_personalText =  format ["<br/><br/><br/><br/><img image='images\GermanRangersLogo.paa' shadow='0' size='10'/><br/><br/><t color='#ffffff' size='3' font='RobotoCondensed' shadow = '2' >G U T E   A R B E I T ,   %1</t><br/><br/><t color='#ffffff' size='1.5' font='RobotoCondensed' shadow = '2' >Danke für deinen Dienst bei den German Rangers!</t>", _playerName];
+private _personalText =  format ["<br/><br/><br/><br/><img image='images\GermanRangersLogo.paa' shadow='0' size='10'/><br/><br/><t color='#ffffff' size='3' font='RobotoCondensed' shadow = '2' >G U T E   A R B E I T ,   %1</t><br/><br/><t color='#ffffff' size='1.5' font='RobotoCondensed' shadow = '2' >Danke für deinen Dienst bei den German Rangers!</t>", _playerName];
 titleText [_personalText, "PLAIN", 1, true, true];
 
 //Camera creating - always add to the script to make the camera work
-_camera = "camera" camCreate [0,0,0];
+private _camera = "camera" camCreate [0,0,0];
 _camera cameraEffect ["internal","back"];
 
 showCinemaBorder true;
@@ -37,13 +37,13 @@ showCinemaBorder true;
 //Speed - number, interval of a 'tick', or change. Lower for faster rotations.
 //launch = [player,10,4,360,0.1] execVM "camera.sqf";
 
-_target = player;
-_distance = 10;
-_height = 1;
-_angle = 0;
-_maxAngle = 360;
-_speed = 0.061;
-_fade = false;
+private _target = player;
+private _distance = 10;
+private _height = 1;
+private _angle = 0;
+private _maxAngle = 360;
+private _speed = 0.061;
+private _fade = false;
 
 _camera camSetpos position _target;
 _camera camSettarget _target;

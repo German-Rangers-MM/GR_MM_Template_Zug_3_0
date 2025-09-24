@@ -16,12 +16,12 @@ if (!(isNull objectParent player)) exitWith {
 };
 
 // Get Player Role
-_unitLoadout = player getVariable "GR_unitLoadout";
+private _unitLoadout = player getVariable "GR_unitLoadout";
 
 // Needed for waitUntil after Arsenal is closed, combined with Event Handler on Arsenal
 player setVariable ["GR_arsenalClosed", false];
 
-_rearm = false;
+private _rearm = false;
 
 if (getMissionConfigValue "rearm" == "true") then {
 	_rearm = true;
@@ -36,7 +36,7 @@ if (getMissionConfigValue "rearm" == "true") then {
 //------------------------------------------------------------------
 
 // Packliste passend zur Rolle laden
-_packListe = [];
+private _packListe = [];
 
 {
 	if ([_x,_unitLoadout] call BIS_fnc_inString) then {	
@@ -154,18 +154,18 @@ if(!(_unitLoadout in _417blacklist)) then {
     _packListe append _HK417;
 };
 //Kleidung und items
-_gemeinsamesMaterial = call compile preprocessFileLineNumbers format ["loadouts\%1\packliste\GemeinsamesMaterial.sqf", fraktionV];
+private _gemeinsamesMaterial = call compile preprocessFileLineNumbers format ["loadouts\%1\packliste\GemeinsamesMaterial.sqf", fraktionV];
 _packListe append _gemeinsamesMaterial;
 
 // Zusatz Material
-_zusatzMaterial = call compile preprocessFileLineNumbers format ["loadouts\%1\packliste\ZusatzMaterial.sqf", fraktionV];
+private _zusatzMaterial = call compile preprocessFileLineNumbers format ["loadouts\%1\packliste\ZusatzMaterial.sqf", fraktionV];
 _packListe append _zusatzMaterial;
 
 // Fill ACE Arsenal
 [player, _packListe, false] call ace_arsenal_fnc_addVirtualItems;
 
 // Open ACE Arsenal
-_waffenkammer = [player, player, false] call ace_arsenal_fnc_openBox;
+private _waffenkammer = [player, player, false] call ace_arsenal_fnc_openBox;
 
 // Message for Player which options are available
 if _rearm then {

@@ -5,9 +5,7 @@ disableSerialization;
 // Dialog controls
 private _dialog = findDisplay 220901;
 private _categories = _dialog displayCtrl 220910;
-private _crateList = _dialog displayCtrl 220911;
 
-private _supplyCategories = _dialog displayCtrl 220914;
 
 // Populate combobox
 _categories lbAdd "Zug Boxen";

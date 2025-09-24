@@ -24,7 +24,7 @@ if (fileExists _filePath) then {
 private _boxClass = "B_supplyCrate_F";
 if (count _fileContent > 1) then {
     _boxClass = _fileContent select 1;
-    _boxName = _fileContent select 0;
+    private _boxName = _fileContent select 0;
 };
 
 // Remove header and box class from items

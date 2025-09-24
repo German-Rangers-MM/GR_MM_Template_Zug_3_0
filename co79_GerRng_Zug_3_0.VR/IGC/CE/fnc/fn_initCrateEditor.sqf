@@ -10,7 +10,6 @@ createDialog "IGC_CE_dialog";
 private _dialog = findDisplay 221901;
 private _listInventories = _dialog displayCtrl 220911;
 
-private _supplyCategories = _dialog displayCtrl 220914;
 
 private _arsenalPath = limapfad + "limaSupplyPoint_Itemlist.sqf";
 if !(fileExists _arsenalPath) exitWith {

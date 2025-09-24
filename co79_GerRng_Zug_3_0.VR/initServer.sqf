@@ -22,16 +22,16 @@ else {
 
 publicVariable "missionstarted";
 
-fraktionV = getMissionConfigValue "fraktion";
+private fraktionV = getMissionConfigValue "fraktion";
 publicVariable "fraktionV";
 
-tarnfarbeV = getMissionConfigValue "tarnfarbe";
+private tarnfarbeV = getMissionConfigValue "tarnfarbe";
 publicVariable "tarnfarbeV";
 
-waffenkammerpfad = format ["loadouts\%1\waffenkammer.sqf", fraktionV];
+private waffenkammerpfad = format ["loadouts\%1\waffenkammer.sqf", fraktionV];
 publicVariable "waffenkammerpfad";
 
-limapfad = format ["loadouts\%1\lima\", fraktionV];
+private limapfad = format ["loadouts\%1\lima\", fraktionV];
 publicVariable "limapfad";
 
 //------------------------------------------------------------------
@@ -160,14 +160,14 @@ if (getMissionConfigValue "useDBMapMarkers" == "true") then {
 	"checkForDatabase" addPublicVariableEventHandler
 	{
 		private ["_data"];
-		_data = (_this select 1);
-		_clientID = (_data select 0);
-		_player = (_data select 1);
-		_playerName = (_data select 2);
+		private _data = (_this select 1);
+		private _clientID = (_data select 0);
+		private _player = (_data select 1);
+		private _playerName = (_data select 2);
 		
-		_inidbi = ["new",str _player] call OO_INIDBI;
-		_fileExist = "exists" call _inidbi;
-		
+		private _inidbi = ["new",str _player] call OO_INIDBI;
+		private _fileExist = "exists" call _inidbi;
+
 		if (_fileExist) then
 		{
 			hint "DATENEINTRAG VORHANDEN, WIRD ABGERUFEN";
@@ -182,23 +182,23 @@ if (getMissionConfigValue "useDBMapMarkers" == "true") then {
 
 	addMissionEventHandler ["HandleDisconnect",
 	{
-		_unit = _this select 0;
-		_uid = _this select 2;
-		_gear = getUnitLoadout _unit;
-		
-		_inidbi = ["new",str _unit] call OO_INIDBI;
-		
+		private _unit = _this select 0;
+		private _uid = _this select 2;
+		private _gear = getUnitLoadout _unit;
+
+		private _inidbi = ["new",str _unit] call OO_INIDBI;
+
 		["write", ["Player Gear", "Gear", _gear]] call _inidbi;
 		false;
 	}];
 
 	// MAP-MARKER SPEICHERN
-	_inidbi = ["new", "MapMarkers"] call OO_INIDBI;
-	_fileExist = "exists" call _inidbi;
+	private _inidbi = ["new", "MapMarkers"] call OO_INIDBI;
+	private _fileExist = "exists" call _inidbi;
 
 	if(_fileExist) then
 	{
-		_markers = ["read",["markers","marker"]] call _inidbi;
+		private _markers = ["read",["markers","marker"]] call _inidbi;
 		{
 			if (_x find "_USER_DEFINED #" != -1) then {
 				deleteMarker _x ;
@@ -215,7 +215,7 @@ if (getMissionConfigValue "useDBMapMarkers" == "true") then {
 				"_dir"
 			] ;
 			
-			_marker = createMarker [_name, _pos];
+			private _marker = createMarker [_name, _pos];
 			_marker setMarkerShape "ICON" ;
 			_marker setMarkerSize _size ;
 			_marker setMarkerType _type ;
@@ -226,9 +226,9 @@ if (getMissionConfigValue "useDBMapMarkers" == "true") then {
 	};
 
 	saveMarkers = {
-		_inidbi = ["new", "MapMarkers"] call OO_INIDBI;
-		_array = _this;
-		
+		private _inidbi = ["new", "MapMarkers"] call OO_INIDBI;
+		private _array = _this;
+
 		["write", ["markers","marker",_array]] call _inidbi;
 
 	};
