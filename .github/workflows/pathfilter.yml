@@ -60,6 +60,9 @@ jobs:
      - run: echo 'Workflows have been altered'
             
   lint:
+    if: |
+      always() && 
+      (needs.template.result == 'success')
     needs: template
     runs-on: ubuntu-latest
     name: SQF Linting
