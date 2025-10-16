@@ -60,6 +60,9 @@ jobs:
      - run: echo 'Workflows have been altered'
             
   lint:
+    if: |
+      always() && 
+      (needs.template.result == 'success')
     needs: template
     runs-on: ubuntu-latest
     name: SQF Linting
@@ -74,7 +77,7 @@ jobs:
   autoapprove:
     if: |
       always() && 
-      (needs.cba.result == 'success' || needs.workflows.result == 'success')
+      ((needs.cba.result == 'success' || needs.workflows.result == 'success') && needs.template.result == 'skipped')
     needs: [cba, workflows]
     runs-on: ubuntu-latest
     steps:
