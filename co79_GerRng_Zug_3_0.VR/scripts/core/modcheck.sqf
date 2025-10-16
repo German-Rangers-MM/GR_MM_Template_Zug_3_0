@@ -132,6 +132,7 @@ _whitelistedMods = 	[
 						"@AWESome : Aerial Warfare Enhanced Somehow", "1301399507",
 						"@Turret Enhanced", "1623498241",
 						"@Hidden Passwords", "2236038667",
+						"@CQB Weapon Stance", "2288108304",
 						
 						//Visual
 						"@Blastcore Edited (standalone version)", "767380317",
@@ -156,6 +157,7 @@ _whitelistedMods = 	[
 						"@Enhanced Missile Smoke + Lighting Efx Mod v1.4", "1484261993",
 						"@Helicopter Dust Efx Mod", "1537745369",
 						"@ANZACSAS Helicopter Dust Efx Mod - Lite", "2866924390",
+						"@「RSS」 Immersive Hud", "3581479215",
 						
 						
 						//Sound
