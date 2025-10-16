@@ -14,7 +14,7 @@
 	https://community.bistudio.com/wiki/FXY_File_Format#Arma_3
  */
 
-_gerrng = player createDiarySubject ["GerRng","German Rangers"];
+private _gerrng = player createDiarySubject ["GerRng","German Rangers"];
 
 player createDiaryRecord ["GerRng",["Mission Control Center","
 <font face='PuristaMedium' size=18 color='#fc9700'>Mission Control Center</font><br/>

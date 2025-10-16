@@ -27,7 +27,7 @@ switch (toLower _action) do {
     case "ace": {
         private _results = [];
         {
-            _success = [_x, _targetObject, true] call ace_cargo_fnc_loadItem;
+            private _success = [_x, _targetObject, true] call ace_cargo_fnc_loadItem;
             _results pushBack [_x, _success];
         } forEach _objects;
         [_results] call IGC_CL_fnc_composeHint;
@@ -35,7 +35,7 @@ switch (toLower _action) do {
     case "viv": {
         private _results = [];
         {
-            _success = _targetObject setVehicleCargo _x;
+            private _success = _targetObject setVehicleCargo _x;
             _results pushBack [_x, _success];
         } forEach _objects;
         [_results] call IGC_CL_fnc_composeHint;

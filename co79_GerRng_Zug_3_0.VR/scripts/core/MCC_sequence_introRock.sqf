@@ -10,7 +10,7 @@ playMusic "RockIntro";
 sleep 9;
 
 //Camera creating - always add to the script to make the camera work
-_camera = "camera" camCreate [0,0,0];
+private _camera = "camera" camCreate [0,0,0];
 _camera cameraEffect ["internal","back"];
 
 showCinemaBorder true;
@@ -24,9 +24,9 @@ showCinemaBorder true;
 //Speed - number, interval of a 'tick', or change. Lower for faster rotations.
 //launch = [player,10,4,360,0.1] execVM "camera.sqf";
 
-_target = player;
-_fade = false;
-_height = 2;
+private _target = player;
+private _fade = false;
+private _height = 2;
 
 _camera camSetpos position _target;
 _camera camSettarget _target;

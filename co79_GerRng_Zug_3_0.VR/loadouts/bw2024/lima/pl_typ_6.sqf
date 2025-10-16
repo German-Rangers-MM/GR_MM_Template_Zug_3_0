@@ -8,7 +8,7 @@ null = [this] execVM _path;
 
 if (! isServer) exitWith {};
 
-_box = _this select 0;
+private _box = _this select 0;
 
 [_box, -1] call ace_cargo_fnc_setSize;
 // für diese Box Gewichtslimit Ignorieren

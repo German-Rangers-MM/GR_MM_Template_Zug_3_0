@@ -1,4 +1,4 @@
-_whitelistedMods = 	[
+private _whitelistedMods = 	[
 						"@CBA_A3", "450814997",
 						"@ace", "463939057",
 						"@ACE 3 Extension (Placeables)", "866772689",
@@ -198,10 +198,10 @@ _whitelistedMods = 	[
 
 private _playermods = [];
 
-_loadedMods = configSourceModList (configFile >> "CfgPatches");
+private _loadedMods = configSourceModList (configFile >> "CfgPatches");
 
 {
-	_result = false;
+	private _result = false;
 	_result = _x in _whitelistedMods;
 	if (_result == false )then {
 		_playermods pushBack _x;

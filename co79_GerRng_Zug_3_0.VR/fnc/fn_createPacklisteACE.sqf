@@ -1,6 +1,6 @@
 params ["_unit"];		
 _unit setVariable ["SGN_arsenalClosed", false];		
-_test = call compile preprocessFileLineNumbers format ["loadouts\%1\packliste\MasterPackliste.sqf", fraktionV];		
+private _test = call compile preprocessFileLineNumbers format ["loadouts\%1\packliste\MasterPackliste.sqf", fraktionV];		
 // Create ACE Arsenal
 [_unit, _test, false] call ace_arsenal_fnc_addVirtualItems;		
 // Open ACE Arsenal
