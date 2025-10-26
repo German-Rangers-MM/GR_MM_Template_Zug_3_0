@@ -216,6 +216,9 @@
     "ace_marker_flags_white",
     "ace_marker_flags_yellow",
     "ace_marker_flags_green",
+    "GerRng_bandoliers_mg_4_4_m249_200Rnd",
+    "GerRng_bandoliers_mg_4_4_MG3_120Rnd",
+    "GerRng_bandoliers_mg_4_4_mk48_100Rnd",
     "kat_gasmaskFilter",
     "kat_sealant"
 ];

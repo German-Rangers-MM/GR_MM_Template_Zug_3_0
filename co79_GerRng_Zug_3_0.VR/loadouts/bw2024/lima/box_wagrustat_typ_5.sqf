@@ -1,6 +1,6 @@
 [
     "WaGru ST Typ 5 - TOW Waffe",
-    "ACE_Box_82mm_Mo_HE",
+    "GerRng_faction_Box_E_WaGru_st_V",
     ["CUP_TOW2_carry", 1],
     ["ace_csw_m220CarryTripod", 1]
 ];

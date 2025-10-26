@@ -422,30 +422,15 @@
     "tfw_ilbeRT1523_blade_flk",
     "tfw_ilbeRT1523_blade_trp",
     
-    "tfw_ilbeMR3000_blade_limaflk",
-    "tfw_ilbeMR3000_blade_limatrp",
-    "tfw_ilbeRT1523_blade_limaflk",
-    "tfw_ilbeRT1523_blade_limatrp",
-    
     "tfw_ilbeMR3000_DD_flk",
     "tfw_ilbeMR3000_DD_trp",
     "tfw_ilbeRT1523_DD_flk",
     "tfw_ilbeRT1523_DD_trp",
     
-    "tfw_ilbeMR3000_DD_limaflk",
-    "tfw_ilbeMR3000_DD_limatrp",
-    "tfw_ilbeRT1523_DD_limaflk",
-    "tfw_ilbeRT1523_DD_limatrp",
-    
     "tfw_ilbeMR3000_whip_flk",
     "tfw_ilbeMR3000_whip_trp",
     "tfw_ilbeRT1523_whip_flk",
     "tfw_ilbeRT1523_whip_trp",
-    
-    "tfw_ilbeMR3000_whip_limaflk",
-    "tfw_ilbeMR3000_whip_limatrp",
-    "tfw_ilbeRT1523_whip_limaflk",
-    "tfw_ilbeRT1523_whip_limatrp",
     
     "tfw_ilbeRT1523_blade_gr",
     "tfw_ilbeMR3000_blade_gr",
@@ -461,6 +446,26 @@
     "tfw_ilbeMR3000_whip_gr",
     "tfw_ilbeRT1523_whip_coy",
     "tfw_ilbeMR3000_whip_coy",
+    
+    "tfw_ilbeMR3000_whip_romeoflk",
+    "tfw_ilbeRT1523_whip_romeoflk",
+    "tfw_ilbeARC210_whip_romeoflk",
+    "tfw_ilbeMR3000_DD_romeoflk",
+    "tfw_ilbeRT1523_DD_romeoflk",
+    "tfw_ilbeARC210_DD_romeoflk",
+    "tfw_ilbeMR3000_blade_romeoflk",
+    "tfw_ilbeRT1523_blade_romeoflk",
+    "tfw_ilbeARC210_blade_romeoflk",
+
+    "tfw_ilbeMR3000_whip_romeotrp",
+    "tfw_ilbeRT1523_whip_romeotrp",
+    "tfw_ilbeARC210_whip_romeotrp",
+    "tfw_ilbeMR3000_DD_romeotrp",
+    "tfw_ilbeRT1523_DD_romeotrp",
+    "tfw_ilbeARC210_DD_romeotrp",
+    "tfw_ilbeMR3000_blade_romeotrp",
+    "tfw_ilbeRT1523_blade_romeotrp",
+    "tfw_ilbeARC210_blade_romeotrp",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Helme
@@ -704,5 +709,10 @@
     "ACE_SpraypaintRed",
     "ACE_SpraypaintWhite",
     "ACE_SpraypaintYellow",
-    "ACE_UAVBattery"
+    "ACE_UAVBattery",
+    "GerRng_bandoliers_grenade_8_8_exp_40mm",
+    "GerRng_bandoliers_grenade_8_8_flare_40mm",
+    "GerRng_bandoliers_grenade_8_8_smoke_40mm",
+    "GerRng_bandoliers_grenade_3_3_flare_hand",
+    "GerRng_bandoliers_rifle_5_5_417_30Rnd"
 ];

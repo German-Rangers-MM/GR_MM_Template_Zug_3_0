@@ -488,7 +488,7 @@
     "SPS_HKG3PMAG_30Rnd_556x45_S",
     "SPS_HKG3PMAG_30Rnd_556x45_S_Red",
     "SPS_HKG3PMAG_30Rnd_556x45_S_M995",
-    "SPS_HKG3PMAG_30Rnd_556x45_S_Mk318"
+    "SPS_HKG3PMAG_30Rnd_556x45_S_Mk318",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Grenades / throw
@@ -638,5 +638,7 @@
     "ACE_SpraypaintRed",
     "ACE_SpraypaintWhite",
     "ACE_SpraypaintYellow",
-    "ACE_UAVBattery"
+    "ACE_UAVBattery",
+    "GerRng_bandoliers_grenade_3_3_flare_hand",
+    "GerRng_bandoliers_rifle_5_5_417_30Rnd"
 ];

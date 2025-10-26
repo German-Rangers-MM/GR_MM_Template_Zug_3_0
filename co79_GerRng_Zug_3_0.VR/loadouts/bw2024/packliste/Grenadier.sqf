@@ -386,5 +386,8 @@
     "ACE_CableTie",
     "ACE_EarPlugs",
     "ACE_IR_strobe_Item",
+     "GerRng_bandoliers_grenade_8_8_exp_40mm",
+    "GerRng_bandoliers_grenade_8_8_flare_40mm",
+    "GerRng_bandoliers_grenade_8_8_smoke_40mm",
     "ItemcTabHCam"
 ];

@@ -1,6 +1,6 @@
 [
     "Zug Typ 9 - Ausrüstung",
-    "ACE_Box_Chemlights",
+    "GerRng_faction_Box_U_Zug_IX",
     ["ACE_EarPlugs",15],
     ["ACE_CableTie",30],
     ["ACE_EntrenchingTool",5],

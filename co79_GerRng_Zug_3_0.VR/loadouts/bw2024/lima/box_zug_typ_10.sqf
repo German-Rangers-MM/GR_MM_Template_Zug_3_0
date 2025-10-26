@@ -1,6 +1,6 @@
 [
     "Zug Typ 10 - Elektronik",
-    "ACE_Box_Chemlights",
+    "GerRng_faction_Box_U_Zug_X",
     ["Laserbatteries", 2],
     ["Laserdesignator_02_ghex_F", 2],
     ["ItemAndroid", 2],

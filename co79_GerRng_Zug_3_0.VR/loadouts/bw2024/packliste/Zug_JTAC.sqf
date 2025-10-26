@@ -208,6 +208,9 @@
     "SPS_hk416_20_exsl_hk_ctr_afg_ral8000_f",
     "SPS_hk416_20_exsl_hk_ctr_afg_sf_ral8000_f",
     "SPS_hk416_20_exsl_hk_ctr_afg_a7_ral8000_f",
+
+    "SPS_hk416_11_glm_hk_ctr_black_f",
+    "SPS_hk416_11_glm_ral8000_f",
     
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
@@ -284,6 +287,10 @@
     "CUP_V_B_GER_Pvest_Trop_TL",
     "CUP_V_B_GER_Pvest_Fleck_TL_LT",
     "CUP_V_B_GER_Pvest_Trop_TL_LT",
+    "CUP_V_B_GER_Armatus_Fleck",
+    "CUP_V_B_GER_Armatus_BB_Fleck",
+    "CUP_V_B_GER_Armatus_Trop",
+    "CUP_V_B_GER_Armatus_BB_Trop",
     "V_Chestrig_rgr",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
@@ -558,5 +565,10 @@
     "ACE_SpraypaintYellow",
     "ace_marker_flags_red",
     "ace_marker_flags_white",
-    "ItemMicroDAGRMisc"
+    "ItemMicroDAGRMisc",
+    "GerRng_bandoliers_grenade_8_8_exp_40mm",
+    "GerRng_bandoliers_grenade_8_8_flare_40mm",
+    "GerRng_bandoliers_grenade_8_8_smoke_40mm",
+    "GerRng_bandoliers_grenade_3_3_flare_hand",
+    "GerRng_bandoliers_rifle_5_5_417_30Rnd"
 ];

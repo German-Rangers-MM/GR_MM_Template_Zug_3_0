@@ -1,6 +1,6 @@
 [
     "WaGru Typ 4 - MAAWS Sondermunition",
-    "Box_NATO_WpsLaunch_F",
+    "GerRng_faction_Box_WS_WaGru_IV",
     ["MAA_MAAWS_ASM509", 4],
     ["MAA_MAAWS_HEDP502", 2],
     ["MAA_MAAWS_SMOKE469", 4],

@@ -1,6 +1,6 @@
 [
     "EOD Typ 2 - Drohne",
-    "ACE_Box_Chemlights",
+    "GerRng_faction_Box_WS_EOD_II",
     ["ACE_Flashlight_Maglite_ML300L",2],
     ["ACE_TacticalLadder_Pack",2],
     ["ACE_UAVBattery",1],
