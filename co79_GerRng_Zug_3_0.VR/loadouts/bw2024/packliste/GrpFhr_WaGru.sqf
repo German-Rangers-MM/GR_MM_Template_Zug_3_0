@@ -291,5 +291,12 @@
     "ACE_Spraypaintgreen",
     "ACE_SpraypaintRed",
     "ACE_SpraypaintWhite",
-    "ACE_SpraypaintYellow"
+    "ACE_SpraypaintYellow",
+    "GerRng_bandoliers_grenade_8_8_exp_40mm",
+    "GerRng_bandoliers_grenade_8_8_flare_40mm",
+    "GerRng_bandoliers_grenade_8_8_smoke_40mm",
+    "GerRng_bandoliers_grenade_3_3_flare_hand",
+    "GerRng_bandoliers_mg_4_4_m249_200Rnd",
+    "GerRng_bandoliers_mg_4_4_MG3_120Rnd",
+    "GerRng_bandoliers_mg_4_4_mk48_100Rnd"
 ];

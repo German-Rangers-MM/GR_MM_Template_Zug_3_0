@@ -1,6 +1,6 @@
 [
     "EOD Typ 1 - Anzug",
-    "Box_NATO_Equip_F",
+    "GerRng_faction_Box_U_EOD_I",
     ["CUP_H_RUS_Altyn_Shield_Down",2],
     ["TFAR_anprc152",2],
     ["G_AirPurifyingRespirator_01_F",2],

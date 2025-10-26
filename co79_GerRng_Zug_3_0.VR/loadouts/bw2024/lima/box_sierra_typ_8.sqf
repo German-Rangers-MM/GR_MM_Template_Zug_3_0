@@ -1,6 +1,6 @@
 [
     "Sierra Typ 8 - Munition",
-    "Land_PlasticCase_01_large_black_F",
+    "GerRng_faction_Box_P_Sierra_VIII",
     ["SPS_HKG3PMAG_30Rnd_556x45_B", 20],
     ["SPS_HKG3PMAG_30Rnd_556x45_B_Mk318", 20],
     ["ACE_20Rnd_762x51_Mk319_Mod_0_Mag", 20],

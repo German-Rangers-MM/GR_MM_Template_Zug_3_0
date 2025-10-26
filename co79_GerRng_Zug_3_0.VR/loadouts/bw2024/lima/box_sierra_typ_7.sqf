@@ -1,6 +1,6 @@
 [
     "Sierra Typ 7 - Trupp 2 - ST",
-    "Land_PlasticCase_01_medium_black_F",
+    "GerRng_faction_Box_P_Sierra_VII",
     ["SPS_HKG3PMAG_30Rnd_556x45_B", 20],
     ["CUP_6Rnd_12Gauge_Pellets_No1_Buck", 15],
     ["CUP_17Rnd_9x19_glock17", 6],

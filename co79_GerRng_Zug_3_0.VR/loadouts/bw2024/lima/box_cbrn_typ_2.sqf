@@ -1,6 +1,6 @@
 [
     "CBRN Typ 2 - CBRN-Erkundung",
-    "Land_PlasticCase_01_large_olive_CBRN_F",
+    "GerRng_faction_Box_P_CBRN_II",
     ["U_B_CBRN_Suit_01_Wdl_F", 4],
     ["B_CombinationUnitRespirator_01_F",4],
     ["kat_mask_M04", 4],

@@ -316,6 +316,12 @@
     "ace_flags_red",
     "ace_flags_white",
     "ace_flags_yellow",
+    "GerRng_bandoliers_grenade_8_8_exp_40mm",
+    "GerRng_bandoliers_grenade_8_8_flare_40mm",
+    "GerRng_bandoliers_grenade_8_8_smoke_40mm",
+    "GerRng_bandoliers_grenade_3_3_exp_hand",
+    "GerRng_bandoliers_grenade_3_3_flare_hand",
+    "GerRng_bandoliers_rifle_5_5_417_30Rnd",
     "kat_gasmaskFilter",
     "kat_sealant"
 ];

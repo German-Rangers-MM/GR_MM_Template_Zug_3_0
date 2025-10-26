@@ -1,6 +1,6 @@
 [
     "Sierra Typ 3 - Trupp 1 - A",
-    "Land_PlasticCase_01_medium_black_F",
+    "GerRng_faction_Box_P_Sierra_III",
     ["CUP_5Rnd_762x67_G22", 15],
     ["CUP_5Rnd_86x70_L115A1", 15],
     ["SPS_20Rnd_762x51mm_M80A1_EPR_IR", 14],

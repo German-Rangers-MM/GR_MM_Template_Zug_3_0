@@ -1,6 +1,6 @@
 [
     "WaGru ST Typ 9 - 82mm Sondermunition",
-    "ACE_Box_82mm_Mo_HE",
+    "GerRng_faction_Box_WS_WaGru_st_IX",
     ["ACE_1Rnd_82mm_Mo_Illum", 4],
     ["ACE_1Rnd_82mm_Mo_Smoke", 6],
     ["ACE_1Rnd_82mm_Mo_HE_LaserGuided",2],

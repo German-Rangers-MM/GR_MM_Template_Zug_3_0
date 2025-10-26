@@ -565,5 +565,10 @@
     "ACE_SpraypaintYellow",
     "ace_marker_flags_red",
     "ace_marker_flags_white",
-    "ItemMicroDAGRMisc"
+    "ItemMicroDAGRMisc",
+    "GerRng_bandoliers_grenade_8_8_exp_40mm",
+    "GerRng_bandoliers_grenade_8_8_flare_40mm",
+    "GerRng_bandoliers_grenade_8_8_smoke_40mm",
+    "GerRng_bandoliers_grenade_3_3_flare_hand",
+    "GerRng_bandoliers_rifle_5_5_417_30Rnd"
 ];

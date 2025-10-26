@@ -1,6 +1,6 @@
 [
     "CBRN Typ 3 - CBRN-UGV",
-    "Land_PlasticCase_01_medium_olive_CBRN_F",
+    "GerRng_faction_Box_P_CBRN_III",
     ["ace_marker_flags_orange", 10],
     ["ACE_UAVBattery", 2],
     ["B_UavTerminal", 1],
