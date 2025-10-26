@@ -145,13 +145,13 @@ _iconVerpflegung ="z\ace\addons\field_rations\ui\icon_hud_hungerstatus.paa";
     _cbrnBoxen = ["CBRN Boxen","CBRN Boxen",_iconCBRN,{ },{true}] call ace_interact_menu_fnc_createAction;
     [_x, 0, ["ACE_MainActions"], _cbrnBoxen] call ace_interact_menu_fnc_addActionToObject;
         //------------------------------------------------------------------
-        _cbrn1 = ["CBRN1","Typ 1 - CBRN-Schutz",_icon,{params ["_object"]; [_object,"cbrn1"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        _cbrn1 = ["CBRN1","Typ 1 - CBRN-Schutz",_icon,{params ["_object"]; [_object,"box_cbrn_typ_1"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
         [_x, 0, ["ACE_MainActions", "CBRN Boxen"], _cbrn1] call ace_interact_menu_fnc_addActionToObject;
 
-        _cbrn2 = ["CBRN2","Typ 2 - CBRN-Erkundung",_icon,{params ["_object"]; [_object,"cbrn2"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        _cbrn2 = ["CBRN2","Typ 2 - CBRN-Erkundung",_icon,{params ["_object"]; [_object,"box_cbrn_typ_2"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
         [_x, 0, ["ACE_MainActions", "CBRN Boxen"], _cbrn2] call ace_interact_menu_fnc_addActionToObject;
 
-        _cbrn3 = ["CBRN3","Typ 3 - CBRN-UGV",_icon,{params ["_object"]; [_object,"cbrn3"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        _cbrn3 = ["CBRN3","Typ 3 - CBRN-UGV",_icon,{params ["_object"]; [_object,"box_cbrn_typ_3"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
         [_x, 0, ["ACE_MainActions", "CBRN Boxen"], _cbrn3] call ace_interact_menu_fnc_addActionToObject;
         //------------------------------------------------------------------
     // Parent Action für San Boxen
