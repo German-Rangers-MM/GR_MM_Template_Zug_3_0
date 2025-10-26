@@ -62,7 +62,7 @@ _iconVerpflegung ="z\ace\addons\field_rations\ui\icon_hud_hungerstatus.paa";
         _zug11 = ["Zug11","Zug Typ 11 - Munition HK417",_icon,{params ["_object"]; [_object,"box_zug_typ_11"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
         [_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug11] call ace_interact_menu_fnc_addActionToObject;
 
-        _zug12 = ["Zug12","Zug Typ 12 - Flashbangs",_icon,{params ["_object"]; [_object,"box_zug_typ_11"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        _zug12 = ["Zug12","Zug Typ 12 - Flashbangs",_icon,{params ["_object"]; [_object,"box_zug_typ_12"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
         [_x, 0, ["ACE_MainActions", "Zug Boxen"], _zug12] call ace_interact_menu_fnc_addActionToObject;
         //------------------------------------------------------------------
     // Parent Action für WaGru Boxen
