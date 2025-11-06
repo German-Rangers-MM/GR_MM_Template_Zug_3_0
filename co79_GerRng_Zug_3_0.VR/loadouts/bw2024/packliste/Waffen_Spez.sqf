@@ -228,5 +228,14 @@
     "ace_marker_flags_yellow",
     "ace_marker_flags_green",
     "ACE_SpareBarrel",
+    "GerRng_bandoliers_grenade_3_3_exp_hand",
+    "GerRng_bandoliers_mg_4_4_m249_200Rnd",
+    "GerRng_bandoliers_mg_4_4_MG3_120Rnd",
+    "GerRng_bandoliers_mg_4_4_mk48_100Rnd",
+    "GerRng_bandoliers_pistol_6_6_G17_17Rnd",
+    "GerRng_bandoliers_pistol_6_6_M17_21Rnd",
+    "GerRng_bandoliers_rifle_5_5_G36_30Rnd",
+    "GerRng_bandoliers_rifle_5_5_416_30Rnd",
+    "GerRng_bandoliers_grenade_5_5_smoke_hand",
     "ItemMicroDAGRMisc"
 ];
