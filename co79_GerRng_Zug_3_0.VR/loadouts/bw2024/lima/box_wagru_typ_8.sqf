@@ -1,6 +1,6 @@
 [
     "WaGru Typ 8 - Combat Engineering",
-    "Box_NATO_WpsLaunch_F",
+    "GerRng_faction_Box_WS_WaGru_VIII",
     ["CUP_launch_BF3", 2],
     ["ACE_EntrenchingTool", 6],
     ["ACE_Fortify", 4],

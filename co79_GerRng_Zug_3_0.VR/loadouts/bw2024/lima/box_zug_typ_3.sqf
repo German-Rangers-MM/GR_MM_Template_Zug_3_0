@@ -1,6 +1,6 @@
 [
     "Zug Typ 3 - LMG-Munition",
-    "ACE_Box_82mm_Mo_HE",
-    ["CUP_200Rnd_TE4_Red_Tracer_556x45_M249",16],
+    "GerRng_faction_Box_A_Zug_III",
+    ["GerRng_bandoliers_mg_4_4_m249_200Rnd",4],
     ["CUP_100Rnd_556x45_BetaCMag",5]
 ];

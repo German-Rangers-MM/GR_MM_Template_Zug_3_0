@@ -297,6 +297,7 @@
     "ACE_SpraypaintRed",
     "ACE_SpraypaintWhite",
     "ACE_SpraypaintYellow",
+    "GerRng_bandoliers_grenade_3_3_flare_hand",
     "ACE_UAVBattery",
     "kat_gasmaskFilter",
     "kat_sealant"

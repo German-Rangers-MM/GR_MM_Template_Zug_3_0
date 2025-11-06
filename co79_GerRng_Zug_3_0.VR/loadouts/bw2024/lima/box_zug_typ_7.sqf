@@ -1,6 +1,6 @@
 [
     "Zug Typ 7 - Sprengmittel",
-    "ACE_Box_82mm_Mo_HE",
+    "GerRng_faction_Box_AO_Zug_VII",
     ["tsp_breach_block_mag",2],
     ["tsp_breach_linear_mag",2],
     ["tsp_breach_popper_mag",10],

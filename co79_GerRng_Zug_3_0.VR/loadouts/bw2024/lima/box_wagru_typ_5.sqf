@@ -1,6 +1,6 @@
 [
     "WaGru Typ 5 - Titan AT",
-    "Box_NATO_WpsLaunch_F",
+    "GerRng_faction_Box_WL_WaGru_V",
     ["launch_I_Titan_short_F", 1],
     ["Titan_AT", 4],
     ["Titan_AP", 2],

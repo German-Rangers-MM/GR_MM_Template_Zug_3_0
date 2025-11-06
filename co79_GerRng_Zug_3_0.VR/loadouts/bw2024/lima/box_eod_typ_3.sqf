@@ -1,6 +1,6 @@
 [
     "EOD Typ 3 - Ausrüstung",
-    "ACE_Box_Misc",
+    "GerRng_faction_Box_U_EOD_III",
     ["TFAR_anprc152",2],
     ["ACE_Chemlight_HiRed",16],
     ["ACE_Chemlight_HiWhite",16],

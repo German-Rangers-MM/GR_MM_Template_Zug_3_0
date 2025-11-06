@@ -1,5 +1,5 @@
 [
     "Typ 12 - Flashbangs",
-    "ACE_Box_82mm_Mo_HE",
+    "GerRng_faction_Box_G_Zug_XII",
     ["ACE_M84", 110]
 ];
