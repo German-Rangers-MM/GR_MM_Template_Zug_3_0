@@ -164,6 +164,26 @@
     "tfw_ilbeMR3000_DD_gr",
     "tfw_ilbeRT1523_DD_coy",
     "tfw_ilbeMR3000_DD_coy",
+
+    "tfw_ilbeMR3000_whip_kiloflk",
+    "tfw_ilbeRT1523_whip_kiloflk",
+    "tfw_ilbeARC210_whip_kiloflk",
+    "tfw_ilbeMR3000_DD_kiloflk",
+    "tfw_ilbeRT1523_DD_kiloflk",
+    "tfw_ilbeARC210_DD_kiloflk",
+    "tfw_ilbeMR3000_blade_kiloflk",
+    "tfw_ilbeRT1523_blade_kiloflk",
+    "tfw_ilbeARC210_blade_kiloflk",
+
+    "tfw_ilbeMR3000_whip_kilotrp",
+    "tfw_ilbeRT1523_whip_kilotrp",
+    "tfw_ilbeARC210_whip_kilotrp",
+    "tfw_ilbeMR3000_DD_kilotrp",
+    "tfw_ilbeRT1523_DD_kilotrp",
+    "tfw_ilbeARC210_DD_kilotrp",
+    "tfw_ilbeMR3000_blade_kilotrp",
+    "tfw_ilbeRT1523_blade_kilotrp",
+    "tfw_ilbeARC210_blade_kilotrp",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Helme
