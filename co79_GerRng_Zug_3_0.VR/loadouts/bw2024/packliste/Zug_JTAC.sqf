@@ -397,6 +397,21 @@
     "tfw_ilbeRT1523_blade_foxtrp",
     "tfw_ilbeRT1523_blade_fox1trp",
     "tfw_ilbeRT1523_blade_fox2trp",
+
+    "tfw_ilbeRT1523_whip_victrp",
+    "tfw_ilbeRT1523_whip_vicflk",
+    "tfw_ilbeRT1523_whip_vic1trp",
+    "tfw_ilbeRT1523_whip_vic1flk",
+    "tfw_ilbeRT1523_whip_vic2trp",
+    "tfw_ilbeRT1523_whip_vic2flk",
+
+    "tfw_ilbeRT1523_whip_foxtrp",
+    "tfw_ilbeRT1523_whip_foxflk",
+    "tfw_ilbeRT1523_whip_fox1trp",
+    "tfw_ilbeRT1523_whip_fox1flk",
+    "tfw_ilbeRT1523_whip_fox2trp",
+    "tfw_ilbeRT1523_whip_fox2flk",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Helme
@@ -422,10 +437,10 @@
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     "Rangefinder",
-    "Laserdesignator_02_ghex_F",
-    "Laserdesignator_01_khk_F",
-    "Laserdesignator",
     "ACE_Vector",
+    "GerRng_utils_Laserdesignator_khk",
+    "GerRng_utils_Laserdesignator_olv",
+    "GerRng_utils_Laserdesignator_snd",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // items

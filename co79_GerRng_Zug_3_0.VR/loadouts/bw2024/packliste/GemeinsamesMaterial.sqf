@@ -54,6 +54,8 @@
     "CUP_U_B_GER_Fleck_Crye2",
     "CUP_U_B_GER_Crye",
     "CUP_U_B_GER_Crye2",
+    "gerrng_uniform_fleck_tee",
+    "gerrng_uniform_trop_tee",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // vests

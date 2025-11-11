@@ -63,6 +63,7 @@ _whitelistedMods = 	[
 						"@SIT 1erGTD", "2262009445",
 						"@Breach - Rewrite", "3283645995",
 						"@Speshal Core", "3283642267",
+						"@Drongos Artillery", "1675485070",
 
 						//Gameplay & Ausrüstung
 						"@Crows Electronic Warfare", "2515887728",
