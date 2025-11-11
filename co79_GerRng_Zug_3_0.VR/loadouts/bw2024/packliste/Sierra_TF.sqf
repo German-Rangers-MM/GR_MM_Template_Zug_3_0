@@ -366,7 +366,9 @@
 
 	"Rangefinder",
 	"ACE_Vector",
-	"Laserdesignator_02_ghex_F",
+	"GerRng_utils_Laserdesignator_khk",
+    "GerRng_utils_Laserdesignator_olv",
+    "GerRng_utils_Laserdesignator_snd",
 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
