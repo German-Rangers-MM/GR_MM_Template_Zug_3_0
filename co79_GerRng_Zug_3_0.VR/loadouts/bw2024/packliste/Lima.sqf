@@ -403,6 +403,7 @@
     "GerRng_Equipment_GerRng_vz99_HE",
     "GerRng_Equipment_GerRng_vz99_smokeWhite",
     "GerRng_Equipment_GerRng_vz99_smokeWhiteVT",
+    "CUP_StarClusterRed_265_M",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Grenades / throw
