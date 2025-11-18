@@ -296,7 +296,21 @@
             "GerRng_csw_M3M_carry_Scope",
             "GerRng_csw_M3M_carry_Shield",
             "GerRng_csw_M3M_carry_ScopeShield",
-            "ace_csw_carryMortarBaseplate"
+            "ace_csw_carryMortarBaseplate",
+            "MRAWS_HEAT_F",
+            "MRAWS_HEAT55_F",
+            "MAA_MAAWS_MT756",
+            "GerRng_maaws_munitions_MAAWS_GMM_HEAT",
+            "GerRng_maaws_munitions_MAAWS_GMM_MT",
+            "MAA_MAAWS_HEDP502",
+            "MAA_MAAWS_ASM509",
+            "MAA_MAAWS_HEDP502",
+            "MAA_MAAWS_SMOKE469",
+            "MAA_MAAWS_ILLUM545",
+            "Titan_AT",
+            "Titan_AP",
+            "Titan_AA",
+            "Vorona_HEAT"
         ]
     ],
     
