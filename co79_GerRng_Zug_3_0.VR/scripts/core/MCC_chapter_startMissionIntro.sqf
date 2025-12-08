@@ -25,5 +25,7 @@ _line1 = format ["<t color='#ffffff' size='2'>%1</t>",_einleitung];
 _line2 = format ["<t color='#ffffff' size='2'>%1</t>",_auftrag];
 _line3 = format ["<t color='#ffffff' size='1'>%1<br/>____________________</t><br/><t color='#ffffff' size='5'>%2</t><br/><br/><img image='images\GermanRangersLogo.paa' shadow='0' size='8'/>",_titleOrtEinheit,_titleMissionsname];
 
-[[_line1, _line2, _line3, _tickerCountry, _tickerLocation], _intropfad] remoteExec ["execVM",[0, -2] select isDedicated];
+private _time = floor((count _tickerCountry + count _tickerLocation) * 0.45);	// Zeit berechnen, die der Ticker ungefähr braucht
+
+[[_line1, _line2, _line3, _tickerCountry, _tickerLocation, _time], _intropfad] remoteExec ["execVM",[0, -2] select isDedicated];
 //"scripts\MCC_sequence_startteleport.sqf" remoteExec ["execVM"];
