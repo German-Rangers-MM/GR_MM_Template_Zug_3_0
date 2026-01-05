@@ -159,6 +159,7 @@ _whitelistedMods = 	[
 						"@Helicopter Dust Efx Mod", "1537745369",
 						"@ANZACSAS Helicopter Dust Efx Mod - Lite", "2866924390",
 						"@「RSS」 Immersive Hud", "3581479215",
+						"@Blastcore Compiled By isky","2884936024",
 						
 						
 						//Sound
@@ -170,8 +171,7 @@ _whitelistedMods = 	[
 						"@JSRS SOUNDMOD - CUP WEAPONS MOD SOUND SUPPORT", "1624803912",
 						"@JSRS SOUNDMOD - CUP VEHICLES MOD SOUND SUPPORT", "1624804924",
 						"@JSRS SOUNDMOD - Reloading Sounds", "1429098683",
-						"@JSRS SOUNDMOD 2025 Beta - RC3", "3407948300",
-						"@JSRS SOUNDMOD 2025 Beta - AiO Compat Files RC3", "3407970596",
+						"@JSRS SOUNDMOD 2025", "3407948300",
 						
 						
 						//Zeus Mods
