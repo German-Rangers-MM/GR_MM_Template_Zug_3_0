@@ -159,7 +159,7 @@ _whitelistedMods = 	[
 						"@Helicopter Dust Efx Mod", "1537745369",
 						"@ANZACSAS Helicopter Dust Efx Mod - Lite", "2866924390",
 						"@「RSS」 Immersive Hud", "3581479215",
-						"@Blastcore Compiled By isky","2884936024",
+						"@Blastcore Compiled By isky", "2884936024",
 						
 						
 						//Sound
