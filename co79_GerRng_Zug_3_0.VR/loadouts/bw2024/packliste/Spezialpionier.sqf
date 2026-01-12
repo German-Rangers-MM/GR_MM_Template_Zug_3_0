@@ -215,6 +215,7 @@
     "CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag_wdl",
     "CUP_200Rnd_TE1_LRT4_Red_Tracer_762x51_Belt_M",
     "CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",
+    "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",
     "CUP_1Rnd_HE_M203",
     "CUP_1Rnd_HEDP_M203",
     "UGL_FlareWhite_F",

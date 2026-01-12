@@ -7736,7 +7736,7 @@ class Mission
 									{
 										init="this setVariable [""GR_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Hotel""];";
 										name="Hotel1";
-										description="Zeus@HOTEL";
+										description="Missionmaker@HOTEL";
 										isPlayable=1;
 										class Inventory
 										{
@@ -7798,7 +7798,7 @@ class Mission
 									{
 										init="this setVariable [""GR_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Hotel""];";
 										name="Hotel2";
-										description="Zeus";
+										description="Zeus@HOTEL";
 										isPlayable=1;
 										class Inventory
 										{
@@ -7860,7 +7860,7 @@ class Mission
 									{
 										init="this setVariable [""GR_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Hotel""];";
 										name="Hotel3";
-										description="Lagedarsteller 1";
+										description="Zeus@HOTEL";
 										isPlayable=1;
 										class Inventory
 										{
@@ -7922,7 +7922,7 @@ class Mission
 									{
 										init="this setVariable [""GR_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Hotel""];";
 										name="Hotel4";
-										description="Lagedarsteller 2";
+										description="Lagedarsteller@HOTEL";
 										isPlayable=1;
 										class Inventory
 										{
@@ -7984,7 +7984,7 @@ class Mission
 									{
 										init="this setVariable [""GR_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Hotel""];";
 										name="Hotel5";
-										description="Lagedarsteller 3";
+										description="Lagedarsteller@HOTEL";
 										isPlayable=1;
 										class Inventory
 										{
@@ -11379,9 +11379,9 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Breacher""];" \n "group this setGroupId [""Alpha""];";
+										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""Alpha""];";
 										name="Alpha9";
-										description="Breacher@Alpha";
+										description="Schütze (Flex)@Alpha";
 										isPlayable=1;
 										class Inventory
 										{
@@ -15458,9 +15458,9 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""X-Ray""];";
+										init="this setVariable [""GR_unitLoadout"", ""Schuetze_DM""];" \n "group this setGroupId [""X-Ray""];";
 										name="Xray9";
-										description="Schütze (Flex)@X-Ray";
+										description="Schütze DM@X-Ray";
 										isPlayable=1;
 										class Inventory
 										{
