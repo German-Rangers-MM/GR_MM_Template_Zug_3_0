@@ -110,8 +110,12 @@
     "SPS_Optic_SnB_HP_1_8_Black",
     "SPS_Optic_SnB_HP_1_8_FDE",
     "SPS_Optic_SnB_HP_1_8_RAL8000",
+    "SPS_EOTech_Vudu_Black_RMR_PVS24LR",
+    "SPS_EOTech_Vudu_Tan_RMR_PVS24LR",
     "SPS_EOTech_Vudu_Black_PVS24LR",
     "SPS_EOTech_Vudu_Tan_PVS24LR",
+    "SPS_EOTech_Vudu_Black_RMR",
+    "SPS_EOTech_Vudu_Tan_RMR",
     "SPS_EOTech_Vudu_Black",
     "SPS_EOTech_Vudu_Tan",
     

@@ -530,6 +530,13 @@
     "SPS_hk416d_10_4_smr_hk_ctr_afg_ral8000_f",
     "SPS_hk416d_10_4_smr_hk_ctr_afg_sf_ral8000_f",
     
+    "sps_hk_vp9_stnd_fde_bb",
+    "sps_hk_vp9_stnd_fde_black",
+    "sps_hk_vp9_stnd_green",
+    "sps_hk_vp9_stnd_black",
+    "sps_hk_vp9_stnd_ral8000_black",
+    "sps_hk_vp9_stnd_ral8000",
+    "sps_hk_vp9_stnd_ral8000_bb",
 
 
     // ------------------------------------------------------------------
@@ -573,6 +580,9 @@
     "CUP_optic_G36DualOptics_3D",
     "optic_MRD",
     "optic_MRD_black",
+
+    "SPS_Trijicon_RMR_Black",
+    "SPS_Trijicon_RMR_FDE",
 
     //SPS
     "sps_aimpoint_T1_Black",
