@@ -23,7 +23,7 @@ player setUnitLoadout [
 //	ACE Optionen fuer Spieler
 //------------------------------------------------------------------
 //	Medic:
-player setVariable ["ACE_medical_medicClass",2,true];
+player setVariable ["ACE_medical_medicClass",0,true];
 
 //	Combat Engineer:
 player setVariable ["ACE_isEngineer",0,true];
