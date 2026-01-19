@@ -11,7 +11,6 @@
     ["B_CombinationUnitRespirator_01_F",4],
     ["U_B_CBRN_Suit_01_Wdl_F", 4],
 
-
     //KAT
     ["kat_atropine", 12],
     ["KAT_ChemicalDetector", 4],
