@@ -10081,7 +10081,7 @@ class Mission
 									{
 										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
 										name="Lima3";
-										description="Logistik-Koor.@Lima";
+										description="Logistiker@Lima";
 										isPlayable=1;
 										class Inventory
 										{
@@ -10306,7 +10306,7 @@ class Mission
 									{
 										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
 										name="Lima6";
-										description="Pionier-Koor.@Lima";
+										description="Baupionier@Lima";
 										isPlayable=1;
 										class Inventory
 										{
