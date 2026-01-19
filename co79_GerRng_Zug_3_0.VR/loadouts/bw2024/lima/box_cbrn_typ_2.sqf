@@ -7,8 +7,8 @@
     ["ace_marker_flags_orange", 10],
 
     //ARMA 3
-    ["G_AirPurifyingRespirator_01_F", 4],
     ["B_CombinationUnitRespirator_01_F",4],
+    ["G_AirPurifyingRespirator_01_F", 4],
     ["U_B_CBRN_Suit_01_Wdl_F", 4],
 
     //KAT
