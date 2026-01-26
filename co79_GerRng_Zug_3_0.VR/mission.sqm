@@ -11381,7 +11381,7 @@ class Mission
 									{
 										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""Alpha""];";
 										name="Alpha9";
-										description="Schütze (Flex)@Alpha";
+										description="Breacher@Alpha";
 										isPlayable=1;
 										class Inventory
 										{
