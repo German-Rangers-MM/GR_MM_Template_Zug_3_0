@@ -247,8 +247,7 @@
 
     "GerRng_helmets_helmet_pilot_w",
     "GerRng_helmets_helmet_pilot_b",
-    "GerRng_helmets_crew_pilot_b",
-    "GerRng_helmets_crew_pilot_w",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // goggles
