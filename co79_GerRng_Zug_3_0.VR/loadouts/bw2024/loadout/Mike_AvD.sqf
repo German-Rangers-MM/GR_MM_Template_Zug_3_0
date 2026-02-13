@@ -16,7 +16,7 @@ player setUnitLoadout [
 	["gerrng_PlateCarrier1_Flecktarn",[["ACE_personalAidKit",1],["ACE_surgicalKit",1],["kat_Pulseoximeter",5],["kat_AED",1],["SmokeShell",2,1],["ACE_Chemlight_HiRed",1,1],["ACE_Chemlight_HiGreen",1,1],["ACE_Chemlight_HiYellow",1,1],["CUP_30Rnd_556x45_G36_wdl",1,30]]],
 	["tfw_ilbeRT1523_whip_flk",[["ACE_elasticBandage",15],["ACE_salineIV_500",10],["ACE_splint",5],["ACE_morphine",2],["ACE_epinephrine",6],["ACE_adenosine",5],["kat_BVM",1],["kat_IV_16",15],["kat_chestSeal",5],["kat_IO_FAST",2],["kat_larynx",10],["kat_naloxone",1],["kat_ketamine",1],["kat_phenylephrine",1],["kat_lorazepam",1],["kat_EACA",10],["kat_TXA",10],["kat_fentanyl",3],["kat_nitroglycerin",10],["kat_ncdKit",3],["kat_stethoscope",1],["kat_oxygenTank_150",1,100],["kat_Carbonate",1,10],["kat_Caffeine",1,15]]],
 	"CUP_H_OpsCore_Covered_Fleck","CUP_G_PMC_Facewrap_Tropical_Glasses_Dark",["Laserdesignator_02_ghex_F","","","",["Laserbatteries",1],[],""],
-	["ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ItemWatch",""]
+	["ItemMap","ItemAndroid","ItemcTab","TFAR_anprc152","ItemCompass","ItemWatch",""]
 ];
 
 //------------------------------------------------------------------
@@ -26,7 +26,7 @@ player setUnitLoadout [
 player setVariable ["ACE_medical_medicClass",2,true];
 
 //	Combat Engineer:
-player setVariable ["ACE_isEngineer",0,true];
+player setVariable ["ACE_isEngineer",2,true];
 
 //	Explosive Specialist:
 player setVariable ["ACE_isEOD",false,true];
