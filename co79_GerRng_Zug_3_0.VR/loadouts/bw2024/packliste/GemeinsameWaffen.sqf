@@ -17,25 +17,33 @@
     "CUP_arifle_G36A_RIS",
     "CUP_arifle_G36A_RIS_camo",
     "CUP_arifle_G36A_RIS_wdl",
+
     "CUP_arifle_G36A3",
     "CUP_arifle_G36A3_camo",
     "CUP_arifle_G36A3_wdl",
+
     "CUP_arifle_G36K_RIS",
     "CUP_arifle_G36K_RIS_camo",
     "CUP_arifle_G36K_RIS_wdl",
+
     "CUP_arifle_G36KA3",
     "CUP_arifle_G36KA3_afg_camo",
     "CUP_arifle_G36KA3_afg_wdl",
+
     "CUP_arifle_G36K",
+
     "CUP_arifle_G36C",
     "CUP_arifle_G36C_camo",
     "CUP_arifle_G36C_wdl",
+
     "CUP_arifle_G36CA3",
     "CUP_arifle_G36CA3_camo",
     "CUP_arifle_G36CA3_wdl",
+
     "CUP_arifle_HK416_Black",
     "CUP_arifle_HK416_Desert",
     "CUP_arifle_HK416_Wood",
+
     "CUP_arifle_HK416_CQB_Black",
     "CUP_arifle_HK416_CQB_Desert",
     "CUP_arifle_HK416_CQB_Wood",
@@ -544,40 +552,48 @@
     // Visiere
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+    
     "CUP_optic_AC11704_Black",
     "CUP_optic_AC11704_tan",
     "CUP_optic_AC11704_OD",
+
     "CUP_optic_Elcan_SpecterDR_RMR_black",
     "CUP_optic_Elcan_SpecterDR_RMR",
     "CUP_optic_Elcan_SpecterDR_RMR_od",
     "CUP_optic_Elcan_SpecterDR_KF_RMR_black",
     "CUP_optic_Elcan_SpecterDR_KF_RMR",
     "CUP_optic_Elcan_SpecterDR_KF_RMR_od",
+
     "CUP_optic_Elcan_reflex",
     "CUP_optic_Elcan_reflex_Coyote",
     "CUP_optic_Elcan_reflex_OD",
+
     "optic_Holosight_blk_F",
     "optic_Holosight",
     "optic_Holosight_lush_F",
     "optic_Holosight_smg_blk_F",
     "optic_Holosight_smg",
     "optic_Holosight_smg_khk_F",
+
     "CUP_optic_HensoldtZO_low",
     "CUP_optic_HensoldtZO_low_desert",
     "CUP_optic_HensoldtZO_low_od",
     "CUP_optic_HensoldtZO_low_RDS",
     "CUP_optic_HensoldtZO_low_RDS_desert",
     "CUP_optic_HensoldtZO_low_RDS_od",
+
     "CUP_optic_HensoldtZO",
     "CUP_optic_HensoldtZO_desert",
     "CUP_optic_HensoldtZO_od",
     "CUP_optic_HensoldtZO_RDS",
     "CUP_optic_HensoldtZO_RDS_desert",
     "CUP_optic_HensoldtZO_RDS_od",
+
     "CUP_optic_ZeissZPoint",
     "CUP_optic_ZeissZPoint_desert",
     "CUP_optic_ZeissZPoint_wood",
     "CUP_optic_G36DualOptics_3D",
+
     "optic_MRD",
     "optic_MRD_black",
 
@@ -585,6 +601,7 @@
     "SPS_Trijicon_RMR_FDE",
 
     //SPS
+
     "sps_aimpoint_T1_Black",
     "sps_aimpoint_T1_Black50",
     "sps_aimpoint_T1_Sand",
@@ -595,6 +612,7 @@
     "sps_aimpoint_T1_Black_High50",
     "sps_aimpoint_T1_High",
     "sps_aimpoint_T1_High50",
+
     "SPS_EOTech_Black",
     "SPS_EOTech_Black50",
     "SPS_EOTech_Tan",
@@ -609,15 +627,19 @@
     // Pointer
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_acc_ANPEQ_15_Flashlight_Black_L",
     "CUP_acc_ANPEQ_15_Flashlight_tan_L",
     "CUP_acc_ANPEQ_15_Flashlight_OD_L",
+
     "CUP_acc_LLM_black",
     "CUP_acc_LLM",
     "CUP_acc_LLM_od",
+
     "CUP_acc_CZ_M3X",
 
     //SPS
+
     "sps_M300C",
     "sps_M300C_tan", 
     "sps_M300C_MAWL_IR",
@@ -640,16 +662,20 @@
     // Bipods
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_bipod_Harris_1A2_L_BLK",
     "CUP_Bipod_G36",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Secondarys
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_hgun_M17_Black",
     "CUP_hgun_M17_Coyote",
     "CUP_hgun_M17_Green",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Launcher
@@ -661,36 +687,43 @@
     // Munition
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_30Rnd_556x45_G36",
     "CUP_30Rnd_556x45_G36_camo",
     "CUP_30Rnd_556x45_G36_wdl",
+
     "CUP_30Rnd_TE1_Red_Tracer_556x45_G36",
     "CUP_30Rnd_TE1_Red_Tracer_556x45_G36_camo",
     "CUP_30Rnd_TE1_Red_Tracer_556x45_G36_wdl",
+
     "CUP_30Rnd_556x45_PMAG_BLACK",
     "CUP_30Rnd_556x45_PMAG_COYOTE",
     "CUP_30Rnd_556x45_PMAG_OD",
+
     "CUP_30Rnd_556x45_PMAG_BLACK_Tracer_Red",
     "CUP_30Rnd_556x45_PMAG_COYOTE_Tracer_Red",
     "CUP_30Rnd_556x45_PMAG_OD_Tracer_Red",
-    "CUP_17Rnd_9x19_M17_Black",
-    "CUP_21Rnd_9x19_M17_Black",
+
     "CUP_17Rnd_9x19_M17_Black",
     "CUP_17Rnd_9x19_M17_Coyote",
     "CUP_17Rnd_9x19_M17_Green",
+
     "CUP_21Rnd_9x19_M17_Black",
     "CUP_21Rnd_9x19_M17_Coyote",
     "CUP_21Rnd_9x19_M17_Green",
 
     //SPS
+
     "SPS_HKG3PMAG_30Rnd_556x45_B",
     "SPS_HKG3PMAG_30Rnd_556x45_B_Red",
     "SPS_HKG3PMAG_30Rnd_556x45_B_M995",
     "SPS_HKG3PMAG_30Rnd_556x45_B_Mk318",
+
     "SPS_HKG3PMAG_30Rnd_556x45_FDE",
     "SPS_HKG3PMAG_30Rnd_556x45_FDE_Red",
     "SPS_HKG3PMAG_30Rnd_556x45_FDE_M995",
     "SPS_HKG3PMAG_30Rnd_556x45_FDE_Mk318",
+    
     "SPS_HKG3PMAG_30Rnd_556x45_S",
     "SPS_HKG3PMAG_30Rnd_556x45_S_Red",
     "SPS_HKG3PMAG_30Rnd_556x45_S_M995",

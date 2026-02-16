@@ -433,6 +433,9 @@
 	"CUP_H_Ger_Boonie_Flecktarn",
 	"CUP_H_Ger_Boonie2_desert",
 	"CUP_H_Ger_Boonie_desert",
+	"H_Booniehat_khk",
+	"H_Booniehat_oli",
+	"H_Booniehat_tan",
 
 	"CUP_H_PMC_Beanie_Black",
 	"CUP_H_PMC_Beanie_Headphones_Black",
@@ -465,6 +468,11 @@
 	"CUP_G_PMC_Facewrap_Tan_Glasses_Dark",
 
 	"G_B_Diving",
+
+	"CUP_G_PMC_RadioHeadset_Glasses_Dark",
+    "CUP_G_PMC_RadioHeadset_Glasses_Ember",
+    "CUP_G_PMC_RadioHeadset_Glasses",
+    "CUP_G_PMC_RadioHeadset",
 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
@@ -730,6 +738,8 @@
 
 	"ACE_SpraypaintBlack",
 	"ACE_SpraypaintGreen",
-	"ACE_SpraypaintWhite"
+	"ACE_SpraypaintWhite",
+
+	"itc_land_tablet_rover"
 
 ];

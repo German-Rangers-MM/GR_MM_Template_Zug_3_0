@@ -376,6 +376,11 @@
 
 	"G_B_Diving",
 
+	"CUP_G_PMC_RadioHeadset_Glasses_Dark",
+    "CUP_G_PMC_RadioHeadset_Glasses_Ember",
+    "CUP_G_PMC_RadioHeadset_Glasses",
+    "CUP_G_PMC_RadioHeadset",
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -639,6 +644,8 @@
 
 	"ACE_SpraypaintBlack",
 	"ACE_SpraypaintGreen",
-	"ACE_SpraypaintWhite"
+	"ACE_SpraypaintWhite",
+
+	"itc_land_tablet_rover"
 
 ];

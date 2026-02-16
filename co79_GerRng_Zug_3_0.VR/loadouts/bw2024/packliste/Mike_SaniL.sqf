@@ -371,6 +371,7 @@
     // goggles
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+    
     "CUP_G_TK_roundGlasses",
     "CUP_G_TK_roundGlasses_blk",
     "G_Aviator",
@@ -378,6 +379,12 @@
     "G_Bandanna_blk",
     "G_AirPurifyingRespirator_01_F",
     "G_RegulatorMask_F",
+
+    "CUP_G_PMC_RadioHeadset_Glasses_Dark",
+    "CUP_G_PMC_RadioHeadset_Glasses_Ember",
+    "CUP_G_PMC_RadioHeadset_Glasses",
+    "CUP_G_PMC_RadioHeadset",
+    
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // NVGs

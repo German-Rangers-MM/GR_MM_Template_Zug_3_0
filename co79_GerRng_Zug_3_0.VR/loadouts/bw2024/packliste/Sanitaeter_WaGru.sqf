@@ -4,6 +4,7 @@
     // Waffen
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_smg_MP5A5",
     "SMG_05_F",
     "CUP_smg_MP7",
@@ -37,6 +38,7 @@
     // Launcher
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_toW2_carry",
     "ace_csw_m220CarryTripod",
     "GerRng_csw_M3M_carry",
@@ -49,6 +51,7 @@
     "CUP_MK19_carry",
     "CUP_m252_carry",
     "ace_csw_carryMortarBaseplate",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // uniforms
@@ -60,10 +63,13 @@
     // vests
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_V_B_GER_Pvest_Fleck_Med",
     "CUP_V_B_GER_Pvest_Trop_Med",
+
     "CUP_V_B_GER_Pvest_Fleck_Med_LT",
     "CUP_V_B_GER_Pvest_Trop_Med_LT",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // backpacks
@@ -75,13 +81,17 @@
     // Helme
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "H_Helmetcrew_B",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // goggles
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_G_TK_roundGlasses",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // NVGs
@@ -93,8 +103,11 @@
     // binoculars
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "Rangefinder",
+
     "ACE_Vector",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // items
@@ -106,49 +119,63 @@
     // magazines
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_200Rnd_TE4_Red_Tracer_556x45_M249",
+
     "CUP_100Rnd_556x45_BetaCMag",
     "CUP_100Rnd_556x45_BetaCMag_camo",
     "CUP_100Rnd_556x45_BetaCMag_wdl",
+
     "CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag",
     "CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag_camo",
     "CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag_wdl",
     "CUP_200Rnd_TE1_LRT4_Red_Tracer_762x51_Belt_M",
+
     "CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",
     "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",
+
     "130Rnd_338_Mag",
     "150Rnd_93x64_Mag",
+
     "CUP_30Rnd_9x19_MP5",
     "CUP_40Rnd_46x30_MP7",
+
     "CUP_SMAW_HEAA_M",
     "CUP_SMAW_Spotting",
+
     "Titan_AA",
     "Titan_AT",
     "Titan_AP",
+
     "Vorona_HEAT",
     "Vorona_HE",
+
     "MRAWS_HE_F",
     "MRAWS_HEAT55_F",
     "MRAWS_HEAT_F",
     "MAA_MAAWS_ASM509",
     "MAA_MAAWS_HEDP502",
     "MAA_MAAWS_MT756",
+    "MAA_MAAWS_ILLUM545",
+    "MAA_MAAWS_SMOKE469",
+
     "GerRng_MAAWS_GMM_HE",
     "GerRng_MAAWS_GMM_HEAT",
     "GerRng_MAAWS_GMM_MT",
-    "MAA_MAAWS_ILLUM545",
-    "MAA_MAAWS_SMOKE469",
     "GerRng_maaws_munitions_MAAWS_GMM_HE",
     "GerRng_maaws_munitions_MAAWS_GMM_HEAT",
     "GerRng_maaws_munitions_MAAWS_GMM_MT",
+
     "CUP_compats_48Rnd_40mm_MK19_M",
     "CUP_compats_toW2_M",
     "ace_csw_100Rnd_127x99_mag",
     "ace_csw_100Rnd_127x99_mag_red",
+
     "ACE_1Rnd_82mm_Mo_HE",
     "ACE_1Rnd_82mm_Mo_Illum",
     "ACE_1Rnd_82mm_Mo_Smoke",
     "ACE_1Rnd_82mm_Mo_HE_LaserGuided",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Grenades / throw
@@ -166,11 +193,13 @@
     // Medical
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "ACE_adenosine",
     "ACE_bodyBag",
     "ACE_epinephrine",
     "ACE_salineIV",
     "ACE_surgicalKit",
+
     "kat_IV_16",
     "kat_Carbonate",
     "kat_BVM",
@@ -190,11 +219,13 @@
     
     "GerRng_kat_changes_glucometerSet",
     "GerRng_kat_changes_GSCI",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Misc 1
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "ACE_artilleryTable",
     "ACE_ATragMX",
     "ACE_DefusalKit",
@@ -203,12 +234,15 @@
     "ACE_M26_Clacker",
     "ACE_PlottingBoard",
     "ACE_RangeCard",
+
     "kat_CarryStretcherBag",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Misc 2
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "ace_marker_flags_black",
     "ace_marker_flags_blue",
     "ace_marker_flags_orange",
@@ -217,9 +251,12 @@
     "ace_marker_flags_white",
     "ace_marker_flags_yellow",
     "ace_marker_flags_green",
+
     "GerRng_bandoliers_mg_4_4_m249_200Rnd",
     "GerRng_bandoliers_mg_4_4_MG3_120Rnd",
     "GerRng_bandoliers_mg_4_4_mk48_100Rnd",
+
     "kat_gasmaskFilter",
     "kat_sealant"
+    
 ];

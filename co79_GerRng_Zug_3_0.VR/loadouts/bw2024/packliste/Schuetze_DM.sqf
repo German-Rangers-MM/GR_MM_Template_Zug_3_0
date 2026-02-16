@@ -4,14 +4,17 @@
     // Waffen
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_arifle_HK417_20",
     "CUP_arifle_HK417_20_Desert",
     "CUP_arifle_HK417_20_Wood",
+
     "arifle_SPAR_03_blk_F",
     "arifle_SPAR_03_snd_F",
     "arifle_SPAR_03_khk_F",
 
     //SPS
+
     "SPS_hk416_20_black_f",
     "SPS_hk416_20_hk_sf_black_f",
     "SPS_hk416_20_hk_a7_black_f",
@@ -176,47 +179,62 @@
     // Visiere
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_optic_AC11704_Black",
     "CUP_optic_AC11704_tan",
     "CUP_optic_AC11704_OD",
+
     "CUP_optic_Elcan_SpecterDR_RMR_black",
     "CUP_optic_Elcan_SpecterDR_RMR",
     "CUP_optic_Elcan_SpecterDR_RMR_od",
+
     "CUP_optic_Elcan_SpecterDR_KF_RMR_black",
     "CUP_optic_Elcan_SpecterDR_KF_RMR",
     "CUP_optic_Elcan_SpecterDR_KF_RMR_od",
+
     "CUP_optic_Elcan_reflex",
     "CUP_optic_Elcan_reflex_Coyote",
     "CUP_optic_Elcan_reflex_OD",
+
     "optic_Holosight_blk_F",
     "optic_Holosight",
     "optic_Holosight_lush_F",
+
     "optic_Holosight_smg_blk_F",
     "optic_Holosight_smg",
     "optic_Holosight_smg_khk_F",
+
     "CUP_optic_HensoldtZO_low",
     "CUP_optic_HensoldtZO_low_desert",
     "CUP_optic_HensoldtZO_low_od",
+
     "CUP_optic_HensoldtZO_low_RDS",
     "CUP_optic_HensoldtZO_low_RDS_desert",
     "CUP_optic_HensoldtZO_low_RDS_od",
+
     "CUP_optic_ZeissZPoint",
     "CUP_optic_ZeissZPoint_desert",
     "CUP_optic_ZeissZPoint_wood",
+
     "optic_AMS",
     "optic_AMS_snd",
     "optic_AMS_khk",
+
     "optic_NVS",
 
     //SPS
+
     "SPS_Optic_SnB_HP_1_8_Black_PVS24LR",
     "SPS_Optic_SnB_HP_1_8_FDE_PVS24LR",
     "SPS_Optic_SnB_HP_1_8_RAL8000_PVS24LR",
+
     "SPS_Optic_SnB_HP_1_8_Black",
     "SPS_Optic_SnB_HP_1_8_FDE",
     "SPS_Optic_SnB_HP_1_8_RAL8000",
+
     "SPS_EOTech_Vudu_Black_PVS24LR",
     "SPS_EOTech_Vudu_Tan_PVS24LR",
+
     "SPS_EOTech_Vudu_Black",
     "SPS_EOTech_Vudu_Tan",
 
@@ -224,18 +242,23 @@
     "sps_aimpoint_T1_Black50",
     "sps_aimpoint_T1_Sand",
     "sps_aimpoint_T1_Sand50",
+
     "sps_aimpoint_T1_3xMAG_up_Black",
     "sps_aimpoint_T1_3xMAG_up",
+
     "sps_aimpoint_T1_Black_High",
     "sps_aimpoint_T1_Black_High50",
     "sps_aimpoint_T1_High",
     "sps_aimpoint_T1_High50",
+
     "SPS_EOTech_Black",
     "SPS_EOTech_Black50",
     "SPS_EOTech_Tan",
     "SPS_EOTech_Tan50",
+
     "SPS_EOTech_Black_3xMAG_up",
     "SPS_EOTech_Tan_3xMAG_up",
+
     "SPS_EOTech_Black_5xMAG_up",
     "SPS_EOTech_Tan_5xMAG_up",
 
@@ -244,14 +267,17 @@
     // Pointer
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_acc_ANPEQ_15_Flashlight_Black_L",
     "CUP_acc_ANPEQ_15_Flashlight_tan_L",
     "CUP_acc_ANPEQ_15_Flashlight_OD_L",
+
     "CUP_acc_LLM_black",
     "CUP_acc_LLM",
     "CUP_acc_LLM_od",
 
     //SPS
+
     "sps_M300C",
     "sps_M300C_tan", 
     "sps_M300C_MAWL_IR",
@@ -262,19 +288,24 @@
     "sps_M300C_MAWL_LAMG_IR_tan",
     "sps_M300C_MAWL_smr_IR",
     "sps_M300C_MAWL_smr_IR_tan",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Bipods
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_bipod_Harris_1A2_L_BLK",
     "CUP_Bipod_G36",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Secondarys
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_hgun_M17_Black",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Launcher
@@ -292,13 +323,16 @@
     // vests
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_V_B_GER_Pvest_Fleck_RFL",
     "CUP_V_B_GER_Pvest_Trop_RFL",
+
     "CUP_V_B_GER_Pvest_Fleck_RFL_LT",
     "CUP_V_B_GER_Pvest_Trop_RFL_LT",
+
     "GRE_PlateCarrier1_Flecktarn",
     "GRE_PlateCarrier1_Tropentarn",
-    "V_Chestrig_rgr",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // backpacks
@@ -310,8 +344,10 @@
     // Helme
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_H_Ger_Boonie2_Flecktarn",
     "CUP_H_Ger_Boonie2_desert",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // goggles
@@ -335,6 +371,7 @@
     // items
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "ItemMap",
     
     "TFAR_anprc152",
@@ -343,18 +380,23 @@
     
     "ItemWatch",
     "ACE_Altimeter",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // magazines
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-   "CUP_20Rnd_762x51_HK417",
+
+    "CUP_20Rnd_762x51_HK417",
     "CUP_20Rnd_762x51_HK417_Camo_Desert",
     "CUP_20Rnd_762x51_HK417_Camo_Wood",
+
     "CUP_20Rnd_TE1_Red_Tracer_762x51_HK417",
+
     "ACE_20Rnd_762x51_M993_AP_Mag",
 
     //SPS
+
     "SPS_HKG3PMAG_30Rnd_556x45_B_BeOTMT",
     "SPS_HKG3PMAG_30Rnd_556x45_B_BeVLDT",
     "SPS_20Rnd_762x51mm_M80A1_EPR",
@@ -409,6 +451,8 @@
     // Misc 2
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "GerRng_bandoliers_grenade_3_3_flare_hand",
     "GerRng_bandoliers_rifle_5_5_417_30Rnd"
+    
 ];
