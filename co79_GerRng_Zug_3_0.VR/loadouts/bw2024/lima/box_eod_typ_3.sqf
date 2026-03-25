@@ -23,7 +23,7 @@
     //ARMA 3
     ["DemoCharge_Remote_Mag",4],
     ["MineDetector",1],
-    ["ToolKit",1],
+    ["ToolKit",1]
 
     ["H_Construction_earprot_black_F",2],
     ["H_Construction_headset_black_F",2],

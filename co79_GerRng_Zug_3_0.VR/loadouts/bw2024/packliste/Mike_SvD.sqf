@@ -179,6 +179,11 @@
     // backpacks
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
+    "B_Kitbag_cbr_Medic",
+    "B_Kitbag_rgr_Medic",
+    "B_Kitbag_tan_Medic",
+    
     "TFAR_rt1523g_rhs",
     "TFAR_rt1523g_bwmod",
     "TFAR_rt1523g_big_bwmod",
@@ -403,6 +408,12 @@
     "ace_flags_red",
     "ace_flags_white",
     "ace_flags_yellow",
+    "ACE_SpraypaintBlack",
+    "ACE_SpraypaintBlue",
+    "ACE_SpraypaintGreen",
+    "ACE_SpraypaintRed",
+    "ACE_SpraypaintWhite",
+    "ACE_SpraypaintYellow",
     "GerRng_bandoliers_grenade_8_8_exp_40mm",
     "GerRng_bandoliers_grenade_8_8_flare_40mm",
     "GerRng_bandoliers_grenade_8_8_smoke_40mm",

@@ -77,6 +77,10 @@
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
 
+    "B_Kitbag_cbr_Medic",
+    "B_Kitbag_rgr_Medic",
+    "B_Kitbag_tan_Medic",
+
     "TFAR_mr3000_bwmod",
     "TFAR_rt1523g_big_bwmod_tropen",
     "TFAR_rt1523g_bwmod",

@@ -19,6 +19,11 @@ _whitelistedMods = 	[
 						"@Dynamic AI Minefields - RCO", "2650906858",
 						"@Global Ops Terrains", "2917444360",
 						"@North Takistan", "2829330653",
+						"@ITC Addons - Rover LAD (Fixed)", "3442884220",
+						"@Fifty Shades of Female (formerly FEMAL3 Heads)", "374775446",
+						"@Fifty Shades of Gen3 (formerly FEMAL3 Uniforms)", "374780664",
+						"@MT-LB - The Soviet Workhorse", "3615518979",
+						"@Immersion Cigs - Rewrite", "3375788189",
 
 						// Missionmaker Mods
 						"@3den Enhanced", "623475643",
@@ -34,6 +39,7 @@ _whitelistedMods = 	[
 						"@LAMBS_RPG","1858070328",
 						"@LAMBS_Suppression","1808238502",
 						"@LAMBS_Turrets","1862208264",
+						"@Advanced Developer Tools", "3499977893",
 						
 						// CUP
 						"@CUP Terrains - Core", "583496184",
@@ -51,6 +57,7 @@ _whitelistedMods = 	[
 						//TFAR
 						"@Task Force Arrowhead Radio (BETA!!!)", "894678801",
 						"@Radio Animations for Task Force Radio", "1480333388",
+						"@TFAR - ACE Radio Setter - Extended","2526965189",
 
 						//German Rangers Extras
 						"@NATO Markers+", "1340701737",
@@ -82,6 +89,9 @@ _whitelistedMods = 	[
 						"@A3 Thermal Improvement", "2041057379",
 						"@SPS Weapons V2", "2811886291",
 						"@SPS Equipment", "1187306764",
+
+						"@USAF Mod - Main", "2397360831",
+						"@USAF Mod - Utility", "2397376046",
 
 						//Additional Maps
 						"@Jbad", "520618345",

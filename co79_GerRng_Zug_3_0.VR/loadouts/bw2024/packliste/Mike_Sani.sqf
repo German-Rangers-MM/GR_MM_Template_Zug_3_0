@@ -135,6 +135,10 @@
     "CFP_Camelbak_Mule_Drab",
     "B_FieldPack_green_F",
     "B_FieldPack_cbr",
+
+    "B_Kitbag_cbr_Medic",
+    "B_Kitbag_rgr_Medic",
+    "B_Kitbag_tan_Medic",
     
     "tfw_ilbeMR3000_blade_flk",
     "tfw_ilbeMR3000_blade_trp",
@@ -329,6 +333,12 @@
     "ace_flags_red",
     "ace_flags_white",
     "ace_flags_yellow",
+    "ACE_SpraypaintBlack",
+    "ACE_SpraypaintBlue",
+    "ACE_SpraypaintGreen",
+    "ACE_SpraypaintRed",
+    "ACE_SpraypaintWhite",
+    "ACE_SpraypaintYellow",
     "GerRng_bandoliers_grenade_8_8_exp_40mm",
     "GerRng_bandoliers_grenade_8_8_flare_40mm",
     "GerRng_bandoliers_grenade_8_8_smoke_40mm",

@@ -257,6 +257,10 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 
+	"B_Kitbag_cbr_Medic",
+    "B_Kitbag_rgr_Medic",
+    "B_Kitbag_tan_Medic",
+
 	"CUP_B_GER_Pack_Flecktarn",
 	"CUP_B_GER_Pack_Tropentarn",
 

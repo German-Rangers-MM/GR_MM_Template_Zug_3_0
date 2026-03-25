@@ -394,6 +394,10 @@
     "CUP_20Rnd_TE1_Red_Tracer_762x51_HK417",
 
     "ACE_20Rnd_762x51_M993_AP_Mag",
+    "ACE_20Rnd_762x51_Mag_Tracer",
+
+    "CUP_20Rnd_762x51_DMR",
+    "CUP_20Rnd_TE1_Red_Tracer_762x51_DMR",
 
     //SPS
 
@@ -402,12 +406,6 @@
     "SPS_20Rnd_762x51mm_M80A1_EPR",
     "SPS_20Rnd_762x51mm_M80A1_EPR_IR",
     "SPS_20Rnd_762x51mm_M80A1_EPR_Tracer",
-
-    "ACE_20Rnd_762x51_Mag_Tracer",
-    "ACE_20Rnd_762x51_M993_AP_Mag",
-
-    "CUP_20Rnd_762x51_DMR",
-    "CUP_20Rnd_TE1_Red_Tracer_762x51_DMR",
 
     "SPS_HKG3PMAG_30Rnd_556x45_B",
     "SPS_HKG3PMAG_30Rnd_556x45_B_Red",

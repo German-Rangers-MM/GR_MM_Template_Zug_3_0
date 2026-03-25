@@ -182,12 +182,19 @@
     "ACE_M26_Clacker",
 
     "tsp_breach_shock",
-    "tsp_lockpick"
+    "tsp_lockpick",
     
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Misc 2
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
+    "ACE_SpraypaintBlack",
+    "ACE_SpraypaintBlue",
+    "ACE_SpraypaintGreen",
+    "ACE_SpraypaintRed",
+    "ACE_SpraypaintWhite",
+    "ACE_SpraypaintYellow"
     
 ];
