@@ -1,4 +1,4 @@
-params ["_line1","_line2","_line3","_tickerCountry","_tickerLocation"];
+params ["_line1","_line2","_line3","_tickerCountry","_tickerLocation","_sleep"];
 
 // Stops running the Sequence on the Server or HC
 if (! hasInterface) exitWith {};
@@ -38,6 +38,6 @@ sleep 5;
 
 //Text Ticker
 [[[_tickerCountry,"size = '0.7' font='PuristaBold'"],["","<br/>"],[_tickerLocation,"size = '0.7'","#aaaaaa"]],safeZoneX / 4, safeZoneH / 2,true,"<t font='PuristaBold'>%1</t>",[],{ false },true] spawn BIS_fnc_typeText2;	
-sleep 8;
+sleep _sleep;
 private _t = [daytime, "HH:MM"] call BIS_fnc_timeToString;			// time at missionstart as a string
 [["Time: "+_t],safeZoneX / 4, safeZoneH / 2,true,"<t font='PuristaBold'>%1</t>",[],{ false },true] spawn BIS_fnc_typeText2;
