@@ -4,21 +4,27 @@
     // Waffen
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_arifle_AG36",
     "CUP_arifle_G36A_AG36_RIS_camo",
     "CUP_arifle_G36A_AG36_RIS_wdl",
+
     "CUP_arifle_G36A3_AG36",
     "CUP_arifle_G36A3_AG36_camo",
     "CUP_arifle_G36A3_AG36_wdl",
+
     "CUP_arifle_HK416_CQB_AG36",
     "CUP_arifle_HK416_CQB_AG36_Desert",
     "CUP_arifle_HK416_CQB_AG36_Wood",
+
     "CUP_arifle_HK416_AGL_Black",
     "CUP_arifle_HK416_AGL_Desert",
     "CUP_arifle_HK416_AGL_Wood",
+
     "CUP_arifle_HK417_12_AG36",
     "CUP_arifle_HK417_12_AG36_Desert",
     "CUP_arifle_HK417_12_AG36_Wood",
+    
     "CUP_smg_MP5A5",
     "SMG_05_F",
     "CUP_smg_MP7",
@@ -129,6 +135,10 @@
     "CFP_Camelbak_Mule_Drab",
     "B_FieldPack_green_F",
     "B_FieldPack_cbr",
+
+    "B_Kitbag_cbr_Medic",
+    "B_Kitbag_rgr_Medic",
+    "B_Kitbag_tan_Medic",
     
     "tfw_ilbeMR3000_blade_flk",
     "tfw_ilbeMR3000_blade_trp",
@@ -189,13 +199,14 @@
     "CUP_H_Ger_Cap_EP_Grn1",
     "CUP_H_Ger_Cap_EP_tan1",
 
-    "GerRng_helmets_crew_pilot_b",
-    "GerRng_helmets_crew_pilot_w",
+    "GerRng_helmets_helmet_pilot_w",
+    "GerRng_helmets_helmet_pilot_b",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // goggles
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+    
     "CUP_G_TK_roundGlasses",
     "CUP_G_TK_roundGlasses_blk",
     "G_Aviator",
@@ -203,6 +214,12 @@
     "G_Bandanna_blk",
     "G_AirPurifyingRespirator_01_F",
     "G_RegulatorMask_F",
+
+    "CUP_G_PMC_RadioHeadset_Glasses_Dark",
+    "CUP_G_PMC_RadioHeadset_Glasses_Ember",
+    "CUP_G_PMC_RadioHeadset_Glasses",
+    "CUP_G_PMC_RadioHeadset",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // NVGs
@@ -316,6 +333,12 @@
     "ace_flags_red",
     "ace_flags_white",
     "ace_flags_yellow",
+    "ACE_SpraypaintBlack",
+    "ACE_SpraypaintBlue",
+    "ACE_SpraypaintGreen",
+    "ACE_SpraypaintRed",
+    "ACE_SpraypaintWhite",
+    "ACE_SpraypaintYellow",
     "GerRng_bandoliers_grenade_8_8_exp_40mm",
     "GerRng_bandoliers_grenade_8_8_flare_40mm",
     "GerRng_bandoliers_grenade_8_8_smoke_40mm",

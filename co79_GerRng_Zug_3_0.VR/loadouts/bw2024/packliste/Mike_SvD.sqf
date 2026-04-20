@@ -110,8 +110,12 @@
     "SPS_Optic_SnB_HP_1_8_Black",
     "SPS_Optic_SnB_HP_1_8_FDE",
     "SPS_Optic_SnB_HP_1_8_RAL8000",
+    "SPS_EOTech_Vudu_Black_RMR_PVS24LR",
+    "SPS_EOTech_Vudu_Tan_RMR_PVS24LR",
     "SPS_EOTech_Vudu_Black_PVS24LR",
     "SPS_EOTech_Vudu_Tan_PVS24LR",
+    "SPS_EOTech_Vudu_Black_RMR",
+    "SPS_EOTech_Vudu_Tan_RMR",
     "SPS_EOTech_Vudu_Black",
     "SPS_EOTech_Vudu_Tan",
     
@@ -175,6 +179,11 @@
     // backpacks
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
+    "B_Kitbag_cbr_Medic",
+    "B_Kitbag_rgr_Medic",
+    "B_Kitbag_tan_Medic",
+    
     "TFAR_rt1523g_rhs",
     "TFAR_rt1523g_bwmod",
     "TFAR_rt1523g_big_bwmod",
@@ -243,13 +252,13 @@
 
     "GerRng_helmets_helmet_pilot_w",
     "GerRng_helmets_helmet_pilot_b",
-    "GerRng_helmets_crew_pilot_b",
-    "GerRng_helmets_crew_pilot_w",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // goggles
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+    
     "G_AirPurifyingRespirator_01_F",
     "G_RegulatorMask_F",
     "G_Aviator",
@@ -257,6 +266,12 @@
     "G_Bandanna_blk",
     "CUP_G_TK_roundGlasses",
     "CUP_G_TK_roundGlasses_blk",
+
+    "CUP_G_PMC_RadioHeadset_Glasses_Dark",
+    "CUP_G_PMC_RadioHeadset_Glasses_Ember",
+    "CUP_G_PMC_RadioHeadset_Glasses",
+    "CUP_G_PMC_RadioHeadset",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // NVGs
@@ -393,6 +408,12 @@
     "ace_flags_red",
     "ace_flags_white",
     "ace_flags_yellow",
+    "ACE_SpraypaintBlack",
+    "ACE_SpraypaintBlue",
+    "ACE_SpraypaintGreen",
+    "ACE_SpraypaintRed",
+    "ACE_SpraypaintWhite",
+    "ACE_SpraypaintYellow",
     "GerRng_bandoliers_grenade_8_8_exp_40mm",
     "GerRng_bandoliers_grenade_8_8_flare_40mm",
     "GerRng_bandoliers_grenade_8_8_smoke_40mm",

@@ -304,6 +304,10 @@
     // backpacks
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
+    "B_Kitbag_cbr_Medic",
+    "B_Kitbag_rgr_Medic",
+    "B_Kitbag_tan_Medic",
     
     "tfw_ilbeMR3000_blade_flk",
     "tfw_ilbeMR3000_blade_trp",
@@ -364,13 +368,14 @@
     "CUP_H_Ger_Cap_EP_Grn1",
     "CUP_H_Ger_Cap_EP_tan1",
 
-    "GerRng_helmets_crew_pilot_b",
-    "GerRng_helmets_crew_pilot_w",
+    "GerRng_helmets_helmet_pilot_w",
+    "GerRng_helmets_helmet_pilot_b",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // goggles
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+    
     "CUP_G_TK_roundGlasses",
     "CUP_G_TK_roundGlasses_blk",
     "G_Aviator",
@@ -378,6 +383,12 @@
     "G_Bandanna_blk",
     "G_AirPurifyingRespirator_01_F",
     "G_RegulatorMask_F",
+
+    "CUP_G_PMC_RadioHeadset_Glasses_Dark",
+    "CUP_G_PMC_RadioHeadset_Glasses_Ember",
+    "CUP_G_PMC_RadioHeadset_Glasses",
+    "CUP_G_PMC_RadioHeadset",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // NVGs
@@ -510,6 +521,12 @@
     "ace_flags_red",
     "ace_flags_white",
     "ace_flags_yellow",
+    "ACE_SpraypaintBlack",
+    "ACE_SpraypaintBlue",
+    "ACE_SpraypaintGreen",
+    "ACE_SpraypaintRed",
+    "ACE_SpraypaintWhite",
+    "ACE_SpraypaintYellow",
     "ACE_rope12",
     "ACE_rope15",
     "ACE_rope18",

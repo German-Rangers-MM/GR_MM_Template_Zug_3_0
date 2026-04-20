@@ -4,26 +4,33 @@
     // Waffen
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_arifle_AG36",
     "CUP_arifle_G36A_AG36_RIS_camo",
     "CUP_arifle_G36A_AG36_RIS_wdl",
+
     "CUP_arifle_G36A3_AG36",
     "CUP_arifle_G36A3_AG36_camo",
     "CUP_arifle_G36A3_AG36_wdl",
+
     "CUP_arifle_HK416_CQB_AG36",
     "CUP_arifle_HK416_CQB_AG36_Desert",
     "CUP_arifle_HK416_CQB_AG36_Wood",
+
     "CUP_arifle_HK416_AGL_Black",
     "CUP_arifle_HK416_AGL_Desert",
     "CUP_arifle_HK416_AGL_Wood",
+
     "CUP_arifle_HK417_12_AG36",
     "CUP_arifle_HK417_12_AG36_Desert",
     "CUP_arifle_HK417_12_AG36_Wood",
+
     "CUP_smg_MP5A5",
     "SMG_05_F",
     "CUP_smg_MP7",
 
     //SPS
+
     "SPS_hk416_14_5_glm_hk_black_f",
     "SPS_hk416_14_5_glm_hk_sf_black_f",
     "SPS_hk416_14_5_glm_hk_a7_black_f",
@@ -217,31 +224,41 @@
     // Visiere
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     //SPS
+
     "SPS_Optic_SnB_HP_1_8_Black_PVS24LR",
     "SPS_Optic_SnB_HP_1_8_FDE_PVS24LR",
     "SPS_Optic_SnB_HP_1_8_RAL8000_PVS24LR",
+
     "SPS_Optic_SnB_HP_1_8_Black",
     "SPS_Optic_SnB_HP_1_8_FDE",
     "SPS_Optic_SnB_HP_1_8_RAL8000",
+
     "SPS_EOTech_Vudu_Black_PVS24LR",
     "SPS_EOTech_Vudu_Tan_PVS24LR",
+
     "SPS_EOTech_Vudu_Black",
     "SPS_EOTech_Vudu_Tan",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Pointer
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_acc_ANPEQ_15_Flashlight_Black_L",
     "CUP_acc_ANPEQ_15_Flashlight_tan_L",
     "CUP_acc_ANPEQ_15_Flashlight_OD_L",
+
     "CUP_acc_LLM01_L",
     "CUP_acc_LLM01_desert_L",
     "CUP_acc_LLM01_od_L",
+
     "CUP_acc_LLM_black",
     "CUP_acc_LLM",
     "CUP_acc_LLM_od",
+
     "acc_esd_01_flashlight",
     
     // ------------------------------------------------------------------
@@ -249,9 +266,11 @@
     // Muzzle
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "muzzle_antenna_03_f",
     "muzzle_antenna_02_f",
     "muzzle_antenna_01_f",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Bipods
@@ -263,21 +282,28 @@
     // Secondarys
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "hgun_esd_01_F",
+
     "ACE_VMH3",
     "ACE_VMM3",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Launcher
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_launch_FIM92Stinger",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // uniforms
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_U_B_GER_Fleck_Overalls_tank",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // vests
@@ -285,18 +311,22 @@
     // ------------------------------------------------------------------
     "CUP_V_B_GER_Pvest_Fleck_TL",
     "CUP_V_B_GER_Pvest_Trop_TL",
+
     "CUP_V_B_GER_Pvest_Fleck_TL_LT",
     "CUP_V_B_GER_Pvest_Trop_TL_LT",
+
     "CUP_V_B_GER_Armatus_Fleck",
     "CUP_V_B_GER_Armatus_BB_Fleck",
+
     "CUP_V_B_GER_Armatus_Trop",
     "CUP_V_B_GER_Armatus_BB_Trop",
-    "V_Chestrig_rgr",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // backpacks
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "TFAR_mr3000_bwmod",
     "TFAR_rt1523g_big_bwmod_tropen",
     "TFAR_rt1523g_bwmod",
@@ -424,6 +454,10 @@
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
 
+    "CUP_G_PMC_RadioHeadset_Glasses_Dark",
+    "CUP_G_PMC_RadioHeadset_Glasses_Ember",
+    "CUP_G_PMC_RadioHeadset_Glasses",
+    "CUP_G_PMC_RadioHeadset",
 
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
@@ -436,42 +470,55 @@
     // binoculars
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "Rangefinder",
+
     "ACE_Vector",
+
     "GerRng_utils_Laserdesignator_khk",
     "GerRng_utils_Laserdesignator_olv",
     "GerRng_utils_Laserdesignator_snd",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // items
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "Itemandroid",
     "ItemcTab",
     "ItemMicroDAGR",
+
     "ItemGPS",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // magazines
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "CUP_1Rnd_HE_M203",
     "CUP_1Rnd_HEDP_M203",
-    "CUP_1Rnd_StarCluster_Red_M203",
-    "Laserbatteries",
+
     "UGL_FlareGreen_F",
     "UGL_FlareCIR_F",
     "UGL_FlareRed_F",
     "UGL_FlareWhite_F",
     "UGL_FlareYellow_F",
-    "ACE_HuntIR_M203",
     "UGL_FlareGreen_Illumination_F",
     "UGL_FlareRed_Illumination_F",
     "UGL_FlareWhite_Illumination_F",
     "UGL_FlareYellow_Illumination_F",
+    "CUP_1Rnd_StarCluster_Red_M203",
+
     "ACE_40mm_Flare_white",
     "ACE_40mm_Flare_green",
     "ACE_40mm_Flare_red",
+
+    "Laserbatteries",
+
+    "ACE_HuntIR_M203",
+
     "1Rnd_SmokeBlue_Grenade_shell",
     "1Rnd_SmokeGreen_Grenade_shell",
     "1Rnd_SmokeOrange_Grenade_shell",
@@ -479,10 +526,12 @@
     "1Rnd_SmokeRed_Grenade_shell",
     "1Rnd_Smoke_Grenade_shell",
     "1Rnd_SmokeYellow_Grenade_shell",
+
     "CUP_30Rnd_9x19_MP5",
     "CUP_40Rnd_46x30_MP7",
 
     //SPS
+
     "SPS_HKG3PMAG_30Rnd_556x45_B_BeOTMT",
     "SPS_HKG3PMAG_30Rnd_556x45_B_BeVLDT",
 
@@ -491,6 +540,7 @@
     // Grenades / throw
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "Chemlight_blue",
     "Chemlight_green",
     "ACE_Chemlight_HiBlue",
@@ -504,11 +554,14 @@
     "ACE_Chemlight_UltraHiOrange",
     "ACE_Chemlight_White",
     "Chemlight_yellow",
+
     "B_IR_Grenade",
+
     "ACE_HandFlare_Green",
     "ACE_HandFlare_Red",
     "ACE_HandFlare_White",
     "ACE_HandFlare_Yellow",
+
     "SmokeShellBlue",
     "SmokeShellGreen",
     "SmokeShellOrange",
@@ -516,13 +569,16 @@
     "SmokeShellRed",
     "SmokeShellYellow",
     "SmokeShell",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // explosives / Put
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "DemoCharge_Remote_Mag",
     "SatchelCharge_Remote_Mag",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Medical
@@ -534,26 +590,36 @@
     // Misc 1
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "ACE_artilleryTable",
     "ACE_EntrenchingTool",
+
     "ACE_HuntIR_monitor",
+
     "ACE_Kestrel4500",
+
     "ACE_M26_Clacker",
     "ACE_Clacker",
+
     "ACE_microDAGR",
     "acex_intelitems_notepad",
     "ACE_PlottingBoard",
+
     "tfw_rf3080Item",
     "tfw_blade",
     "tfw_whip",
     "tfw_dd",
+
     "ACE_wirecutter",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Misc 2
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
     "kat_helistretcher",
+
     "ace_flags_black",
     "ace_flags_blue",
     "ace_flags_green",
@@ -562,6 +628,7 @@
     "ace_flags_red",
     "ace_flags_white",
     "ace_flags_yellow",
+
     "ace_marker_flags_black",
     "ace_marker_flags_blue",
     "ace_marker_flags_green",
@@ -570,20 +637,25 @@
     "ace_marker_flags_red",
     "ace_marker_flags_white",
     "ace_marker_flags_yellow",
+
     "ACE_SpraypaintBlack",
     "ACE_SpraypaintBlue",
     "ACE_Spraypaintgreen",
-    "crowsew_tfar_icom",
-    "crowsew_ctrack",
     "ACE_SpraypaintRed",
     "ACE_SpraypaintWhite",
     "ACE_SpraypaintYellow",
-    "ace_marker_flags_red",
-    "ace_marker_flags_white",
+
+    "crowsew_tfar_icom",
+    "crowsew_ctrack",
+
     "ItemMicroDAGRMisc",
+
+    "itc_land_tablet_rover",
+
     "GerRng_bandoliers_grenade_8_8_exp_40mm",
     "GerRng_bandoliers_grenade_8_8_flare_40mm",
     "GerRng_bandoliers_grenade_8_8_smoke_40mm",
     "GerRng_bandoliers_grenade_3_3_flare_hand",
     "GerRng_bandoliers_rifle_5_5_417_30Rnd"
+
 ];

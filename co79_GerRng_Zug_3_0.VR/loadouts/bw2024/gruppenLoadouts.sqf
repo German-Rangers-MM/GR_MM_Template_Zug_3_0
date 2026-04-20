@@ -38,6 +38,7 @@ GR_SchuetzenRollen = [
 	["Schütze-DM","Schuetze_DM"],
 	["Schütze-EHB","Schuetze_EHB"],
 	["Schütze-LMG","Schuetze_LMG"],
+	["Schütze-Träger","Schuetze_Traeger"],
 	["Breacher","Breacher"]
 	
 ];
@@ -55,25 +56,8 @@ GR_WaffenRollen = [
 	["Waffen-Assi.","Waffen_Assi"],
 	["Waffen-Spez. MAAWS","Waffen_Spez_Maaws"],
 	["Waffen-Assi. MAAWS","Waffen_Assi_Maaws"],
-	["Waffen-Spez. Metis","Waffen_Spez_Metis"],
-	["Waffen-Assi. Metis","Waffen_Assi_Metis"],
 	["Waffen-Spez. Mk48","Waffen_Spez_Mk48"],
 	["Waffen-Assi. Mk48","Waffen_Assi_Mk48"],
-	["Waffen-Spez. Titan AT","Waffen_Spez_TitanAT"],
-	["Waffen-Assi. Titan AT","Waffen_Assi_TitanAT"],
-	["Waffen-Spez. Titan AA","Waffen_Spez_TitanAA"],
-	["Waffen-Assi. Titan AA","Waffen_Assi_TitanAA"],
-	["Waffen-Spezi. M2","Waffen_Spez_M2"],
-	["Waffen-Assi. M2","Waffen_Assi_M2"],
-	["Waffen-Spezi. Mk19","Waffen_Spez_Mk19"],
-	["Waffen-Assi. Mk19","Waffen_Assi_Mk19"],
-	["Waffen-Spezi. TOW","Waffen_Spez_TOW"],
-	["Waffen-Assi. TOW","Waffen_Assi_TOW"],
-	["Waffen-Spezi. Mörser","Waffen_Spez_Moerser"],
-	["Waffen-Assi. Mörser","Waffen_Assi_Moerser"],
-	["Spezialpionier Mörser","Spezialpionier_Moerser"],
-	["Spezialpionier Tripod Normal","Spezialpionier_TriNorm"],
-	["Spezialpionier Tripod Low","Spezialpionier_TriLow"],
 	["Spezialpionier","Spezialpionier"]
 ];
 
@@ -196,6 +180,7 @@ GR_AlleRollen = [
 	["Schütze-EHB","Schuetze_EHB"],
 	["Schütze-DM","Schuetze_DM"],
 	["Schütze-LMG","Schuetze_LMG"],
+	["Schütze-Träger","Schuetze_Traeger"],
 	["Gruppenführer","Sierra_GrpFhr"],
 	["Aufklärungssanitäter","Sierra_AufSan"],
 	["Truppführer","Sierra_TF"],
@@ -253,6 +238,7 @@ GR_Packlisten = [
 	"Schuetze_DM",
 	"Schuetze_EHB",
 	"Schuetze_LMG",
+	"Schuetze_Traeger",
 	"Sierra_Aufkl",
 	"Sierra_AufSan",
 	"Sierra_Breacher",
