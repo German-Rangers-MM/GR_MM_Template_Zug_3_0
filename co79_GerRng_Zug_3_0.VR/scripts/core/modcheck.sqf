@@ -162,7 +162,7 @@ _whitelistedMods = 	[
 						"@Lushify", "2638049909",
 						"@ReColor", "649832908",
 						"@Fawks' Enhanced NVGs", "2513044572",
-						"@BettIR (Legacy v0.2.1)", "2260572637",
+						"@BettIR NVG", "2260572637",
 						"@Aaren's Blast Effects", "2424322922",
 						"@German Rangers Intro 29-04-2024", "3234631841",
 						"@Enhanced Missile Smoke + Lighting Efx Mod v1.4", "1484261993",
