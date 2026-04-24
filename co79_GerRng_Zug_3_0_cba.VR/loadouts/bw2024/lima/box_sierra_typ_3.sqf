@@ -1,0 +1,13 @@
+[
+    "Sierra Typ 3 - Trupp 1 - A",
+    "GerRng_faction_Box_P_Sierra_III",
+
+    //CUP
+    ["CUP_5Rnd_762x67_G22", 15],
+    ["CUP_5Rnd_86x70_L115A1", 15],
+    ["CUP_17Rnd_9x19_glock17", 6],
+    ["CUP_40Rnd_46x30_MP7", 14],
+
+    //SPS
+    ["SPS_20Rnd_762x51mm_M80A1_EPR_IR", 14]
+];
