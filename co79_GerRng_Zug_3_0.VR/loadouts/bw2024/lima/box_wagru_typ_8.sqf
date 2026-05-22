@@ -20,9 +20,6 @@
     ["DemoCharge_Remote_Mag", 2],
     ["SatchelCharge_Remote_Mag", 2],
 
-    //CUP
-    ["CUP_launch_BF3", 2],
-
     //TSP
     ["tsp_breach_block_mag", 2],
     ["tsp_breach_package_mag", 2],
