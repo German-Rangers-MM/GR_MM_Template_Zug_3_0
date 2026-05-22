@@ -7,5 +7,5 @@
     ["CUP_20Rnd_TE1_Red_Tracer_762x51_HK417",5],
 
     //GerRng
-    ["GerRng_bandoliers_rifle_5_5_417_30Rnd",12]
+    ["GerRng_bandoliers_rifle_5_5_417_30Rnd",11]
 ];
