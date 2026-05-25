@@ -1,6 +1,6 @@
 [
     "WaGru Typ 9 - MAAWS Sondermunition",
-    "GerRng_faction_Box_WS_WaGru_VIII",
+    "Box_NATO_WpsSpecial_F",
 
     //ARMA 3
     ["B_Carryall_green_F", 1],
