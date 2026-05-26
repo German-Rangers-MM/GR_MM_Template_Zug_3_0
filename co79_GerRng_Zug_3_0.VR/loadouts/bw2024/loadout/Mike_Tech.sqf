@@ -1,11 +1,11 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
-//	Mike_SaniL_Tech
+//	Mike_Tech
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-player setVariable ["GR_unitLoadout","Mike_SaniL_Tech"];
+player setVariable ["GR_unitLoadout","Mike_Tech"];
 
 //	https://community.bistudio.com/wiki/Unit_Loadout_Array
 player setUnitLoadout [

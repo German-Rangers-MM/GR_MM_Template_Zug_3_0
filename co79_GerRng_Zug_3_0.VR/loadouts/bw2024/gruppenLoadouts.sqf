@@ -38,6 +38,7 @@ GR_SchuetzenRollen = [
 	["Schütze-DM","Schuetze_DM"],
 	["Schütze-EHB","Schuetze_EHB"],
 	["Schütze-LMG","Schuetze_LMG"],
+	["Schütze-Träger","Schuetze_Traeger"],
 	["Breacher","Breacher"]
 	
 ];
@@ -55,25 +56,8 @@ GR_WaffenRollen = [
 	["Waffen-Assi.","Waffen_Assi"],
 	["Waffen-Spez. MAAWS","Waffen_Spez_Maaws"],
 	["Waffen-Assi. MAAWS","Waffen_Assi_Maaws"],
-	["Waffen-Spez. Metis","Waffen_Spez_Metis"],
-	["Waffen-Assi. Metis","Waffen_Assi_Metis"],
 	["Waffen-Spez. Mk48","Waffen_Spez_Mk48"],
 	["Waffen-Assi. Mk48","Waffen_Assi_Mk48"],
-	["Waffen-Spez. Titan AT","Waffen_Spez_TitanAT"],
-	["Waffen-Assi. Titan AT","Waffen_Assi_TitanAT"],
-	["Waffen-Spez. Titan AA","Waffen_Spez_TitanAA"],
-	["Waffen-Assi. Titan AA","Waffen_Assi_TitanAA"],
-	["Waffen-Spezi. M2","Waffen_Spez_M2"],
-	["Waffen-Assi. M2","Waffen_Assi_M2"],
-	["Waffen-Spezi. Mk19","Waffen_Spez_Mk19"],
-	["Waffen-Assi. Mk19","Waffen_Assi_Mk19"],
-	["Waffen-Spezi. TOW","Waffen_Spez_TOW"],
-	["Waffen-Assi. TOW","Waffen_Assi_TOW"],
-	["Waffen-Spezi. Mörser","Waffen_Spez_Moerser"],
-	["Waffen-Assi. Mörser","Waffen_Assi_Moerser"],
-	["Spezialpionier Mörser","Spezialpionier_Moerser"],
-	["Spezialpionier Tripod Normal","Spezialpionier_TriNorm"],
-	["Spezialpionier Tripod Low","Spezialpionier_TriLow"],
 	["Spezialpionier","Spezialpionier"]
 ];
 
@@ -104,7 +88,8 @@ GR_ScharfRollen = [
 //-----------------------------------------------------------------------------
 
 GR_KiloRollen = [
-	["Standard","KpFhr"]
+	["Standard","KpFhr"],
+	["Kompanietruppführer","Kp_TF"]
 ];
 
 //-----------------------------------------------------------------------------
@@ -125,11 +110,11 @@ GR_HotelRollen = [
 
 GR_MikeRollen = [
 	["Arzt vom Dienst","Mike_AvD"],
-	["Sanitäter vom Dienst","Mike_SvD"],
-	["Sanitäter - Fahrzeugführer","Mike_SaniP"],
-	["Sanitäter (Mike)","Mike_Sani"],
 	["Leichter Sanitäter","Mike_SaniL"],
-	["Leichter Sanitäter / techniker","Mike_SaniL_Tech"]
+	["Nahsicherer (Mike)","Mike_NahSi"],
+	["Sanitäter (Mike)","Mike_Sani"],
+	["Sanitäter vom Dienst","Mike_SvD"],
+	["Techniker","Mike_Tech"]
 ];
 
 //-----------------------------------------------------------------------------
@@ -174,16 +159,17 @@ GR_AlleRollen = [
 	["Gruppenführer","GrpFhr"],
 	["Gruppenführer WaGru","GrpFhr_WaGru"],
 	["Kompanieführer","KpFhr"],
+	["Kompanietruppführer","Kp_TF"],
 	["Lima","Lima"],
 	["Führung","Lima_GF"],
 	["Pilot","Lima_Pilot"],
 	["Sanitäter","Lima_Sani"],
 	["Arzt vom Dienst","Mike_AvD"],
-	["Sanitäter vom Dienst","Mike_SvD"],
+	["Leichter Sanitäter","Mike_SaniL"],
+	["Nahsicherer (Mike)","Mike_NahSi"],
 	["Sanitäter (Mike)","Mike_Sani"],
-	["Sanitäter - Fahrzeugführer","Mike_SaniP"],
-	["Sanitäter Leicht","Mike_SaniL"],
-	["Sanitäter Leicht / Techniker","Mike_SaniL_Tech"],
+	["Sanitäter vom Dienst","Mike_SvD"],
+	["Techniker","Mike_Tech"],
 	["Romeo Artillerie","Romeo_Arty"],
 	["Romeo Pilot","Romeo_Pilot"],
 	["Romeo Späh DM","Romeo_R_DM"],
@@ -196,6 +182,7 @@ GR_AlleRollen = [
 	["Schütze-EHB","Schuetze_EHB"],
 	["Schütze-DM","Schuetze_DM"],
 	["Schütze-LMG","Schuetze_LMG"],
+	["Schütze-Träger","Schuetze_Traeger"],
 	["Gruppenführer","Sierra_GrpFhr"],
 	["Aufklärungssanitäter","Sierra_AufSan"],
 	["Truppführer","Sierra_TF"],
@@ -231,16 +218,17 @@ GR_Packlisten = [
 	"GrpFhr",
 	"GrpFhr_WaGru",
 	"KpFhr",
+	"Kp_TF",
 	"Lima",
 	"Lima_GF",
 	"Lima_Pilot",
 	"Lima_Sani",
 	"Mike_AvD",
+	"Mike_NahSi",
 	"Mike_Sani",
-	"Mike_SaniP",
 	"Mike_SaniL",
-	"Mike_SaniL_Tech",
 	"Mike_SvD",
+	"Mike_Tech",
 	"Romeo_Arty",
 	"Romeo_Pilot",
 	"Romeo_R_DM",
@@ -253,6 +241,7 @@ GR_Packlisten = [
 	"Schuetze_DM",
 	"Schuetze_EHB",
 	"Schuetze_LMG",
+	"Schuetze_Traeger",
 	"Sierra_Aufkl",
 	"Sierra_AufSan",
 	"Sierra_Breacher",

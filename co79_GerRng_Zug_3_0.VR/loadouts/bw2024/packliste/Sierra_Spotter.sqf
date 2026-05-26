@@ -328,6 +328,11 @@
 	"CUP_G_PMC_Facewrap_Tropical_Glasses_Dark",
 	"CUP_G_PMC_Facewrap_Tan_Glasses_Dark",
 
+	"CUP_G_PMC_RadioHeadset_Glasses_Dark",
+    "CUP_G_PMC_RadioHeadset_Glasses_Ember",
+    "CUP_G_PMC_RadioHeadset_Glasses",
+    "CUP_G_PMC_RadioHeadset",
+
 	"G_B_Diving",
 
 //------------------------------------------------------------------

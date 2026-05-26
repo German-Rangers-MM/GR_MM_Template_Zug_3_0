@@ -271,6 +271,11 @@
 
 	"G_B_Diving",
 
+	"CUP_G_PMC_RadioHeadset_Glasses_Dark",
+    "CUP_G_PMC_RadioHeadset_Glasses_Ember",
+    "CUP_G_PMC_RadioHeadset_Glasses",
+    "CUP_G_PMC_RadioHeadset",
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //

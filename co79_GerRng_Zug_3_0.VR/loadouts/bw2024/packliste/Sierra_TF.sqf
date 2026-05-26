@@ -211,6 +211,8 @@
 
 	"CUP_hgun_Glock17_blk",
 
+	"CUP_hgun_FlareGun",
+
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
@@ -338,6 +340,11 @@
 	"CUP_G_PMC_Facewrap_Black_Glasses_Dark",
 	"CUP_G_PMC_Facewrap_Tropical_Glasses_Dark",
 	"CUP_G_PMC_Facewrap_Tan_Glasses_Dark",
+
+	"CUP_G_PMC_RadioHeadset_Glasses_Dark",
+    "CUP_G_PMC_RadioHeadset_Glasses_Ember",
+    "CUP_G_PMC_RadioHeadset_Glasses",
+    "CUP_G_PMC_RadioHeadset",
 
 	"G_B_Diving",
 
@@ -476,14 +483,33 @@
 
 	"CUP_1Rnd_HE_M203",
 	"CUP_1Rnd_HEDP_M203",
+
 	"ACE_HuntIR_M203",
+
 	"1Rnd_Smoke_Grenade_shell",
 	"1Rnd_SmokeGreen_Grenade_shell",
 	"1Rnd_SmokeRed_Grenade_shell",
+
 	"CUP_1Rnd_StarCluster_Red_M203",
+
 	"UGL_FlareWhite_F",
 	"UGL_FlareGreen_F",
 	"UGL_FlareRed_F",
+
+	"CUP_FlareGreen_265_M",
+    "CUP_FlareRed_265_M",
+    "CUP_FlareWhite_265_M",
+    "CUP_FlareYellow_265_M",
+
+    "CUP_IllumFlareGreen_265_M",
+    "CUP_IllumFlareRed_265_M",
+    "CUP_IllumFlareWhite_265_M",
+    "CUP_IllumFlareYellow_265_M",
+
+    "CUP_StarClusterGreen_265_M",
+    "CUP_StarClusterRed_265_M",
+    "CUP_StarClusterWhite_265_M",
+    "CUP_StarClusterYellow_265_M",
 
 	"CUP_17Rnd_9x19_glock17",
 
@@ -593,6 +619,8 @@
 
 	"ACE_SpraypaintBlack",
 	"ACE_SpraypaintGreen",
-	"ACE_SpraypaintWhite"
+	"ACE_SpraypaintWhite",
+
+	"itc_land_tablet_rover"
 
 ];

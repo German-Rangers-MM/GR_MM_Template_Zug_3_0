@@ -257,6 +257,10 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 
+	"B_Kitbag_cbr_Medic",
+    "B_Kitbag_rgr_Medic",
+    "B_Kitbag_tan_Medic",
+
 	"CUP_B_GER_Pack_Flecktarn",
 	"CUP_B_GER_Pack_Tropentarn",
 
@@ -324,6 +328,11 @@
 	"CUP_G_PMC_Facewrap_Tan_Glasses_Dark",
 
 	"G_B_Diving",
+
+	"CUP_G_PMC_RadioHeadset_Glasses_Dark",
+    "CUP_G_PMC_RadioHeadset_Glasses_Ember",
+    "CUP_G_PMC_RadioHeadset_Glasses",
+    "CUP_G_PMC_RadioHeadset",
 
 //------------------------------------------------------------------
 //------------------------------------------------------------------
