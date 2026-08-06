@@ -211,6 +211,10 @@ _base_menu = ["GR Base","GR Base","images\GermanRangersLogo.paa",{  },_condition
 if (getMissionConfigValue "allowWaffenkammer" == "true") then { 
 	_waffenkammer = ["Waffenkammer","Waffenkammer","a3\ui_f\data\gui\rsc\rscdisplayarsenal\spacegarage_ca.paa",{ execVM waffenkammerpfad; },_condition] call ace_interact_menu_fnc_createAction;
 	[(typeOf player), 1, ["ACE_SelfActions","GR Base"], _waffenkammer] call ace_interact_menu_fnc_addActionToClass;
+	_saveLoadout_action = ["Loadout_Speichern","Loadout Speichern","a3\modules_f\data\iconsavegame_ca.paa",{ player call SGN_fnc_loadoutSave; },_condition] call ace_interact_menu_fnc_createAction;
+	[player, 1, ["ACE_SelfActions","GR Base","Waffenkammer"], _saveLoadout_action] call ace_interact_menu_fnc_addActionToObject;
+	_resetLoadout_action = ["Loadout_Zuruecksetzten","Loadout Zurücksetzten","a3\3den\data\cfgwaypoints\cycle_ca.paa",{ player call SGN_fnc_loadoutReset; },_condition] call ace_interact_menu_fnc_createAction;
+	[player, 1, ["ACE_SelfActions","GR Base","Waffenkammer"], _resetLoadout_action] call ace_interact_menu_fnc_addActionToObject;
 };
 
 // Add Teleport to ACE Menu GR Base
