@@ -3,7 +3,7 @@
     "GerRng_faction_Box_WS_WaGru_st_VIII",
 
     //ACE
-    ["ACE_1Rnd_82mm_Mo_HE",16],
+    ["ACE_1Rnd_82mm_Mo_HE",20],
 
     //ARMA 3
     ["B_Carryall_green_F", 1]

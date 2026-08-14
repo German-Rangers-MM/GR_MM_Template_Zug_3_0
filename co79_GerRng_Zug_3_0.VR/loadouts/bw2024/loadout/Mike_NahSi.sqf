@@ -1,11 +1,11 @@
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 //
-//	Waffen_Assi_Mk48
+//	Mike_NahSi
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-player setVariable ["GR_unitLoadout","Waffen_Assi_Mk48"];
+player setVariable ["GR_unitLoadout","Mike_NahSi"];
 
 //	https://community.bistudio.com/wiki/Unit_Loadout_Array
 player setUnitLoadout [
@@ -13,20 +13,20 @@ player setUnitLoadout [
 	[],
 	["CUP_hgun_M17_Black","","","",["CUP_17Rnd_9x19_M17_Black",17],[],""],
 	["CUP_U_B_GER_Fleck_Crye",[["ACE_fieldDressing",5],["ACE_elasticBandage",5],["ACE_packingBandage",5],["kat_chestSeal",2],["ACE_morphine",1],["ACE_salineIV_500",2],["ACE_splint",2],["ACE_tourniquet",2],["ACE_CableTie",2],["ACE_EarPlugs",1],["ItemcTabHCam",1],["ACE_IR_Strobe_Item",2],["ACE_Flashlight_XL50",1],["ACE_MapTools",1]]],
-	["gerrng_PlateCarrier1_Flecktarn",[["CUP_NVG_PVS15_black",1],["ACE_EntrenchingTool",1],["ACE_wirecutter",1],["CUP_17Rnd_9x19_M17_Black",1,17],["SmokeShell",2,1],["CUP_HandGrenade_M67",2,1],["CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",1,100],["CUP_30Rnd_TE1_Red_Tracer_556x45_G36_wdl",2,30],["CUP_30Rnd_556x45_G36_wdl",6,30]]],
-	["CUP_B_GER_Medic_Flecktarn",[["CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",4,100]]],
-	"CUP_H_OpsCore_Covered_Fleck_SF","",["Rangefinder","","","",[],[],""],
-	["ItemMap","ItemMicroDAGR","TFAR_anprc152","ItemCompass","ItemWatch",""]
+	["gerrng_PlateCarrier1_Flecktarn",[["CUP_NVG_PVS15_black",1],["CUP_17Rnd_9x19_M17_Black",1,17],["SmokeShell",2,1],["CUP_30Rnd_TE1_Red_Tracer_556x45_G36_wdl",2,30],["CUP_30Rnd_556x45_G36_wdl",4,30]]],
+	["B_Kitbag_rgr",[["ACE_adenosine",7],["ACE_elasticBandage",30],["ACE_packingBandage",10],["ACE_epinephrine",10],["ACE_morphine",1],["ACE_salineIV_500",22],["ACE_splint",5],["ACE_surgicalKit",1],["ACE_tourniquet",4],["kat_IV_16",25],["kat_chestSeal",10],["kat_EACA",5],["kat_IO_FAST",5],["kat_fentanyl",5],["kat_ketamine",2],["kat_larynx",15],["kat_naloxone",1],["kat_nitroglycerin",6],["kat_Pulseoximeter",3],["kat_TXA",10],["kat_BVM",1],["kat_stethoscope",1],["kat_ncdKit",5]]],
+	"CUP_H_OpsCore_Covered_Fleck_SF","",[],
+	["ItemMap","","TFAR_anprc152","ItemCompass","ItemWatch",""]
 ];
 
 //------------------------------------------------------------------
 //	ACE Optionen fuer Spieler
 //------------------------------------------------------------------
 //	Medic:
-player setVariable ["ACE_medical_medicClass",0,true];
+player setVariable ["ACE_medical_medicClass",2,true];
 
 //	Combat Engineer:
-player setVariable ["ACE_isEngineer",0,true];
+player setVariable ["ACE_isEngineer",1,true];
 
 //	Explosive Specialist:
 player setVariable ["ACE_isEOD",false,true];

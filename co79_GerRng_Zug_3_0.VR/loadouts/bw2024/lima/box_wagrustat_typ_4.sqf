@@ -6,5 +6,5 @@
     ["B_Carryall_green_F", 1],
 
     //CUP
-    ["CUP_compats_48Rnd_40mm_MK19_M", 10]
+    ["CUP_compats_48Rnd_40mm_MK19_M", 15]
 ];

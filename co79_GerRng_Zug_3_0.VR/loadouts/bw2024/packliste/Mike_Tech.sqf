@@ -15,28 +15,6 @@
     "CUP_arifle_G36CA3_camo",
     "CUP_arifle_G36CA3_wdl",
 
-    //Grenadier 
-
-    "CUP_arifle_AG36",
-    "CUP_arifle_G36A_AG36_RIS_camo",
-    "CUP_arifle_G36A_AG36_RIS_wdl",
-
-    "CUP_arifle_G36A3_AG36",
-    "CUP_arifle_G36A3_AG36_camo",
-    "CUP_arifle_G36A3_AG36_wdl",
-
-    "arifle_SPAR_01_GL_blk_F",
-    "arifle_SPAR_01_GL_snd_F",
-    "arifle_SPAR_01_GL_khk_F",
-
-    "CUP_arifle_HK416_AGL_Black",
-    "CUP_arifle_HK416_AGL_Desert",
-    "CUP_arifle_HK416_AGL_Wood",
-
-    "CUP_arifle_HK416_CQB_AG36",
-    "CUP_arifle_HK416_CQB_AG36_Desert",
-    "CUP_arifle_HK416_CQB_AG36_Wood",
-
     //Vehicle Crew 
 
     "CUP_smg_MP5A5",
@@ -93,50 +71,11 @@
     "SPS_hk416d_10_4_smr_hk_ctr_afg_ral8000_f",
     "SPS_hk416d_10_4_smr_hk_ctr_afg_sf_ral8000_f",
 
-    //Grenadier 
-
-    "SPS_hk416_11_glm_hk_ctr_black_f",
-    "SPS_hk416_11_glm_ral8000_f",
-
-    "SPS_hk416_14_5_glm_hk_black_f",
-    "SPS_hk416_14_5_glm_hk_sf_black_f",
-    "SPS_hk416_14_5_glm_hk_a7_black_f",
-    "SPS_hk416_14_5_glm_hk_ctr_black_f",
-    "SPS_hk416_14_5_glm_hk_ctr_sf_black_f",
-    "SPS_hk416_14_5_glm_hk_ctr_a7_black_f",
-
-    "SPS_hk416_14_5_glm_hk_ral8000_f",
-    "SPS_hk416_14_5_glm_hk_sf_ral8000_f",
-    "SPS_hk416_14_5_glm_hk_a7_ral8000_f",
-    "SPS_hk416_14_5_glm_hk_ctr_ral8000_f",
-    "SPS_hk416_14_5_glm_hk_ctr_sf_ral8000_f",
-    "SPS_hk416_14_5_glm_hk_ctr_a7_ral8000_f",
-
-    "SPS_hk416_16_5_glm_hk_black_f",
-    "SPS_hk416_16_5_glm_hk_sf_black_f",
-    "SPS_hk416_16_5_glm_hk_a7_black_f",
-    "SPS_hk416_16_5_glm_hk_ctr_black_f",
-    "SPS_hk416_16_5_glm_hk_ctr_sf_black_f",
-    "SPS_hk416_16_5_glm_hk_ctr_a7_black_f",
-
-    "SPS_hk416_16_5_glm_hk_ral8000_f",
-    "SPS_hk416_16_5_glm_hk_sf_ral8000_f",
-    "SPS_hk416_16_5_glm_hk_a7_ral8000_f",
-    "SPS_hk416_16_5_glm_hk_ctr_ral8000_f",
-    "SPS_hk416_16_5_glm_hk_ctr_sf_ral8000_f",
-    "SPS_hk416_16_5_glm_hk_ctr_a7_ral8000_f",
-
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Visiere
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-
-    //WaGru 
-
-    "CUP_optic_SB_11_4x20_PM_od",
-    "CUP_optic_SB_11_4x20_PM_tan",
-    "CUP_optic_SB_11_4x20_PM",
 
     // ==================================================================
     //SPS 
@@ -165,6 +104,10 @@
     // ==================================================================
     //Utility 
     // ==================================================================
+
+    "muzzle_antenna_02_f",
+    "muzzle_antenna_03_f",
+    "muzzle_antenna_01_f",
     
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
@@ -182,32 +125,7 @@
 
     "CUP_hgun_FlareGun",
 
-    // ------------------------------------------------------------------
-    // ------------------------------------------------------------------
-    // Launcher
-    // ------------------------------------------------------------------
-    // ------------------------------------------------------------------
-
-    //Standard
-
-    "CUP_launch_M72A6",
-
-    "CUP_launch_M136",
-
-    //Satics 
-
-    "CUP_toW2_carry",
-    "ace_csw_m220CarryTripod",
-    "GerRng_csw_M3M_carry",
-    "GerRng_csw_M3M_carry_Scope",
-    "GerRng_csw_M3M_carry_Shield",
-    "GerRng_csw_M3M_carry_ScopeShield",
-    "GerRng_csw_GraMaWa_carry",
-    "ace_csw_m3CarryTripod",
-    "ace_csw_m3CarryTripodLow",
-    "CUP_MK19_carry",
-    "CUP_m252_carry",
-    "ace_csw_carryMortarBaseplate",
+    "hgun_esd_01_F",
 
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
@@ -217,7 +135,15 @@
 
     //Vehicle Crew
 
-    "CUP_U_B_GER_Fleck_Overalls_tank",
+    "U_B_HeliPilotCoveralls",
+    "CUP_U_B_USArmy_PilotOverall",
+    "CUP_U_B_USMC_PilotOverall",
+    "CUP_U_B_GER_Fleck_Overalls_pilot",
+
+    //Utility 
+
+    "U_B_CBRN_Suit_01_Wdl_F",
+    "U_B_CBRN_Suit_01_MTP_F",
 
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
@@ -227,11 +153,20 @@
 
     //Standard
 
-    "CUP_V_B_GER_Pvest_Fleck_TL",
-    "CUP_V_B_GER_Pvest_Trop_TL",
+    "CUP_V_B_GER_Pvest_Fleck_RFL",
+    "CUP_V_B_GER_Pvest_Trop_RFL",
 
-    "CUP_V_B_GER_Pvest_Fleck_TL_LT",
-    "CUP_V_B_GER_Pvest_Trop_TL_LT",
+    "CUP_V_B_GER_Pvest_Fleck_RFL_LT",
+    "CUP_V_B_GER_Pvest_Trop_RFL_LT",
+
+    //Utility 
+
+    "CUP_V_B_pilotvest",
+
+    "V_EOD_olive_F",
+    "V_EOD_coyote_F",
+
+    "V_Safety_yellow_F",
 
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
@@ -239,21 +174,24 @@
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
 
-    //Statics 
+    //Drohnen
 
-    "GerRng_csw_GMG_GraMaWa_Gun_Bag",
-    "GerRng_csw_GMG_GraMaWa_Tripod_bag",
+    "B_UGV_02_Demining_backpack_F",
+    "B_UGV_02_Science_backpack_F",
+    "B_UAV_06_backpack_F",
 
-    "CUP_B_Mk19_Gun_Bag",
-    "CUP_B_Mk19_Tripod_Bag",
-    "CUP_B_M2_Gun_Bag",
-    "CUP_B_M2_miniTripod_Bag",
-    "CUP_B_M2_Tripod_Bag",
-    "CUP_B_M252_Bipod_Bag",
-    "CUP_B_M252_Gun_Bag",
-    "CUP_B_toW2_Tripod_Bag",
-    "CUP_B_tow_Gun_Bag",
-    "CUP_B_toW_Tripod_Bag",
+    "GerRng_faction_UAV_06_backpack_F",
+    "GerRng_faction_UAV_06_antimine_backpack_F",
+    "GerRng_faction_UAV_06_medical_backpack_F",
+
+    //Utility 
+
+    "B_CombinationUnitRespirator_01_F",
+    "B_SCBA_01_F",
+
+    "ACE_Tacticalladder_Pack",
+
+    "kat_stretcherBag",
 
     // ==================================================================
     //Funk
@@ -270,45 +208,79 @@
 
     //Blank 
 
+    "tfw_ilbeRT1523_whip_flk",
+    "tfw_ilbeMR3000_whip_flk",
+    "tfw_ilbeARC210_whip_flk",
+
     "tfw_ilbeRT1523_DD_flk",
     "tfw_ilbeMR3000_DD_flk",
+    "tfw_ilbeARC210_DD_flk",
     
     "tfw_ilbeRT1523_blade_flk",
     "tfw_ilbeMR3000_blade_flk",
+    "tfw_ilbeARC210_blade_flk",
+
+    "tfw_ilbeRT1523_whip_trp",
+    "tfw_ilbeMR3000_whip_trp",
+    "tfw_ilbeARC210_whip_trp",
 
     "tfw_ilbeRT1523_DD_trp",
     "tfw_ilbeMR3000_DD_trp",
+    "tfw_ilbeARC210_DD_trp",
     
     "tfw_ilbeRT1523_blade_trp",
     "tfw_ilbeMR3000_blade_trp",
+    "tfw_ilbeARC210_blade_trp",
 
-    //Bravo 
+    "tfw_ilbeRT1523_whip_gr",
+    "tfw_ilbeMR3000_whip_gr",
+    "tfw_ilbeARC210_whip_gr",
 
-    "tfw_ilbeRT1523_DD_bravoflk",
-    "tfw_ilbeMR3000_DD_bravoflk",
+    "tfw_ilbeRT1523_DD_gr",
+    "tfw_ilbeMR3000_DD_gr",
+    "tfw_ilbeARC210_DD_gr",
     
-    "tfw_ilbeRT1523_blade_bravoflk",
-    "tfw_ilbeMR3000_blade_bravoflk",
+    "tfw_ilbeRT1523_blade_gr",
+    "tfw_ilbeMR3000_blade_gr",
+    "tfw_ilbeARC210_blade_gr",
 
-    "tfw_ilbeRT1523_DD_bravotrp",
-    "tfw_ilbeMR3000_DD_bravotrp",
+    "tfw_ilbeRT1523_whip_coy",
+    "tfw_ilbeMR3000_whip_coy",
+    "tfw_ilbeARC210_whip_coy",
+
+    "tfw_ilbeRT1523_DD_coy",
+    "tfw_ilbeMR3000_DD_coy",
+    "tfw_ilbeARC210_DD_coy",
     
-    "tfw_ilbeRT1523_blade_bravotrp",
-    "tfw_ilbeMR3000_blade_bravotrp",
+    "tfw_ilbeRT1523_blade_coy",
+    "tfw_ilbeMR3000_blade_coy",
+    "tfw_ilbeARC210_blade_coy",
 
-    //Yankee
+    //Mike 
 
-    "tfw_ilbeRT1523_DD_yankeeflk",
-    "tfw_ilbeMR3000_DD_yankeeflk",
+    "tfw_ilbeRT1523_whip_mikeflk",
+    "tfw_ilbeMR3000_whip_mikeflk",
+    "tfw_ilbeARC210_whip_mikeflk",
+
+    "tfw_ilbeRT1523_DD_mikeflk",
+    "tfw_ilbeMR3000_DD_mikeflk",
+    "tfw_ilbeARC210_DD_mikeflk",
     
-    "tfw_ilbeRT1523_blade_yankeeflk",
-    "tfw_ilbeMR3000_blade_yankeeflk",
+    "tfw_ilbeRT1523_blade_mikeflk",
+    "tfw_ilbeMR3000_blade_mikeflk",
+    "tfw_ilbeARC210_blade_mikeflk",
 
-    "tfw_ilbeRT1523_DD_yankeetrp",
-    "tfw_ilbeMR3000_DD_yankeetrp",
+    "tfw_ilbeRT1523_whip_miketrp",
+    "tfw_ilbeMR3000_whip_miketrp",
+    "tfw_ilbeARC210_whip_miketrp",
+
+    "tfw_ilbeRT1523_DD_miketrp",
+    "tfw_ilbeMR3000_DD_miketrp",
+    "tfw_ilbeARC210_DD_miketrp",
     
-    "tfw_ilbeRT1523_blade_yankeetrp",
-    "tfw_ilbeMR3000_blade_yankeetrp",
+    "tfw_ilbeRT1523_blade_miketrp",
+    "tfw_ilbeMR3000_blade_miketrp",
+    "tfw_ilbeARC210_blade_miketrp",
 
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
@@ -320,15 +292,24 @@
 
     "H_Helmetcrew_B",
 
+    "H_crewHelmetHeli_O",
+    "H_pilotHelmetHeli_O",
+   
+    "H_crewHelmetHeli_B",
+    "H_pilotHelmetHeli_B",
+    "CUP_H_SPH4_khaki",
+
+    "GerRng_helmets_helmet_pilot_w",
+    "GerRng_helmets_helmet_pilot_b",
+    "GerRng_helmets_helmet_pilot_w",
+    "GerRng_helmets_helmet_pilot_b",
+
     //Utility 
 
-    "CUP_H_PMC_EP_Headset",
-    "CUP_H_PMC_PRR_Headset",
+    "H_Construction_basic_yellow_F",
 
-    "CUP_G_PMC_RadioHeadset_Glasses_Dark",
-    "CUP_G_PMC_RadioHeadset_Glasses_Ember",
-    "CUP_G_PMC_RadioHeadset_Glasses",
-    "CUP_G_PMC_RadioHeadset",
+    "H_HelmetSpecB_wdl",
+    "H_HelmetSpecB_sand",
 
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
@@ -342,11 +323,29 @@
 
     "G_Bandanna_aviator",
 
+    "CUP_G_TK_roundGlasses",
+
+    //Utility 
+
+    "G_AirPurifyingRespirator_01_F",
+
+    "G_RegulatorMask_F",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // NVGs
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
+    //Vehicle Crew 
+
+    "CUP_NVG_GPNVG_black",
+    "CUP_NVG_GPNVG_black_WP",
+
+    //Sierra 
+
+    "ACE_NVG_Gen4_Black",
+	"ACE_NVG_Gen4_Black_WP",
 
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
@@ -367,116 +366,22 @@
     //cTab & GPS
 
     "Itemandroid",
-    "ItemcTab",
     "ItemMicroDAGR",
+
+    //Electronics
+
+    "B_UavTerminal",
+    "C_UavTerminal",
+
+    "ChemicalDetector_01_watch_F",
+
+    "KAT_ChemicalDetector",
 
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // magazines
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-
-    //LMG
-
-    "CUP_200Rnd_TE4_Red_Tracer_556x45_M249",
-
-    "CUP_200Rnd_TE1_Red_Tracer_556x45_M249_Pouch",
-	"CUP_200Rnd_TE4_Red_Tracer_556x45_M249_Pouch",
-
-    //UGL 
-
-    "1Rnd_SmokeBlue_Grenade_shell",
-    "1Rnd_SmokeGreen_Grenade_shell",
-    "1Rnd_SmokeOrange_Grenade_shell",
-    "1Rnd_SmokePurple_Grenade_shell",
-    "1Rnd_SmokeRed_Grenade_shell",
-    "1Rnd_Smoke_Grenade_shell",
-    "1Rnd_SmokeYellow_Grenade_shell",
-
-    "UGL_FlareGreen_F",
-    "UGL_FlareCIR_F",
-    "UGL_FlareRed_F",
-    "UGL_FlareWhite_F",
-    "UGL_FlareYellow_F",
-
-    "UGL_FlareGreen_Illumination_F",
-    "UGL_FlareRed_Illumination_F",
-    "UGL_FlareWhite_Illumination_F",
-    "UGL_FlareYellow_Illumination_F",
-
-    "CUP_1Rnd_StarCluster_Red_M203",
-
-    "ACE_40mm_Flare_white",
-    "ACE_40mm_Flare_green",
-    "ACE_40mm_Flare_red",
-
-
-    //Regular Anti-Tank
-    
-    "GerRng_weapons_PTFHC_M",
-    "GerRng_weapons_PTFHE_M",
-
-    //WaGru
-
-    "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",
-    "CUP_200Rnd_TE1_LRT4_Red_Tracer_762x51_Belt_M",
-
-    "CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",
-
-    "CUP_SMAW_HEAA_M",
-    "CUP_SMAW_HEDP_M",
-    "CUP_SMAW_NE_M",
-    "CUP_SMAW_Spotting",
-
-    "Titan_AA",
-    "Titan_AT",
-    "Titan_AP",
-
-    "ace_spike_lr",
-
-    "Vorona_HEAT",
-    "Vorona_HE",
-
-    "MRAWS_HE_F",
-    "MRAWS_HEAT55_F",
-    "MRAWS_HEAT_F",
-    "MAA_MAAWS_ASM509",
-    "MAA_MAAWS_HEDP502",
-    "MAA_MAAWS_MT756",
-    "MAA_MAAWS_ILLUM545",
-    "MAA_MAAWS_SMOKE469",
-
-    "GerRng_MAAWS_GMM_HE",
-    "GerRng_MAAWS_GMM_HEAT",
-    "GerRng_MAAWS_GMM_MT",
-
-    //WaGru Static Weapon Ammo
-
-    "CUP_compats_48Rnd_40mm_MK19_M",
-    "CUP_compats_toW2_M",
-
-    "ace_csw_100Rnd_127x99_mag",
-    "ace_csw_100Rnd_127x99_mag_red",
-
-    "GerRng_100Rnd_127x99_mag_csw",
-    "GerRng_100Rnd_127x99_mag_slap_csw",
-    "GerRng_100Rnd_127x99_mag_slap_tracer_red_csw",
-    "GerRng_100Rnd_127x99_mag_red_csw",
-
-    "GerRng_150Rnd_127x99_mag_csw",
-    "GerRng_150Rnd_127x99_mag_slap_csw",
-    "GerRng_150Rnd_127x99_mag_slap_tracer_red_csw",
-    "GerRng_150Rnd_127x99_mag_red_csw",
-
-    "GerRng_200Rnd_127x99_mag_csw",
-    "GerRng_200Rnd_127x99_mag_slap_csw",
-    "GerRng_200Rnd_127x99_mag_slap_tracer_red_csw",
-    "GerRng_200Rnd_127x99_mag_red_csw",
-
-    "ACE_1Rnd_82mm_Mo_HE",
-    "ACE_1Rnd_82mm_Mo_Illum",
-    "ACE_1Rnd_82mm_Mo_Smoke",
-    "ACE_1Rnd_82mm_Mo_HE_LaserGuided",
 
     //Flaregun
 
@@ -538,17 +443,45 @@
 
     "JCA_HandFlare_Green",
     "JCA_HandFlare_Red",
+    "SKY_JCA_HandFlare_Blue",
     "SKY_JCA_HandFlare_Purple",
+    "SKY_JCA_HandFlare_White",
+    "SKY_JCA_HandFlare_Yellow",
 
     "JCA_SignalFlare_Green",
     "JCA_SignalFlare_Red",
-    "SKY_JCA_SignalFlare_Purple",     
+    "SKY_JCA_SignalFlare_Blue",
+    "SKY_JCA_SignalFlare_Purple",
+    "SKY_JCA_SignalFlare_White",
+    "SKY_JCA_SignalFlare_Yellow",       
+
+    //Other
+
+    "B_IR_Grenade",
 
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // explosives / Put
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
+
+    //Standard
+
+    "DemoCharge_Remote_Mag",
+
+    //Breach 
+
+    "tsp_breach_block_mag",
+    "tsp_breach_block_auto_mag",
+    "tsp_breach_dip_mag",
+    "tsp_breach_dip_auto_mag",
+    "tsp_breach_linear_mag",
+    "tsp_breach_linear_auto_mag",
+    "tsp_breach_popper_mag",
+    "tsp_breach_popper_auto_mag",
+    "tsp_breach_package_mag",
+    "tsp_breach_silhouette_mag",
+    "tsp_breach_stick_mag",
 
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
@@ -570,6 +503,13 @@
 
     //Tools 
 
+    "toolKit",
+
+    "ACE_DefusalKit",
+    "ACE_fortify",
+
+    //Electronics 
+
     "ACE_microDAGR",
 
     //Triggers
@@ -577,18 +517,16 @@
     "ACE_Clacker",
     "ACE_M26_Clacker", 
 
-    //MapItems
-
-    "ACE_PlottingBoard",
+    "tsp_breach_shock", 
 
     //Ilbe 
 
+    "tfw_rf3080Item",
     "tfw_blade",
+    "tfw_whip",
     "tfw_dd",
 
-    //Other 
-
-    "ACE_artilleryTable",
+    "kat_CarryStretcherBag",
 
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
@@ -632,25 +570,44 @@
     "ace_flags_white",
     "ace_flags_yellow", 
 
+    //Ropes 
+
+    "ACE_rope3",
+    "ACE_rope12",
+    "ACE_rope15",
+    "ACE_rope15",
+    "ACE_rope18",
+    "ACE_rope27",
+    "ACE_rope36",
+
     //Bandos
 
-    "GerRng_bandoliers_grenade_8_8_exp_40mm",
-    "GerRng_bandoliers_grenade_8_8_flare_40mm",
-    "GerRng_bandoliers_grenade_8_8_smoke_40mm",
     "GerRng_bandoliers_grenade_3_3_flare_hand",
-    "GerRng_bandoliers_mg_4_4_m249_200Rnd",
-    "GerRng_bandoliers_mg_4_4_MG3_120Rnd",
-    "GerRng_bandoliers_mg_4_4_mk48_100Rnd",
-    "GerRng_bandoliers_rifle_5_5_417_30Rnd",
 
     //cTab 
 
     "ItemMicroDAGRMisc",
-    "ItemcTabMisc",
     "ItemAndroidMisc",
+
+    //Electronics & Tools 
+
+    "crowsew_tfar_icom",
+    "crowsew_ctrack",
+
+    "RS_TDC_DataCartridge",
+    "RS_TDC_ProgrammingLaptop",
+
+    //Breaching
+
+    "GerRng_breaching_crowbar",
+    "GerRng_breaching_halligan",
+    "GerRng_breaching_pickgun",
+    "GerRng_breaching_screwdriver",
+    "GerRng_breaching_sledgehammer",
+    "GerRng_breaching_speedsquare",
 
     //Other 
 
-    "ACE_SpareBarrel"
+    "kat_Armband_Red_Cross_Item"
 
 ];

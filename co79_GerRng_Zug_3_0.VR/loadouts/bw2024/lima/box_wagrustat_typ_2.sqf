@@ -3,7 +3,7 @@
     "GerRng_faction_Box_WS_WaGru_st_II",
 
     //ACE
-    ["ace_csw_100Rnd_127x99_mag_red", 6],
+    ["ace_csw_100Rnd_127x99_mag_red", 11],
 
     //ARMA 3
     ["B_Carryall_green_F", 1]
