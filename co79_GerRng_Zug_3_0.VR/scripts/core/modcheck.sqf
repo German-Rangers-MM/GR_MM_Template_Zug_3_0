@@ -9,21 +9,14 @@ _whitelistedMods = 	[
 
 						// Kampagnen Mods
 						"@FPV Drone Crocus", "3045129955",
-						"@AET Plan Importer", "3488328833",
-						"@User Input Menus", "1673595418",
 						"@Hate's Digital Camera", "2577441180",
 						"@GRAD Civilians", "2140453587",
 						"@Animate - Radio", "3283635033",
-						"@Metis Marker", "1508091616",
 						"@LAFS - Light AI Fire Support", "3323604819",
 						"@Dynamic AI Minefields - RCO", "2650906858",
-						"@Global Ops Terrains", "2917444360",
-						"@North Takistan", "2829330653",
-						"@ITC Addons - Rover LAD (Fixed)", "3442884220",
 						"@Fifty Shades of Female (formerly FEMAL3 Heads)", "374775446",
 						"@Fifty Shades of Gen3 (formerly FEMAL3 Uniforms)", "374780664",
 						"@MT-LB - The Soviet Workhorse", "3615518979",
-						"@Immersion Cigs - Rewrite", "3375788189",
 
 						// Missionmaker Mods
 						"@3den Enhanced", "623475643",
@@ -40,6 +33,7 @@ _whitelistedMods = 	[
 						"@LAMBS_Suppression","1808238502",
 						"@LAMBS_Turrets","1862208264",
 						"@Advanced Developer Tools", "3499977893",
+						"@Deformer", "2822758266",
 						
 						// CUP
 						"@CUP Terrains - Core", "583496184",
@@ -71,6 +65,9 @@ _whitelistedMods = 	[
 						"@Breach - Rewrite", "3283645995",
 						"@Speshal Core", "3283642267",
 						"@Drongos Artillery", "1675485070",
+						"@AET Plan Importer", "3488328833",
+						"@Metis Marker", "1508091616",
+						"@User Input Menus", "1673595418",
 
 						//Gameplay & Ausrüstung
 						"@Crows Electronic Warfare", "2515887728",
@@ -89,9 +86,29 @@ _whitelistedMods = 	[
 						"@A3 Thermal Improvement", "2041057379",
 						"@SPS Weapons V2", "2811886291",
 						"@SPS Equipment", "1187306764",
+						"@ITC Addons - Rover LAD (Fixed)", "3442884220",
+						"@Immersion Cigs - Rewrite", "3375788189",
 
 						"@USAF Mod - Main", "2397360831",
 						"@USAF Mod - Utility", "2397376046",
+						"@USAF_AC130_BETA","2226368165",
+						"@STmod_AC130J","3686190970",
+
+						"@[1TRP-SOAR] Missile Warning Receiver (MWR)","3723166094",
+						"@JCA - Hand Flares","2991684121",
+						"@JCA Hand Flares Additions","3678888441",
+						"@Prone with Launcher [2025 'Update']","2601465862",
+						"@GRAD Sling Helmet","1354112941",
+						"@Terrain Lib", "2966168738",
+						"@Chameleon Trenches","2914901109",
+						"@Trencher - Eden Trench Generation","3256534418",
+						"@ACE FRIES All Helicopters","3045971263",
+						"@KAT - Notebook","1839874719",
+						"@HMDs MOD","312724602",
+						"@HMDs - CUP","1175642869",
+						"@HMDs Mod but it no longer breaks anything","3346384116",
+						"@[1TRP-SOAR] Targeting Data Cartridge [Alpha Version]","3734595032",
+
 
 						//Additional Maps
 						"@Jbad", "520618345",
@@ -110,6 +127,12 @@ _whitelistedMods = 	[
 						"@Yulakia","2950257727",
 						"@Ruha","1368857262",
 						"@Livonian Lighting: Ruha","1923062007",
+						"@North Takistan", "2829330653",
+						"@Deniland", "1231955722",
+
+						//Zeus Mods 
+						"@Zeus Enhanced Targeting (ZET) + (v1.2 Custom Filters)","3660920964",
+						"@[FOD] Improved Zeus Monitor","3513210722",
 
 						//----------------------------------
 						//

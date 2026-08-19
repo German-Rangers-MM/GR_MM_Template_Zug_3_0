@@ -548,6 +548,20 @@
     "ACE_HandFlare_Red",
     "ACE_HandFlare_Green",
 
+	"JCA_HandFlare_Green",
+    "JCA_HandFlare_Red",
+    "SKY_JCA_HandFlare_Blue",
+    "SKY_JCA_HandFlare_Purple",
+    "SKY_JCA_HandFlare_White",
+    "SKY_JCA_HandFlare_Yellow",
+
+    "JCA_SignalFlare_Green",
+    "JCA_SignalFlare_Red",
+    "SKY_JCA_SignalFlare_Blue",
+    "SKY_JCA_SignalFlare_Purple",
+    "SKY_JCA_SignalFlare_White",
+    "SKY_JCA_SignalFlare_Yellow",
+
     "ACE_M84",
 	"ACE_CTS9",
 
@@ -650,6 +664,11 @@
 	"ACE_SpraypaintGreen",
 	"ACE_SpraypaintWhite",
 
-	"itc_land_tablet_rover"
+	"itc_land_tablet_rover",
+
+	"KNB_PanelGreen",
+    "KNB_PanelRed",
+    "KNB_PanelYellow",
+    "KNB_Notebook"
 
 ];

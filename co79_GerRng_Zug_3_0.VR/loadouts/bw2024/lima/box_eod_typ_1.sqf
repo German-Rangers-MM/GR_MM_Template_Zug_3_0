@@ -13,6 +13,12 @@
     ["V_PlateCarrierIAGL_oli",1],
     ["V_Safety_yellow_F",2],
 
+    //ACE
+    ["ACE_VMH3",1],
+    ["ACE_VMM3",1],
+    ["ACE_Flashlight_Maglite_ML300L",2],
+    ["ACE_TacticalLadder_Pack",2],
+
     //CUP
     ["CUP_H_RUS_Altyn_Shield_Down",2],
     ["CUP_U_B_USArmy_PilotOverall",2],

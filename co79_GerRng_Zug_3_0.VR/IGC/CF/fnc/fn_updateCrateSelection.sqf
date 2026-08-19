@@ -33,11 +33,12 @@ switch (_category) do {
             ["Typ 1 - MG3", limapfad + "box_wagru_typ_1.sqf"],
             ["Typ 2 - Mk48", limapfad + "box_wagru_typ_2.sqf"],
             ["Typ 3 - MAAWS",limapfad + "box_wagru_typ_3.sqf"],
-            ["Typ 4 - MAAWS Sondermunition",limapfad + "box_wagru_typ_4.sqf"],
+            ["Typ 4 - MAAWS GMM",limapfad + "box_wagru_typ_4.sqf"],
             ["Typ 5 - Titan AT",limapfad + "box_wagru_typ_5.sqf"],
             ["Typ 6 - Titan AA",limapfad + "box_wagru_typ_6.sqf"],
             ["Typ 7 - Metis",limapfad + "box_wagru_typ_7.sqf"],
-            ["Typ 8 - Combat Engineering",limapfad + "box_wagru_typ_8.sqf"]
+            ["Typ 8 - Combat Engineering",limapfad + "box_wagru_typ_8.sqf"],
+            ["Typ 9 - MAAWS Sondermunition",limapfad + "box_wagru_typ_9.sqf"]
         ];
     };
 

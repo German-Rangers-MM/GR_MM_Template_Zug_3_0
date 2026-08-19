@@ -78,10 +78,10 @@ _iconVerpflegung ="z\ace\addons\field_rations\ui\icon_hud_hungerstatus.paa";
         _wagru3 = ["wagru3","WaGru Typ 3 - MAAWS",_icon,{params ["_object"]; [_object,"box_wagru_typ_3"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
         [_x, 0, ["ACE_MainActions", "WaGru Boxen"], _wagru3] call ace_interact_menu_fnc_addActionToObject;
 
-        _wagru4 = ["wagru4","WaGru Typ 4 - MAAWS Sondermunition",_icon,{params ["_object"]; [_object,"box_wagru_typ_4"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        _wagru4 = ["wagru4","WaGru Typ 4 - MAAWS GMM",_icon,{params ["_object"]; [_object,"box_wagru_typ_4"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
         [_x, 0, ["ACE_MainActions", "WaGru Boxen"], _wagru4] call ace_interact_menu_fnc_addActionToObject;
                     
-        _wagru5 = ["wagru4","WaGru Typ 5 - Titan AT",_icon,{params ["_object"]; [_object,"box_wagru_typ_5"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        _wagru5 = ["wagru5","WaGru Typ 5 - Titan AT",_icon,{params ["_object"]; [_object,"box_wagru_typ_5"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
         [_x, 0, ["ACE_MainActions", "WaGru Boxen"], _wagru5] call ace_interact_menu_fnc_addActionToObject;
                     
         _wagru6 = ["wagru6","WaGru Typ 6 - Titan AA",_icon,{params ["_object"]; [_object,"box_wagru_typ_6"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
@@ -92,6 +92,9 @@ _iconVerpflegung ="z\ace\addons\field_rations\ui\icon_hud_hungerstatus.paa";
         
         _wagru8 = ["wagru8","WaGru Typ 8 - Combat Engineering",_icon,{params ["_object"]; [_object,"box_wagru_typ_8"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
         [_x, 0, ["ACE_MainActions", "WaGru Boxen"], _wagru8] call ace_interact_menu_fnc_addActionToObject;
+
+        _wagru9 = ["wagru9","WaGru Typ 9 - MAAWS Sondermunition",_icon,{params ["_object"]; [_object,"box_wagru_typ_9"] call IGC_CF_fnc_limaOldSupplySpawnCrate},{true}] call ace_interact_menu_fnc_createAction;
+        [_x, 0, ["ACE_MainActions", "WaGru Boxen"], _wagru9] call ace_interact_menu_fnc_addActionToObject;
 
     
     _waGruBoxenStatic = ["WaGru Boxen Static","WaGru Boxen Static",_iconWaGruStatic,{ },{true}] call ace_interact_menu_fnc_createAction;

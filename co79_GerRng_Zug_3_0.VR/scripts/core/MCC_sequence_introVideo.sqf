@@ -13,7 +13,7 @@ sleep 1.5;
 
 // Check ob Intro Mod gelden wurde -> Video abspielen
 if isClass (configFile >> "CfgPatches" >> "lightning_ressources") then	{	
-	["\y\gerrng\addons\ressources\GR_Intro_mov.ogv"] call BIS_fnc_playVideo;
+	["\y\gerrng\addons\resources\GR_Intro_mov.ogv"] call BIS_fnc_playVideo;
 	sleep 0.5;
 } else {
 	// keine Intro Mod -> nur Text einblenden für die Dauer des Videos

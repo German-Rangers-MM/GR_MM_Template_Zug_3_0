@@ -448,6 +448,24 @@ if (_modCheck != 0) then {
     ]
 ] call ctab_fnc_registerMessageTemplate;
 
+["maps.plan-ops.fr#224",0,"WaGru Meldung (m. Kisten)","WaGru Meldung",
+	"https://maps.plan-ops.fr/MessageTemplates/Details/224?t=TczjwYaoMjvw6DBmzhzpelZAkNAL7QNXd1FwcnLHeH4",
+	[
+		["WaGru Meldung","",[]],
+		["Gruppe","",[["Bravo","",6],["Yankee","",6]]],
+		["SpezPi","",[["Minendetektor; ","Nur Detektor, kein Defusalkit",6],["EOD; ","",6],["Spektrum Device; ","",6],["Drohnen-Jammer; ","",6],["Demo; ","",6],["HuntIR","",6]]],
+		["Trupp 1","",[["MG3; ","",6],["Mk48; ","",6],["MAAWS: ","",6],["Metis; ","",6],["Titan AT; ","",6],["Titan AA; ","",6],["Anderes: ","Statics, LMG, etc.",8],["SMun & #: ","Wie viel und was für Mun haben MAAWS oder Mörser dabei?",8]]],
+		["Trupp 2","",[["MG3; ","",6],["Mk48; ","",6],["MAAWS; ","",6],["Metis; ","",6],["Titan AT; ","",6],["Titan AA; ","",6],["Anderes: ","Statics, LMG, etc.",8],["SMun & #: ","Wie viel und was für Mun haben MAAWS oder Mörser dabei?",8]]],
+		["Trupp 3","",[["MG3; ","",6],["Mk48; ","",6],["MAAWS; ","",6],["Metis; ","",6],["Titan AT; ","",6],["Titan AA; ","",6],["Anderes: ","Statics, LMG, etc.",8],["SMun & #: ","Wie viel und was für Mun haben MAAWS oder Mörser dabei?",8]]],
+		["Weitere Fähigkeiten","",[["","weiteres relevantes",8]]],
+		[":--- Abschnitt Lima ---","",[]],
+		["WaGru Kisten","",[["Typ I; ","MG3",6],["Typ II; ","Mk48",6],["Typ III; ","MAAWS",6],["Typ IV; ","MAAWS GMM",6],["Typ V; ","Titan AT",6],["Typ VI; ","Titan AA",6],["Typ VII; ","Metis",6],["Typ VIII; ","Combat Engineering",6],["Typ IX; ","MAAWS Sondermunition",6]]],
+		["WaGruStat Kisten","",[["Typ II; ","M2 Munition",6],["Typ IV; ","Mk19 Munition",6],["Typ VI; ","TOW Munition",6],["Typ VIII; ","82mm Munition HE",6],["Typ IX; ","82mm Sondermunition",6]]],
+		["Andere Logistik","",[["","Andere Kisten oder Material",8]]],
+		["Kommentar","",[["","weiteres relevantes",8]]]
+	]
+] call ctab_fnc_registerMessageTemplate;
+
 
 ["maps-beta.plan-ops.fr#134",3,"LZ Briefing (Lima)","LZ Briefing (Lima)",
 	"https://maps-beta.plan-ops.fr/MessageTemplates/Details/134?t=fygGyJ1NySMG_sL9OmHirTziuDQu3UleSSual7J8d_U",
@@ -650,5 +668,21 @@ if (_modCheck != 0) then {
 			["Geschütz Bravo","",[["Azimuth:","",0],["Charge:","",0],["Elevation:","",0],["Munitionstyp:","",0],["Delay:","",0]]],
 			["Geschütz Charlie","",[["Azimuth:","",0],["Charge: ","",0],["Elevation:","",0],["Munitionstyp:","",0],["Delay:","",0]]],
 			["Geschütz Delta","",[["Azimuth:","",0],["Charge: ","",0],["Elevation:","",0],["Munitionstyp:","",0],["Delay:","",0]]]
+		]
+] call ctab_fnc_registerMessageTemplate;
+
+["maps.plan-ops.fr#1",1,"MEDEVAC","MEDEVAC",
+	"https://maps.plan-ops.fr/MessageTemplates/Details/1?t=XwZTS19ZzRCOhHBFldStFtvfyylTuM8GebYNW6dOAwg",
+		[
+			["MEDEVAC","",[]],
+			["Line 1","LOCATION",[["","Grid of pickup zone",5]]],
+			["Line 2","CALL SIGN & FREQ",[["","Call sign",3],["","Frequency",4]]],
+			["Line 3","NUMBER OF PATIENTS/PRECEDENCE",[["A","URGENT Hospital under 90 min",1],["B","PRIORITY Hospital under 4 hours",1],["C","ROUTINE Hospital within 24 hours",1]]],
+			["Line 4","SPECIAL EQUIPMENT REQUIRED",[["A","None",6],["B","Hoist (Winch)",6],["C","Extrication",6],["D","Ventilator",6],["E","Others",0]]],
+			["Line 5","NUMBER TO BE CARRIED LYING/SITTING",[["L","Litter (Stretcher)",1],["A","Ambulatory (Walking)",1],["E","Escorts (e.g. for child patient)",1]]],
+			["Line 6","SECURITY AT PICKUP ZONE (PZ)",[["N","No enemy",6],["P","Possible enemy",6],["E","Enemy in area",6],["X","Hot PZ - Armed escort required",6]]],
+			["Line 7","PICKUP ZONE (PZ) MARKING METHOD",[["A","Panels",6],["B","Pyro",6],["C","Smoke",6],["D","None",6],["E","Other",0]]],
+			["Line 8","NATIONALITY/STATUS",[["A","Military",1],["D","Civilian",1],["E","PW / Detainee",1],["F","Child",1]]],
+			["Line 9","PICKUP ZONE (PZ) TERRAIN/OBSTACLES",[["","Terrain / obstacles",0]]]
 		]
 ] call ctab_fnc_registerMessageTemplate;
