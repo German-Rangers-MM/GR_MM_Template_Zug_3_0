@@ -4,9 +4,12 @@ class SGN {
 		file = "fnc";	
 		class createArsenalACE{};	
 		class createPacklisteACE{};		
-		class exportLoadOutArray{};
-		class replaceTarnfarbe{};
+		class exportLoadOutArray{};		
 		class rollDice{}; 
 		class infoHintHC{};
+		class loadoutApply{};	
+		class loadoutReplaceCamo{};
+		class loadoutReset{};
+		class loadoutSave{};		
 	};
 };
