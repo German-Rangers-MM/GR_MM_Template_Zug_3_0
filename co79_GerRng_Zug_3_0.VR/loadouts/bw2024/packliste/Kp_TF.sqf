@@ -541,6 +541,8 @@
 
     "toolKit",
 
+    "ACE_Entrenchingtool", 
+
     "ACE_fortify",
 
     //Electronics 

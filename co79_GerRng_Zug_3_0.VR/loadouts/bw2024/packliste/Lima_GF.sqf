@@ -636,6 +636,8 @@
 
     "toolKit",
 
+    "ACE_Entrenchingtool",
+
     "ACE_DefusalKit",
     "ACE_fortify",
 

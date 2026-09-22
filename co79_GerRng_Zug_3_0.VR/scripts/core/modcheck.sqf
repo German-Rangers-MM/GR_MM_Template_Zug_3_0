@@ -167,6 +167,7 @@ _whitelistedMods = 	[
 						"@Turret Enhanced", "1623498241",
 						"@Hidden Passwords", "2236038667",
 						"@CQB Weapon Stance", "2288108304",
+						"@ACE Loadout Organizer", "3804661268",
 						
 						//Visual
 						"@Blastcore Edited (standalone version)", "767380317",

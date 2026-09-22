@@ -355,29 +355,29 @@
 
     //Victor 
 
-    "tfw_ilbeRT1523_whip_victorflk",
-    "tfw_ilbeMR3000_whip_victorflk",
-    "tfw_ilbeARC210_whip_victorflk",
+    "tfw_ilbeRT1523_whip_vicflk",
+    "tfw_ilbeMR3000_whip_vicflk",
+    "tfw_ilbeARC210_whip_vicflk",
 
-    "tfw_ilbeRT1523_DD_victorflk",
-    "tfw_ilbeMR3000_DD_victorflk",
-    "tfw_ilbeARC210_DD_victorflk",
+    "tfw_ilbeRT1523_DD_vicflk",
+    "tfw_ilbeMR3000_DD_vicflk",
+    "tfw_ilbeARC210_DD_vicflk",
     
-    "tfw_ilbeRT1523_blade_victorflk",
-    "tfw_ilbeMR3000_blade_victorflk",
-    "tfw_ilbeARC210_blade_victorflk",
+    "tfw_ilbeRT1523_blade_vicflk",
+    "tfw_ilbeMR3000_blade_vicflk",
+    "tfw_ilbeARC210_blade_vicflk",
 
-    "tfw_ilbeRT1523_whip_victortrp",
-    "tfw_ilbeMR3000_whip_victortrp",
-    "tfw_ilbeARC210_whip_victortrp",
+    "tfw_ilbeRT1523_whip_victrp",
+    "tfw_ilbeMR3000_whip_victrp",
+    "tfw_ilbeARC210_whip_victrp",
 
-    "tfw_ilbeRT1523_DD_victortrp",
-    "tfw_ilbeMR3000_DD_victortrp",
-    "tfw_ilbeARC210_DD_victortrp",
+    "tfw_ilbeRT1523_DD_victrp",
+    "tfw_ilbeMR3000_DD_victrp",
+    "tfw_ilbeARC210_DD_victrp",
     
-    "tfw_ilbeRT1523_blade_victortrp",
-    "tfw_ilbeMR3000_blade_victortrp",
-    "tfw_ilbeARC210_blade_victortrp",
+    "tfw_ilbeRT1523_blade_victrp",
+    "tfw_ilbeMR3000_blade_victrp",
+    "tfw_ilbeARC210_blade_victrp",
 
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
@@ -623,6 +623,8 @@
     //Tools 
 
     "toolKit",
+
+    "ACE_Entrenchingtool",
 
     "ACE_DefusalKit",
     "ACE_fortify",

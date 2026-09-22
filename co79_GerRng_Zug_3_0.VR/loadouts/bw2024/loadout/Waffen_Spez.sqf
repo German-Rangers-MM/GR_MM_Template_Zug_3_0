@@ -9,14 +9,14 @@ player setVariable ["GR_unitLoadout","Waffen_Spez"];
 
 //	https://community.bistudio.com/wiki/Unit_Loadout_Array
 player setUnitLoadout [
-	["CUP_lmg_MG3_rail","","CUP_acc_LLM_black","CUP_optic_Elcan_SpecterDR_RMR_black",["CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",120],[],""],
+	["SPS_hk416_16_5_g95_hk_sf_black_f","","","CUP_optic_Elcan_SpecterDR_RMR_black",["SPS_HKG3PMAG_30Rnd_556x45_B_Mk318",30],[],"CUP_bipod_Harris_1A2_L_BLK"],
 	[],
-	["CUP_hgun_M17_Black","","","",["CUP_17Rnd_9x19_M17_Black",17],[],""],
-	["CUP_U_B_GER_Fleck_Crye",[["ACE_fieldDressing",5],["ACE_elasticBandage",5],["ACE_packingBandage",5],["kat_chestSeal",2],["ACE_morphine",1],["ACE_salineIV_500",2],["ACE_splint",2],["ACE_tourniquet",2],["ACE_CableTie",2],["ACE_EarPlugs",1],["ACE_IR_Strobe_Item",2],["ACE_Flashlight_XL50",1],["ACE_MapTools",1]]],
-	["gerrng_PlateCarrier1_Flecktarn",[["CUP_NVG_PVS15_black",1],["CUP_17Rnd_9x19_M17_Black",1,17],["CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",4,120]]],
-	["CFP_Camelbak_Mule_RngrGrn",[]],
-	"CUP_H_OpsCore_Covered_Fleck_SF","",[],
-	["ItemMap","ItemMicroDAGR","TFAR_anprc152","ItemCompass","ItemWatch",""]
+	[],
+	["CUP_U_B_GER_Fleck_Crye",[["ACE_elasticBandage",5],["ACE_packingBandage",10],["kat_chestSeal",1],["ACE_salineIV_500",2],["ACE_splint",2],["ACE_tourniquet",2],["ACE_CableTie",2],["ACE_EarPlugs",1],["ACE_MapTools",1],["ACE_IR_Strobe_Item",1]]],
+	["gerrng_PlateCarrier1_Flecktarn",[["GerRng_rations_HydrationBladder_3L",1],["GerRng_rations_EPa_typ_xvii",1],["ACE_EntrenchingTool",1],["SmokeShell",4,1],["SPS_HKG3PMAG_30Rnd_556x45_B_M995",3,30],["SPS_HKG3PMAG_30Rnd_556x45_B_Mk318",4,30],["SPS_HKG3PMAG_30Rnd_556x45_B_Red",2,30]]],
+	["B_Kitbag_rgr",[]],
+	"CUP_H_OpsCore_Covered_Fleck_SF","",["Rangefinder","","","",[],[],""],
+	["ItemMap","ItemMicroDAGR","TFAR_anprc152","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"]
 ];
 
 //------------------------------------------------------------------
