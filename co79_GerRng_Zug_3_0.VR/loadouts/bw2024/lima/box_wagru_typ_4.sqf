@@ -7,6 +7,6 @@
 
     //GerRng
     ["GerRng_maaws_munitions_MAAWS_GMM_HE", 2],
-    ["GerRng_maaws_munitions_MAAWS_GMM_HEAT", 4],
+    ["GerRng_maaws_munitions_MAAWS_GMM_HEAT", 6],
     ["GerRng_maaws_munitions_MAAWS_GMM_MT", 1]
 ];
