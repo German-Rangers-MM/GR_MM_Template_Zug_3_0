@@ -88,6 +88,8 @@ _whitelistedMods = 	[
 						"@SPS Equipment", "1187306764",
 						"@ITC Addons - Rover LAD (Fixed)", "3442884220",
 						"@Immersion Cigs - Rewrite", "3375788189",
+						"@GTK Boxer", "3780478952",
+						"@ADF Re-Cut [Beta]", "2971219389",
 
 						"@USAF Mod - Main", "2397360831",
 						"@USAF Mod - Utility", "2397376046",
@@ -129,6 +131,8 @@ _whitelistedMods = 	[
 						"@Livonian Lighting: Ruha","1923062007",
 						"@North Takistan", "2829330653",
 						"@Deniland", "1231955722",
+						"@Archie, Summer", "3620961988",
+						"@Archie, Winter", "3640984328",
 
 						//Zeus Mods 
 						"@Zeus Enhanced Targeting (ZET) + (v1.2 Custom Filters)","3660920964",
@@ -167,6 +171,7 @@ _whitelistedMods = 	[
 						"@Turret Enhanced", "1623498241",
 						"@Hidden Passwords", "2236038667",
 						"@CQB Weapon Stance", "2288108304",
+						"@ACE Loadout Organizer", "3804661268",
 						
 						//Visual
 						"@Blastcore Edited (standalone version)", "767380317",

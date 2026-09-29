@@ -796,6 +796,8 @@
 
     "toolKit",
 
+    "ACE_Entrenchingtool",
+
     "ACE_DefusalKit",
 
     //Electronics 
