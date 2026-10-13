@@ -10,7 +10,7 @@
 	-none		
 */
 
-private ["_index","_targetGroup","_jumpTarget","_LX","_LY","_LZ"];
+private ["_index","_targetGroup","_jumpTarget","_relpos","_posASL","_finalPos"];
 // check if a listbox entry is selected
 _index = lbCurSel 1500;
 if (_index < 0) exitWith { systemchat "Kein Ziel ausgewählt"; };
@@ -44,6 +44,7 @@ if (player == _jumpTarget) then {
 		case "Kilo": {		_jumpTarget = (units grpkilo select 1); };
 		case "Lima": {		_jumpTarget = (units grplima select 1); };
 		case "Mike": {		_jumpTarget = (units grpmike select 1); };
+		case "Romeo": {		_jumpTarget = (units grpromeo select 1); };
 		case "Foxtrot": {	_jumpTarget = (units grpfox select 1); };
 		case "Victor": {	_jumpTarget = (units grpvictor select 1); };
 		case "Alpha": {		_jumpTarget = (units grpalpha select 1); };
@@ -59,20 +60,20 @@ if (player == _jumpTarget) then {
 // Jump-Target on foot	
 if (isNull objectParent _jumpTarget) then {
 	//Getting the coords
-	_LX = (getpos _jumpTarget select 0) + (3*sin ((getDir _jumpTarget) -180));
-	_LY = (getpos _jumpTarget select 1) + (3*cos ((getDir _jumpTarget) -180));
-	_LZ = (getpos _jumpTarget select 2);
+	_relpos = _jumpTarget getRelPos [2, 180];
+	_posASL = getPosASL _jumpTarget;
+	_finalPos = [_relpos#0, _relpos#1, _posASL#2];
 	
-	player setpos [_LX,_LY,_LZ];
+	player setPosASL _finalPos;
 	player setDir (getDir _jumpTarget);
 } else {
 	// Jump-Target in Vehicle
 	if ((objectParent _jumpTarget) emptyPositions "cargo" > 0) then {
 		player moveincargo (objectParent _jumpTarget);	
 	} else {
-		hint "No room in squad leader's vehicle.";	
+		hint "Kein Platz frei im Fahrzeug des GF";
 	};
 };	
 // debug
 systemchat format ["Verlegen zu Gruppe: %1", _targetGroup];
-systemchat format ["Position 3m hinter: %1", name _jumpTarget];
+systemchat format ["Position 2m hinter: %1", name _jumpTarget];
