@@ -637,7 +637,6 @@
     //Tools 
 
     "ACE_wirecutter",
-    "ACE_Entrenchingtool", 
 
     //MapItems
 
@@ -684,6 +683,8 @@
     "ACE_CableTie",
     "ACE_EarPlugs",
     "ACE_IR_strobe_Item",
+
+    "ACE_Sandbag_empty",
 
     "kat_gasmaskFilter",
     "kat_sealant"

@@ -644,6 +644,8 @@
 
     "ACE_fortify",
 
+    "ACE_Entrenchingtool",
+
     //Electronics 
 
     "itc_land_tablet_rover",

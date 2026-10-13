@@ -471,6 +471,8 @@
 
     "ACE_fortify",
 
+    "ACE_Entrenchingtool",
+
     //Electronics 
 
     "ACE_microDAGR",

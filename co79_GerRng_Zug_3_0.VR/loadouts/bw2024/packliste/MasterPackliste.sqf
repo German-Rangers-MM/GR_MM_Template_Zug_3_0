@@ -3086,6 +3086,8 @@
 
     "ACE_SpareBarrel",
 
+    "ACE_Sandbag_empty",
+
     "kat_gasmaskFilter",
     "kat_sealant"
 ];

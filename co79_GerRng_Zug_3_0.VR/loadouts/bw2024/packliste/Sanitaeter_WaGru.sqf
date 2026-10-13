@@ -343,9 +343,9 @@
     "MAA_MAAWS_ILLUM545",
     "MAA_MAAWS_SMOKE469",
 
-    "GerRng_MAAWS_GMM_HE",
-    "GerRng_MAAWS_GMM_HEAT",
-    "GerRng_MAAWS_GMM_MT",
+    "GerRng_maaws_munitions_MAAWS_GMM_HE",
+    "GerRng_maaws_munitions_MAAWS_GMM_HEAT",
+    "GerRng_maaws_munitions_MAAWS_GMM_MT",
 
     //WaGru Static Weapon Ammo
 
@@ -431,6 +431,10 @@
     "GerRng_kat_changes_glucometerSet",
     "GerRng_kat_changes_GSCI",
     "GerRng_kat_changes_vaseline",
+
+    //Advanced
+
+    "kat_Caffeine",
 
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
