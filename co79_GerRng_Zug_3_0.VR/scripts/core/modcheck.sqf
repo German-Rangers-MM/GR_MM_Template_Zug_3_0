@@ -110,6 +110,9 @@ _whitelistedMods = 	[
 						"@HMDs - CUP","1175642869",
 						"@HMDs Mod but it no longer breaks anything","3346384116",
 						"@[1TRP-SOAR] Targeting Data Cartridge [Alpha Version]","3734595032",
+						"@Gruppe Adler Admin Messages", "2584716811",
+                        "@Immersive Cigs - Rewrite", "3375788189",
+                        "@[1TRP-SOAR] Missile Warning Receiver (Vanilla Update No ACE Dep)", "3723166094",
 
 
 						//Additional Maps
